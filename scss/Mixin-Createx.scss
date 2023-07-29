@@ -331,29 +331,30 @@
     transform: rotate(-45deg) translate(0, -1px);
     }
 
-    #menu {
+    .menu {
         position: absolute;
         width: 280px;
         margin: -20px 0 0 0;
         right: -15px;
-        background: $gray-800;
+        background: $gray-900;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         transform-origin: 0% 0%;
         transform: translate(100%, 0);
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        border-radius: 0px 0px 0px 50px
     }
 
-    #menu a {
+    .menu a {
         @include h4;
-        color: $white;
+        color: #ffffffc2;
     }
 
-    #menu li {
+    .menu li {
         &:not(:last-child) {
             border-bottom: 1px solid #18888a;
         }
-        padding: 0px 20px 15px 0px;
+        padding: 7px 20px 7px 0px;
     }
 
     #menuToggle input:checked ~ ul {
@@ -363,7 +364,7 @@
     }
 
     @media screen and (max-width: 930px) {
-        #menu {
+        .menu {
             transform: none;
             opacity: 0;
 
@@ -396,8 +397,8 @@
     }
     
     .body-up__login-burger {
+        @include text-14px;
         a {
-            @include text-14px;
             &::after {
                 content: "/";
                 padding: 0px 3px;
