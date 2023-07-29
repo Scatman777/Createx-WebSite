@@ -9,8 +9,7 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 1500,
     pauseOnHover: false,
-    draggable: false,
-    waitForAnimate: false
+    draggable: false
   });
 });
 
