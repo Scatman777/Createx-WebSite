@@ -1822,14 +1822,21 @@ svg {
   color: #ffffffc2; }
 
 .menu li {
+  border-bottom: 1px solid #18888a;
   padding: 7px 20px 7px 0px; }
-  .menu li:not(:last-child) {
-    border-bottom: 1px solid #18888a; }
 
 #menuToggle input:checked ~ ul {
   text-align: end;
   transform: none;
   opacity: 1; }
+
+.burger__menu-down {
+  display: flex;
+  justify-content: space-around;
+  transform: translate(0px, 30px);
+  background: darkcyan;
+  border-radius: 0px 0px 0px 40px;
+  padding: 5px 0px 11px 0px; }
 
 @media screen and (max-width: 930px) {
   .menu {
@@ -1841,7 +1848,7 @@ svg {
     display: block; } }
 @media (max-width: 610px) {
   .menu {
-    height: 320px; } }
+    height: 350px; } }
 /* BODY-UP__BURGER */
 .body-up__account-burger {
   display: flex;
@@ -1854,8 +1861,8 @@ svg {
 .body-up__logo-account-burger {
   margin-right: 0.5rem; }
   .body-up__logo-account-burger img {
-    width: 16px;
-    height: 16px; }
+    width: 30px;
+    height: 30px; }
 
 .body-up__login-burger {
   font-family: "Lato";
@@ -1888,16 +1895,20 @@ svg {
 .body-up__logo-lang-burger {
   margin-right: 0.75rem; }
   .body-up__logo-lang-burger img {
-    width: 20px;
-    height: 12px; }
+    width: 50px;
+    height: 30px; }
 
 .body-up__text-burger {
   font-family: "Lato";
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  color: #424551;
+  font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
-  opacity: 0.6000000238418579;
   margin-right: 0.4rem; }
 
 .body-up__vector-burger img {
@@ -1931,6 +1942,12 @@ svg {
 
   .body-middle__list {
     display: none; } }
+@media (max-width: 610px) {
+  .header__body-up {
+    justify-content: center; }
+
+  .body-up__lang-menu {
+    display: none; } }
 @media (max-width: 1070px) {
   .body-middle__input input {
     width: 270px; } }
@@ -1948,7 +1965,6 @@ svg {
     display: none; }
 
   .body-middle__icon-menu-burger {
-    display: flex;
-    justify-content: center; } }
+    display: flex; } }
 
 /*# sourceMappingURL=Createx.css.map */
