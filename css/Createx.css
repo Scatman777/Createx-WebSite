@@ -2032,7 +2032,10 @@ svg {
     display: none; } }
 @media (max-width: 610px) {
   .header__body-up {
-    justify-content: center; }
+    justify-content: space-between; }
+
+  .body-up__item a {
+    font-size: 16px; }
 
   .body-up__lang-menu {
     display: none; } }
@@ -2049,10 +2052,17 @@ svg {
   .body-middle__block-input {
     gap: 2rem; } }
 @media (max-width: 610px) {
+  .header-middle__body-middle {
+    flex-direction: column;
+    gap: 2rem; }
+
   .body-middle__icon-menu {
     display: none; }
 
   .body-middle__icon-menu-burger {
     display: flex; } }
+@media (max-width: 610px) {
+  .header-down__discount {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=Createx.css.map */
