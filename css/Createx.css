@@ -1679,84 +1679,132 @@ svg {
     color: #FFF; }
 
 /* SLIDER */
-.body-main__slides {
+/* Slider */
+.slick-slider {
   position: relative;
-  transform: translateY(-61%); }
-  .body-main__slides .slick-arrow.slick-prev {
-    left: 0;
-    background: url("/img/Left-cheveron-black.svg") center no-repeat white;
-    border-radius: 50%;
-    padding: 24px;
-    margin-left: 32px; }
-  .body-main__slides .slick-arrow.slick-next {
-    right: 0;
-    background: url("/img/Right-cheveron-black.svg") center no-repeat white;
-    border-radius: 50%;
-    padding: 24px;
-    margin-right: 32px; }
-
-.body-main__slides .slick-arrow {
-  position: absolute;
-  top: 33%;
-  z-index: 10;
-  font-size: 0;
-  width: 24px;
-  height: 24px; }
-
-.body-main__slide {
-  width: 100%;
-  height: 800px;
-  transform: translateY(-692px); }
-  .body-main__slide:nth-child(1).slick-slide {
-    background: url("/img/image.svg") center no-repeat;
-    background-size: cover; }
-  .body-main__slide:nth-child(2).slick-slide {
-    background: url("/img/1.jpg") center no-repeat;
-    background-size: cover; }
-  .body-main__slide:nth-child(3).slick-slide {
-    background: url("/img/2.jpg") center no-repeat;
-    background-size: cover; }
-  .body-main__slide:nth-child(4).slick-slide {
-    background: url("/img/3.jpg") center no-repeat;
-    background-size: cover; }
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
 
 .slick-list {
-  overflow: hidden; }
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
 
-.slick-slide {
-  text-align: center; }
+.slick-list:focus {
+  outline: none; }
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
 
 .slick-track {
-  display: flex; }
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
-/* DOTS */
-.body-main__slides .slick-dots {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 4px;
-  transform: translate(329px, -543px); }
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: ''; }
 
-.body-main__slides .slick-dots li {
-  border-bottom: 2px solid #424551;
-  padding-bottom: 12px;
-  width: 178px;
-  transition: all 0.7s;
-  opacity: 0.6000000238418579; }
-  .body-main__slides .slick-dots li button {
-    font-family: "Ubuntu";
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 150%;
-    color: #424551;
-    opacity: 1; }
-  .body-main__slides .slick-dots li:hover {
-    opacity: 1;
-    color: black; }
+.slick-track:after {
+  clear: both; }
 
-.body-main__slides .slick-dots button {
-  background: none;
-  margin-right: 165px; }
+.slick-loading .slick-track {
+  visibility: hidden; }
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px; }
+
+[dir='rtl'] .slick-slide {
+  float: right; }
+
+.slick-slide img {
+  display: block; }
+
+.slick-slide.slick-loading img {
+  display: none; }
+
+.slick-slide.dragging img {
+  pointer-events: none; }
+
+.slick-initialized .slick-slide {
+  display: block; }
+
+.slick-loading .slick-slide {
+  visibility: hidden; }
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+.single-slider {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 2;
+  height: 100vh; }
+
+.single-slider:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  opacity: 0.8;
+  z-index: -1; }
+
+.sliders .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-color: #ff7720;
+  border: 0;
+  padding: 20px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer; }
+
+.sliders .slick-prev {
+  left: 20px; }
+
+.sliders .slick-next {
+  right: 20px; }
+
+.sliders .slick-slide {
+  height: 100vh; }
 
 #menuToggle {
   display: none;
