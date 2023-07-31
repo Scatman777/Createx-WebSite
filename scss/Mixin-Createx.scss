@@ -349,7 +349,7 @@
 
     .sliders .slick-arrow {
         position: absolute;
-        top: 33%;
+        top: 44.5%;
         z-index: 10;
         font-size: 0;
         width: 24px;
@@ -377,7 +377,7 @@
         justify-content: flex-start;
         align-items: center;
         gap: 4px;
-        transform: translate(620px, -520px);
+        transform: translate(260px, -235px);
     }
 
     .sliders .slick-dots li {
@@ -398,7 +398,7 @@
         margin-right: 165px;
     }
 
-    .slider .slick-list {
+    .sliders {
         transform: translateY(-691px);
     }
 }
