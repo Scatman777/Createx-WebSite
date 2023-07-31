@@ -1,17 +1,17 @@
-$(document).ready(function () {
-  $('.body-main__slides').slick({
-    dots: true,
-    infinite: true,
-    speed: 1300,
-    slidesToShow: 1,
-    variableWidth: true,
-    easing: 'ease',
-    autoplay: true,
-    autoplaySpeed: 1500,
-    pauseOnHover: false,
-    draggable: false
-  });
-});
+// $(document).ready(function () {
+//   $('.sliders').slick({
+//     dots: true,
+//     infinite: true,
+//     speed: 1300,
+//     slidesToShow: 1,
+//     variableWidth: true,
+//     easing: 'ease',
+//     autoplay: true,
+//     autoplaySpeed: 1500,
+//     pauseOnHover: false,
+//     draggable: false
+//   });
+// });
 
 function onEntry(entry) {
   entry.forEach(change => {
