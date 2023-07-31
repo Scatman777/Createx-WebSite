@@ -246,6 +246,7 @@ body {
 .body-down__discount {
     display: flex;
     align-items: center;
+    gap: 5px;
     @include text-16px;
 
     font: {

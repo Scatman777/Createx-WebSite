@@ -275,6 +275,7 @@ body {
 .body-down__discount {
   display: flex;
   align-items: center;
+  gap: 5px;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
