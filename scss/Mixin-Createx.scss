@@ -179,32 +179,6 @@
 @mixin slider {
 
 /* SLIDER */
-//     .body-main__slides {
-//         .slick-arrow.slick-prev {
-//             left: 0;
-//             background: url("/img/Left-cheveron-black.svg") center no-repeat white;
-//             border-radius: 50%;
-//             padding: 24px;
-//             margin-left: 32px;
-
-//         }
-//         .slick-arrow.slick-next {
-//             right: 0;
-//             background: url("/img/Right-cheveron-black.svg") center no-repeat white;
-//             border-radius: 50%;
-//             padding: 24px;
-//             margin-right: 32px;
-//         }
-//     }
-    
-//     .body-main__slides .slick-arrow {
-//         position: absolute;
-//         top: 33%;
-//         z-index: 10;
-//         font-size: 0;
-//         width: 24px;
-//         height: 24px;
-//     }
 
 //     .body-main__slide.slick-slide {
 //         position: absolute;
@@ -235,33 +209,6 @@
     
 //     .slick-track {
 //         display: flex;
-//     }
-
-// /* DOTS */
-//     .body-main__slides .slick-dots {
-//         display: flex;
-//         justify-content: flex-start;
-//         align-items: center;
-//         gap: 4px;
-//         transform: translate(620px, -520px);
-//     }
-
-//     .body-main__slides .slick-dots li {
-//         @include number;
-//         border-bottom: 2px solid #424551;
-//         padding-bottom: 12px;
-//         width: 178px;
-//         transition: all 0.7s;
-//         opacity: 0.6000000238418579;
-//         &:hover {
-//             opacity: 1;
-//             color: black;
-//         }
-//     }
-
-//     .body-main__slides .slick-dots button {
-//         background: none;
-//         margin-right: 165px;
 //     }
 
     /* Slider */
@@ -400,53 +347,65 @@
         height: 100%;
         left: 0;
         top: 0;
-        background-color: #333;
-        opacity: 0.8;
         z-index: -1;
     }
 
     .sliders .slick-arrow {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 2;
-        background-color: #ff7720;
-        border: 0;
-        padding: 20px;
-        font-size: 25px;
-        color: #fff;
-        cursor: pointer;
+        top: 33%;
+        z-index: 10;
+        font-size: 0;
+        width: 24px;
+        height: 24px;
     }
-    .sliders .slick-prev {
-        left: 20px;
+
+    .slick-arrow.slick-prev {
+        left: 0;
+        background: url("/img/Left-cheveron-black.svg") center no-repeat white;
+        border-radius: 50%;
+        padding: 24px;
+        margin-left: 32px;
     }
-    .sliders .slick-next {
-        right: 20px;
+
+    .slick-arrow.slick-next {
+        right: 0;
+        background: url("/img/Right-cheveron-black.svg") center no-repeat white;
+        border-radius: 50%;
+        padding: 24px;
+        margin-right: 32px;
     }
       
-    // .sliders .slick-dots {
-    //     list-style: none;
-    //     position: absolute;
-    //     left: 50%;
-    //     bottom: 20px;
-    //     transform: translateX(-50%);
-    // }
-    // .sliders .slick-dots li {
-    //     display: inline-block;
-    //     margin: 0 5px;
-    //  }
-    // .sliders .slick-dots li button {
-    //     border: 0;
-    //     width: 30px;
-    //     height: 30px;
-    //     font-weight: bold;
-    //     border-radius: 50%;
-    //     cursor: pointer;
-    // }
-    // .sliders .slick-dots li.slick-active button {
-    //     background-color: #ff7720;
-    //     color: #fff;
-    // }
+    .sliders .slick-dots {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+        transform: translate(620px, -520px);
+    }
+
+    .sliders .slick-dots li {
+        @include number;
+        border-bottom: 2px solid #424551;
+        padding-bottom: 12px;
+        width: 178px;
+        transition: all 0.7s;
+        opacity: 0.6000000238418579;
+        &:hover {
+            opacity: 1;
+            color: black;
+        }
+    }
+
+    .sliders .slick-dots li button {
+        background: none;
+        margin-right: 165px;
+    }
+
+    .sliders .slick-dots li.slick-active button {
+        background-color: #ff7720;
+        color: #fff;
+    }
+    
       .sliders .slick-slide {
         height: 100vh;
     }
