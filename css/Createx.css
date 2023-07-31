@@ -1827,8 +1827,17 @@ svg {
   .sliders .slick-dots li:hover {
     opacity: 1;
     color: black; }
+  .sliders .slick-dots li:nth-child(1) {
+    background: url("/img/01-number.svg") center no-repeat; }
+  .sliders .slick-dots li:nth-child(2) {
+    background: url("/img/02-number.svg") center no-repeat; }
+  .sliders .slick-dots li:nth-child(3) {
+    background: url("/img/03-number.svg") center no-repeat; }
+  .sliders .slick-dots li:nth-child(4) {
+    background: url("/img/04-number.svg") center no-repeat; }
 
 .sliders .slick-dots li button {
+  font-size: 0;
   background: none;
   margin-right: 165px; }
 
@@ -2063,7 +2072,7 @@ svg {
   .body-middle__icon-menu-burger {
     display: flex; } }
 @media (max-width: 610px) {
-  .header-down__discount {
-    font-size: 18px; } }
+  .body-down__discount {
+    font-size: 1.125rem; } }
 
 /*# sourceMappingURL=Createx.css.map */
