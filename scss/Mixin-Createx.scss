@@ -377,15 +377,15 @@
         justify-content: flex-start;
         align-items: center;
         gap: 4px;
-        transform: translate(260px, -235px);
+        transform: translate(320px, -235px);
     }
 
     .sliders .slick-dots li {
         @include number;
-        border-bottom: 2px solid #424551;
-        padding-bottom: 12px;
+        border-bottom: 2px solid $gray-800;
         width: 178px;
-        transition: all 0.7s;
+        transition: all 0.4s;
+        padding-bottom: 24px;
         opacity: 0.6000000238418579;
         &:hover {
             opacity: 1;
@@ -393,23 +393,28 @@
         }
 
         &:nth-child(1) {
-            background: url("/img/01-number.svg") center no-repeat;
+            background: url("/img/01-number.svg") left no-repeat;
+            opacity: 0.4;
         }
         &:nth-child(2) {
-            background: url("/img/02-number.svg") center no-repeat;
+            background: url("/img/02-number.svg") left no-repeat;
         }
         &:nth-child(3) {
-            background: url("/img/03-number.svg") center no-repeat;
+            background: url("/img/03-number.svg") left no-repeat;
         }
         &:nth-child(4) {
-            background: url("/img/04-number.svg") center no-repeat;
+            background: url("/img/04-number.svg") left no-repeat;
         }
     }
 
     .sliders .slick-dots li button {
+        @include number;
         font-size: 0;
         background: none;
-        margin-right: 165px;
+        &:hover {
+            opacity: 1;
+            color: black;
+        }
     }
 
     .sliders {
