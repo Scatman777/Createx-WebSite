@@ -2084,5 +2084,14 @@ svg {
 @media (max-width: 610px) {
   .body-down__discount {
     font-size: 1.125rem; } }
+@media (max-width: 1024px) {
+  .sliders {
+    transform: translateY(-665px); }
+
+  .body-main__title {
+    font-size: 55px; } }
+@media (max-width: 768px) {
+  .section-main__body-main {
+    text-align: center; } }
 
 /*# sourceMappingURL=Createx.css.map */

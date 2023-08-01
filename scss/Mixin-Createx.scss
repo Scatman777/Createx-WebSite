@@ -719,3 +719,23 @@
         }
     }
 }
+
+@mixin media__main {
+
+//////////// MEDIA__SECTION-MAIN ////////////
+    @media (max-width: 1024px) {
+        .sliders {
+            transform: translateY(-665px);
+        }
+
+        .body-main__title {
+            font-size: 55px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .section-main__body-main {
+            text-align: center;
+        }
+    }
+}
