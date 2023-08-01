@@ -179,39 +179,6 @@
 @mixin slider {
 
 /* SLIDER */
-
-//     .body-main__slide.slick-slide {
-//         position: absolute;
-//         width: 100%;
-//         height: 100%;
-//         top: 0;
-//         left: 0;
-//         img {
-//             position: absolute;
-//             width: 100%;
-//             height: 100%;
-//             top: 0;
-//             left: 0;
-//             object-fit: cover;
-//         }
-//     }
-
-//     .slick-slider {
-//     }
-    
-//     .slick-list {
-//         overflow: hidden;
-//     }
-
-//     .slick-slide {
-//         text-align: center;
-//     }
-    
-//     .slick-track {
-//         display: flex;
-//     }
-
-    /* Slider */
 .slick-slider
 {
     position: relative;
@@ -723,6 +690,19 @@
 @mixin media__main {
 
 //////////// MEDIA__SECTION-MAIN ////////////
+    
+    @media (max-width: 1405px) {
+        .sliders .slick-arrow  {
+            top: 47.5%;
+        }
+    }
+
+    @media (max-width: 1290px) {
+        .slider .slick-dots {
+            transform: translate(35px, -235px);
+        }
+    }
+
     @media (max-width: 1024px) {
         .sliders {
             transform: translateY(-665px);

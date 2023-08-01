@@ -1680,7 +1680,6 @@ svg {
     color: #FFF; }
 
 /* SLIDER */
-/* Slider */
 .slick-slider {
   position: relative;
   display: block;
@@ -2084,6 +2083,12 @@ svg {
 @media (max-width: 610px) {
   .body-down__discount {
     font-size: 1.125rem; } }
+@media (max-width: 1405px) {
+  .sliders .slick-arrow {
+    top: 47.5%; } }
+@media (max-width: 1290px) {
+  .slider .slick-dots {
+    transform: translate(35px, -235px); } }
 @media (max-width: 1024px) {
   .sliders {
     transform: translateY(-665px); }
