@@ -385,9 +385,10 @@ body {
 }
 
 .body-cloth__img {
+    padding-bottom: 16px;
     img {
         width: 285px;
-        height: 390px;
+        height: 320px;
     }
 }
 
@@ -397,7 +398,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
     gap: 17.5rem;
-    transform: translate(180px, 50px);
+    transform: translate(180px, 18px);
 }
 
 .body-cloth__icon-star {

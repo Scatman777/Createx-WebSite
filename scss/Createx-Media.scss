@@ -127,7 +127,7 @@
     }
     //////////// MEDIA__SECTION-NEW-CLOTH ////////////
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1850px) {
         .body-cloth__block-column {
             flex-wrap: wrap;
             justify-content: space-around;
@@ -135,6 +135,28 @@
 
         .body-cloth__column {
             transform: translate(0px, 0px);
+        }
+    }
+
+
+    @media (max-width: 450px) {
+
+        .body-cloth__column {
+            max-width: 100%;
+        }
+
+        .body-cloth__block-icon {
+            transform: translate(250px, 15px);
+        }
+
+        .body-cloth__item {
+            text-align: center;
+        }
+
+        .body-cloth__img img {
+            width: 80vw;
+            height: 72vw;
+            object-fit: cover;
         }
     }
 }
