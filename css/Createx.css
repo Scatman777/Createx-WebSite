@@ -2087,8 +2087,8 @@ svg {
   .sliders .slick-arrow {
     top: 47.5%; } }
 @media (max-width: 1290px) {
-  .slider .slick-dots {
-    transform: translate(35px, -235px); } }
+  .sliders .slick-dots {
+    transform: translate(30px, -235px); } }
 @media (max-width: 1024px) {
   .sliders {
     transform: translateY(-665px); }
@@ -2097,6 +2097,18 @@ svg {
     font-size: 55px; } }
 @media (max-width: 768px) {
   .section-main__body-main {
-    text-align: center; } }
+    text-align: center; }
+
+  .body-main__button-column {
+    justify-content: center; }
+
+  .sliders .slick-dots li:nth-child(1) {
+    background-position: center; }
+  .sliders .slick-dots li:nth-child(2) {
+    background-position: center; }
+  .sliders .slick-dots li:nth-child(3) {
+    background-position: center; }
+  .sliders .slick-dots li:nth-child(4) {
+    background-position: center; } }
 
 /*# sourceMappingURL=Createx.css.map */
