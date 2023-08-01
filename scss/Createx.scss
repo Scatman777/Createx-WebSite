@@ -1,15 +1,9 @@
-@import "null.scss";
-@import "Mixin-Createx";
+@import "null";
 /* Null */
-
-
-/* Mixin */
-
-.orange {
-    color: orange;
-}
-
-/* Font */
+@import "Mixin-Createx";
+/*Mixin*/
+@import "Createx-Media";
+/*Media*/
 
 $white: #FFF;
 $gray-300: #E5E8ED;
