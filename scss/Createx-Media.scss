@@ -1,3 +1,5 @@
+@mixin media-all {
+
 //////////// MEDIA__HEADER-UP ////////////
     @media (max-width: 930px) {
         .header__body-up {
@@ -34,7 +36,6 @@
         .body-up__lang-menu {
             display: none;
         }
-
     }
 
 //////////// MEDIA__HEADER-MIDDLE ////////////
@@ -81,46 +82,59 @@
     }
     
 //////////// MEDIA__SECTION-MAIN ////////////    
-@media (max-width: 1405px) {
-    .sliders .slick-arrow  {
-        top: 47.5%;
-    }
-}
-
-@media (max-width: 1290px) {
-    .sliders .slick-dots {
-        transform: translate(30px, -235px);
-    }
-}
-
-@media (max-width: 1024px) {
-    .sliders {
-        transform: translateY(-665px);
+    @media (max-width: 1405px) {
+        .sliders .slick-arrow  {
+            top: 47.5%;
+        }
     }
 
-    .body-main__title {
-        font-size: 55px;
-    }
-}
-
-@media (max-width: 768px) {
-    .section-main__body-main {
-        text-align: center;
+    @media (max-width: 1290px) {
+        .sliders .slick-dots {
+            transform: translate(30px, -235px);
+        }
     }
 
-    .body-main__button-column {
-        justify-content: center;
+    @media (max-width: 1024px) {
+        .sliders {
+            transform: translateY(-665px);
+        }
+
+        .body-main__title {
+            font-size: 55px;
+        }
     }
 
-    .sliders .slick-dots {
-        display: none;
-        opacity: 0;
-        visibility: hidden;
-    }
-}
+    @media (max-width: 768px) {
+        .section-main__body-main {
+            text-align: center;
+        }
 
-@media (max-width: 450px) {
-    .body-main__button-column {
-        flex-direction: column;
+        .body-main__button-column {
+            justify-content: center;
+        }
+
+        .sliders .slick-dots {
+            display: none;
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+    @media (max-width: 450px) {
+        .body-main__button-column {
+            flex-direction: column;
+        }
+    }
+    //////////// MEDIA__SECTION-NEW-CLOTH ////////////
+
+    @media (max-width: 1000px) {
+        .body-cloth__block-column {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .body-cloth__column {
+            transform: translate(0px, 0px);
+        }
     }
 }
