@@ -125,8 +125,8 @@
             flex-direction: column;
         }
     }
-    //////////// MEDIA__SECTION-NEW-CLOTH ////////////
 
+//////////// MEDIA__SECTION-NEW-CLOTH ////////////
     @media (max-width: 1850px) {
         .body-cloth__block-column {
             flex-wrap: wrap;
@@ -157,6 +157,43 @@
             width: 80vw;
             height: 72vw;
             object-fit: cover;
+        }
+    }
+//////////// MEDIA__SECTION-TREND ////////////
+    @media (max-width: 1253px) {
+        .section-trend__item {
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 460px) {
+        .section-trend__block .section-discount__block {
+            flex-direction: column;
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .section-trend__cheveron-column .section-discount__cheveron-column {
+            justify-content: space-around;
+        }
+    }
+
+//////////// MEDIA__SECTION-DISCOUNT ////////////
+    @media (max-width: 1253px) {
+        .section-trend__item {
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 460px) {
+        .section-trend__block .section-discount__block {
+            flex-direction: column;
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .section-trend__cheveron-column .section-discount__cheveron-column {
+            justify-content: space-around;
         }
     }
 }

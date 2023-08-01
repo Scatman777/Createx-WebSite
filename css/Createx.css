@@ -799,7 +799,7 @@ svg {
 .section-trend__block-column {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 1.9rem;
   margin: 3.75rem 0px 5rem 0px; }
 
@@ -2126,5 +2126,27 @@ svg {
     width: 80vw;
     height: 72vw;
     object-fit: cover; } }
+@media (max-width: 1253px) {
+  .section-trend__item {
+    text-align: center; } }
+@media (max-width: 460px) {
+  .section-trend__block .section-discount__block {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center; }
+
+  .section-trend__cheveron-column .section-discount__cheveron-column {
+    justify-content: space-around; } }
+@media (max-width: 1253px) {
+  .section-trend__item {
+    text-align: center; } }
+@media (max-width: 460px) {
+  .section-trend__block .section-discount__block {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center; }
+
+  .section-trend__cheveron-column .section-discount__cheveron-column {
+    justify-content: space-around; } }
 
 /*# sourceMappingURL=Createx.css.map */
