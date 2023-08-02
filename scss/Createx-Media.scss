@@ -203,4 +203,13 @@
             justify-content: center;
         }
     }
+
+//////////// MEDIA__SECTION-MOBILE ////////////
+
+    @media (max-width: 1070px) {
+        .section-mobile__block-column {
+            flex-direction: column-reverse;
+            height: 100%;
+        }    
+    }
 }
