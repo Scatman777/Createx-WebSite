@@ -2160,6 +2160,18 @@ svg {
 @media (max-width: 980px) {
   .section-mobile__block-mobile {
     flex-direction: column-reverse;
-    height: 100%; } }
+    height: 100%; }
+
+  .section-mobile__column-button {
+    justify-content: end; }
+
+  .section-mobile__column {
+    text-align: end;
+    margin: 0px;
+    margin-top: 1.75rem;
+    gap: 3rem; }
+
+  .section-mobile__img {
+    transform: translate(0px); } }
 
 /*# sourceMappingURL=Createx.css.map */
