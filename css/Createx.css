@@ -2173,5 +2173,16 @@ svg {
 
   .section-mobile__img {
     transform: translate(0px); } }
+@media (max-width: 520px) {
+  .section-mobile__column-button {
+    justify-content: center; }
+
+  .section-mobile__column {
+    text-align: center; }
+
+  .section-mobile__img {
+    width: 390px;
+    height: 300px;
+    object-fit: contain; } }
 
 /*# sourceMappingURL=Createx.css.map */
