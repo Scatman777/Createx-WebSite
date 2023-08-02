@@ -207,7 +207,13 @@
 //////////// MEDIA__SECTION-MOBILE ////////////
 
     @media (max-width: 1070px) {
-        .section-mobile__block-column {
+        .section-mobile__block-mobile {
+            gap: 2rem;
+        }    
+    }
+
+    @media (max-width: 1030px) {
+        .section-mobile__block-mobile {
             flex-direction: column-reverse;
             height: 100%;
         }    
