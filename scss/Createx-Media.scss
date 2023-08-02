@@ -243,10 +243,40 @@
             text-align: center;
         }
 
-        .section-mobile__img {
+        .section-mobile__img img {
             width: 390px;
             height: 300px;
             object-fit: contain;
+        }
+    }
+
+//////////// MEDIA__SECTION- ////////////
+    @media (max-width: 1250px) {
+        .section-info__column {
+            &:not(:last-child)::before {
+                content: url("");
+            }
+        }
+    }
+
+    @media (max-width: 779px) {
+        .section-info__body {
+            margin: 5.5rem 0px;
+        }
+
+        .section-info__block {
+            margin-bottom: 7.5rem;
+        }
+
+        .section-info__block-column {
+            justify-content: space-around;
+            gap: 1.5rem;
+        }
+    }
+
+    @media (max-width: 529px) {
+        .section-info__column {
+            max-width: 100%;
         }
     }
 }
