@@ -612,13 +612,13 @@
         background: $white;
         width: 100%;
         height: 487px;
+        padding-top: 1.25rem;
     }
 
     .body-middle__sub-block {
         display: flex;
         justify-content: space-between;
         gap: 30px;
-        margin-top: 1.25rem;
     }
 
     .sub-block {
@@ -639,20 +639,24 @@
         width: 10.1vw;
         height: 100%;
     }
+
     .sub-block__item {
         @include text-14px;
         color: $gray-800;
         opacity: 1;
     }
+
     .sub-block__item-title {
         @include text-14px;
         font-weight: 700;
         color: $gray-900;
         opacity: 1;
     }
+
     .body-middle__sub-block-img {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         gap: 16px;
     }
 
@@ -663,12 +667,14 @@
             object-fit: cover
         }
     }
+
     .sub-block-img__text {
         @include text-14px;
         font-weight: 700;
         color: $gray-900;
         opacity: 1;
     }
+
     .sub-block-img__button {
         @include button-green;
     }
