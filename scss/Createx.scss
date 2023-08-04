@@ -671,6 +671,9 @@ svg {
     margin: 3.75rem 0px 5rem 0px;
 }
 
+.section-trend__column {
+}
+
 .section-trend__item {
     max-width: 390px;
     width: 100%;
@@ -706,6 +709,7 @@ svg {
 }
 
 .section-trend__img {
+    position: relative;
     margin-bottom: 1rem;
     img {
         width: 390px;
