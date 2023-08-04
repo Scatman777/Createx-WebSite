@@ -701,25 +701,17 @@ svg {
     }
 }
 
-.section-trend__icon-star {
-    &:nth-child(3) {
-        opacity: 0;
-    }
-}
+// .section-trend__icon-star {
+//     &:nth-child(3) {
+//         opacity: 0;
+//     }
+// }
 
 .section-trend__icon-heart {
     position: relative;
     background: #FFF;
     padding: 8px;
     border-radius: 50%;
-}
-
-.icon-heart-transform {
-    transform: translateX(50px);
-}
-
-.section-trend__img-column {
-    position: absolute;
 }
 
 .section-trend__img {
