@@ -830,8 +830,10 @@ svg {
 .icon-heart-transform {
   transform: translateX(50px); }
 
+.section-trend__img-column {
+  position: relative; }
+
 .section-trend__img {
-  position: relative;
   margin-bottom: 1rem; }
   .section-trend__img img {
     width: 390px;

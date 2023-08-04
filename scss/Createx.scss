@@ -708,8 +708,11 @@ svg {
     transform: translateX(50px);
 }
 
-.section-trend__img {
+.section-trend__img-column {
     position: relative;
+}
+
+.section-trend__img {
     margin-bottom: 1rem;
     img {
         width: 390px;
