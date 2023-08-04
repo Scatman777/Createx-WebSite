@@ -1237,13 +1237,15 @@ svg {
 
 .section-info__block-messenger {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 11.25rem; }
 
 .block-messenger__column {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; }
+  align-items: flex-start;
+  padding-right: 10px; }
 
 .block-messenger__text {
   font-family: "Lato";
@@ -1293,14 +1295,15 @@ svg {
     height: 24px;
     object-fit: cover; }
 
-.block-messenger__img {
+.section-info__img-info {
   display: flex;
   justify-content: space-between;
   gap: 1rem; }
-  .block-messenger__img img {
-    width: 260px;
-    height: 260px;
-    object-fit: cover; }
+
+.section-info__img img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover; }
 
 .section-info__block-blog {
   display: flex;
@@ -2188,6 +2191,7 @@ svg {
     width: 390px;
     height: 300px;
     object-fit: contain; } }
+/* BLOCK-INFO */
 @media (max-width: 1250px) {
   .section-info__column:not(:last-child)::before {
     content: url(""); } }
@@ -2204,5 +2208,13 @@ svg {
 @media (max-width: 529px) {
   .section-info__column {
     max-width: 100%; } }
+/* MESENGER-INFO */
+@media (max-width: 1171px) {
+  .section-info__block-messenger {
+    justify-content: center;
+    gap: 3rem; }
+
+  .block-messenger__column {
+    padding-right: 0px; } }
 
 /*# sourceMappingURL=Createx.css.map */

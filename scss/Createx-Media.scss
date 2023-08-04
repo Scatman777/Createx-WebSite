@@ -250,7 +250,9 @@
         }
     }
 
-//////////// MEDIA__SECTION- ////////////
+//////////// MEDIA__SECTION-IMFO ////////////
+
+/* BLOCK-INFO */
     @media (max-width: 1250px) {
         .section-info__column {
             &:not(:last-child)::before {
@@ -277,6 +279,17 @@
     @media (max-width: 529px) {
         .section-info__column {
             max-width: 100%;
+        }
+    }
+/* MESENGER-INFO */
+    @media (max-width: 1171px) {
+        .section-info__block-messenger {
+            justify-content: center;
+            gap: 3rem;
+        }
+
+        .block-messenger__column {
+            padding-right: 0px;
         }
     }
 }
