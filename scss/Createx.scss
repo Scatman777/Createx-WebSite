@@ -675,6 +675,7 @@ svg {
 }
 
 .section-trend__item {
+    position: relative;
     max-width: 390px;
     width: 100%;
     height: 100%;
@@ -685,7 +686,6 @@ svg {
     flex-direction: column;
     gap: 350px;
     align-items: flex-end;
-    position: absolute;
     transform: translate(20rem, 1.5rem);
 }
 
@@ -715,7 +715,7 @@ svg {
 }
 
 .section-trend__img-column {
-    position: relative;
+    position: absolute;
 }
 
 .section-trend__img {

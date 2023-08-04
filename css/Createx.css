@@ -804,6 +804,7 @@ svg {
   margin: 3.75rem 0px 5rem 0px; }
 
 .section-trend__item {
+  position: relative;
   max-width: 390px;
   width: 100%;
   height: 100%; }
@@ -813,7 +814,6 @@ svg {
   flex-direction: column;
   gap: 350px;
   align-items: flex-end;
-  position: absolute;
   transform: translate(20rem, 1.5rem); }
 
 .section-trend__icon-star img, .section-trend__icon-heart img {
@@ -834,7 +834,7 @@ svg {
   transform: translateX(50px); }
 
 .section-trend__img-column {
-  position: relative; }
+  position: absolute; }
 
 .section-trend__img {
   margin-bottom: 1rem; }
