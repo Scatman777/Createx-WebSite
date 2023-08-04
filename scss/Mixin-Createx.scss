@@ -605,6 +605,8 @@
     .body-middle__sub-list {
         display: flex;
         justify-content: space-between;
+        position: absolute;
+        top: 0;
     }
 
     .body-middle__sub-block {
@@ -614,14 +616,20 @@
     }
 
     .sub-block {
-        
+        &::after {
+            content: url("/img/divider-sub-bur.svg");
+            padding: 0px 67px;
+        }
+    }
+
+    .sub-block__column {
+        max-width: 180px;
     }
 
     .sub-block__list {
         display: flex;
         flex-direction: column;
         gap: 8px;
-        max-width: 180px;
         width: 100%;
         height: 100%;
     }
