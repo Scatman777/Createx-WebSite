@@ -603,7 +603,7 @@
 @mixin sub-menu-woomen {
 
     .body-middle__sub-list {
-        display: flex;
+        display: none;
         justify-content: center;
         position: absolute;
         top: 82px;
@@ -615,24 +615,28 @@
         padding-top: 1.25rem;
     }
 
-    .body-middle__sub-block {
+    .body-middle__sub-list>li {
+        background: $white;
+    }
+
+    .body-middle__sub-menu {
         display: flex;
         justify-content: space-between;
         gap: 30px;
     }
 
-    .sub-block {
+    .sub-menu {
         &::after {
             content: url("/img/divider-sub-bur.svg");
             padding: 0px 67px;
         }
     }
 
-    .sub-block__column {
+    .sub-menu__column {
         max-width: 180px;
     }
 
-    .sub-block__list {
+    .sub-menu__list {
         display: flex;
         flex-direction: column;
         gap: 8px;
@@ -640,27 +644,33 @@
         height: 100%;
     }
 
-    .sub-block__item {
+    .sub-menu__item {
         @include text-14px;
-        color: $gray-800;
         opacity: 1;
+        a {
+            font-weight: 400;
+            color: $gray-800;
+        }
     }
 
-    .sub-block__item-title {
+    .sub-menu__item-title {
         @include text-14px;
-        font-weight: 700;
-        color: $gray-900;
         opacity: 1;
+        a {
+            font-weight: 700;
+            color: $gray-900;
+            letter-spacing: 1px;
+        }
     }
 
-    .body-middle__sub-block-img {
+    .body-middle__sub-menu-img {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 16px;
     }
 
-    .sub-block-img__img {
+    .sub-menu-img__img {
         img {
             width: 285px;
             height: 285px;
@@ -668,14 +678,20 @@
         }
     }
 
-    .sub-block-img__text {
+    .sub-menu-img__text {
         @include text-14px;
-        font-weight: 700;
-        color: $gray-900;
         opacity: 1;
+        a {
+            font-weight: 700;
+            color: $gray-800;
+        }
     }
 
-    .sub-block-img__button {
+    .sub-menu-img__button {
         @include button-green;
+    }
+
+    .body-middle__list>li:hover .body-middle__sub-list{
+        display: flex;
     }
 }

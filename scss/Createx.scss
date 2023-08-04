@@ -1418,14 +1418,17 @@ svg {
     align-items: center;
     padding-top: 1.5rem;
 }
+
 .footer__column-text {
     display: flex;
 }
+
 .footer__text-down {
     @include text-14px;
     font-size: 12px;
     opacity: 1;
 }
+
 .footer__img-heart {
     padding: 0px 4px;
     img {
@@ -1434,6 +1437,7 @@ svg {
         object-fit: cover;
     }
 }
+
 .footer__link {
     @include text-16px;
     opacity: 0.6000000238418579;

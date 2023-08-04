@@ -2219,7 +2219,7 @@ svg {
   .block-messenger__column {
     padding-right: 0px; } }
 .body-middle__sub-list {
-  display: flex;
+  display: none;
   justify-content: center;
   position: absolute;
   top: 82px;
@@ -2230,69 +2230,77 @@ svg {
   height: 487px;
   padding-top: 1.25rem; }
 
-.body-middle__sub-block {
+.body-middle__sub-list > li {
+  background: #FFF; }
+
+.body-middle__sub-menu {
   display: flex;
   justify-content: space-between;
   gap: 30px; }
 
-.sub-block::after {
+.sub-menu::after {
   content: url("/img/divider-sub-bur.svg");
   padding: 0px 67px; }
 
-.sub-block__column {
+.sub-menu__column {
   max-width: 180px; }
 
-.sub-block__list {
+.sub-menu__list {
   display: flex;
   flex-direction: column;
   gap: 8px;
   width: 10.1vw;
   height: 100%; }
 
-.sub-block__item {
+.sub-menu__item {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238418579;
-  color: #424551;
   opacity: 1; }
+  .sub-menu__item a {
+    font-weight: 400;
+    color: #424551; }
 
-.sub-block__item-title {
+.sub-menu__item-title {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238418579;
-  font-weight: 700;
-  color: #1E212C;
   opacity: 1; }
+  .sub-menu__item-title a {
+    font-weight: 700;
+    color: #1E212C;
+    letter-spacing: 1px; }
 
-.body-middle__sub-block-img {
+.body-middle__sub-menu-img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px; }
 
-.sub-block-img__img img {
+.sub-menu-img__img img {
   width: 285px;
   height: 285px;
   object-fit: cover; }
 
-.sub-block-img__text {
+.sub-menu-img__text {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238418579;
-  font-weight: 700;
-  color: #1E212C;
   opacity: 1; }
+  .sub-menu-img__text a {
+    font-weight: 700;
+    color: #424551; }
 
-.sub-block-img__button {
+.sub-menu-img__button {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -2301,7 +2309,7 @@ svg {
   border: 1px solid #17696A;
   border-radius: 4px;
   background: none; }
-  .sub-block-img__button a {
+  .sub-menu-img__button a {
     font-family: "Lato";
     font-size: 16px;
     font-weight: 700;
@@ -2310,9 +2318,12 @@ svg {
     line-height: 44px;
     letter-spacing: 0.5px;
     color: #17696A; }
-  .sub-block-img__button:hover {
+  .sub-menu-img__button:hover {
     background: #17696A; }
-    .sub-block-img__button:hover a {
+    .sub-menu-img__button:hover a {
       color: #FFF; }
+
+.body-middle__list > li:hover .body-middle__sub-list {
+  display: flex; }
 
 /*# sourceMappingURL=Createx.css.map */
