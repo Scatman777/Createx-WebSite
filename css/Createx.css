@@ -2220,14 +2220,20 @@ svg {
     padding-right: 0px; } }
 .body-middle__sub-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   position: absolute;
-  top: 0; }
+  top: 82px;
+  left: 0;
+  border-top: 2px solid #E5E8ED;
+  background: #FFF;
+  width: 100%;
+  height: 487px; }
 
 .body-middle__sub-block {
   display: flex;
   justify-content: space-between;
-  gap: 30px; }
+  gap: 30px;
+  margin-top: 1.25rem; }
 
 .sub-block::after {
   content: url("/img/divider-sub-bur.svg");
@@ -2240,7 +2246,7 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 100%;
+  width: 10.1vw;
   height: 100%; }
 
 .sub-block__item {
