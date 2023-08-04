@@ -2252,30 +2252,28 @@ svg {
   width: 10.1vw;
   height: 100%; }
 
-.sub-menu__item {
+.sub-menu__item a {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238418579;
+  font-weight: 400;
+  color: #424551;
   opacity: 1; }
-  .sub-menu__item a {
-    font-weight: 400;
-    color: #424551; }
 
-.sub-menu__item-title {
+.sub-menu__item-title a {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238418579;
-  opacity: 1; }
-  .sub-menu__item-title a {
-    font-weight: 700;
-    color: #1E212C;
-    letter-spacing: 1px; }
+  font-weight: 700;
+  color: #1E212C;
+  opacity: 1;
+  letter-spacing: 1px; }
 
 .body-middle__sub-menu-img {
   display: flex;
@@ -2288,17 +2286,16 @@ svg {
   height: 285px;
   object-fit: cover; }
 
-.sub-menu-img__text {
+.sub-menu-img__text a {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238418579;
+  font-weight: 700;
+  color: #424551;
   opacity: 1; }
-  .sub-menu-img__text a {
-    font-weight: 700;
-    color: #424551; }
 
 .sub-menu-img__button {
   display: flex;

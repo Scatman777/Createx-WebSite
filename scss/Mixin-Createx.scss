@@ -645,20 +645,20 @@
     }
 
     .sub-menu__item {
-        @include text-14px;
-        opacity: 1;
         a {
+            @include text-14px;
             font-weight: 400;
             color: $gray-800;
+            opacity: 1;
         }
     }
 
     .sub-menu__item-title {
-        @include text-14px;
-        opacity: 1;
         a {
+            @include text-14px;
             font-weight: 700;
             color: $gray-900;
+            opacity: 1;
             letter-spacing: 1px;
         }
     }
@@ -679,11 +679,11 @@
     }
 
     .sub-menu-img__text {
-        @include text-14px;
-        opacity: 1;
         a {
+            @include text-14px;
             font-weight: 700;
             color: $gray-800;
+            opacity: 1;
         }
     }
 
