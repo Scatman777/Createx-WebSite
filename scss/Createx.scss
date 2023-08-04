@@ -697,6 +697,12 @@ svg {
     }
 }
 
+.section-trend__icon-star {
+    &:nth-child(3) {
+        opacity: 0;
+    }
+}
+
 .section-trend__icon-heart {
     position: relative;
     background: #FFF;
