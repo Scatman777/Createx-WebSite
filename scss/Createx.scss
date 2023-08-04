@@ -845,7 +845,10 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 1.5rem;
+    gap: 200px;
+    position: absolute;
+    top: 28px;
+    right: 10px;
 }
 
 .section-discount__icon-column {
@@ -871,11 +874,11 @@ svg {
 }
 
 .section-discount__img {
-    position: absolute;
     img {
         width: 390px;
         height: 440px;
         object-fit: cover;
+        margin-bottom: 1.5rem;
     }
 }
 

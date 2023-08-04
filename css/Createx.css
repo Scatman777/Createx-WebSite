@@ -983,7 +983,10 @@ svg {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 1.5rem; }
+  gap: 200px;
+  position: absolute;
+  top: 28px;
+  right: 10px; }
 
 .section-discount__icon-column {
   display: flex;
@@ -1002,12 +1005,11 @@ svg {
   padding: 8px;
   border-radius: 50%; }
 
-.section-discount__img {
-  position: absolute; }
-  .section-discount__img img {
-    width: 390px;
-    height: 440px;
-    object-fit: cover; }
+.section-discount__img img {
+  width: 390px;
+  height: 440px;
+  object-fit: cover;
+  margin-bottom: 1.5rem; }
 
 .section-discount__product-name {
   font-family: "Lato";
