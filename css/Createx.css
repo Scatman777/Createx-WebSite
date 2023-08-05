@@ -233,7 +233,7 @@ body {
 .body-middle__item:nth-child(5) a {
   color: #FF4242; }
 
-.body-middle__item:hover, .body-middle__item.hover {
+.section-main:target {
   background: #1E212C; }
 
 .body-middle__block-input {

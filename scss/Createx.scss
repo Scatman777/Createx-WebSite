@@ -188,7 +188,7 @@ body {
     }
 }
 
-.body-middle__item:hover, .body-middle__item.hover {
+.section-main:target {
     background: $gray-900;
 }
 
