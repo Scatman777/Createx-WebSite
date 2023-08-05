@@ -605,6 +605,8 @@ body {
     color: #17696A; }
   .section-banner__button:hover {
     background: #17696A; }
+    .section-banner__button:hover svg path {
+      fill: #FFF; }
     .section-banner__button:hover a {
       color: #FFF; }
 
@@ -780,16 +782,14 @@ svg {
   border-radius: 50%;
   padding: 12px;
   transition: all 0.5s; }
-  .section-trend__cheveron:hover {
-    background: #17696A;
-    transition: all 0.5s; }
   .section-trend__cheveron img {
     width: 24px;
     height: 24px; }
-    .section-trend__cheveron img:hover {
-      filter: grayscale(100) brightness(200); }
-  .section-trend__cheveron:nth-child(2) {
-    transform: rotate(180deg); }
+  .section-trend__cheveron:hover {
+    background: #17696A;
+    transition: all 0.5s; }
+    .section-trend__cheveron:hover svg path {
+      fill: #FFF; }
 
 .section-trend__block-trend {
   display: flex;
@@ -881,6 +881,8 @@ svg {
     color: #17696A; }
   .section-trend__button:hover {
     background: #17696A; }
+    .section-trend__button:hover svg path {
+      fill: #FFF; }
     .section-trend__button:hover a {
       color: #FFF; }
 
@@ -904,24 +906,19 @@ svg {
   display: flex;
   align-items: center; }
 
-svg {
-  fill: #17696A; }
-
 .section-discount__cheveron {
   background: #FFF;
   border-radius: 50%;
   padding: 12px;
   transition: all 0.5s; }
-  .section-discount__cheveron:hover {
-    background: #17696A;
-    transition: all 0.5s; }
   .section-discount__cheveron img {
     width: 24px;
     height: 24px; }
-    .section-discount__cheveron img:hover {
-      filter: grayscale(100) brightness(200); }
-  .section-discount__cheveron:nth-child(2) {
-    transform: rotate(180deg); }
+  .section-discount__cheveron:hover {
+    background: #17696A;
+    transition: all 0.5s; }
+    .section-discount__cheveron:hover svg path {
+      fill: #FFF; }
 
 .section-discount__block-discount {
   display: flex;
@@ -961,10 +958,7 @@ svg {
 
 .section-discount__arrow img {
   width: 24px;
-  height: 24px;
-  object-fit: cover; }
-.section-discount__arrow:nth-child(2) {
-  transform: rotate(180deg); }
+  height: 24px; }
 
 .section-discount__discount {
   max-width: 54px;
@@ -1075,6 +1069,8 @@ svg {
     color: #17696A; }
   .section-discount__button:hover {
     background: #17696A; }
+    .section-discount__button:hover svg path {
+      fill: #FFF; }
     .section-discount__button:hover a {
       color: #FFF; }
 
@@ -1290,12 +1286,15 @@ svg {
     color: #17696A; }
   .block-messenger__button:hover {
     background: #17696A; }
+    .block-messenger__button:hover svg path {
+      fill: #FFF; }
     .block-messenger__button:hover a {
       color: #FFF; }
-  .block-messenger__button img {
-    width: 24px;
-    height: 24px;
-    object-fit: cover; }
+
+.block-messenger__icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover; }
 
 .section-info__img-info {
   display: flex;
@@ -1347,6 +1346,8 @@ svg {
     color: #17696A; }
   .block-blog__button-up:hover {
     background: #17696A; }
+    .block-blog__button-up:hover svg path {
+      fill: #FFF; }
     .block-blog__button-up:hover a {
       color: #FFF; }
 
@@ -2317,6 +2318,8 @@ svg {
     color: #17696A; }
   .sub-menu-img__button:hover {
     background: #17696A; }
+    .sub-menu-img__button:hover svg path {
+      fill: #FFF; }
     .sub-menu-img__button:hover a {
       color: #FFF; }
 

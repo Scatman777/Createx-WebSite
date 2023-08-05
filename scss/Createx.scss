@@ -641,19 +641,16 @@ svg {
     border-radius: 50%;
     padding: 12px;
     transition: all 0.5s;
-    &:hover {
-        background: $green;
-        transition: all 0.5s;
-    }
     img {
         width: 24px;
         height: 24px;
-        &:hover {
-            filter: grayscale(100) brightness(200);
-        }
     }
-    &:nth-child(2) {
-        transform: rotate(180deg);
+    &:hover {
+        background: $green;
+        transition: all 0.5s;
+        svg path {
+            fill: $white;
+        }
     }
 }
 
@@ -669,9 +666,6 @@ svg {
     justify-content: space-around;
     gap: 1.9rem;
     margin: 3.75rem 0px 5rem 0px;
-}
-
-.section-trend__column {
 }
 
 .section-trend__item {
@@ -750,28 +744,21 @@ svg {
     align-items: center;
 }
 
-svg {
-    fill: #17696A;
-}
-
 .section-discount__cheveron {
     background: $white;
     border-radius: 50%;
     padding: 12px;
     transition: all 0.5s;
-    &:hover {
-        background: $green;
-        transition: all 0.5s;
-    }
     img {
         width: 24px;
         height: 24px;
-        &:hover {
-            filter: grayscale(100) brightness(200);
-        }
     }
-    &:nth-child(2) {
-        transform: rotate(180deg);
+    &:hover {
+        background: $green;
+        transition: all 0.5s;
+        svg path {
+            fill: $white;
+        }
     }
 }
 
@@ -822,11 +809,6 @@ svg {
     img {
         width: 24px;
         height: 24px;
-        object-fit: cover;
-    }
-
-    &:nth-child(2) {
-        transform: rotate(180deg);
     }
 }
 
@@ -1093,6 +1075,9 @@ svg {
 
 .block-messenger__button {
     @include button-green;
+}
+
+.block-messenger__icon {
     img {
         width: 24px;
         height: 24px;

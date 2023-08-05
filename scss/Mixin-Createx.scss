@@ -133,6 +133,9 @@
         color: $green;
     }
     &:hover {
+        svg path {
+            fill: $white;
+        }
         background: $green;
         a {
             color: $white;
@@ -691,7 +694,7 @@
         @include button-green;
     }
 
-    .body-middle__list>li:hover .body-middle__sub-list{
+    .body-middle__list>li:hover .body-middle__sub-list {
         display: flex;
     }
 }
