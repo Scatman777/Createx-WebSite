@@ -188,6 +188,10 @@ body {
     }
 }
 
+.body-middle__item:hover, .body-middle__item.hover {
+    background: $gray-900;
+}
+
 .body-middle__block-input {
     display: flex;
     align-items: center;

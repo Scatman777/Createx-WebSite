@@ -27,3 +27,5 @@ var btnsub = document.getElementById("button-style");
 btnsub.addEventListener("click", function() {
   this.classList.toggle("button-background");
 });
+
+document.querySelector('.elem').classList.add('hover');
