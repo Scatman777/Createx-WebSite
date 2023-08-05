@@ -233,9 +233,6 @@ body {
 .body-middle__item:nth-child(5) a {
   color: #FF4242; }
 
-.section-main:target {
-  background: #1E212C; }
-
 .body-middle__block-input {
   display: flex;
   align-items: center;
@@ -299,6 +296,9 @@ body {
 
 .section-main {
   max-height: 800px; }
+
+#a1:target {
+  filter: brightness(0.5); }
 
 .section-main__body-main {
   display: flex;

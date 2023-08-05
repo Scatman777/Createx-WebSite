@@ -188,10 +188,6 @@ body {
     }
 }
 
-.section-main:target {
-    background: $gray-900;
-}
-
 .body-middle__block-input {
     display: flex;
     align-items: center;
@@ -275,6 +271,10 @@ body {
 
 .section-main {
     max-height: 800px;
+}
+
+#a1:target {
+    filter: brightness(0.5);
 }
 
 .section-main__body-main {
