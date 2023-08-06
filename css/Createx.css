@@ -2365,6 +2365,7 @@ svg {
   max-width: 486px;
   padding: 48px;
   background-color: #FFF;
+  border-radius: 4px;
   position: relative; }
 
 .login-popap__close {
@@ -2580,6 +2581,7 @@ svg {
   max-width: 486px;
   padding: 48px;
   background-color: #FFF;
+  border-radius: 4px;
   position: relative; }
 
 .register-popap__close {
