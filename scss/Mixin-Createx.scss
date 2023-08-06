@@ -711,6 +711,8 @@
         z-index: 50;
         opacity: 0;
         visibility: hidden;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
      
     .login-popap:target {
