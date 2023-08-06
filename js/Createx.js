@@ -28,13 +28,38 @@ btnsub.addEventListener("click", function() {
   this.classList.toggle("button-background");
 });
 
+// button.onmouseover = main.onmouseout = handler;
 
-var button = document.getElementById("button");
+var button = document.querySelector(".body-middle__item");
 const main = document.querySelector(".main");
 
-function button {
-  main.style.background = "#999";
-};
+function background(color) {
+
+  function str(el) {
+    if (!el) return "null"
+    return el.className || el.tagName;
+  }
+
+  if (color.type == 'mouseover') {
+    main.target.style.filter = 'brightness(0.5)'
+  }
+}
+
+function background(none) {
+
+  function str(el) {
+    if (!el) return "null"
+    return el.className || el.tagName;
+  }
+
+  if (button.type == 'mouseout') {
+    main.target.style.filter = 'brightness(1)'
+  }
+}
+
+// function button(color) {
+//   main.style.background = "#999";
+// };
 
 // button().addEventListener("click", function() {
 //   main.classList.toggle("color");
