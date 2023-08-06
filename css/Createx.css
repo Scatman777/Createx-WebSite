@@ -96,8 +96,8 @@ body {
   box-sizing: content-box;
   margin: 0 auto; }
 
-.ccolor {
-  filter: brightness(0.5); }
+.color {
+  background-color: #1E212C; }
 
 .header-up {
   position: relative;

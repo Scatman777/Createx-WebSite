@@ -34,8 +34,8 @@ const main = document.querySelector(".main");
 
 
 function button(color) {
-  main.style.filter: brightness(0.5);
-  };
+  main.style.background;
+};
 
 // button().addEventListener("click", function() {
 //   main.classList.toggle("color");
