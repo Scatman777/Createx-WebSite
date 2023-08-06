@@ -27,3 +27,16 @@ var btnsub = document.getElementById("button-style");
 btnsub.addEventListener("click", function() {
   this.classList.toggle("button-background");
 });
+
+
+var button = document.getElementById("button");
+const main = document.querySelector(".main");
+
+
+function button(color) {
+  main.style.filter: brightness(0.5);
+  };
+
+// button().addEventListener("click", function() {
+//   main.classList.toggle("color");
+// });
