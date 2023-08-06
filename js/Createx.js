@@ -28,30 +28,20 @@ btnsub.addEventListener("click", function() {
   this.classList.toggle("button-background");
 });
 
-// button.onmouseover = main.onmouseout = handler;
+// button.onmouseover = button.onmouseout = background;
 
-var button = document.querySelector(".body-middle__item");
+const button = document.querySelector(".body-middle__item");
 const main = document.querySelector(".main");
 
-function background(color) {
+function background(_color) {
 
-  function str(el) {
-    if (!el) return "null"
-    return el.className || el.tagName;
-  }
-
-  if (color.type == 'mouseover') {
+  if (button.type == 'mouseover') {
     main.target.style.filter = 'brightness(0.5)'
   }
 }
 
-function background(none) {
-
-  function str(el) {
-    if (!el) return "null"
-    return el.className || el.tagName;
-  }
-
+function background(_none) {
+  
   if (button.type == 'mouseout') {
     main.target.style.filter = 'brightness(1)'
   }
