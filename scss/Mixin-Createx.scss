@@ -702,6 +702,7 @@
 @mixin login-popap {
 
     .login-popap {
+        display: none;
         position: fixed;
         width: 100%;
         height: 100%;
@@ -709,6 +710,10 @@
         top: 0;
         left: 0;
         z-index: 50;
+        &:target {
+            opacity: 1;
+            visibility: hidden;
+        }
     }
 
     .login-popap__body {
@@ -724,6 +729,7 @@
         max-width: 486px;
         padding: 48px;
         background-color: $white;
+        position: relative;
     }
 
     .login-popap__close {

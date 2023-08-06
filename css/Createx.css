@@ -2330,6 +2330,7 @@ svg {
   display: flex; }
 
 .login-popap {
+  display: none;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -2337,6 +2338,9 @@ svg {
   top: 0;
   left: 0;
   z-index: 50; }
+  .login-popap:target {
+    opacity: 1;
+    visibility: hidden; }
 
 .login-popap__body {
   min-height: 100%;
@@ -2349,7 +2353,8 @@ svg {
   text-align: center;
   max-width: 486px;
   padding: 48px;
-  background-color: #FFF; }
+  background-color: #FFF;
+  position: relative; }
 
 .login-popap__close {
   position: absolute;
