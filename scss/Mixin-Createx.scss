@@ -852,11 +852,11 @@
         @include text-14px;
         color: $gray-800;
         opacity: 1;
-    
         a {
             @include text-14px;
             color: $green;
             opacity: 1;
+            margin-left: 4px;
         }
     }
 
@@ -876,11 +876,13 @@
         color: $gray-700;
         opacity: 1;
     }
+
     .block-sing-in-messenger__column-icon {
         display: flex;
         justify-content: center;
         gap: 12px;
     }
+
     .block-sing-in-messenger__icon {
         background-color: #eeefef;
         padding: 8px;
@@ -972,7 +974,7 @@
         flex-direction: column;
         gap: 20px
     }
-    
+
     .register-popap__block-sing-in-messenger {
         display: flex;
         flex-direction: column;

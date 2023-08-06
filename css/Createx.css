@@ -2509,7 +2509,8 @@ svg {
     color: #FFF;
     opacity: 0.6000000238418579;
     color: #17696A;
-    opacity: 1; }
+    opacity: 1;
+    margin-left: 4px; }
 
 .login-popap__block-sing-in-messenger {
   display: flex;
