@@ -762,15 +762,18 @@
 
     .block-input {
         text-align: start;
+        padding-bottom: 1.5rem;
     }
 
     .block-input__column-input {
         @include text-14px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
         opacity: 1;
 
         label {
             color: $gray-800;
-            margin-bottom: 8px;
         }
 
         input {
@@ -824,19 +827,51 @@
     .block-input__button {
         @include button-green-backround;
         justify-content: center;
+        margin-top: 4px;
     }
 
     .block-input__text-profile {
+        @include text-14px;
+        color: $gray-800;
+        opacity: 1;
+    
+        a {
+            @include text-14px;
+            color: $green;
+            opacity: 1;
+        }
+    }
 
-    }
     .login-popap__block-sing-in-messenger {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        border-top: 1px solid $gray-300;
     }
+
     .block-sing-in-messenger {
+        padding-top: 1.5rem;
     }
+
     .block-sing-in-messenger__text {
+        @include text-14px;
+        color: $gray-700;
+        opacity: 1;
     }
     .block-sing-in-messenger__column-icon {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
     }
     .block-sing-in-messenger__icon {
+        background-color: #eeefef;
+        padding: 8px;
+
+        &:hover {
+            background-color: #e3eded;
+        }
+        &:hover svg path {
+            fill: $green;
+        }
     }
 }
