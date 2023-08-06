@@ -32,9 +32,8 @@ btnsub.addEventListener("click", function() {
 var button = document.getElementById("button");
 const main = document.querySelector(".main");
 
-
-function button(color) {
-  main.style.background;
+function button {
+  main.style.background = "#999";
 };
 
 // button().addEventListener("click", function() {
