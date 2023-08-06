@@ -2384,6 +2384,9 @@ svg {
   flex-direction: column;
   gap: 20px; }
 
+.block-input {
+  text-align: start; }
+
 .block-input__column-input {
   font-family: "Lato";
   font-size: 14px;
