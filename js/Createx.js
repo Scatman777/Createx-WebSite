@@ -30,22 +30,19 @@ btnsub.addEventListener("click", function() {
 
 // button.onmouseover = button.onmouseout = background;
 
-const button = document.querySelector(".body-middle__item");
-const main = document.querySelector(".main");
+// function background() {
 
-function background(_color) {
 
-  if (button.type == 'mouseover') {
-    main.target.style.filter = 'brightness(0.5)'
-  }
-}
+//   const button = document.querySelector(".body-middle__item");
+//   const main = document.querySelector(".main");
 
-function background(_none) {
-  
-  if (button.type == 'mouseout') {
-    main.target.style.filter = 'brightness(1)'
-  }
-}
+//   if (button.type == 'mouseover') {
+//     main.target.style.filter = 'brightness(0.5)'
+//   }
+//   if (button.type == 'mouseout') {
+//     main.target.style.filter = 'brightness(1)'
+//   }
+// }
 
 // function button(color) {
 //   main.style.background = "#999";
