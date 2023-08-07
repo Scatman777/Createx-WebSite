@@ -1689,10 +1689,10 @@ svg {
   .footer__link a {
     color: #FFF; }
 
-.buy-border {
+#buy-border {
   border: 1px solid #17696A; }
 
-.color-border span {
+#color-border span {
   border: 1px solid #17696A; }
 
 .button-background {

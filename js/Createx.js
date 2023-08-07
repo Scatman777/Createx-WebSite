@@ -18,13 +18,13 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-var btn = document.getElementById("btn-border");
-btn.addEventListener("click", function() {
-  this.classList.toggle("buy-border");
+const btnBorder = document.querySelector(".btn-border");
+btnBorder.addEventListener("click", function() {
+  this.getElementById.toggle("buy-border");
 });
 
-var btn = document.getElementById("btn-color");
-btn.addEventListener("click", function() {
+var btnColor = document.querySelector(".btn-color");
+btnColor.addEventListener("click", function() {
   this.classList.toggle("color-border");
 });
 
