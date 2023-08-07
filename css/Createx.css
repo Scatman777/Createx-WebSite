@@ -2450,7 +2450,8 @@ svg {
   gap: 12px; }
   .column-profile__input input {
     width: 16px;
-    height: 16px; }
+    height: 16px;
+    accent-color: #17696A; }
   .column-profile__input span {
     font-family: "Lato";
     font-size: 14px;
