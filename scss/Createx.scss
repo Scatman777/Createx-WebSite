@@ -960,6 +960,7 @@ svg {
 
 .buy-block__button {
     @include button-green-backround;
+    justify-content: center;
 }
 
 ////// SECTION-MOBILE ////////////////
