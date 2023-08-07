@@ -1849,8 +1849,7 @@ svg {
     opacity: 1;
     color: black; }
   .sliders .slick-dots li:nth-child(1) {
-    background: url("/img/01-number.svg") left no-repeat;
-    opacity: 0.4; }
+    background: url("/img/01-number.svg") left no-repeat; }
   .sliders .slick-dots li:nth-child(2) {
     background: url("/img/02-number.svg") left no-repeat; }
   .sliders .slick-dots li:nth-child(3) {
@@ -2209,6 +2208,17 @@ svg {
   .section-mobile__img img {
     width: 390px;
     height: 300px;
+    object-fit: contain; } }
+@media (max-width: 450px) {
+  .section-mobile__title {
+    font-size: 5vw; }
+
+  .section-mobile__column-button {
+    flex-wrap: wrap; }
+
+  .section-mobile__img img {
+    width: 100%;
+    height: 100%;
     object-fit: contain; } }
 /* BLOCK-INFO */
 @media (max-width: 1250px) {
