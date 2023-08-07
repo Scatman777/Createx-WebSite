@@ -18,9 +18,14 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-var btn = document.getElementById("btn");
+var btn = document.getElementById("btn-border");
 btn.addEventListener("click", function() {
   this.classList.toggle("buy-border");
+});
+
+var btn = document.getElementById("btn-color");
+btn.addEventListener("click", function() {
+  this.classList.toggle("color-border");
 });
 
 var btnsub = document.getElementById("button-style");

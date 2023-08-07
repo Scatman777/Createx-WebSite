@@ -1110,7 +1110,8 @@ svg {
   align-items: center;
   width: 20px;
   height: 20px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  cursor: pointer; }
   .buy-block__color:nth-child(1) {
     background: #000000; }
   .buy-block__color:nth-child(2) {
@@ -1689,6 +1690,9 @@ svg {
     color: #FFF; }
 
 .buy-border {
+  border: 1px solid #17696A; }
+
+.color-border span {
   border: 1px solid #17696A; }
 
 .button-background {
