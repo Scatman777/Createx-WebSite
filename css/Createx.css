@@ -1101,20 +1101,28 @@ svg {
 
 .buy-block__color-column {
   display: flex;
-  gap: 0.5rem; }
+  align-items: center;
+  gap: 16px; }
 
 .buy-block__color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
-  border: 1px solid #787A80;
-  border-radius: 50%;
-  padding: 8px; }
+  border-radius: 50%; }
   .buy-block__color:nth-child(1) {
     background: #000000; }
   .buy-block__color:nth-child(2) {
     background: #874E19; }
   .buy-block__color:nth-child(3) {
     background: #C0DDED; }
+  .buy-block__color span {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D7DADD;
+    border-radius: 50%;
+    padding: 14px; }
 
 .buy-block__button {
   display: flex;
