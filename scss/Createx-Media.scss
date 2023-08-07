@@ -297,6 +297,7 @@
             max-width: 100%;
         }
     }
+
 /* MESENGER-INFO */
     @media (max-width: 1171px) {
         .section-info__block-messenger {
@@ -309,4 +310,17 @@
             padding-right: 0px;
         }
     }
+
+/* BLOG-INFO */
+    @media (max-width: 1260px) {
+        .section-info__block-blog {
+            justify-content: space-around;
+        }
+
+        .block-messenger__column {
+            align-items: center;
+            padding-right: 0px;
+        }
+    }
 }
+
