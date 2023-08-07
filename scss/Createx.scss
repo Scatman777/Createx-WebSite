@@ -1309,17 +1309,6 @@ svg {
 
 ////////////////////////////////////////
 
-.buy-border {
-    border: 1px solid $green;
-}
-
-.button-background {
-    background: $green;
-    span {
-        color: $white;
-    }
-}
-
 .footer {
     background: $gray-900;
 }
@@ -1441,6 +1430,17 @@ svg {
     @include text-16px;
     opacity: 0.6000000238418579;
     a {
+        color: $white;
+    }
+}
+
+.buy-border {
+    border: 1px solid $green;
+}
+
+.button-background {
+    background: $green;
+    span {
         color: $white;
     }
 }

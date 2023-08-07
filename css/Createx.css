@@ -1572,14 +1572,6 @@ svg {
   height: 416px;
   object-fit: cover; }
 
-.buy-border {
-  border: 1px solid #17696A; }
-
-.button-background {
-  background: #17696A; }
-  .button-background span {
-    color: #FFF; }
-
 .footer {
   background: #1E212C; }
 
@@ -1694,6 +1686,14 @@ svg {
   color: #424551;
   opacity: 0.6000000238418579; }
   .footer__link a {
+    color: #FFF; }
+
+.buy-border {
+  border: 1px solid #17696A; }
+
+.button-background {
+  background: #17696A; }
+  .button-background span {
     color: #FFF; }
 
 /* SLIDER */
