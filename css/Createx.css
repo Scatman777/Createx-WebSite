@@ -1366,10 +1366,11 @@ svg {
 
 .block-blog__block-column {
   display: flex;
-  justify-content: space-between; }
+  justify-content: center; }
 
 .block-blog__column {
-  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 80px 80px -20px rgba(154, 156, 165, 0.16); }
+  padding: 0px 10px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(55, 62, 94, 0.08) 30px 24px -10px rgba(154, 156, 165, 0.1), 0px 80px 80px -20px rgba(154, 156, 165, 0.16); }
 
 .block-blog__item {
   max-width: 600px;
