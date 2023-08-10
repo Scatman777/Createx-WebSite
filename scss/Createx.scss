@@ -3,6 +3,7 @@
 @import "Mixin-Createx";
 /*Mixin*/
 @import "Createx-Media";
+@import "Createx-Profile";
 /*Media*/
 
 $white: #FFF;
@@ -1468,4 +1469,4 @@ svg {
 @include sub-menu-woomen;
 @include login-popap;
 @include register-popap;
-@include Section-ProfileStyle
+@include Section-ProfileStyle;
