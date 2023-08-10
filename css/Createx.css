@@ -2676,6 +2676,8 @@ svg {
   height: 100%; }
 
 .account-menu {
+  border: 1px solid #E5E8ED;
+  border-radius: 4px;
   box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08); }
 
 .account-menu__title {
@@ -2703,33 +2705,24 @@ svg {
   flex-direction: column; }
 
 .account-menu__item {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  padding: 12px 20px;
+  line-height: 160%;
+  color: #424551;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   transition: all 0.5s;
-  padding: 0px 32px;
-  border: 1px solid #17696A;
-  border-radius: 4px;
-  background: none;
-  display: flex;
-  gap: 8px; }
-  .account-menu__item a {
-    font-family: "Lato";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 160%;
-    color: #424551;
-    line-height: 44px;
-    letter-spacing: 0.5px;
-    color: #17696A; }
+  border-bottom: 1px solid #E5E8ED; }
   .account-menu__item:hover {
-    background: #17696A; }
-    .account-menu__item:hover svg path {
+    background: #17696A;
+    transition: all 0.5s; }
+    .account-menu__item:hover svg {
       fill: #FFF; }
-    .account-menu__item:hover a {
-      color: #FFF; }
-  .account-menu__item:hover svg {
-    fill: #FFF; }
 
 .account-menu__text {
   font-family: "Lato";
