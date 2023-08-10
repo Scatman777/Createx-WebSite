@@ -1,0 +1,34 @@
+@mixin Section-ProfileStyle {
+    
+    ///////////////// SECTION-PROFILE ////////////////
+    .section-profile__body {
+        display: flex;
+    }
+
+    .section-profile__account-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .account-menu {
+    }
+
+    .account-menu__title {
+        @include h4;
+    }
+
+    .account-menu__email {
+    }
+
+    .account-menu__menu {
+    }
+
+    .account-menu__item {
+    }
+
+    .account-menu__logo {
+    }
+
+    .account-menu__text {
+    }
+}
