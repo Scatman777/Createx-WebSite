@@ -185,17 +185,18 @@
     gap: 8px;
     padding: 12px 20px;
     border-top: 1px solid $gray-300;
-    transition: all 0.5s;
+    transition: all 0.3s;
 
     label {
         @include text-16px;
+        font-weight: 400;
         line-height: 160%;
         color: $gray-800;
     }
     
     &:hover {
         background: $green;
-        transition: all 0.5s;
+        transition: all 0.3s;
         label {
             color: $white;
         }

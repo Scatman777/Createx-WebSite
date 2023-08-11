@@ -2716,30 +2716,23 @@ svg {
   gap: 8px;
   padding: 12px 20px;
   border-top: 1px solid #E5E8ED;
-  transition: all 0.5s; }
+  transition: all 0.3s; }
   .account-menu__item label {
     font-family: "Lato";
     font-size: 16px;
     font-weight: 700;
     line-height: 160%;
     color: #424551;
+    font-weight: 400;
     line-height: 160%;
     color: #424551; }
   .account-menu__item:hover {
     background: #17696A;
-    transition: all 0.5s; }
+    transition: all 0.3s; }
     .account-menu__item:hover label {
       color: #FFF; }
     .account-menu__item:hover svg path {
       fill: #FFF; }
-
-.account-menu__text {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  font-weight: 400; }
 
 /* CONTENT-PROFILE */
 .section-profile__content-rofile {
