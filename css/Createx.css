@@ -2760,7 +2760,8 @@ svg {
 .content-profile__button {
   display: flex;
   align-items: center;
-  gap: 8px; }
+  gap: 8px;
+  background: none; }
   .content-profile__button a {
     font-family: "Lato";
     font-size: 16px;

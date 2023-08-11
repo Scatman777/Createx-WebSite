@@ -80,6 +80,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
+        background: none;
         a {
             @include text-16px;
             color: $red;
