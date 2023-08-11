@@ -72,7 +72,7 @@ h6 {
   font-size: inherit;
   font-weight: inherit; }
 
-/* Null */
+/* Null-Style */
 /*Mixin*/
 /*Media*/
 /* variables */
@@ -2711,23 +2711,26 @@ svg {
   flex-direction: column; }
 
 .account-menu__item {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  padding: 12px 20px;
-  line-height: 160%;
-  color: #424551;
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  transition: all 0.5s;
-  border-top: 1px solid #E5E8ED; }
+  padding: 12px 20px;
+  border-top: 1px solid #E5E8ED;
+  transition: all 0.5s; }
+  .account-menu__item label {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #424551;
+    line-height: 160%;
+    color: #424551; }
   .account-menu__item:hover {
     background: #17696A;
     transition: all 0.5s; }
-    .account-menu__item:hover svg {
+    .account-menu__item:hover label {
+      color: #FFF; }
+    .account-menu__item:hover svg path {
       fill: #FFF; }
 
 .account-menu__text {
