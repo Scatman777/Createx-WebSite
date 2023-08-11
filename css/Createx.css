@@ -2665,7 +2665,8 @@ svg {
   border-top: 1px solid #E5E8ED; }
 
 .section-profile__body {
-  display: flex; }
+  display: flex;
+  margin: 3.5rem 0px 11.25rem 0px; }
 
 /* ACCOUNT-MENU */
 .section-profile__account-menu {
@@ -2674,8 +2675,7 @@ svg {
   gap: 20px;
   max-width: 285px;
   width: 100%;
-  height: 100%;
-  margin: 56px 0px 180px 0px; }
+  height: 100%; }
 
 .account-menu {
   border: 1px solid #E5E8ED;
@@ -2755,5 +2755,47 @@ svg {
   line-height: 130%;
   color: #1E212C;
   font-size: 32px; }
+
+.content-profile__button {
+  display: flex;
+  align-items: center;
+  gap: 8px; }
+  .content-profile__button a {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #424551;
+    color: #FF4242; }
+
+.content-profile__block-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.conrent-profile__button-down {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s;
+  padding: 0px 32px;
+  border: 1px solid #17696A;
+  border-radius: 4px;
+  background: none; }
+  .conrent-profile__button-down a {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #424551;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #17696A; }
+  .conrent-profile__button-down:hover {
+    background: #17696A; }
+    .conrent-profile__button-down:hover svg path {
+      fill: #FFF; }
+    .conrent-profile__button-down:hover a {
+      color: #FFF; }
 
 /*# sourceMappingURL=Createx.css.map */

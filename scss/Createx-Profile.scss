@@ -3,6 +3,7 @@
     ///////////////// SECTION-PROFILE ////////////////
     .section-profile__body {
         display: flex;
+        margin: 3.5rem 0px 11.25rem 0px;
     }
 
     /* ACCOUNT-MENU */
@@ -13,7 +14,6 @@
         max-width: 285px;
         width: 100%;
         height: 100%;
-        margin: 56px 0px 180px 0px;
     }
 
     .account-menu {
@@ -76,9 +76,19 @@
     }
     
     .content-profile__button {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        a {
+            @include text-16px;
+            color: $red;
+        }
     }
     
     .content-profile__block-input {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     
     .block-input__column-input {
@@ -88,5 +98,9 @@
     }
     
     .open-list {
+    }
+
+    .conrent-profile__button-down {
+        @include button-green;
     }
 }
