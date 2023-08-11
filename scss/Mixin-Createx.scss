@@ -181,7 +181,7 @@
 
 @mixin button-greenProfile {
     @include text-16px;
-    padding: 12px 0px;
+    padding: 12px 20px;
     line-height: 160%;
     color: $gray-800;
     display: flex;
