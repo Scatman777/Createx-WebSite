@@ -5,6 +5,7 @@
         display: flex;
     }
 
+    /* ACCOUNT-MENU */
     .section-profile__account-menu {
         display: flex;
         flex-direction: column;
@@ -52,5 +53,40 @@
     .account-menu__text {
         @include text-16px;
         font-weight: 400;
+    }
+    
+    /* CONTENT-PROFILE */
+    .section-profile__content-rofile {
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    
+    .content-rofile {
+    }
+    
+    .content-profile__block-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-profile__title {
+        @include h3;
+    }
+    
+    .content-profile__button {
+    }
+    
+    .content-profile__block-input {
+    }
+    
+    .block-input__column-input {
+    }
+    
+    .block-input__open-password {
+    }
+    
+    .open-list {
     }
 }

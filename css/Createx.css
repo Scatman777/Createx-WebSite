@@ -2667,6 +2667,7 @@ svg {
 .section-profile__body {
   display: flex; }
 
+/* ACCOUNT-MENU */
 .section-profile__account-menu {
   display: flex;
   flex-direction: column;
@@ -2735,5 +2736,24 @@ svg {
   line-height: 160%;
   color: #424551;
   font-weight: 400; }
+
+/* CONTENT-PROFILE */
+.section-profile__content-rofile {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; }
+
+.content-profile__block-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.content-profile__title {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 32px; }
 
 /*# sourceMappingURL=Createx.css.map */
