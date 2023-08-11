@@ -2666,6 +2666,7 @@ svg {
 
 .section-profile__body {
   display: flex;
+  justify-content: space-between;
   margin: 3.5rem 0px 11.25rem 0px; }
 
 /* ACCOUNT-MENU */
@@ -2769,20 +2770,20 @@ svg {
     color: #FF4242; }
 
 .content-profile__block-input {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 390px 390px);
+  column-gap: 30px;
+  row-gap: 24px; }
 
-.conrent-profile__button-down {
+.content-profile__button-down {
   display: flex;
   align-items: center;
   gap: 8px;
   transition: all 0.5s;
   padding: 0px 32px;
-  border: 1px solid #17696A;
   border-radius: 4px;
-  background: none; }
-  .conrent-profile__button-down a {
+  background: #17696A; }
+  .content-profile__button-down a {
     font-family: "Lato";
     font-size: 16px;
     font-weight: 700;
@@ -2790,12 +2791,8 @@ svg {
     color: #424551;
     line-height: 44px;
     letter-spacing: 0.5px;
-    color: #17696A; }
-  .conrent-profile__button-down:hover {
-    background: #17696A; }
-    .conrent-profile__button-down:hover svg path {
-      fill: #FFF; }
-    .conrent-profile__button-down:hover a {
-      color: #FFF; }
+    color: #FFF; }
+  .content-profile__button-down:hover {
+    background: #18888a; }
 
 /*# sourceMappingURL=Createx.css.map */

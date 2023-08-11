@@ -3,6 +3,7 @@
     ///////////////// SECTION-PROFILE ////////////////
     .section-profile__body {
         display: flex;
+        justify-content: space-between;
         margin: 3.5rem 0px 11.25rem 0px;
     }
 
@@ -86,9 +87,10 @@
     }
     
     .content-profile__block-input {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 390px 390px);
+        column-gap: 30px;
+        row-gap: 24px;
     }
     
     .block-input__column-input {
@@ -100,7 +102,7 @@
     .open-list {
     }
 
-    .conrent-profile__button-down {
-        @include button-green;
+    .content-profile__button-down {
+        @include button-green-backround;
     }
 }
