@@ -10,6 +10,7 @@
     /* BREAD-CRUMB */
     .account-menu__bread-crumb {
         display: flex;
+        position: absolute;
     }
 
     .bread-crumb__icon {
@@ -21,7 +22,13 @@
 
     .bread-crumb__text {
         @include text-14px;
+        color: $gray-800;
         opacity: 1;
+
+        &:nth-child(1)::after {
+            background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
+            padding: 0px 8px;
+        }
     }
 
     /* ACCOUNT-MENU */
