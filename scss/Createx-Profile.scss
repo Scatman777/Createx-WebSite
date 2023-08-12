@@ -7,30 +7,6 @@
         margin: 3.5rem 0px 11.25rem 0px;
     }
 
-    /* BREAD-CRUMB */
-    .bread-crumb {
-        display: flex;
-        position: absolute;
-    }
-
-    .bread-crumb__icon {
-        img {
-            width: 20px;
-            height: 20px;
-        }
-    }
-
-    .bread-crumb__text {
-        @include text-14px;
-        color: $gray-800;
-        opacity: 1;
-
-        &:nth-child(1)::after {
-            background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
-            padding: 0px 8px;
-        }
-    }
-
     /* ACCOUNT-MENU */
     .section-profile__account-menu {
         display: flex;
@@ -143,5 +119,29 @@
         @include text-16px;
         font-weight: 400;
         color: $gray-800;
+    }
+
+    /* BREAD-CRUMB */
+    .bread-crumb {
+        display: flex;
+        position: absolute;
+    }
+    
+    .bread-crumb__icon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    
+    .bread-crumb__text {
+        @include text-14px;
+        color: $gray-800;
+        opacity: 1;
+
+        &:nth-child(1)::after {
+            background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
+            padding: 0px 8px;
+        }
     }
 }
