@@ -24,6 +24,9 @@
     }
     
     @media (max-width: 610px) {
+        .header-up {
+            position: fixed;
+        }
 
         .header__body-up {
             justify-content: space-between;
@@ -323,4 +326,3 @@
         }
     }
 }
-
