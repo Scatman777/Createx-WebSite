@@ -2073,6 +2073,9 @@ svg {
   .body-middle__list {
     display: none; } }
 @media (max-width: 610px) {
+  .header-up {
+    position: fixed; }
+
   .header__body-up {
     justify-content: space-between; }
 
@@ -2822,5 +2825,26 @@ svg {
   color: #424551;
   font-weight: 400;
   color: #424551; }
+
+/* BREAD-CRUMB */
+.section-profile__bread-crumb {
+  display: flex;
+  position: absolute; }
+
+.bread-crumb__icon img {
+  width: 20px;
+  height: 20px; }
+
+.bread-crumb__text {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238418579;
+  color: #424551;
+  opacity: 1; }
+  .bread-crumb__text::before {
+    background: url("/img/Right-chevron.svg") no-repeat #9A9CA5; }
 
 /*# sourceMappingURL=Createx.css.map */

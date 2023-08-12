@@ -59,7 +59,7 @@ for (let elm of elements) {
 
 ///////////////// PASSWORD-OPEN /////////////////
 function show_hide_password(target){
-	var input = document.getElementById('password-input');
+	let input = document.getElementById('password-input');
 
 	if (input.getAttribute('type') == 'password') {
 		target.classList.add('view');

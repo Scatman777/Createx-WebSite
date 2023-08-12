@@ -122,7 +122,7 @@
     }
 
     /* BREAD-CRUMB */
-    .bread-crumb {
+    .section-profile__bread-crumb {
         display: flex;
         position: absolute;
     }
@@ -138,10 +138,8 @@
         @include text-14px;
         color: $gray-800;
         opacity: 1;
-
-        &:nth-child(1)::after {
+        &::before {
             background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
-            padding: 0px 8px;
         }
     }
 }
