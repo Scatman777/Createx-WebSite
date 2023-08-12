@@ -460,7 +460,7 @@ body {
 ////// SECTION-BANNER ////////////////
 
 .section-banner__body {
-    display: none;
+    display: grid;
     grid-template-columns: repeat(5, 355px);
     grid-template-rows: repeat(5, 242px);
     grid-column-gap: 16px;

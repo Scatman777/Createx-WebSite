@@ -18,20 +18,20 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-const btnBorder = document.querySelector(".btn-border");
-btnBorder.addEventListener("click", function() {
-  this.getElementById.toggle("buy-border");
-});
+// const btnBorder = document.querySelector(".btn-border");
+// btnBorder.addEventListener("click", function() {
+//   this.getElementById.toggle("buy-border");
+// });
 
-var btnColor = document.querySelector(".btn-color");
-btnColor.addEventListener("click", function() {
-  this.classList.toggle("color-border");
-});
+// var btnColor = document.querySelector(".btn-color");
+// btnColor.addEventListener("click", function() {
+//   this.classList.toggle("color-border");
+// });
 
-var btnsub = document.getElementById("button-style");
-btnsub.addEventListener("click", function() {
-  this.classList.toggle("button-background");
-});
+// var btnsub = document.getElementById("button-style");
+// btnsub.addEventListener("click", function() {
+//   this.classList.toggle("button-background");
+// });
 
 // button.onmouseover = button.onmouseout = background;
 
@@ -57,37 +57,15 @@ btnsub.addEventListener("click", function() {
 //   main.classList.toggle("color");
 // });
 
-///////////////// MENU /////////////////
-let isMobile = {
-	Android: function () { return navigator.userAgent.match(/Android/i); },
-	BlackBerry: function () { return navigator.userAgent.match(/BlackBerry/i); },
-	iOS: function () { return navigator.userAgent.match(/iPhone|iPad|iPod/i); },
-	Opera: function () { return navigator.userAgent.match(/Opera Mini/i); },
-	Windows: function () { return navigator.userAgent.match(/IEMobile/i); },
-	any: function () { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); }
-};
-
-let body = document.querySelector('body');
-if (isMobile.any()) {
-
-	body.classList.add('touch');
-	let arrow = document.querySelectorAll('.arrow');
-
-	for (i = 0; i < arrow.length; i++) {
-
-		let thisLink = arrow[i].previousElementSibling;
-		let subMenu = arrow[i].nextElementSibling;
-		let thisArrow = arrow[i];
-
-		thisLink.classList.add('parent');
-		arrow[i].addEventListener('click', function () {
-
-			subMenu.classList.toggle('open');
-			thisArrow.classList.toggle('active');
-
-		});
+///////////////// PASSWORD-OPEN /////////////////
+function show_hide_password(target){
+	var input = document.getElementById('password-input');
+	if (input.getAttribute('type') == 'password') {
+		target.classList.add('view');
+		input.setAttribute('type', 'text');
+	} else {
+		target.classList.remove('view');
+		input.setAttribute('type', 'password');
 	}
-
-} else {
-	body.classList.add('mouse');
+	return false;
 }
