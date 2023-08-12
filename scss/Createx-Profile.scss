@@ -7,6 +7,23 @@
         margin: 3.5rem 0px 11.25rem 0px;
     }
 
+    /* BREAD-CRUMB */
+    .account-menu__bread-crumb {
+        display: flex;
+    }
+
+    .bread-crumb__icon {
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    .bread-crumb__text {
+        @include text-14px;
+        opacity: 1;
+    }
+
     /* ACCOUNT-MENU */
     .section-profile__account-menu {
         display: flex;
