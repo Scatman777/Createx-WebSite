@@ -2466,11 +2466,11 @@ svg {
     border: 1px solid #D7DADD;
     border-radius: 4px; }
 
-.block-input__open-password {
+.password {
   display: flex;
   justify-content: end;
   align-items: center; }
-  .block-input__open-password svg {
+  .password svg {
     position: absolute;
     margin-right: 16px; }
 
