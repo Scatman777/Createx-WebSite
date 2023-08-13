@@ -92,10 +92,18 @@ body {
 
 .body-up__lang-menu {
     display: flex;
-    align-items: center;
-    height: 21px;
+    cursor: pointer;
 }
 
+.body-up__column-usa {
+    display: flex;
+    align-items: center;
+}
+
+.body-up__column-rus {
+    display: none;
+    align-items: center;
+}
 
 .body-up__icon-lang {
     margin-right: 0.75rem;
@@ -1468,3 +1476,4 @@ svg {
 @include login-popap;
 @include register-popap;
 @include Section-ProfileStyle;
+@include menu-lang;

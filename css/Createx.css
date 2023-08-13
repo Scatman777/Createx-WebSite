@@ -149,8 +149,15 @@ body {
 
 .body-up__lang-menu {
   display: flex;
-  align-items: center;
-  height: 21px; }
+  cursor: pointer; }
+
+.body-up__column-usa {
+  display: flex;
+  align-items: center; }
+
+.body-up__column-rus {
+  display: none;
+  align-items: center; }
 
 .body-up__icon-lang {
   margin-right: 0.75rem; }
@@ -2849,5 +2856,87 @@ svg {
 .bread-crumb__text::before {
   background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
   padding: 0px 8px; }
+
+.menu a {
+  text-decoration: none; }
+
+.menu li {
+  position: relative;
+  list-style: none; }
+
+.menu__list {
+  display: flex; }
+
+.menu__link {
+  color: #fff; }
+
+.sub-menu__list {
+  display: none;
+  min-width: 300px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  padding: 20px 0px 0px 0px; }
+
+.sub-menu__list > li {
+  background-color: #fff; }
+
+.sub-menu__link {
+  color: #000;
+  display: inline-block;
+  padding: 5px 10px; }
+
+.arrow {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent; }
+
+.arrow.active {
+  transform: rotate(-180deg); }
+
+.sub-menu__arrow.arrow {
+  right: 10px;
+  border-left: 10px solid #000;
+  border-right: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; }
+
+body.mouse .menu__list > li:hover .sub-menu__list {
+  display: block; }
+
+body.touch .sub-menu__list.open {
+  display: block; }
+
+body.touch .arrow {
+  display: block; }
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 15px; }
+
+  .menu__list {
+    display: block; }
+
+  .menu__list > li {
+    margin: 0px 0px 10px 0px; }
+
+  .sub-menu__list {
+    position: relative;
+    left: 0;
+    top: 0; }
+
+  .sub-menu__arrow.arrow {
+    right: 10px;
+    top: 15px;
+    border-bottom: none;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #000;
+    border-right: 10px solid transparent; } }
 
 /*# sourceMappingURL=Createx.css.map */
