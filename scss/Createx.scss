@@ -786,13 +786,19 @@ svg {
     width: 390px;
     height: 100%;
     transition: all 0.5s;
+
     &:hover {
         transition: all 0.5s;
         border-radius: 0.25rem;
         background: $white;
         box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.10), 0px 80px 80px -20px rgba(154, 156, 165, 0.16);
     }
+
     &:hover .section-discount__buy-body {
+        transition: all 0.5s;
+        opacity: 1;
+    }
+    &:hover .section-discount__arrow-column {
         transition: all 0.5s;
         opacity: 1;
     }
@@ -809,6 +815,7 @@ svg {
     gap: 310px;
     justify-content: space-between;
     transform: translateY(-245px);
+    opacity: 0;
 }
 
 .section-discount__arrow {

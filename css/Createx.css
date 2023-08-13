@@ -947,6 +947,9 @@ svg {
   .section-discount__item:hover .section-discount__buy-body {
     transition: all 0.5s;
     opacity: 1; }
+  .section-discount__item:hover .section-discount__arrow-column {
+    transition: all 0.5s;
+    opacity: 1; }
 
 .section-discount__img-column {
   position: relative;
@@ -957,7 +960,8 @@ svg {
   position: absolute;
   gap: 310px;
   justify-content: space-between;
-  transform: translateY(-245px); }
+  transform: translateY(-245px);
+  opacity: 0; }
 
 .section-discount__arrow img {
   width: 24px;
