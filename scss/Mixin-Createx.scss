@@ -1052,7 +1052,7 @@
         gap: 12px;
         background-color: white;
         border-radius: 4px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .sub-menu-lang__link {
@@ -1105,30 +1105,5 @@
     }
     body.touch .arrow {
         display: block;
-    }
-
-    @media (max-width:767px){
-        .wrapper{
-            padding: 15px;
-        }
-        .menu-lang__list {
-            display: block;
-        }
-        .menu-lang__list>li{
-            margin: 0px 0px 10px 0px;
-        }
-        .sub-menu-lang__list{
-            position: relative;
-            left: 0;
-            top: 0;
-        }
-        .sub-menu-lang__arrow.arrow {
-            right: 10px;
-            top: 15px;
-            border-bottom: none;
-            border-left: 10px solid transparent;
-            border-top: 10px solid #000;
-            border-right: 10px solid transparent;
-        }
     }
 }

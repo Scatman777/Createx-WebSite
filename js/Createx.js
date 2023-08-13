@@ -96,5 +96,5 @@ if(isMobile.any()){
 		});
 	}
 }else{
-	body.classList.add('mouse');
+	body.classList.add('touch');
 }
