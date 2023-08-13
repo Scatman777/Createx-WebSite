@@ -2827,7 +2827,7 @@ svg {
   color: #424551; }
 
 /* BREAD-CRUMB */
-.section-profile__bread-crumb {
+.bread-crumb {
   display: flex;
   margin: 1rem 0px; }
 
@@ -2845,7 +2845,7 @@ svg {
   color: #424551;
   opacity: 1; }
 
-.section-profile__bread-crumb .bread-crumb__text + .bread-crumb__text::before {
+.bread-crumb__text::before {
   background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
   padding: 0px 8px; }
 
