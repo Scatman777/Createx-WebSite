@@ -149,13 +149,11 @@ body {
 
 .body-up__lang-menu {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  height: 21px; }
 
-.body-up__logo-lang {
+.body-up__icon-lang {
   margin-right: 0.75rem; }
-  .body-up__logo-lang img {
-    width: 20px;
-    height: 12px; }
 
 .body-up__text {
   font-family: "Lato";
@@ -165,10 +163,6 @@ body {
   color: #FFF;
   opacity: 0.6000000238418579;
   margin-right: 0.4rem; }
-
-.body-up__vector img {
-  width: 12px;
-  height: 12px; }
 
 .body-up__account {
   display: flex;
