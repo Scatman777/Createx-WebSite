@@ -2022,33 +2022,6 @@ svg {
   .body-up__register-burger a {
     color: white; }
 
-.body-up__lang-menu-burger {
-  display: flex;
-  align-items: center; }
-
-.body-up__logo-lang-burger {
-  margin-right: 0.75rem; }
-  .body-up__logo-lang-burger img {
-    width: 50px;
-    height: 30px; }
-
-.body-up__text-burger {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  color: #424551;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #FFF;
-  margin-right: 0.4rem; }
-
-.body-up__vector-burger img {
-  width: 12px;
-  height: 12px; }
-
 /* BODY-MIDDLE__BURGER */
 .body-middle__icon-menu-burger {
   display: none;
@@ -2077,7 +2050,7 @@ svg {
 
   .body-middle__list {
     display: none; } }
-@media (max-width: 610px) {
+@media (max-width: 680px) {
   .header-up {
     position: fixed; }
 
@@ -2087,7 +2060,7 @@ svg {
   .body-up__item a {
     font-size: 16px; }
 
-  .body-up__lang-menu {
+  .body-up__menu-lang {
     display: none; } }
 @media (max-width: 1070px) {
   .body-middle__input input {
@@ -2101,7 +2074,7 @@ svg {
 
   .body-middle__block-input {
     gap: 2rem; } }
-@media (max-width: 610px) {
+@media (max-width: 680px) {
   .header-middle__body-middle {
     flex-direction: column;
     gap: 2rem; }
@@ -2857,7 +2830,10 @@ svg {
   background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
   padding: 0px 8px; }
 
-.menu a {
+.body-up__menu-lang {
+  width: 100px; }
+
+.menu-lang a {
   text-decoration: none; }
 
 .menu-lang li {

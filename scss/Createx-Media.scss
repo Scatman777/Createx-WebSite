@@ -23,7 +23,7 @@
         }
     }
     
-    @media (max-width: 610px) {
+    @media (max-width: 680px) {
         .header-up {
             position: fixed;
         }
@@ -36,7 +36,7 @@
             font-size: 16px;
         }
 
-        .body-up__lang-menu {
+        .body-up__menu-lang {
             display: none;
         }
     }
@@ -62,7 +62,7 @@
         }
     }
 
-    @media (max-width: 610px) {
+    @media (max-width: 680px) {
         .header-middle__body-middle {
             flex-direction: column;
             gap: 2rem;
