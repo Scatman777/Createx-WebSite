@@ -2829,7 +2829,7 @@ svg {
 /* BREAD-CRUMB */
 .section-profile__bread-crumb {
   display: flex;
-  position: absolute; }
+  margin: 1rem 0px; }
 
 .bread-crumb__icon img {
   width: 20px;
@@ -2844,7 +2844,9 @@ svg {
   opacity: 0.6000000238418579;
   color: #424551;
   opacity: 1; }
-  .bread-crumb__text::before {
-    background: url("/img/Right-chevron.svg") no-repeat #9A9CA5; }
+
+.section-profile__bread-crumb .bread-crumb__text + .bread-crumb__text::before {
+  background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
+  padding: 0px 8px; }
 
 /*# sourceMappingURL=Createx.css.map */
