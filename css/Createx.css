@@ -2860,17 +2860,18 @@ svg {
 .menu a {
   text-decoration: none; }
 
-.menu li {
+.menu-lang li {
   position: relative;
   list-style: none; }
 
-.menu__list {
+.menu-lang__list {
   display: flex; }
 
-.menu__link {
+.menu-lang__link {
+  margin-left: 12px;
   color: #fff; }
 
-.sub-menu__list {
+.sub-menu-lang__list {
   display: none;
   min-width: 300px;
   position: absolute;
@@ -2878,10 +2879,10 @@ svg {
   top: 20px;
   padding: 20px 0px 0px 0px; }
 
-.sub-menu__list > li {
+.sub-menu-lang__list > li {
   background-color: #fff; }
 
-.sub-menu__link {
+.sub-menu-lang__link {
   color: #000;
   display: inline-block;
   padding: 5px 10px; }
@@ -2889,28 +2890,28 @@ svg {
 .arrow {
   display: none;
   position: absolute;
-  right: 0;
-  top: 12px;
+  right: -23px;
+  top: 4px;
   width: 0;
   height: 0;
-  border-top: 10px solid #fff;
-  border-right: 10px solid transparent;
-  border-left: 10px solid transparent; }
+  border-top: 7px solid #fff;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent; }
 
 .arrow.active {
   transform: rotate(-180deg); }
 
-.sub-menu__arrow.arrow {
+.sub-menu-lang__arrow.arrow {
   right: 10px;
   border-left: 10px solid #000;
   border-right: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; }
 
-body.mouse .menu__list > li:hover .sub-menu__list {
+body.mouse .menu-lang__list > li:hover .sub-menu-lang__list {
   display: block; }
 
-body.touch .sub-menu__list.open {
+body.touch .sub-menu-lang__list.open {
   display: block; }
 
 body.touch .arrow {
@@ -2920,18 +2921,18 @@ body.touch .arrow {
   .wrapper {
     padding: 15px; }
 
-  .menu__list {
+  .menu-lang__list {
     display: block; }
 
-  .menu__list > li {
+  .menu-lang__list > li {
     margin: 0px 0px 10px 0px; }
 
-  .sub-menu__list {
+  .sub-menu-lang__list {
     position: relative;
     left: 0;
     top: 0; }
 
-  .sub-menu__arrow.arrow {
+  .sub-menu-lang__arrow.arrow {
     right: 10px;
     top: 15px;
     border-bottom: none;
