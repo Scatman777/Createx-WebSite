@@ -1017,7 +1017,9 @@
 }
 
 @mixin menu-lang {
-    .body-up__menu-lang {}
+    .body-up__menu-lang {
+    }
+
     .menu a{
         text-decoration: none;
     }
@@ -1038,21 +1040,24 @@
 
     .sub-menu-lang__list {
         display: none;
-        min-width: 300px;
+        min-width: 130px;
         position: absolute;
         left: 0;
-        top: 20px;
-        padding: 20px 0px 0px 0px;
+        top: 25px;
+        padding: 15px;
     }
 
     .sub-menu-lang__list>li{
-        background-color: #fff;
+        display: flex;
+        gap: 12px;
+        background-color: white;
+        border-radius: 4px;
+        padding: 5px;
     }
 
     .sub-menu-lang__link {
-        color: #000;
+        color: #6e6e6e;
         display: inline-block;
-        padding: 5px 10px;
     }
 
     .arrow {
@@ -1082,11 +1087,21 @@
     .menu-lang__arrow {}
 
     body.mouse .menu-lang__list>li:hover .sub-menu-lang__list {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: $gray-800;
+        border-radius: 4px;
+        box-shadow: 8px 4px 5px 5px #06060691;
     }
 
     body.touch .sub-menu-lang__list.open{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: $gray-800;
+        border-radius: 4px;
+        box-shadow: 8px 4px 5px 5px #06060691;
     }
     body.touch .arrow {
         display: block;

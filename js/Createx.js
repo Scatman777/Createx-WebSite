@@ -71,6 +71,7 @@ function show_hide_password(target){
 	return false;
 }
 
+///////////////// MENU-LANG /////////////////
 let isMobile = {
 	Android: function() {return navigator.userAgent.match(/Android/i);},
 	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
