@@ -2828,8 +2828,11 @@ svg {
 
 /* BREAD-CRUMB */
 .bread-crumb {
+  background-color: #E5E8ED; }
+
+.bread-crumb__body {
   display: flex;
-  margin: 1rem 0px; }
+  padding: 1rem 0px; }
 
 .bread-crumb__icon img {
   width: 20px;
