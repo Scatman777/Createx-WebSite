@@ -2100,6 +2100,9 @@ svg {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; }
 
+body.touch .burger-lang__arrow {
+  top: 11px; }
+
 body.mouse .burger-lang__list > li:hover .sub-burger-lang__list {
   display: flex;
   flex-direction: column;
@@ -2118,8 +2121,7 @@ body.touch .sub-burger-lang__list.open {
   box-shadow: 8px 4px 5px 5px #06060691; }
 
 body.touch .arrow {
-  display: block;
-  top: 11px; }
+  display: block; }
 
 @media (max-width: 930px) {
   .header__body-up {
