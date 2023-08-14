@@ -2039,7 +2039,7 @@ svg {
 
 /* BURGER-LANG__MENU */
 .burger-lang {
-  width: 100px; }
+  width: 110px; }
 
 .burger-lang a {
   text-decoration: none; }
@@ -2083,7 +2083,7 @@ svg {
   display: none;
   position: absolute;
   right: -23px;
-  top: 11px;
+  top: 4px;
   width: 0;
   height: 0;
   border-top: 7px solid #fff;
@@ -2118,7 +2118,8 @@ body.touch .sub-burger-lang__list.open {
   box-shadow: 8px 4px 5px 5px #06060691; }
 
 body.touch .arrow {
-  display: block; }
+  display: block;
+  top: 11px; }
 
 @media (max-width: 930px) {
   .header__body-up {
