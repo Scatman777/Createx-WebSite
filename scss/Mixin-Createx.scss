@@ -1016,6 +1016,7 @@
     }
 }
 
+//////////////////// MENU-LANG ////////////////////
 @mixin menu-lang {
     .body-up__menu-lang {
         width: 100px;
@@ -1111,6 +1112,7 @@
     }
 }
 
+//////////////////// BURGER-LANG ////////////////////
 @mixin burger-lang {
     .burger-lang {
         width: 100px;
@@ -1130,11 +1132,11 @@
     }
 
     .burger-lang__link {
-        margin-left: 12px;
-        color: #fff;
+        @include text-16px;
+        color: $white;
     }
 
-    .burger-lang__list {
+    .sub-burger-lang__list {
         display: none;
         min-width: 130px;
         position: absolute;
@@ -1146,15 +1148,12 @@
     .burger-lang__list>li{
         display: flex;
         gap: 12px;
-        background-color: white;
-        border-radius: 4px;
-        padding: 10px;
     }
 
-    .burger-lang__link {
-        color: #6e6e6e;
-        display: inline-block;
-    }
+    .sub-burger-lang__link {
+        @include text-16px;
+        color: $white;
+    } 
 
     .arrow {
         display: none;
