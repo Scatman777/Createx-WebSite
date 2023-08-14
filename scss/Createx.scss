@@ -1473,8 +1473,7 @@ svg {
 @include burger;
 @include media-all;
 @include sub-menu-woomen;
+@include menu-lang;
 @include login-popap;
 @include register-popap;
 @include Section-ProfileStyle;
-@include menu-lang;
-@include burger-lang;
