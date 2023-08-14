@@ -1971,12 +1971,12 @@ svg {
   transform: translate(0px, 5px);
   background: #17696A;
   border-radius: 0px 0px 0px 40px;
-  padding: 5px 0px 11px 0px; }
+  padding: 12px 0px 12px 0px; }
 
 @media screen and (max-width: 930px) {
   #menuToggle {
     display: block; } }
-@media (max-width: 610px) {
+@media (max-width: 680px) {
   .menu {
     height: 350px;
     border-radius: 0px 0px 0px 45px; }
@@ -2000,11 +2000,12 @@ svg {
 
 .body-up__login-burger {
   font-family: "Lato";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #FFF;
-  opacity: 0.6000000238418579; }
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-size: 20px;
+  line-height: 150%; }
   .body-up__login-burger a {
     color: orange; }
     .body-up__login-burger a::after {
@@ -2013,11 +2014,12 @@ svg {
 
 .body-up__register-burger {
   font-family: "Lato";
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-size: 20px;
   line-height: 150%;
-  color: #FFF;
-  opacity: 0.6000000238418579;
   opacity: 1; }
   .body-up__register-burger a {
     color: white; }
