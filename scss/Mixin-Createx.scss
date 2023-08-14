@@ -1141,7 +1141,7 @@
         min-width: 130px;
         position: absolute;
         left: 0;
-        top: 25px;
+        top: 36px;
         padding: 15px;
     }
 
@@ -1159,7 +1159,7 @@
         display: none;
         position: absolute;
         right: -23px;
-        top: 4px;
+        top: 11px;
         width: 0;
         height: 0;
         border-top: 7px solid #fff;
@@ -1194,6 +1194,7 @@
     body.touch .sub-burger-lang__list.open{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         gap: 15px;
         background: $gray-800;
         border-radius: 4px;
