@@ -1946,7 +1946,7 @@ svg {
   transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   border-radius: 0px 0px 0px 35px; }
 
-.body-up__burger-item a {
+.burger__block-up a {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -1956,7 +1956,7 @@ svg {
   line-height: 150%;
   color: #ffffffc2; }
 
-.body-up__burger-item {
+.burger__block-up {
   border-bottom: 1px solid #18888a;
   padding: 7px 20px 13px 0px; }
 
@@ -1965,7 +1965,7 @@ svg {
   transform: none;
   opacity: 1; }
 
-.burger__menu-down {
+.burger__block-down {
   display: none;
   justify-content: space-evenly;
   transform: translate(0px, 5px);
@@ -1981,10 +1981,10 @@ svg {
     height: 350px;
     border-radius: 0px 0px 0px 45px; }
 
-  .burger__menu-down {
+  .burger__block-down {
     display: flex; } }
 /* BODY-UP__BURGER */
-.body-up__account-burger {
+.burger__block-up {
   display: flex;
   align-items: center;
   transform: translate(0px, -20px);
@@ -1992,13 +1992,13 @@ svg {
   padding: 10px;
   width: 285px; }
 
-.body-up__logo-account-burger {
+.burger__logo {
   margin-right: 0.5rem; }
-  .body-up__logo-account-burger img {
+  .burger__logo img {
     width: 30px;
     height: 30px; }
 
-.body-up__login-burger {
+.burger__login {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -2006,13 +2006,13 @@ svg {
   color: #424551;
   font-size: 20px;
   line-height: 150%; }
-  .body-up__login-burger a {
+  .burger__login a {
     color: orange; }
-    .body-up__login-burger a::after {
+    .burger__login a::after {
       content: "/";
       padding: 0px 3px; }
 
-.body-up__register-burger {
+.burger__register {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -2021,7 +2021,7 @@ svg {
   font-size: 20px;
   line-height: 150%;
   opacity: 1; }
-  .body-up__register-burger a {
+  .burger__register a {
     color: white; }
 
 /* BODY-MIDDLE__BURGER */

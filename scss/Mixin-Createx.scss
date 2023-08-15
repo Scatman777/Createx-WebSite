@@ -505,12 +505,12 @@
         border-radius: 0px 0px 0px 35px;
     }
 
-    .body-up__burger-item a {
+    .burger__block-up a {
         @include h4;
         color: #ffffffc2;
     }
 
-    .body-up__burger-item {
+    .burger__block-up {
         border-bottom: 1px solid #18888a;
         padding: 7px 20px 13px 0px;
     }
@@ -521,7 +521,7 @@
         opacity: 1;
     }
 
-    .burger__menu-down {
+    .burger__block-down {
         display: none;
         justify-content: space-evenly;
         transform: translate(0px, 5px);
@@ -542,13 +542,13 @@
             border-radius: 0px 0px 0px 45px;
         }
         
-        .burger__menu-down {
+        .burger__block-down {
             display: flex;
         }
     }
 
 /* BODY-UP__BURGER */
-    .body-up__account-burger {
+    .burger__block-up {
         display: flex;
         align-items: center;
         transform: translate(0px, -20px);
@@ -557,7 +557,7 @@
         width: 285px;
     }
     
-    .body-up__logo-account-burger {
+    .burger__logo {
         img {
             width: 30px;
             height: 30px;
@@ -566,7 +566,7 @@
         margin-right: 0.5rem;
     }
     
-    .body-up__login-burger {
+    .burger__login {
         @include h4;
         a {
             color: orange;
@@ -577,40 +577,13 @@
         }
     }
     
-    .body-up__register-burger {
+    .burger__register {
         @include h4;
         opacity: 1;
         a {
             color: white;
         }
     }
-
-    // .body-up__lang-menu-burger {
-    //     display: flex;
-    //     align-items: center;
-    // }
-    
-    // .body-up__logo-lang-burger {
-    //     img {
-    //         width: 50px;
-    //         height: 30px;
-    //     }
-    
-    //     margin-right: 0.75rem;
-    // }
-    
-    // .body-up__text-burger {
-    //     @include text-18px;
-    //     color: $white;
-    //     margin-right: 0.4rem;
-    // }
-    
-    // .body-up__vector-burger {
-    //     img {
-    //         width: 12px;
-    //         height: 12px;
-    //     }
-    // }
 
 /* BODY-MIDDLE__BURGER */
     .body-middle__icon-menu-burger {
