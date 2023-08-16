@@ -491,6 +491,12 @@
     transform: rotate(-45deg) translate(0, -1px);
     }
 
+    #menuToggle input:checked ~ ul {
+        text-align: end;
+        transform: none;
+        opacity: 1;
+    }
+
     .burger {
         position: absolute;
         width: 280px;
@@ -505,49 +511,7 @@
         border-radius: 0px 0px 0px 35px;
     }
 
-    .burger__block-up a {
-        @include h4;
-        color: #ffffffc2;
-    }
-
-    .burger__item {
-        border-bottom: 1px solid #18888a;
-        padding: 7px 20px 13px 0px;
-    }
-
-    #menuToggle input:checked ~ ul {
-        text-align: end;
-        transform: none;
-        opacity: 1;
-    }
-
-    .burger__block-down {
-        display: none;
-        justify-content: space-evenly;
-        transform: translate(0px, 5px);
-        background: $green;
-        border-radius: 0px 0px 0px 40px;
-        padding: 12px 0px 12px 0px;
-    }
-
-    @media screen and (max-width: 930px) {
-        #menuToggle {
-            display: block;
-        }
-    }
-
-    @media (max-width: 680px) {
-        .burger {
-            height: 350px;
-            border-radius: 0px 0px 0px 45px;
-        }
-        
-        .burger__block-down {
-            display: flex;
-        }
-    }
-
-/* BODY-UP__BURGER */
+/* BURGER__BLOCK-UP */
     .burger__block-up {
         display: flex;
         align-items: center;
@@ -586,8 +550,17 @@
     }
 
 /* BURGER__BLOCK-DOWN */
-    .burger__icon-menu {
+    .burger__block-down {
         display: none;
+        justify-content: space-evenly;
+        transform: translate(0px, 5px);
+        background: $green;
+        border-radius: 0px 0px 0px 40px;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .burger__icon-menu {
+        display: flex;
         align-items: center;
     }
     
@@ -695,6 +668,24 @@
 
     body.touch .arrow {
         display: block;
+    }
+
+/* BURGER-MEDIA */
+    @media screen and (max-width: 930px) {
+        #menuToggle {
+            display: block;
+        }
+    }
+
+    @media (max-width: 680px) {
+        .burger {
+            height: 350px;
+            border-radius: 0px 0px 0px 45px;
+        }
+        
+        .burger__block-down {
+            display: flex;
+        }
     }
 }
 

@@ -1933,6 +1933,11 @@ svg {
   opacity: 1;
   transform: rotate(-45deg) translate(0, -1px); }
 
+#menuToggle input:checked ~ ul {
+  text-align: end;
+  transform: none;
+  opacity: 1; }
+
 .burger {
   position: absolute;
   width: 280px;
@@ -1946,44 +1951,7 @@ svg {
   transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   border-radius: 0px 0px 0px 35px; }
 
-.burger__block-up a {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  font-size: 20px;
-  line-height: 150%;
-  color: #ffffffc2; }
-
-.burger__item {
-  border-bottom: 1px solid #18888a;
-  padding: 7px 20px 13px 0px; }
-
-#menuToggle input:checked ~ ul {
-  text-align: end;
-  transform: none;
-  opacity: 1; }
-
-.burger__block-down {
-  display: none;
-  justify-content: space-evenly;
-  transform: translate(0px, 5px);
-  background: #17696A;
-  border-radius: 0px 0px 0px 40px;
-  padding: 12px 0px 12px 0px; }
-
-@media screen and (max-width: 930px) {
-  #menuToggle {
-    display: block; } }
-@media (max-width: 680px) {
-  .burger {
-    height: 350px;
-    border-radius: 0px 0px 0px 45px; }
-
-  .burger__block-down {
-    display: flex; } }
-/* BODY-UP__BURGER */
+/* BURGER__BLOCK-UP */
 .burger__block-up {
   display: flex;
   align-items: center;
@@ -2025,8 +1993,16 @@ svg {
     color: white; }
 
 /* BURGER__BLOCK-DOWN */
-.burger__icon-menu {
+.burger__block-down {
   display: none;
+  justify-content: space-evenly;
+  transform: translate(0px, 5px);
+  background: #17696A;
+  border-radius: 0px 0px 0px 40px;
+  padding: 12px 0px 12px 0px; }
+
+.burger__icon-menu {
+  display: flex;
   align-items: center; }
 
 .burger__icon:not(:last-child)::after {
@@ -2123,6 +2099,17 @@ body.touch .sub-burger-lang__list.open {
 body.touch .arrow {
   display: block; }
 
+/* BURGER-MEDIA */
+@media screen and (max-width: 930px) {
+  #menuToggle {
+    display: block; } }
+@media (max-width: 680px) {
+  .burger {
+    height: 350px;
+    border-radius: 0px 0px 0px 45px; }
+
+  .burger__block-down {
+    display: flex; } }
 @media (max-width: 930px) {
   .header__body-up {
     justify-content: space-around; }
