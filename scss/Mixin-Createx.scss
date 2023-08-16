@@ -585,13 +585,13 @@
         }
     }
 
-/* BODY-MIDDLE__BURGER */
-    .body-middle__icon-menu-burger {
+/* BURGER__BLOCK-DOWN */
+    .burger__icon-menu {
         display: none;
         align-items: center;
     }
     
-    .body-middle__icon-burger {
+    .burger__icon {
         &:not(:last-child)::after {
             content: url("/img/divider-bar.svg");
             padding: 0px 20px;

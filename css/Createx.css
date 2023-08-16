@@ -2024,15 +2024,15 @@ svg {
   .burger__register a {
     color: white; }
 
-/* BODY-MIDDLE__BURGER */
-.body-middle__icon-menu-burger {
+/* BURGER__BLOCK-DOWN */
+.burger__icon-menu {
   display: none;
   align-items: center; }
 
-.body-middle__icon-burger:not(:last-child)::after {
+.burger__icon:not(:last-child)::after {
   content: url("/img/divider-bar.svg");
   padding: 0px 20px; }
-.body-middle__icon-burger img {
+.burger__icon img {
   width: 20px;
   height: 20px;
   filter: brightness(5); }
