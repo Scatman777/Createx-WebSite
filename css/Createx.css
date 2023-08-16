@@ -1956,7 +1956,7 @@ svg {
   line-height: 150%;
   color: #ffffffc2; }
 
-.burger__block-up {
+.burger__item {
   border-bottom: 1px solid #18888a;
   padding: 7px 20px 13px 0px; }
 
@@ -1977,7 +1977,7 @@ svg {
   #menuToggle {
     display: block; } }
 @media (max-width: 680px) {
-  .menu {
+  .burger {
     height: 350px;
     border-radius: 0px 0px 0px 45px; }
 
