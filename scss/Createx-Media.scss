@@ -325,4 +325,21 @@
             padding-right: 0px;
         }
     }
+
+//////////// MEDIA__SECTION-SUBSCRIBE ////////////
+    @media (max-width: 1250px) {
+        .block-blog__block-column {
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .section-subscribe__block-logo {
+            img {
+                width: 361px;
+                height: 316px;
+            }
+        }
+    }
 }

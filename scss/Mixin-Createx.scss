@@ -549,6 +549,23 @@
         }
     }
 
+/* BURGER__LIST */
+    .burger__list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .burger__item {
+        border-bottom: 1px solid #18888a;
+        padding: 0px 20px 10px 0px;
+    }
+
+    .burger__item a {
+        @include h4;
+        color: #ffffffc2;
+    }
+
 /* BURGER__BLOCK-DOWN */
     .burger__block-down {
         display: none;
@@ -680,7 +697,7 @@
     @media (max-width: 680px) {
         .burger {
             height: 350px;
-            border-radius: 0px 0px 0px 45px;
+            border-radius: 0px 0px 0px 35px;
         }
         
         .burger__block-down {
