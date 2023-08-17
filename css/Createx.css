@@ -2356,8 +2356,17 @@ body.touch .arrow {
   .section-subscribe__body {
     justify-content: center; } }
 @media (max-width: 540px) {
+  .section-subscribe__block {
+    gap: 4rem; }
+
   .section-subscribe__column {
-    align-items: center; } }
+    align-items: center; }
+
+  .section-subscribe__column-input {
+    align-items: center; }
+
+  .section-subscribe__input {
+    flex-direction: column; } }
 .body-middle__sub-list {
   display: none;
   justify-content: center;

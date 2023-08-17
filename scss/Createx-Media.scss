@@ -350,8 +350,20 @@
     }
 
     @media (max-width: 540px) {
+        .section-subscribe__block {
+            gap: 4rem;
+        }
+
         .section-subscribe__column {
             align-items: center;
+        }
+
+        .section-subscribe__column-input {
+            align-items: center;
+        }
+
+        .section-subscribe__input {
+            flex-direction: column;
         }
     }
 }
