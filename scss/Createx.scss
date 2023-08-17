@@ -1227,6 +1227,7 @@ svg {
 
 .section-info__img-company {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     img {
         width: 120px;
@@ -1242,6 +1243,7 @@ svg {
 
 .section-subscribe__body {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -1295,7 +1297,8 @@ svg {
     margin-bottom: 12px;
     input {
         color: $gray-600;
-        padding: 13px 190px 13px 16px;
+        padding: 13px 16px;
+        width: 336px;
     }
 }
 

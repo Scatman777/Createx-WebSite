@@ -342,4 +342,16 @@
             }
         }
     }
+
+    @media (max-width: 885px) {
+        .section-subscribe__body {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 540px) {
+        .section-subscribe__column {
+            align-items: center;
+        }
+    }
 }

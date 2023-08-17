@@ -1449,17 +1449,20 @@ svg {
 
 .section-info__img-company {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
   .section-info__img-company img {
     width: 120px;
     height: 65px;
-    object-fit: contain; }
+    object-fit: contain;
+    margin: 0px 10px; }
 
 .section-subscribe {
   background: #E5E8ED; }
 
 .section-subscribe__body {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; }
 
@@ -1532,7 +1535,8 @@ svg {
   margin-bottom: 12px; }
   .section-subscribe__input input {
     color: #9A9CA5;
-    padding: 13px 190px 13px 16px; }
+    padding: 13px 16px;
+    width: 336px; }
 
 .section-subscribe__input-text {
   font-family: "Lato";
@@ -2344,6 +2348,12 @@ body.touch .arrow {
   .section-subscribe__block-logo img {
     width: 361px;
     height: 316px; } }
+@media (max-width: 885px) {
+  .section-subscribe__body {
+    justify-content: center; } }
+@media (max-width: 540px) {
+  .section-subscribe__column {
+    align-items: center; } }
 .body-middle__sub-list {
   display: none;
   justify-content: center;
