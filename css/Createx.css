@@ -1457,9 +1457,6 @@ svg {
     object-fit: contain;
     margin: 0px 10px; }
 
-.section-subscribe {
-  background: #E5E8ED; }
-
 .section-subscribe__body {
   display: flex;
   flex-wrap: wrap;
@@ -1506,22 +1503,26 @@ svg {
   align-items: center;
   gap: 8px;
   transition: all 0.5s;
-  padding: 5.5px 16px;
+  padding: 4.5px 16px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
   background: none;
   border: 1px solid #D7DADD;
-  padding: 5.5px 16px; }
+  padding: 4.5px 16px; }
   .section-subscribe__button span {
     font-family: "Lato";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 160%;
-    color: #424551;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 150%;
+    color: #FFF;
+    opacity: 0.6000000238418579;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing: 0.5px;
-    color: #787A80; }
+    color: #787A80;
+    opacity: 1; }
   .section-subscribe__button a {
+    font-size: 14px;
     line-height: 150%;
     color: #787A80; }
 

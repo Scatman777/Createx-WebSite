@@ -1238,7 +1238,6 @@ svg {
 }
 
 .section-subscribe {
-    background: $gray-300;
 }
 
 .section-subscribe__body {
@@ -1279,8 +1278,9 @@ svg {
 .section-subscribe__button {
     @include button-green-span;
     border: 1px solid $gray-400;
-    padding: 5.5px 16px;
+    padding: 4.5px 16px;
     a {
+        font-size: 14px;
         line-height: 150%;
         color: $gray-700;
     }
