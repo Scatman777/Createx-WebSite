@@ -1364,11 +1364,15 @@ svg {
 
 .footer__block-up {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2.5rem;
 }
 
 .footer__column {
+    &:not(:last-child) {
+        margin-right: 15px; 
+    }
     &:nth-child(1) {
         max-width: 130px; 
     }
