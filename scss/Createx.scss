@@ -1118,7 +1118,8 @@ svg {
 
 .section-info__img-info {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -1139,6 +1140,7 @@ svg {
 
 .block-blog__column-up {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
