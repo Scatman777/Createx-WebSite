@@ -1295,10 +1295,11 @@ svg {
 .section-subscribe__input {
     display: flex;
     margin-bottom: 12px;
+    border: 1px solid $gray-400;
+    border-radius: 4px;
     input {
-        color: $gray-600;
         padding: 13px 16px;
-        width: 336px;
+        width: 350px;
     }
 }
 
@@ -1310,6 +1311,7 @@ svg {
 
 .section-subscribe__button-input {
     @include button-green-backround;
+    border-radius: 0px 4px 4px 0px;
 }
 
 .section-subscribe__agreement {
