@@ -1532,12 +1532,13 @@ svg {
 
 .section-subscribe__input {
   display: flex;
-  margin-bottom: 12px;
-  border: 1px solid #D7DADD;
-  border-radius: 4px; }
+  margin-bottom: 12px; }
   .section-subscribe__input input {
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
     padding: 13px 16px;
-    width: 350px; }
+    width: 350px;
+    height: 52px; }
 
 .section-subscribe__input-text {
   font-family: "Lato";

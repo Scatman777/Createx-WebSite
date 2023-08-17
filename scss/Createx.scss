@@ -1295,11 +1295,12 @@ svg {
 .section-subscribe__input {
     display: flex;
     margin-bottom: 12px;
-    border: 1px solid $gray-400;
-    border-radius: 4px;
     input {
+        border: 1px solid $gray-400;
+        border-radius: 4px;
         padding: 13px 16px;
         width: 350px;
+        height: 52px;
     }
 }
 
