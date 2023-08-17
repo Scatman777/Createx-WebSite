@@ -331,8 +331,11 @@
 
         .block-blog__img {
             img {
-                width: 95vw;
+                width: 100vw;
                 height: 75vw;
+                &:nth-child(2) {
+                    object-position: -14rem;
+                }
             }
         }
 
@@ -342,6 +345,36 @@
 
         .block-blog__column-data {
             justify-content: center;
+        }
+
+        .column-data__text {
+            font-size: 16px;
+        }
+
+        .column-data__coments {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (max-width: 397px) {
+        .block-blog__img {
+            img {
+                height: 95vw;
+            }
+        }
+
+        .block-blog__title {
+            margin-bottom: 1.75rem;
+        }
+        
+        .block-blog__column-data {
+            margin-bottom: 2rem;
+        }
+
+        .block-blog__column-data {
+            gap: 15px;
         }
     }
 
