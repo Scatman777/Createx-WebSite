@@ -1391,7 +1391,8 @@ svg {
 
 .block-blog__img img {
   width: 600px;
-  height: 306px; }
+  height: 306px;
+  object-fit: cover; }
 
 .block-blog__title {
   font-family: "Lato";
@@ -1406,6 +1407,7 @@ svg {
 
 .block-blog__column-data {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
   margin-bottom: 1rem; }
@@ -2345,10 +2347,17 @@ body.touch .arrow {
 @media (max-width: 450px) {
   .block-blog__column-up {
     justify-content: center;
-    gap: 1rem; }
+    gap: 3rem; }
 
-  .block-blog__title-up {
-    margin-right: 0px; } }
+  .block-blog__img img {
+    width: 95vw;
+    height: 75vw; }
+
+  .block-blog__item {
+    text-align: center; }
+
+  .block-blog__column-data {
+    justify-content: center; } }
 /* MESENGER-INFO */
 @media (max-width: 1171px) {
   .section-info__block-messenger {

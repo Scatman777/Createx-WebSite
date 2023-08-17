@@ -1180,6 +1180,7 @@ svg {
     img {
         width: 600px;
         height: 306px;
+        object-fit: cover
     }
 }
 
@@ -1191,6 +1192,7 @@ svg {
 
 .block-blog__column-data {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 24px;
     margin-bottom: 1rem;

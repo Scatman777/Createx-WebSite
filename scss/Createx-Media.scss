@@ -326,11 +326,22 @@
     @media (max-width: 450px) {
         .block-blog__column-up {
             justify-content: center;
-            gap: 1rem;
+            gap: 3rem;
         }
 
-        .block-blog__title-up {
-            margin-right: 0px;
+        .block-blog__img {
+            img {
+                width: 95vw;
+                height: 75vw;
+            }
+        }
+
+        .block-blog__item {
+            text-align: center;
+        }
+
+        .block-blog__column-data {
+            justify-content: center;
         }
     }
 
