@@ -58,16 +58,18 @@
 }
 
 .input-column-sorting__input-search {
+	border: 1px solid $gray-400;
+	border-radius: 4px;
 	padding: 9px 12px;
 
 	input {
 		width: 255px;
 		height: 36px;
-		&:placeholder-shown {
-			@include text-14px;
-			font-size: 12px;
-			color: $gray-600;
-		}
+		// &:placeholder-shown {
+		// 	@include text-14px;
+		// 	font-size: 12px;
+		// 	color: $gray-600;
+		// }
 	}
 
 	img {
