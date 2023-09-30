@@ -214,6 +214,14 @@
         .section-discount__price-column {
             justify-content: center;
         }
+
+		.section-trend__icon-column {
+			position: relative;
+			justify-content: space-between;
+			align-items: center;
+			top: -47px;
+			padding: 0px 15px;
+		}
     }
 
 //////////// MEDIA__SECTION-MOBILE ////////////
