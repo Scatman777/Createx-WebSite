@@ -1,10 +1,10 @@
 @import "null.scss";
-/* Null-Style */
+// /* Null-Style */
 @import "Mixin-Createx.scss";
-/* Mixin */
+// /* Mixin */
 @import "Createx-Media.scss";
 @import "Createx-Profile.scss";
-@import "Createx-Catalog.scss";
+// @import "Createx-Catalog.scss";
 /* Media */
 
 $white: #FFF;
@@ -1498,4 +1498,4 @@ svg {
 @include login-popap;
 @include register-popap;
 @include Section-ProfileStyle;
-@include input-price;
+// @include input-price;
