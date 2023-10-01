@@ -2870,16 +2870,17 @@ body.touch .arrow {
   .section-trend__cheveron-column {
     justify-content: space-around;
   }
-  .section-trend__item {
+  .section-trend__img img {
     width: 100%;
     height: 100%;
   }
   .section-trend__icon-column {
     position: relative;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     top: -47px;
-    padding: 0px 15px;
+    padding: 0px 20px;
   }
 }
 @media (max-width: 1253px) {
