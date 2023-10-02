@@ -2921,12 +2921,22 @@ body.touch .arrow {
     align-items: center;
     gap: 0px;
     position: relative;
-    top: 0;
+    top: -30px;
     right: 0;
-    bottom: 30px;
   }
   .section-discount__price-column {
     justify-content: center;
+  }
+  .section-discount__buy-block {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .buy-block__size-column {
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  .buy-block__size {
+    padding: 10px;
   }
 }
 @media (max-width: 1070px) {
