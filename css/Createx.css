@@ -2850,6 +2850,7 @@ body.touch .arrow {
     max-width: 100%;
   }
   .body-cloth__item {
+    height: 350px;
     text-align: center;
   }
   .body-cloth__block-icon {
@@ -2859,6 +2860,7 @@ body.touch .arrow {
     gap: 0px;
     position: relative;
     top: 315px;
+    transform: translate(0px);
   }
 }
 @media (max-width: 1253px) {

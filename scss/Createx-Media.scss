@@ -156,6 +156,7 @@
         }
 
         .body-cloth__item {
+			height: 350px;
             text-align: center;
         }
 
@@ -166,6 +167,7 @@
 			gap: 0px;
             position: relative;
     		top: 315px;
+			transform: translate(0px);
         }
     }
 //////////// MEDIA__SECTION-TREND ////////////
