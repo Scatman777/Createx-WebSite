@@ -2927,6 +2927,15 @@ body.touch .arrow {
   .section-discount__price-column {
     justify-content: center;
   }
+  .section-discount__price {
+    font-size: 22px;
+  }
+  .section-discount__price-gray {
+    font-size: 16px;
+  }
+  .section-discount__buy-body {
+    gap: 2rem;
+  }
   .section-discount__buy-block {
     flex-direction: column;
     gap: 20px;
