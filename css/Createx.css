@@ -2849,6 +2849,9 @@ body.touch .arrow {
   .body-cloth__column {
     max-width: 100%;
   }
+  .body-cloth__item {
+    text-align: center;
+  }
   .body-cloth__block-icon {
     flex-direction: row;
     justify-content: space-between;
@@ -2856,9 +2859,6 @@ body.touch .arrow {
     gap: 0px;
     position: relative;
     top: 315px;
-  }
-  .body-cloth__item {
-    text-align: center;
   }
 }
 @media (max-width: 1253px) {

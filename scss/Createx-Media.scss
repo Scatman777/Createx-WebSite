@@ -155,17 +155,17 @@
             max-width: 100%;
         }
 
-        .body-cloth__block-icon {
+        .body-cloth__item {
+            text-align: center;
+        }
+
+		.body-cloth__block-icon {
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
 			gap: 0px;
             position: relative;
     		top: 315px;
-        }
-
-        .body-cloth__item {
-            text-align: center;
         }
     }
 //////////// MEDIA__SECTION-TREND ////////////
