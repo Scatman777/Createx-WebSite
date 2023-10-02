@@ -328,7 +328,7 @@ body {
 .section-new-cloth__body-category {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     gap: 1.88rem;
     margin: 0px 0px 11.25rem 0px;
     transform: translateY(-60px);
@@ -375,12 +375,11 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 1.87rem;
-    margin: 0px 0px 5rem 0px;
+    margin-top: 5rem;
 }
 
 .body-cloth__column {
     max-width: 285px;
-    transform: translateX(-305px);
 }
 
 .body-cloth__item-img {
