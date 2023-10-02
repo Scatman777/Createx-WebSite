@@ -780,7 +780,8 @@ svg {
 }
 
 .section-discount__item {
-    width: 390px;
+	max-width: 390px;
+    width: 100%;
     height: 100%;
     transition: all 0.5s;
 
@@ -836,21 +837,14 @@ svg {
     }
 }
 
-.section-discount__icon-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 200px;
-    position: absolute;
-    top: 28px;
-    right: 10px;
-}
-
 .section-discount__icon-column {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 370px;
+	position: absolute;
+	top: 16px;
+	right: 16px;
 }
 
 .section-discount__icon-star, .section-discount__icon-heart {
@@ -869,11 +863,12 @@ svg {
 }
 
 .section-discount__img {
+	margin-bottom: 1rem;
+	
     img {
-        width: 390px;
-        height: 440px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        margin-bottom: 1.5rem;
     }
 }
 
