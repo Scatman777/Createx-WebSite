@@ -228,7 +228,11 @@
             text-align: center;
         }
 
-        .section-discount__cheveron-column {
+        .section-discount__item {
+            text-align: center;
+        }
+
+		.section-discount__cheveron-column {
             justify-content: space-around;
 		}
 
@@ -239,10 +243,6 @@
 			position: relative;
 			bottom: 30px;
 		}
-
-        .section-discount__item {
-            text-align: center;
-        }
 
         .section-discount__price-column {
             justify-content: center;
