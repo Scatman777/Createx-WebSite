@@ -823,6 +823,9 @@ svg {
 }
 
 .section-discount__discount {
+	position: absolute;
+	top: 16px;
+	left: 16px;
     max-width: 54px;
     background: $red;
     border-radius: 3px;
