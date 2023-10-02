@@ -1161,7 +1161,7 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 370px;
+  gap: 350px;
   position: absolute;
   top: 16px;
   right: 16px;
