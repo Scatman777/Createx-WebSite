@@ -2938,6 +2938,10 @@ body.touch .arrow {
   .buy-block__size {
     padding: 10px;
   }
+  .buy-block__color-column {
+    justify-content: center;
+    gap: 25px;
+  }
 }
 @media (max-width: 1070px) {
   .section-mobile__block-mobile {
