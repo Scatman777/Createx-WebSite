@@ -339,10 +339,11 @@ body {
    flex-direction: column;
    align-items: center;
    gap: 1rem;
+
    img {
-    width: 390px;
-    height: 390px;
-    border-radius: 4px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
    }
 }
 
@@ -390,8 +391,8 @@ body {
 .body-cloth__img {
     padding-bottom: 16px;
     img {
-        width: 285px;
-        height: 320px;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -508,7 +509,7 @@ body {
 
 .section-banner__title {
     @include h3;
-    margin-bottom: 2.5rem; 
+    margin-bottom: 2.5rem;
 }
 
 .section-banner__button {
