@@ -551,7 +551,11 @@
 
 	@media (max-width: 460px) {
 		.section-subscribe__title {
-			font-size: 10vw;
+			font-size: 9vw;
+		}
+
+		.section-subscribe__text {
+			font-size: 4vw;
 		}
 	}
 }
