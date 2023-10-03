@@ -1,0 +1,12 @@
+@media (max-width: 940px) {
+  .footer__block-up {
+    justify-content: space-around;
+    gap: 50px;
+  }
+}
+@media (max-width: 460px) {
+  .footer__column {
+    text-align: center;
+    margin: 0;
+  }
+}
