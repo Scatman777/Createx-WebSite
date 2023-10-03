@@ -575,6 +575,9 @@
 @media (max-width: 460px) {
 	.footer__column {
 		text-align: center;
-		margin: 0;
+
+		&:not(:last-child) {
+			margin-right: 0px;
+		}
 	}
 }

@@ -94,7 +94,9 @@ h6 {
 @media (max-width: 460px) {
   .footer__column {
     text-align: center;
-    margin: 0;
+  }
+  .footer__column:not(:last-child) {
+    margin-right: 0px;
   }
 }
 /* Media */
