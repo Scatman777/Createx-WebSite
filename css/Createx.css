@@ -1768,6 +1768,7 @@ svg {
 
 .section-subscribe__menu {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -3060,6 +3061,9 @@ body.touch .arrow {
   .column-data__coments a {
     font-size: 16px;
   }
+  .section-info__img-company {
+    justify-content: space-around;
+  }
 }
 @media (max-width: 397px) {
   .block-blog__img img {
@@ -3135,7 +3139,7 @@ body.touch .arrow {
     text-align: center;
   }
   .section-subscribe__menu {
-    gap: 40px;
+    gap: 25px;
   }
   .section-subscribe__button {
     padding: 7.5px 20px;
