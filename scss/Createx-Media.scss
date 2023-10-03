@@ -457,6 +457,16 @@
         }
     }
 
+	@media (max-width: 460px) {
+		.block-messenger__text {
+			font-size: 4vw;
+		}
+
+		.block-messenger__title {
+			font-size: 10vw;
+		}
+	}
+
 /* BLOG-INFO */
     @media (max-width: 1260px) {
         .section-info__block-blog {
@@ -468,6 +478,12 @@
             padding-right: 0px;
         }
     }
+
+	@media (max-width: 460px) {
+		.block-blog__title-up {
+			font-size: 10vw;
+		}
+	}
 
 //////////// MEDIA__SECTION-SUBSCRIBE ////////////
     @media (max-width: 1250px) {
@@ -532,4 +548,10 @@
             justify-content: center;
         }
     }
+
+	@media (max-width: 460px) {
+		.section-subscribe__title {
+			font-size: 10vw;
+		}
+	}
 }
