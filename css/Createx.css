@@ -3748,9 +3748,9 @@ body.touch .arrow {
 
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
-  position: absolute;
-  z-index: -1;
-  opacity: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 /* для элемента label, связанного с .custom-checkbox */
