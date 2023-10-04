@@ -2141,6 +2141,17 @@ svg {
   width: 16px;
   height: 16px;
 }
+.input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark {
+  background-color: #2196F3;
+}
+.input-column-sorting__input-checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.input-column-sorting__input-checkbox:hover input ~ .input-column-sorting__checkmark {
+  background-color: #ccc;
+}
 
 .input-column-sorting__name {
   font-family: "Lato";
@@ -2163,14 +2174,6 @@ svg {
   opacity: 1;
 }
 
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
 .input-column-sorting__checkmark {
   position: absolute;
   top: 0;
@@ -2180,21 +2183,7 @@ svg {
   background-color: #eee;
 }
 
-.input-column-sorting__input-checkbox:hover input ~ .input-column-sorting__checkmark {
-  background-color: #ccc;
-}
-
-.input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark {
-  background-color: #2196F3;
-}
-
-.input-column-sorting__checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark:after {
+.input-column-sorting__input-checkbox .input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark:after {
   display: block;
 }
 
