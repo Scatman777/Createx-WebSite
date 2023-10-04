@@ -1581,6 +1581,14 @@ svg {
 		&:checked ~ .input-column-sorting__checkmark {
 			background-color: #2196F3;
 		}
+
+		&:checked ~ .input-column-sorting__checkmark:after {
+			display: block;
+		}
+	}
+
+	&:hover input ~ .input-column-sorting__checkmark {
+		background-color: #ccc;
 	}
 
 	&:after {
@@ -1588,10 +1596,18 @@ svg {
 		position: absolute;
 		display: none;
 	}
+}
 
-	&:hover input ~ .input-column-sorting__checkmark {
-		background-color: #ccc;
-	}
+.input-column-sorting__input-checkbox .input-column-sorting__checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .input-column-sorting__name {
@@ -1613,24 +1629,6 @@ svg {
 	height: 25px;
 	width: 25px;
 	background-color: #eee;
-}
-
-.input-column-sorting__input-checkbox
-
-.input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark:after {
-	display: block;
-}
-
-.input-column-sorting__input-checkbox .input-column-sorting__checkmark:after {
-	left: 9px;
-	top: 5px;
-	width: 5px;
-	height: 10px;
-	border: solid white;
-	border-width: 0 3px 3px 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
 }
 
 .block-sorting__block-color {
