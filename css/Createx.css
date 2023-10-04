@@ -2141,19 +2141,53 @@ svg {
   width: 16px;
   height: 16px;
 }
+
+/* Customize the label (the container) */
+.input-column-sorting__input-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.input-column-sorting__input-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.input-column-sorting__checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.input-column-sorting__checkmark:hover input ~ .input-column-sorting__checkmark {
+  background-color: #ccc;
+}
+
 .input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark {
   background-color: #2196F3;
 }
-.input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark:after {
-  display: block;
-}
-.input-column-sorting__input-checkbox:hover input ~ .input-column-sorting__checkmark {
-  background-color: #ccc;
-}
+
 .input-column-sorting__input-checkbox:after {
   content: "";
   position: absolute;
   display: none;
+}
+
+.input-column-sorting__input-checkbox input:checked ~ .input-column-sorting__checkmark:after {
+  display: block;
 }
 
 .input-column-sorting__input-checkbox .input-column-sorting__checkmark:after {
