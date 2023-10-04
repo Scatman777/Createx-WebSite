@@ -1504,6 +1504,7 @@ svg {
 
 .block-sorting__button {
 	@include button-green-backround;
+	justify-content: center;
 }
 
 .block-sorting__block {
@@ -1569,12 +1570,28 @@ svg {
 }
 
 .input-column-sorting__input-checkbox {
+	display: flex;
+	align-items: center;
+	gap: 12px;
 }
 
 .input-column-sorting__input {
+	input {
+		width: 16px;
+		height: 16px;
+	}
 }
 
 .input-column-sorting__name {
+	@include text-14px;
+	color: $gray-800;
+    opacity: 1;
+
+	nomber {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
+	}
 }
 
 .block-sorting__block-color {
