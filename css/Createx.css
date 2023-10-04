@@ -2172,7 +2172,7 @@ svg {
   background-color: #eee;
 }
 
-.input-column-sorting__checkmark:hover input ~ .input-column-sorting__checkmark {
+.input-column-sorting__input-checkbox:hover input ~ .input-column-sorting__checkmark {
   background-color: #ccc;
 }
 
