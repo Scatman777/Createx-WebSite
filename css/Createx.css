@@ -2098,6 +2098,7 @@ svg {
 .block-sorting__column-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .block-sorting__text {
