@@ -2118,10 +2118,18 @@ svg {
   border: 1px solid #D7DADD;
   border-radius: 4px;
   padding: 9px 12px;
-  width: 255px;
+  width: 260px;
 }
 .block-sorting__input-search input {
-  width: 210px;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #9A9CA5;
+  opacity: 1;
+  width: 215px;
 }
 .block-sorting__input-search img {
   width: 16px;
