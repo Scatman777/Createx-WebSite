@@ -1580,6 +1580,18 @@ svg {
 	}
 }
 
+.input-column-sorting__name {
+	@include text-14px;
+	color: $gray-800;
+	opacity: 1;
+
+	number {
+		@include text-14px;
+		color: $gray-500;
+		opacity: 1;
+	}
+}
+
 .block-sorting__block-color {
 }
 
