@@ -3805,7 +3805,7 @@ body.touch .arrow {
 
 /* стили для активного чекбокса (при нажатии на него) */
 .custom-checkbox:not(:disabled):active + label::before {
-  border-color: #17696A;
+  border: 1px solid #17696A;
 }
 
 /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
