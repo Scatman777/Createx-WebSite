@@ -18,6 +18,13 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+const buttonPlus = document.querySelectorAll(".block-sorting__plus");
+const blockList = document.querySelectorAll(".block-sorting__list");
+
+buttonPlus.addEventListener("click", () => {
+	blockList.classList.toggle("hidden");
+});
+
 // const btnBorder = document.querySelector(".btn-border");
 // btnBorder.addEventListener("click", function() {
 //   this.getElementById.toggle("buy-border");
