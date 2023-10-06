@@ -2095,10 +2095,10 @@ svg {
   align-items: center;
 }
 
-.block-sotring__list {
+.block-sorting__list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
 }
 
 .block-sorting__text {
