@@ -24,7 +24,7 @@ for (let elm of elements) {
 // }
 
 let buttonPlus = document.getElementById('buttonPlus');
-let list = menuElem.querySelector('.block-sorting__list');
+let list = buttonPlus.querySelector('.block-sorting__list');
 
 list.onclick = function() {
 	buttonPlus.classList.toggle('open');

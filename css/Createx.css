@@ -2078,6 +2078,9 @@ svg {
 .block-sorting__button:hover {
   background: #18888a;
 }
+.block-sorting__button::before {
+  transform: rotate(90deg);
+}
 
 .block-sorting__block {
   display: flex;
