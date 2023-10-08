@@ -18,10 +18,17 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-function buttonPlus() {
-	// document.getElementById("buttonPlus").style.display = "flex";
-	document.getElementById("style-list").style.display = "flex";
-}
+// function buttonPlus() {
+// 	// document.getElementById("buttonPlus").style.display = "flex";
+// 	document.getElementById("style-list").style.display = "flex";
+// }
+
+let buttonPlus = document.getElementById('buttonPlus');
+let list = menuElem.querySelector('.block-sorting__list');
+
+list.onclick = function() {
+	buttonPlus.classList.toggle('open');
+};
 
 // const btnBorder = document.querySelector(".btn-border");
 // btnBorder.addEventListener("click", function() {

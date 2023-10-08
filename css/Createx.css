@@ -88,8 +88,8 @@ h6 {
 
 /* Media */
 /* variables */
-.hidden {
-  display: none;
+.open {
+  display: flex;
 }
 
 html,
