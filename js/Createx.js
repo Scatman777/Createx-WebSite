@@ -18,12 +18,10 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-const buttonPlus = document.querySelectorAll(".block-sorting__plus");
-const blockList = document.querySelectorAll(".block-sorting__list");
-
-buttonPlus.addEventListener("click", () => {
-	blockList.classList.toggle("hidden");
-});
+function buttonPlus() {
+	// document.getElementById("buttonPlus").style.display = "flex";
+	document.getElementById("style-list").style.display = "flex";
+}
 
 // const btnBorder = document.querySelector(".btn-border");
 // btnBorder.addEventListener("click", function() {
