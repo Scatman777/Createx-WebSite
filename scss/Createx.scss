@@ -1507,10 +1507,6 @@ svg {
 .block-sorting__button {
 	@include button-green-backround;
 	justify-content: center;
-
-	&::before {
-		transform: rotate(90deg);
-	}
 }
 
 .block-sorting__block {
@@ -1552,6 +1548,10 @@ svg {
 	img {
 		width: 16px;
 		height: 16px;
+	}
+
+	&::before {
+		transform: rotate(90deg);
 	}
 }
 

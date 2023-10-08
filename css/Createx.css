@@ -2078,9 +2078,6 @@ svg {
 .block-sorting__button:hover {
   background: #18888a;
 }
-.block-sorting__button::before {
-  transform: rotate(90deg);
-}
 
 .block-sorting__block {
   display: flex;
@@ -2121,6 +2118,9 @@ svg {
 .block-sorting__plus img {
   width: 16px;
   height: 16px;
+}
+.block-sorting__plus::before {
+  transform: rotate(90deg);
 }
 
 .block-sorting__input-search {
