@@ -18,17 +18,30 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
 // function buttonPlus() {
 // 	// document.getElementById("buttonPlus").style.display = "flex";
 // 	document.getElementById("style-list").style.display = "flex";
 // }
-
-let buttonPlus = document.getElementById('buttonPlus');
-let list = buttonPlus.querySelector('.block-sorting__list');
-
-list.onclick = function() {
-	buttonPlus.classList.toggle('open');
-};
 
 // const btnBorder = document.querySelector(".btn-border");
 // btnBorder.addEventListener("click", function() {
@@ -92,7 +105,7 @@ let isMobile = {
 	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
 	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
 };
-		let body=document.querySelector('body');
+		let body=document.querySelector('section-catalog__body');
 if(isMobile.any()){
 		body.classList.add('touch');
 		let arrow=document.querySelectorAll('.arrow');
