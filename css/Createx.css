@@ -2091,10 +2091,6 @@ svg {
   gap: 1rem;
 }
 
-.block-sorting__item.open {
-  background: #4070f4;
-}
-
 .block-sorting__column-title {
   display: flex;
   justify-content: space-between;
@@ -2119,8 +2115,9 @@ svg {
   width: 16px;
   height: 16px;
 }
-.block-sorting__plus::before {
-  transform: rotate(90deg);
+
+.show {
+  display: block;
 }
 
 .block-sorting__input-search {
