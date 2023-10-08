@@ -88,10 +88,6 @@ h6 {
 
 /* Media */
 /* variables */
-.open {
-  display: flex;
-}
-
 html,
 body {
   font-family: "Lato", sans-serif;
@@ -2105,6 +2101,10 @@ svg {
   display: none;
   flex-direction: column;
   gap: 1rem;
+}
+
+.block-sorting__list.open {
+  display: flex;
 }
 
 .block-sorting__text {

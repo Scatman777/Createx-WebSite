@@ -19,10 +19,6 @@ $red: #FF4242;
 $green: #17696A;
 /* variables */
 
-.open {
-	display: flex;
-}
-
 html,
 body {
     font-family: "Lato", sans-serif;
@@ -1538,6 +1534,10 @@ svg {
 	display: none;
 	flex-direction: column;
 	gap: 1rem;
+}
+
+.block-sorting__list.open {
+	display: flex;
 }
 
 .block-sorting__text {
