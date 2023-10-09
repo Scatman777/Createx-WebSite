@@ -1610,13 +1610,18 @@ svg {
 
 //////////////////// INPUT-PRICE ////////////////////
 .block-sorting__input-range {
+	display: none;
 	width: 400px;
 	background-color: #fff;
 	padding: 20px 25px 40px;
 	border-radius: 10px;
 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
-  
+
+.show-prise {
+	display: block;
+}
+
 .block-sorting__input-range header h2 {
 	font-size: 24px;
 	font-weight: 600;

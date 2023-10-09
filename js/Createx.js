@@ -35,7 +35,7 @@ function buttonFunction5() {
     document.getElementById("list5").classList.toggle("show");
 }
 function buttonFunction6() {
-    document.getElementById("list6").classList.toggle("show");
+    document.getElementById("list6").classList.toggle("show-prise");
 }
 
 // function filterFunction() {
