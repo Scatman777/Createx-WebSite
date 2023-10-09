@@ -2133,10 +2133,6 @@ svg {
   height: 16px;
 }
 
-.show-flex {
-  display: flex;
-}
-
 .minus-image {
   background: url("/img/Minus.svg") center no-repeat;
 }
@@ -2182,8 +2178,8 @@ svg {
   gap: 12px;
 }
 .input-column-sorting__input-checkbox input {
-  width: 16px;
-  height: 16px;
+  width: 200px;
+  height: 20px;
 }
 
 .input-column-sorting__name {
@@ -2216,10 +2212,6 @@ svg {
   justify-items: start;
 }
 
-.show-grid {
-  display: grid;
-}
-
 .block-sorting__color {
   max-width: 52px;
   width: 100%;
@@ -2246,10 +2238,6 @@ svg {
   padding: 20px 25px 40px;
   border-radius: 10px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
-.show-block {
-  display: block;
 }
 
 .block-sorting__input-range header h2 {
@@ -2341,6 +2329,33 @@ svg {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
+.show-flex {
+  display: flex;
+  animation: list-animation 1s ease;
+}
+
+.show-grid {
+  display: grid;
+  animation: list-animation 1s ease;
+}
+
+.show-block {
+  display: block;
+  animation: list-animation 1s ease;
+}
+
+@keyframes list-animation {
+  0% {
+    transform: translateY(-20%);
+    transition: all 1s;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    transition: all 1s;
+    opacity: 1;
+  }
+}
 svg {
   fill: none;
 }
