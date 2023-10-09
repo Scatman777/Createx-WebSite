@@ -1512,17 +1512,21 @@ svg {
 .block-sorting__block {
 	display: flex;
 	flex-direction: column;
-	gap: 40px;
 }
 
 .block-sorting__column {
+	padding: 20px 0px;
+
 	&:not(:last-child) {
-		padding: 20px 0px;
 		border-bottom: 1px solid $gray-300;
 	}
 
-	&:nth-child(1) {
+	&:first-child {
 		padding-top: 0px;
+	}
+
+	&:last-child {
+		padding-bottom: 0px;
 	}
 }
 
