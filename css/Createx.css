@@ -2085,6 +2085,14 @@ svg {
   gap: 40px;
 }
 
+.block-sorting__column:not(:last-child) {
+  padding: 20px 0px;
+  border-bottom: 1px solid #E5E8ED;
+}
+.block-sorting__column:nth-child(1) {
+  padding-top: 0px;
+}
+
 .block-sorting__item {
   display: flex;
   flex-direction: column;
@@ -2119,7 +2127,7 @@ svg {
   height: 16px;
 }
 
-.show {
+.show-flex {
   display: flex;
 }
 
@@ -2185,12 +2193,16 @@ svg {
 }
 
 .block-sorting__block-color {
-  display: grid;
+  display: none;
   grid-template-areas: "a a a a";
   -moz-column-gap: 10px;
        column-gap: 10px;
   row-gap: 8px;
   justify-items: start;
+}
+
+.show-grid {
+  display: grid;
 }
 
 .block-sorting__color {
@@ -2221,7 +2233,7 @@ svg {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-.show-prise {
+.show-block {
   display: block;
 }
 

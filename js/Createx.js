@@ -20,22 +20,22 @@ for (let elm of elements) {
 
 
 function buttonFunction1() {
-    document.getElementById("list1").classList.toggle("show");
+    document.getElementById("list1").classList.toggle("show-flex");
 }
 function buttonFunction2() {
-    document.getElementById("list2").classList.toggle("show");
+    document.getElementById("list2").classList.toggle("show-flex");
 }
 function buttonFunction3() {
-    document.getElementById("list3").classList.toggle("show");
+    document.getElementById("list3").classList.toggle("show-grid");
 }
 function buttonFunction4() {
-    document.getElementById("list4").classList.toggle("show");
+    document.getElementById("list4").classList.toggle("show-flex");
 }
 function buttonFunction5() {
-    document.getElementById("list5").classList.toggle("show");
+    document.getElementById("list5").classList.toggle("show-flex");
 }
 function buttonFunction6() {
-    document.getElementById("list6").classList.toggle("show-prise");
+    document.getElementById("list6").classList.toggle("show-block");
 }
 
 // function filterFunction() {
