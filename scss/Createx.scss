@@ -1603,20 +1603,22 @@ svg {
 }
 
 .block-sorting__block-color {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
+    display: grid;
+    grid-template-areas: 'a a a a';
+    column-gap: 10px;
+    row-gap: 8px;
+    justify-items: start;
 }
 
 .block-sorting__color {
-	display: flex;
-	flex-direction: column;
+	text-align: center;
 
 	label {
 		@include text-14px;
 		font-size: 12px;
 		color: $gray-700;
 		opacity: 1;
+		margin-top: 2px;
 	}
 }
 
