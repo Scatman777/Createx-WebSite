@@ -2192,6 +2192,18 @@ svg {
 
 .block-sorting__color {
   display: flex;
+  flex-direction: column;
+}
+.block-sorting__color label {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-size: 12px;
+  color: #787A80;
+  opacity: 1;
 }
 
 .block-sorting__input-range {
