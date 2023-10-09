@@ -1547,6 +1547,7 @@ svg {
 	display: none;
 	flex-direction: column;
 	gap: 16px;
+	animation: list-animation 1s ease;
 }
 
 .block-sorting__text {
