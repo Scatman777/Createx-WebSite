@@ -1555,9 +1555,10 @@ svg {
 
 .block-sorting__plus {
 	cursor: pointer;
-	transition: all 0.5s;
-	
+
 	img {
+		transition: all 0.5s;
+		transform: rotate(0deg);
 		width: 16px;
 		height: 16px;
 	}
@@ -1569,9 +1570,9 @@ svg {
 
 .minus-image {
 	background: url("/img/Minus.svg") center no-repeat;
-	transition: all 0.5s;
 
 	img {
+		transform: rotate(45deg);
 		transition: all 0.5s;
 		opacity: 0;
 	}
@@ -1766,6 +1767,6 @@ svg {
 @include menu-lang;
 @include login-popap;
 @include register-popap;
-@include input-checkbox;
 @include Section-ProfileStyle;
+@include input-checkbox;
 // @include input-price;
