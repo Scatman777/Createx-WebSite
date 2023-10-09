@@ -2212,6 +2212,7 @@ svg {
   height: 28px;
   padding: 3px;
   background: black;
+  border-radius: 50%;
   border: 1px solid #D7DADD;
 }
 .block-sorting__color label {

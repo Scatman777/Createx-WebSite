@@ -1631,7 +1631,12 @@ svg {
 		height: 28px;
 		padding: 3px;
 		background: black;
+		border-radius: 50%;
 		border: 1px solid $gray-400;
+
+		a {
+			
+		}
 	}
 
 	label {
