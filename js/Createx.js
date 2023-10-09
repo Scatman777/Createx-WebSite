@@ -18,7 +18,7 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-
+///////////////// SHOW-MENU /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
 	document.getElementById("plus1").classList.toggle("minus-image");
@@ -42,6 +42,11 @@ function buttonFunction5() {
 function buttonFunction6() {
     document.getElementById("list6").classList.toggle("show-block");
 	document.getElementById("plus6").classList.toggle("minus-image");
+}
+
+///////////////// SHOW-MENU /////////////////
+function buttonColor() {
+    document.getElementById("border").classList.toggle("boder-green");
 }
 
 // function filterFunction() {
