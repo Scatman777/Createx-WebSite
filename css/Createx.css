@@ -2135,10 +2135,12 @@ svg {
   display: flex;
 }
 
-.plus-rotate {
+.minus-image {
   background: url("/img/Minus.svg") center no-repeat;
+  transition: all 0.5s;
 }
-.plus-rotate img {
+.minus-image img {
+  transition: all 0.5s;
   opacity: 0;
 }
 
