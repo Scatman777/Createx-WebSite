@@ -1555,6 +1555,7 @@ svg {
 
 .block-sorting__plus {
 	cursor: pointer;
+
 	img {
 		width: 16px;
 		height: 16px;
@@ -1563,6 +1564,10 @@ svg {
 
 .show-flex {
 	display: flex;
+}
+
+.plus {
+	transform: rotate(45degs);
 }
 
 .block-sorting__input-search {

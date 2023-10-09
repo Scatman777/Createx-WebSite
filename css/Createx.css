@@ -2135,6 +2135,10 @@ svg {
   display: flex;
 }
 
+.plus {
+  transform: rotate(45degs);
+}
+
 .block-sorting__input-search {
   display: flex;
   align-items: center;
