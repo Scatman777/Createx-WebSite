@@ -26,7 +26,7 @@ function myFunction() {
 window.onclick = function(event) {
   if (!event.target.matches('.block-sorting__plus')) {
 
-    var dropdowns = document.getElementsByClassName("block-sorting__list");
+    var dropdowns = document.getElementsByClassName(".block-sorting__list");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
@@ -96,32 +96,32 @@ function show_hide_password(target){
 }
 
 ///////////////// MENU-LANG /////////////////
-let isMobile = {
-	Android: function() {return navigator.userAgent.match(/Android/i);},
-	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
-	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
-	Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
-	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
-	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
-};
-		let body=document.querySelector('section-catalog__body');
-if(isMobile.any()){
-		body.classList.add('touch');
-		let arrow=document.querySelectorAll('.arrow');
-	for(i=0; i<arrow.length; i++){
-			let thisLink=arrow[i].previousElementSibling;
-			let subMenu=arrow[i].nextElementSibling;
-			let thisArrow=arrow[i];
+// let isMobile = {
+// 	Android: function() {return navigator.userAgent.match(/Android/i);},
+// 	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
+// 	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
+// 	Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
+// 	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
+// 	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
+// };
+// 		let body=document.querySelector('section-catalog__body');
+// if(isMobile.any()){
+// 		body.classList.add('touch');
+// 		let arrow=document.querySelectorAll('.arrow');
+// 	for(i=0; i<arrow.length; i++){
+// 			let thisLink=arrow[i].previousElementSibling;
+// 			let subMenu=arrow[i].nextElementSibling;
+// 			let thisArrow=arrow[i];
 
-			thisLink.classList.add('parent');
-		arrow[i].addEventListener('click', function(){
-			subMenu.classList.toggle('open');
-			thisArrow.classList.toggle('active');
-		});
-	}
-}else{
-	body.classList.add('touch');
-}
+// 			thisLink.classList.add('parent');
+// 		arrow[i].addEventListener('click', function(){
+// 			subMenu.classList.toggle('open');
+// 			thisArrow.classList.toggle('active');
+// 		});
+// 	}
+// }else{
+// 	body.classList.add('touch');
+// }
 
 
 /////////////// INPUT-PRICE ///////////////
