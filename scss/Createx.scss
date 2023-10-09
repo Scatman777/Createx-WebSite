@@ -1547,21 +1547,7 @@ svg {
 	display: none;
 	flex-direction: column;
 	gap: 16px;
-	animation: list-animation-return 1s ease;
-}
-
-@keyframes list-animation-return {		
-	0% {
-		transform: translateY(0%);
-		transition: all 1s;
-		opacity: 0;
-	}
-
-	100% {
-		transform: translateY(-20%);
-		transition: all 1s;
-		opacity: 1;
-	}
+	transition: all 1s;
 }
 
 .block-sorting__text {
