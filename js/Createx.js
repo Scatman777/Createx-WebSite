@@ -19,24 +19,39 @@ for (let elm of elements) {
 }
 
 
-function myFunction() {
-    document.getElementById("list").classList.toggle("show");
+function buttonFunction1() {
+    document.getElementById("list1").classList.toggle("show");
+}
+function buttonFunction2() {
+    document.getElementById("list2").classList.toggle("show");
+}
+function buttonFunction3() {
+    document.getElementById("list3").classList.toggle("show");
+}
+function buttonFunction4() {
+    document.getElementById("list4").classList.toggle("show");
+}
+function buttonFunction5() {
+    document.getElementById("list5").classList.toggle("show");
+}
+function buttonFunction6() {
+    document.getElementById("list6").classList.toggle("show");
 }
 
-function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("list");
-    label = div.classList(".checkbox");
-    for (i = 0; i < a.length; i++) {
-        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
-        } else {
-            a[i].style.display = "none";
-        }
-    }
-}
+// function filterFunction() {
+//     var input, filter, ul, li, a, i;
+//     input = document.getElementById("myInput");
+//     filter = input.value.toUpperCase();
+//     div = document.getElementById("list");
+//     label = div.classList(".checkbox");
+//     for (i = 0; i < a.length; i++) {
+//         if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+//             a[i].style.display = "";
+//         } else {
+//             a[i].style.display = "none";
+//         }
+//     }
+// }
 
 // window.onclick = function(event) {
 //   if (!event.target.matches('.block-sorting__plus')) {
