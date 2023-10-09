@@ -1627,15 +1627,14 @@ svg {
 	text-align: center;
 
 	button {
-		width: 28px;
-		height: 28px;
-		padding: 3px;
-		background: black;
-		border-radius: 50%;
 		border: 1px solid $gray-400;
 
 		a {
-			
+			width: 28px;
+			height: 28px;
+			padding: 3px;
+			background: black;
+			border-radius: 50%;
 		}
 	}
 

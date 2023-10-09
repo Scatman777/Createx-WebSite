@@ -2208,12 +2208,14 @@ svg {
   text-align: center;
 }
 .block-sorting__color button {
+  border: 1px solid #D7DADD;
+}
+.block-sorting__color button a {
   width: 28px;
   height: 28px;
   padding: 3px;
   background: black;
   border-radius: 50%;
-  border: 1px solid #D7DADD;
 }
 .block-sorting__color label {
   font-family: "Lato";
