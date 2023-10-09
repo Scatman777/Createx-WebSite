@@ -1555,7 +1555,8 @@ svg {
 
 .block-sorting__plus {
 	cursor: pointer;
-
+	transition: all 0.5s;
+	
 	img {
 		width: 16px;
 		height: 16px;
