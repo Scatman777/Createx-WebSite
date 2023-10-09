@@ -21,7 +21,7 @@ for (let elm of elements) {
 
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
-	document.getElementById("plus").classList.toggle("plus");
+	document.getElementById("plus1").classList.toggle("plus-rotate");
 }
 function buttonFunction2() {
     document.getElementById("list2").classList.toggle("show-flex");
