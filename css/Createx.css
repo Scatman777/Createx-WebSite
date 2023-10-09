@@ -2136,7 +2136,10 @@ svg {
 }
 
 .plus-rotate {
-  transform: rotate(45degs);
+  background: url("/img/Minus.svg") center no-repeat;
+}
+.plus-rotate img {
+  opacity: 0;
 }
 
 .block-sorting__input-search {
