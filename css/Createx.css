@@ -2111,6 +2111,9 @@ svg {
   color: #424551;
 }
 
+.block-sorting__plus {
+  cursor: pointer;
+}
 .block-sorting__plus img {
   width: 16px;
   height: 16px;

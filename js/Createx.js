@@ -23,19 +23,34 @@ function myFunction() {
     document.getElementById("list").classList.toggle("show");
 }
 
-window.onclick = function(event) {
-  if (!event.target.matches('.block-sorting__plus')) {
-
-    var dropdowns = document.getElementsByClassName(".block-sorting__list");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("list");
+    label = div.getElementsByTagName("label");
+    for (i = 0; i < a.length; i++) {
+        if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
     }
-  }
 }
+
+// window.onclick = function(event) {
+//   if (!event.target.matches('.block-sorting__plus')) {
+
+//     var dropdowns = document.getElementsByClassName(".block-sorting__list");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
 
 // function buttonPlus() {
 // 	// document.getElementById("buttonPlus").style.display = "flex";
