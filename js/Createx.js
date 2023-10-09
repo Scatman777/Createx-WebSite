@@ -28,7 +28,7 @@ function filterFunction() {
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     div = document.getElementById("list");
-    label = div.getElementsByTagName("label");
+    label = div.classList(".checkbox");
     for (i = 0; i < a.length; i++) {
         if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
             a[i].style.display = "";

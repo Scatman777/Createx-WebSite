@@ -3790,6 +3790,8 @@ body.touch .arrow {
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;
+  width: 200px;
+  height: 20px;
   opacity: 0;
 }
 
