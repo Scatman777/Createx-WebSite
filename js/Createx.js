@@ -19,6 +19,39 @@ for (let elm of elements) {
 }
 
 ///////////////// COLOR BORDER /////////////////
+function buttonFunction1Color1() {
+    document.getElementById("buttonCircle1.1").classList.toggle("border-green");
+}
+function buttonFunction1Color2() {
+    document.getElementById("buttonCircle1.2").classList.toggle("border-green");
+}
+function buttonFunction1Color3() {
+    document.getElementById("buttonCircle1.3").classList.toggle("border-green");
+}
+
+
+function buttonFunction2Color1() {
+    document.getElementById("buttonCircle2.1").classList.toggle("border-green");
+}
+function buttonFunction2Color2() {
+    document.getElementById("buttonCircle2.2").classList.toggle("border-green");
+}
+function buttonFunction2Color3() {
+    document.getElementById("buttonCircle2.3").classList.toggle("border-green");
+}
+
+
+function buttonFunction3Color1() {
+    document.getElementById("buttonCircle3.1").classList.toggle("border-green");
+}
+function buttonFunction3Color2() {
+    document.getElementById("buttonCircle3.2").classList.toggle("border-green");
+}
+function buttonFunction3Color3() {
+    document.getElementById("buttonCircle3.3").classList.toggle("border-green");
+}
+
+///////////////// COLOR BORDER2 /////////////////
 function buttonFunction1Discount1() {
     document.getElementById("buttonCircle1.1").classList.toggle("border-green");
 }
@@ -29,27 +62,6 @@ function buttonFunction1Discount3() {
     document.getElementById("buttonCircle1.3").classList.toggle("border-green");
 }
 
-
-function buttonFunction2Discount1() {
-    document.getElementById("buttonCircle2.1").classList.toggle("border-green");
-}
-function buttonFunction2Discount2() {
-    document.getElementById("buttonCircle2.2").classList.toggle("border-green");
-}
-function buttonFunction2Discount3() {
-    document.getElementById("buttonCircle2.3").classList.toggle("border-green");
-}
-
-
-function buttonFunction3Discount1() {
-    document.getElementById("buttonCircle3.1").classList.toggle("border-green");
-}
-function buttonFunction3Discount2() {
-    document.getElementById("buttonCircle3.2").classList.toggle("border-green");
-}
-function buttonFunction3Discount3() {
-    document.getElementById("buttonCircle3.3").classList.toggle("border-green");
-}
 
 ///////////////// SHOW-MENU-CATALOG /////////////////
 function buttonFunction1() {
