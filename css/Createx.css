@@ -1303,12 +1303,12 @@ svg {
 }
 
 .buy-block__color {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20px;
-  height: 20px;
+  display: inline-flex;
+  background: none;
+  border: 1px solid #D7DADD;
   border-radius: 50%;
+  padding: 3px;
+  transition: all 0.2s;
   cursor: pointer;
 }
 .buy-block__color:nth-child(1) {
@@ -1320,12 +1320,10 @@ svg {
 .buy-block__color:nth-child(3) {
   background: #C0DDED;
 }
-.buy-block__color span {
+.buy-block__color a {
   width: 20px;
   height: 20px;
-  border: 1px solid #D7DADD;
   border-radius: 50%;
-  padding: 14px;
 }
 
 .buy-block__button {

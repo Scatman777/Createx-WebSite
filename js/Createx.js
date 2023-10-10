@@ -18,7 +18,12 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-///////////////// SHOW-MENU /////////////////
+///////////////// COLOR BORDER /////////////////
+function buttonFunctionDiscount() {
+    document.getElementById("buttonCircle").classList.toggle("button-green");
+}
+
+///////////////// SHOW-MENU-CATALOG /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
 	document.getElementById("plus1").classList.toggle("minus-image");
@@ -44,7 +49,7 @@ function buttonFunction6() {
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
-///////////////// COLOR BORDER /////////////////
+///////////////// COLOR BORDER-CATALOG /////////////////
 function buttonColor1() {
     document.getElementById("border1").classList.toggle("border-green");
 }
@@ -81,79 +86,6 @@ function buttonColor11() {
 function buttonColor12() {
     document.getElementById("border12").classList.toggle("border-green");
 }
-
-// function filterFunction() {
-//     var input, filter, ul, li, a, i;
-//     input = document.getElementById("myInput");
-//     filter = input.value.toUpperCase();
-//     div = document.getElementById("list");
-//     label = div.classList(".checkbox");
-//     for (i = 0; i < a.length; i++) {
-//         if (a[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
-//             a[i].style.display = "";
-//         } else {
-//             a[i].style.display = "none";
-//         }
-//     }
-// }
-
-// window.onclick = function(event) {
-//   if (!event.target.matches('.block-sorting__plus')) {
-
-//     var dropdowns = document.getElementsByClassName(".block-sorting__list");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
-
-// function buttonPlus() {
-// 	// document.getElementById("buttonPlus").style.display = "flex";
-// 	document.getElementById("style-list").style.display = "flex";
-// }
-
-// const btnBorder = document.querySelector(".btn-border");
-// btnBorder.addEventListener("click", function() {
-//   this.getElementById.toggle("buy-border");
-// });
-
-// var btnColor = document.querySelector(".btn-color");
-// btnColor.addEventListener("click", function() {
-//   this.classList.toggle("color-border");
-// });
-
-// var btnsub = document.getElementById("button-style");
-// btnsub.addEventListener("click", function() {
-//   this.classList.toggle("button-background");
-// });
-
-// button.onmouseover = button.onmouseout = background;
-
-// function background() {
-
-
-//   const button = document.querySelector(".body-middle__item");
-//   const main = document.querySelector(".main");
-
-//   if (button.type == 'mouseover') {
-//     main.target.style.filter = 'brightness(0.5)'
-//   }
-//   if (button.type == 'mouseout') {
-//     main.target.style.filter = 'brightness(1)'
-//   }
-// }
-
-// function button(color) {
-//   main.style.background = "#999";
-// };
-
-// button().addEventListener("click", function() {
-//   main.classList.toggle("color");
-// });
 
 ///////////////// PASSWORD-OPEN /////////////////
 function show_hide_password(target){
