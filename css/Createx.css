@@ -1326,6 +1326,11 @@ svg {
   border-radius: 50%;
 }
 
+.border-green {
+  border: 1px solid #17696A;
+  transition: all 0.2s;
+}
+
 .buy-block__button {
   display: flex;
   align-items: center;

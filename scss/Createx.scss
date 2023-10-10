@@ -966,6 +966,11 @@ svg {
     }
 }
 
+.border-green {
+	border: 1px solid $green;
+	transition: all 0.2s;
+}
+
 .buy-block__button {
     @include button-green-backround;
     justify-content: center;
