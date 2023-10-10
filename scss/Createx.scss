@@ -1627,13 +1627,16 @@ svg {
 	text-align: center;
 
 	button {
+		display: inline-flex;
+		background: none;
 		border: 1px solid $gray-400;
+		border-radius: 50%;
+		margin-bottom: 2px;
+		padding: 3px;
 
 		a {
-			width: 28px;
-			height: 28px;
-			padding: 3px;
-			background: black;
+			width: 24px;
+			height: 24px;
 			border-radius: 50%;
 		}
 	}
@@ -1643,8 +1646,60 @@ svg {
 		font-size: 12px;
 		color: $gray-700;
 		opacity: 1;
-		margin-top: 2px;
 	}
+
+	&:nth-child(n+7) {
+		button {
+			a {
+				background: black;
+			}
+		}
+	}
+	&:nth-child(2) {
+		button {
+			a {
+				background: #C0DDED;
+			}
+		}
+	}
+	&:nth-child(3) {
+		button {
+			a {
+				background: #FCD164;
+			}
+		}
+	}
+	&:nth-child(4) {
+		button {
+			a {
+				background: #F75151;
+			}
+		}
+	}
+	// &:nth-child(5) {
+	// 	background: #0C2C7E;
+	// }
+	// &:nth-child(6) {
+	// 	background: #D8C1AD;
+	// }
+	// &:nth-child(7) {
+	// 	background: #874E19;
+	// }
+	// &:nth-child(8) {
+	// 	background: #9A9494;
+	// }
+	// &:nth-child(9) {
+	// 	background: #A27AC9;
+	// }
+	// &:nth-child(10) {
+	// 	background: #67BA92;
+	// }
+	// &:nth-child(11) {
+	// 	background: #FB9620;
+	// }
+	// &:nth-child(12) {
+	// 	background: #F1F1F1;
+	// }
 }
 
 //////////////////// INPUT-PRICE ////////////////////

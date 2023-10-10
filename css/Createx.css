@@ -2208,13 +2208,16 @@ svg {
   text-align: center;
 }
 .block-sorting__color button {
+  display: inline-flex;
+  background: none;
   border: 1px solid #D7DADD;
+  border-radius: 50%;
+  margin-bottom: 2px;
+  padding: 3px;
 }
 .block-sorting__color button a {
-  width: 28px;
-  height: 28px;
-  padding: 3px;
-  background: black;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
 }
 .block-sorting__color label {
@@ -2227,7 +2230,18 @@ svg {
   font-size: 12px;
   color: #787A80;
   opacity: 1;
-  margin-top: 2px;
+}
+.block-sorting__color:nth-child(n+7) button a {
+  background: black;
+}
+.block-sorting__color:nth-child(2) button a {
+  background: #C0DDED;
+}
+.block-sorting__color:nth-child(3) button a {
+  background: #FCD164;
+}
+.block-sorting__color:nth-child(4) button a {
+  background: #F75151;
 }
 
 .block-sorting__input-range {

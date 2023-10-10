@@ -46,7 +46,7 @@ function buttonFunction6() {
 
 ///////////////// SHOW-MENU /////////////////
 function buttonColor() {
-    document.getElementById("border").classList.toggle("boder-green");
+    document.getElementById("border").classList.toggle("border-green");
 }
 
 // function filterFunction() {
