@@ -52,14 +52,17 @@ function buttonFunction3Color3() {
 }
 
 ///////////////// COLOR BORDER2 /////////////////
-function buttonFunction1Discount1() {
-    document.getElementById("buttonCircle1.1").classList.toggle("border-green");
+function buttonFunction1Size1() {
+    document.getElementById("buttonSize1.1").classList.toggle("border-green");
 }
-function buttonFunction1Discount2() {
-    document.getElementById("buttonCircle1.2").classList.toggle("border-green");
+function buttonFunction1Size2() {
+    document.getElementById("buttonSize1.2").classList.toggle("border-green");
 }
-function buttonFunction1Discount3() {
-    document.getElementById("buttonCircle1.3").classList.toggle("border-green");
+function buttonFunction1Size3() {
+    document.getElementById("buttonSize1.3").classList.toggle("border-green");
+}
+function buttonFunction1Size4() {
+    document.getElementById("buttonSize1.4").classList.toggle("border-green");
 }
 
 
