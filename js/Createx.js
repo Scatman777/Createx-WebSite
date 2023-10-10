@@ -78,7 +78,7 @@ function buttonFunction2Size3() {
 function buttonFunction2Size4() {
     document.getElementById("buttonSize2.4").classList.toggle("border-green");
 }
-function buttonFunction2Size4() {
+function buttonFunction2Size5() {
     document.getElementById("buttonSize2.5").classList.toggle("border-green");
 }
 
@@ -95,7 +95,7 @@ function buttonFunction3Size3() {
 function buttonFunction3Size4() {
     document.getElementById("buttonSize3.4").classList.toggle("border-green");
 }
-function buttonFunction3Size4() {
+function buttonFunction3Size5() {
     document.getElementById("buttonSize3.5").classList.toggle("border-green");
 }
 
