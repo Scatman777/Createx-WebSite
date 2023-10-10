@@ -66,6 +66,40 @@ function buttonFunction1Size4() {
 }
 
 
+function buttonFunction2Size1() {
+    document.getElementById("buttonSize2.1").classList.toggle("border-green");
+}
+function buttonFunction2Size2() {
+    document.getElementById("buttonSize2.2").classList.toggle("border-green");
+}
+function buttonFunction2Size3() {
+    document.getElementById("buttonSize2.3").classList.toggle("border-green");
+}
+function buttonFunction2Size4() {
+    document.getElementById("buttonSize2.4").classList.toggle("border-green");
+}
+function buttonFunction2Size4() {
+    document.getElementById("buttonSize2.5").classList.toggle("border-green");
+}
+
+
+function buttonFunction3Size1() {
+    document.getElementById("buttonSize3.1").classList.toggle("border-green");
+}
+function buttonFunction3Size2() {
+    document.getElementById("buttonSize3.2").classList.toggle("border-green");
+}
+function buttonFunction3Size3() {
+    document.getElementById("buttonSize3.3").classList.toggle("border-green");
+}
+function buttonFunction3Size4() {
+    document.getElementById("buttonSize3.4").classList.toggle("border-green");
+}
+function buttonFunction3Size4() {
+    document.getElementById("buttonSize3.5").classList.toggle("border-green");
+}
+
+
 ///////////////// SHOW-MENU-CATALOG /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
