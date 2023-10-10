@@ -1469,10 +1469,6 @@ svg {
     }
 }
 
-.border-green {
-    border: 1px solid $green;
-}
-
 
 ///////////// CREATEX-CTALOG /////////////
 .section-catalog__body {
@@ -1620,6 +1616,8 @@ svg {
     justify-items: start;
 }
 
+
+
 .block-sorting__color {
 	max-width: 52px;
 	width: 100%;
@@ -1633,12 +1631,18 @@ svg {
 		border-radius: 50%;
 		margin-bottom: 2px;
 		padding: 3px;
+		transition: all 0.4s;
 
 		a {
 			width: 24px;
 			height: 24px;
 			border-radius: 50%;
 		}
+	}
+
+	.border-green {
+		border: 1px solid $green;
+		transition: all 0.4s;
 	}
 
 	label {
