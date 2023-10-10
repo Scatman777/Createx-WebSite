@@ -944,13 +944,19 @@ svg {
     cursor: pointer;
 
     &:nth-child(1) {
-        background: #000000;
+		a {
+			background: #000000;
+		}
     }
     &:nth-child(2) {
-        background: #874E19;
+		a {
+			background: #874E19;
+		}
     }
     &:nth-child(3) {
-        background: #C0DDED;
+		a {
+			background: #C0DDED;
+		}
     }
     
     a {

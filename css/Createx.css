@@ -1311,13 +1311,13 @@ svg {
   transition: all 0.2s;
   cursor: pointer;
 }
-.buy-block__color:nth-child(1) {
+.buy-block__color:nth-child(1) a {
   background: #000000;
 }
-.buy-block__color:nth-child(2) {
+.buy-block__color:nth-child(2) a {
   background: #874E19;
 }
-.buy-block__color:nth-child(3) {
+.buy-block__color:nth-child(3) a {
   background: #C0DDED;
 }
 .buy-block__color a {
