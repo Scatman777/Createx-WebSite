@@ -1648,7 +1648,7 @@ svg {
 		opacity: 1;
 	}
 
-	&:nth-child(n+7) {
+	&:nth-child(1) {
 		button {
 			a {
 				background: black;
@@ -1676,30 +1676,62 @@ svg {
 			}
 		}
 	}
-	// &:nth-child(5) {
-	// 	background: #0C2C7E;
-	// }
-	// &:nth-child(6) {
-	// 	background: #D8C1AD;
-	// }
-	// &:nth-child(7) {
-	// 	background: #874E19;
-	// }
-	// &:nth-child(8) {
-	// 	background: #9A9494;
-	// }
-	// &:nth-child(9) {
-	// 	background: #A27AC9;
-	// }
-	// &:nth-child(10) {
-	// 	background: #67BA92;
-	// }
-	// &:nth-child(11) {
-	// 	background: #FB9620;
-	// }
-	// &:nth-child(12) {
-	// 	background: #F1F1F1;
-	// }
+	&:nth-child(5) {
+		button {
+			a {
+				background: #0C2C7E;
+			}
+		}
+	}
+	&:nth-child(6) {
+		button {
+			a {
+				background: #D8C1AD;
+			}
+		}
+	}
+	&:nth-child(7) {
+		button {
+			a {
+				background: #874E19;
+			}
+		}
+	}
+	&:nth-child(8) {
+		button {
+			a {
+				background: #9A9494;
+			}
+		}
+	}
+	&:nth-child(9) {
+		button {
+			a {
+				background: #A27AC9;
+			}
+		}
+	}
+	&:nth-child(10) {
+		button {
+			a {
+				background: #67BA92;
+			}
+		}
+	}
+	&:nth-child(11) {
+		button {
+			a {
+				background: #FB9620;
+			}
+		}
+	}
+	&:nth-child(12) {
+		button {
+			a {
+				background: #F1F1F1;
+			}
+		}
+	}
 }
 
 //////////////////// INPUT-PRICE ////////////////////

@@ -2231,7 +2231,7 @@ svg {
   color: #787A80;
   opacity: 1;
 }
-.block-sorting__color:nth-child(n+7) button a {
+.block-sorting__color:nth-child(1) button a {
   background: black;
 }
 .block-sorting__color:nth-child(2) button a {
@@ -2242,6 +2242,30 @@ svg {
 }
 .block-sorting__color:nth-child(4) button a {
   background: #F75151;
+}
+.block-sorting__color:nth-child(5) button a {
+  background: #0C2C7E;
+}
+.block-sorting__color:nth-child(6) button a {
+  background: #D8C1AD;
+}
+.block-sorting__color:nth-child(7) button a {
+  background: #874E19;
+}
+.block-sorting__color:nth-child(8) button a {
+  background: #9A9494;
+}
+.block-sorting__color:nth-child(9) button a {
+  background: #A27AC9;
+}
+.block-sorting__color:nth-child(10) button a {
+  background: #67BA92;
+}
+.block-sorting__color:nth-child(11) button a {
+  background: #FB9620;
+}
+.block-sorting__color:nth-child(12) button a {
+  background: #F1F1F1;
 }
 
 .block-sorting__input-range {
