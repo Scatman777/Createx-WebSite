@@ -18,7 +18,7 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-///////////////// COLOR BORDER /////////////////
+///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
 function buttonFunction1Color1() {
     document.getElementById("buttonCircle1.1").classList.toggle("border-green");
 }
@@ -51,7 +51,7 @@ function buttonFunction3Color3() {
     document.getElementById("buttonCircle3.3").classList.toggle("border-green");
 }
 
-///////////////// COLOR BORDER2 /////////////////
+///////////////// SECTION-DISCOUNT__BORDER-SIZE /////////////////
 function buttonFunction1Size1() {
     document.getElementById("buttonSize1.1").classList.toggle("border-green");
 }
@@ -99,8 +99,21 @@ function buttonFunction3Size5() {
     document.getElementById("buttonSize3.5").classList.toggle("border-green");
 }
 
+///////////////// SECTION-SUBSCRIBE__BORDER /////////////////
+function buttonFunctionGender1() {
+    document.getElementById("buttonGender1").classList.toggle("border-green");
+}
+function buttonFunctionGender2() {
+    document.getElementById("buttonGender2").classList.toggle("border-green");
+}
+function buttonFunctionGender3() {
+    document.getElementById("buttonGender3").classList.toggle("border-green");
+}
+function buttonFunctionGender4() {
+    document.getElementById("buttonGender4").classList.toggle("border-green");
+}
 
-///////////////// SHOW-MENU-CATALOG /////////////////
+///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
 	document.getElementById("plus1").classList.toggle("minus-image");
