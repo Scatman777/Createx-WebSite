@@ -1734,6 +1734,10 @@ svg {
   margin: 0px 10px;
 }
 
+.section-subscribe {
+  background-color: #F4F5F6;
+}
+
 .section-subscribe__body {
   display: flex;
   flex-wrap: wrap;
