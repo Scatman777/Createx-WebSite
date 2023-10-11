@@ -1123,7 +1123,6 @@ svg {
 
 .section-discount__img-column {
   position: relative;
-  padding: 1rem;
 }
 
 .section-discount__arrow-column {
@@ -1882,17 +1881,6 @@ svg {
 }
 .section-subscribe__button-input:hover {
   background: #18888a;
-}
-
-.section-subscribe__agreement {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.section-subscribe__agreement input {
-  width: 16px;
-  height: 16px;
-  accent-color: #17696A;
 }
 
 .section-subscribe__agreement-text {

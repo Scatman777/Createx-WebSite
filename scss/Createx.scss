@@ -804,7 +804,6 @@ svg {
 
 .section-discount__img-column {
     position: relative;
-    padding: 1rem;
 }
 
 .section-discount__arrow-column {
@@ -1339,17 +1338,6 @@ svg {
 .section-subscribe__button-input {
     @include button-green-backround;
     border-radius: 0px 4px 4px 0px;
-}
-
-.section-subscribe__agreement {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    input {
-        width: 16px;
-        height: 16px;
-        accent-color: $green;
-    }
 }
 
 .section-subscribe__agreement-text {
