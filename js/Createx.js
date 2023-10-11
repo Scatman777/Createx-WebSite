@@ -101,16 +101,16 @@ function buttonFunction3Size5() {
 
 ///////////////// SECTION-SUBSCRIBE__BORDER /////////////////
 function buttonFunctionGender1() {
-    document.getElementById("buttonGender1").classList.toggle("border-green");
+    document.getElementById("buttonGender1").classList.toggle("background-green");
 }
 function buttonFunctionGender2() {
-    document.getElementById("buttonGender2").classList.toggle("border-green");
+    document.getElementById("buttonGender2").classList.toggle("background-green");
 }
 function buttonFunctionGender3() {
-    document.getElementById("buttonGender3").classList.toggle("border-green");
+    document.getElementById("buttonGender3").classList.toggle("background-green");
 }
 function buttonFunctionGender4() {
-    document.getElementById("buttonGender4").classList.toggle("border-green");
+    document.getElementById("buttonGender4").classList.toggle("background-green");
 }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////

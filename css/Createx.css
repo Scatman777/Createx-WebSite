@@ -1783,16 +1783,11 @@ svg {
 }
 
 .section-subscribe__button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   transition: all 0.5s;
   padding: 4.5px 16px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
   background: none;
-  border: 1px solid #D7DADD;
-  padding: 4.5px 16px;
 }
 .section-subscribe__button a {
   font-family: "Lato";
@@ -1808,6 +1803,13 @@ svg {
   opacity: 1;
 }
 
+.background-green {
+  background-color: #17696A;
+}
+.background-green a {
+  color: #FFF;
+}
+
 .section-subscribe__column-input {
   display: flex;
   flex-direction: column;
@@ -1819,6 +1821,13 @@ svg {
   margin-bottom: 12px;
 }
 .section-subscribe__input input {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-weight: 400;
+  color: #9A9CA5;
   border: 1px solid #D7DADD;
   border-radius: 4px;
   padding: 13px 16px;

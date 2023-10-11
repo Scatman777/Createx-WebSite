@@ -1254,6 +1254,7 @@ svg {
     }
 }
 
+/////////////////// SECTION-SUBSCRIBE ///////////////////
 .section-subscribe {
 }
 
@@ -1295,13 +1296,13 @@ svg {
 
 .section-subscribe__button {
     @include button-green-link;
-    border: 1px solid $gray-400;
-    padding: 4.5px 16px;
-    // a {
-    //     font-size: 14px;
-    //     line-height: 150%;
-    //     color: $gray-700;
-    // }
+}
+
+.background-green {
+	background-color: $green;
+	a {
+		color: $white;
+	}
 }
 
 .section-subscribe__column-input {
@@ -1314,6 +1315,9 @@ svg {
     display: flex;
     margin-bottom: 12px;
     input {
+		@include text-16px;
+		font-weight: 400;
+		color: $gray-600;
         border: 1px solid $gray-400;
         border-radius: 4px;
         padding: 13px 16px;
@@ -1357,8 +1361,7 @@ svg {
     }
 }
 
-////////////////////////////////////////
-
+/////////////////// FOOTER ///////////////////
 .footer {
     background: $gray-900;
 }
