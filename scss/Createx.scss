@@ -1316,14 +1316,17 @@ svg {
     display: flex;
     margin-bottom: 12px;
     input {
-		@include text-16px;
-		font-weight: 400;
-		color: $gray-600;
         border: 1px solid $gray-400;
         border-radius: 4px;
         padding: 13px 16px;
         width: 350px;
         height: 52px;
+
+		&:placeholder-shown {
+			@include text-16px;
+			font-weight: 400;
+			color: $gray-600;
+		}
     }
 }
 
