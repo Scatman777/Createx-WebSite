@@ -20,7 +20,7 @@ for (let elm of elements) {
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
-    document.getElementById("MenuLang__Open").classList.toggle("sub-menu-lang__style-arrow");
+    document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
 }
 
 ///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////

@@ -1127,10 +1127,6 @@
         padding: 15px;
     }
 
-	.sub-menu-lang__style-arrow {
-		display: block;
-	}
-
     .sub-menu-lang__list>li{
         display: flex;
         gap: 12px;
@@ -1171,27 +1167,31 @@
     .menu-lang__arrow {
     }
 
-    body.mouse .menu-lang__list>li:hover .sub-menu-lang__list {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        background: $gray-800;
-        border-radius: 4px;
-        box-shadow: 8px 4px 5px 5px #06060691;
-    }
+	.lang-list__open {
+		display: block;
+	}
 
-    body.touch .sub-menu-lang__list.open{
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        background: $gray-800;
-        border-radius: 4px;
-        box-shadow: 8px 4px 5px 5px #06060691;
-    }
+//     body.mouse .menu-lang__list>li:hover .sub-menu-lang__list {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 15px;
+//         background: $gray-800;
+//         border-radius: 4px;
+//         box-shadow: 8px 4px 5px 5px #06060691;
+//     }
 
-    body.touch .arrow {
-        display: block;
-    }
+//     body.touch .sub-menu-lang__list.open{
+//         display: flex;
+//         flex-direction: column;
+//         gap: 15px;
+//         background: $gray-800;
+//         border-radius: 4px;
+//         box-shadow: 8px 4px 5px 5px #06060691;
+//     }
+
+//     body.touch .arrow {
+//         display: block;
+//     }
 }
 
 //////////////////// INPUT-CHECKBOX ////////////////////

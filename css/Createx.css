@@ -3550,25 +3550,7 @@ body.touch .arrow {
   border-bottom: 10px solid transparent;
 }
 
-body.mouse .menu-lang__list > li:hover .sub-menu-lang__list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  background: #424551;
-  border-radius: 4px;
-  box-shadow: 8px 4px 5px 5px rgba(6, 6, 6, 0.568627451);
-}
-
-body.touch .sub-menu-lang__list.open {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  background: #424551;
-  border-radius: 4px;
-  box-shadow: 8px 4px 5px 5px rgba(6, 6, 6, 0.568627451);
-}
-
-body.touch .arrow {
+.lang-list__open {
   display: block;
 }
 
