@@ -18,6 +18,11 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+///////////////// POPAP /////////////////
+function passwordHide() {
+    document.getElementById("open").classList.toggle("password__open");
+}
+
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
