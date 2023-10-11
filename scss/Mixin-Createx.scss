@@ -1153,6 +1153,7 @@
         border-top: 7px solid #fff;
         border-right: 7px solid transparent;
         border-left: 7px solid transparent;
+		transition: all 0.5s;
     }
 
     .arrow.active{
@@ -1175,6 +1176,11 @@
 		transition: all 0.5s;
 		opacity: 1;
 		visibility: visible;
+	}
+
+	.lang-list__arrow-open {
+		transform: rotate(180deg);
+		transition: all 0.5s;
 	}
 
 	@keyframes menu-lang__animation {
