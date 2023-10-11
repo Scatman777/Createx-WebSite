@@ -3505,27 +3505,28 @@ body.touch .arrow {
 }
 
 .sub-menu-lang__list {
-  opacity: 0;
-  visibility: hidden;
-  min-width: 130px;
+  min-width: 100px;
   position: absolute;
+  border-radius: 4px;
   left: 0;
   top: 25px;
-  padding: 15px;
   transform: translateY(-20%);
   transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .sub-menu-lang__list > li {
   display: flex;
   gap: 12px;
-  background-color: white;
-  border-radius: 4px;
+  background-color: rgba(225, 225, 225, 0.7019607843);
   padding: 10px;
+  border-bottom: 2px solid #17696A;
+  justify-content: center;
 }
 
 .sub-menu-lang__link {
-  color: #6e6e6e;
+  color: #4b4b4b;
   display: inline-block;
 }
 
