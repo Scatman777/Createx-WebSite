@@ -3527,7 +3527,7 @@ body.touch .arrow {
 }
 
 .arrow {
-  display: none;
+  display: block;
   position: absolute;
   right: -23px;
   top: 4px;

@@ -657,6 +657,45 @@
 						</div>
 					</div>
 				</section>
+				<section class="section-subscribe">
+					<div class="section-subscribe__countainer _countainer">
+						<div class="section-subscribe__body">
+							<div class="section-subscribe__block">
+								<div class="section-subscribe__column">
+									<h2 class="section-subscribe__title">Subscribe for updates</h2>
+									<p class="section-subscribe__text">Subscribe for exclusive early sale access and new arrivals.</p>
+									<div class="section-subscribe__menu">
+										<button id="buttonGender1" class="section-subscribe__button" onclick="buttonFunctionGender1()">
+											<a>Women</a></button>
+										<button id="buttonGender2" class="section-subscribe__button" onclick="buttonFunctionGender2()">
+											<a>Men</a>
+										</button>
+										<button id="buttonGender3" class="section-subscribe__button" onclick="buttonFunctionGender3()">
+											<a>Girls</a>
+										</button>
+										<button id="buttonGender4" class="section-subscribe__button" onclick="buttonFunctionGender4()">
+											<a>Boys</a>
+										</button>
+									</div>
+								</div>
+								<div class="section-subscribe__column-input">
+									<div class="section-subscribe__input-text">Email</div>
+									<div class="section-subscribe__input">
+										<input placeholder="Your working email" type="text">
+										<button class="section-subscribe__button-input"><a href="#">Subscribe</a></button>
+									</div>
+									<label class="checkbox">
+										<input class="custom-checkbox" type="checkbox" style="width: 400px; height: 25px;">
+										<label class="section-subscribe__agreement-text">I agree to receive communications from Createx Store.</label>
+									</label>
+								</div>
+							</div>
+							<div class="section-subscribe__block-logo">
+								<img src="/img/image-subscribe.svg" alt="cover">
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 
 			<footer class="footer">
@@ -865,25 +904,5 @@
 			</div>
 		</div>
 		<script src="./js/Createx.js"></script>
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/slick.min.js"></script>
-		<script>
-			$(document).ready(function(){
-				$('.sliders').slick({
-					prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
-					nextArrow: '<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
-					autoplay:true,
-					autoplaySpeed: 1500,
-					speed: 1300,
-					easing: 'ease',
-					loop: true,
-					dots: true,
-					infinite: true,
-					slidesToShow: 1,
-					pauseOnHover: false,
-					draggable: false
-				});
-			});
-		</script>
 	</body>
 </html>

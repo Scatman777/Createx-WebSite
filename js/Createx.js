@@ -18,6 +18,9 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+///////////////// HEADER__MENU-LANG /////////////////
+
+
 ///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
 function buttonFunction1Color1() {
     document.getElementById("buttonCircle1.1").classList.toggle("border-green");
