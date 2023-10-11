@@ -21,7 +21,16 @@ for (let elm of elements) {
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
-	document.getElementById("MenuLang__Arow").style.toggle("transform = 'rotate(180deg)'");
+	// document.getElementById("MenuLang__Arow").style.toggle(tranform = 'rotate(180deg)');
+}
+
+function arrowRotate() {
+	var arrowStyle = document.getElementById("MenuLang__Arow");
+	if (arrowStyle.style.transform === "rotate(180deg)") {
+		arrowStyle.style.transform = "rotate(180deg)";
+	} else {
+		arrowStyle.style.transform = "rotate(180deg)";
+	}
 }
 
 ///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
