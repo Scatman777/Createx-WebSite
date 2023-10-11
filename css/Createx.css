@@ -86,6 +86,10 @@ h6 {
   font-weight: inherit;
 }
 
+.password__open {
+  background: url("/img/Eyes.svg") 0 0 no-repeat;
+}
+
 /* Media */
 /* variables */
 html,

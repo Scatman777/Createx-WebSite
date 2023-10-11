@@ -806,7 +806,6 @@
 
 //////////////////// POPAP ////////////////////
 @mixin login-popap {
-
     .login-popap {
         position: fixed;
         width: 100%;
@@ -922,10 +921,6 @@
         }
     }
 
-	.password__open {
-		background: url("/img/Eyes.svg") 0 0 no-repeat;
-	}
-
     .block-input__column-profile {
         display: flex;
         align-items: center;
@@ -1011,7 +1006,6 @@
 }
 
 @mixin register-popap {
-
     .register-popap {
         position: fixed;
         width: 100%;
