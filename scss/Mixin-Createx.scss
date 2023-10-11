@@ -1098,6 +1098,10 @@
     }
 }
 
+.password__open {
+	background: url("/img/Eyes.svg") 0 0 no-repeat;
+}
+
 //////////////////// MENU-LANG ////////////////////
 @mixin menu-lang {
     .body-up__menu-lang {
