@@ -1794,7 +1794,7 @@ svg {
   border: 1px solid #D7DADD;
   padding: 4.5px 16px;
 }
-.section-subscribe__button span {
+.section-subscribe__button a {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
@@ -1806,11 +1806,6 @@ svg {
   letter-spacing: 0.5px;
   color: #787A80;
   opacity: 1;
-}
-.section-subscribe__button a {
-  font-size: 14px;
-  line-height: 150%;
-  color: #787A80;
 }
 
 .section-subscribe__column-input {

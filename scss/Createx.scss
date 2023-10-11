@@ -1294,14 +1294,14 @@ svg {
 }
 
 .section-subscribe__button {
-    @include button-green-span;
+    @include button-green-link;
     border: 1px solid $gray-400;
     padding: 4.5px 16px;
-    a {
-        font-size: 14px;
-        line-height: 150%;
-        color: $gray-700;
-    }
+    // a {
+    //     font-size: 14px;
+    //     line-height: 150%;
+    //     color: $gray-700;
+    // }
 }
 
 .section-subscribe__column-input {
