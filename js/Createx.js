@@ -21,7 +21,7 @@ for (let elm of elements) {
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
-	document.getElementById("MenuLang__Arow").style.toggle(transform = rotate("45deg"));
+	document.getElementById("MenuLang__Arow").style.toggle("transform = 'rotate(180deg)'");
 }
 
 ///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
