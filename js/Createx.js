@@ -19,7 +19,9 @@ for (let elm of elements) {
 }
 
 ///////////////// HEADER__MENU-LANG /////////////////
-
+function MenuLangList() {
+    document.getElementById("MenuLang__Open").classList.toggle("sub-menu-lang__style-arrow");
+}
 
 ///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
 function buttonFunction1Color1() {
