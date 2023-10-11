@@ -4065,7 +4065,7 @@ body.touch .arrow {
   background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
 }
 
-.password-control.view {
+.password__open {
   background: url("/img/Eyes.svg") 0 0 no-repeat;
 }
 
