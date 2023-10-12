@@ -1789,12 +1789,25 @@ svg {
   gap: 12px;
 }
 
+.section-subscribe__column-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+
 .section-subscribe__button {
   transition: all 0.5s;
   padding: 4.5px 16px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
   background: none;
+  position: absolute;
+  width: 60px;
+  height: 32px;
 }
 .section-subscribe__button a {
   font-family: "Lato";

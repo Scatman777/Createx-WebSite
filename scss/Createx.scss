@@ -1294,8 +1294,21 @@ svg {
     gap: 12px;
 }
 
+.section-subscribe__column-menu {
+	display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
 .section-subscribe__button {
     @include button-green-link;
+	position: absolute;
+	width: 60px;
+	height: 32px;
 }
 
 .background-green {
