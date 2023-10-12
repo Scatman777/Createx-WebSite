@@ -21,7 +21,7 @@ for (let elm of elements) {
 ///////////////// POPAP /////////////////
 function passwordHide() {
     document.getElementById("open").classList.toggle("password__open");
-	document.getElementById("inputType").inputType.setAttribute(type = 'text')
+	document.setAttribute(type = 'text')
 }
 
 ///////////////// HEADER__MENU-LANG /////////////////
