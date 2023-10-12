@@ -1291,10 +1291,8 @@
 									<h2 class="section-subscribe__title">Subscribe for updates</h2>
 									<p class="section-subscribe__text">Subscribe for exclusive early sale access and new arrivals.</p>
 									<div class="section-subscribe__menu">
-										<div id="buttonGender1" class="section-subscribe__column-menu" onclick="buttonFunctionGender1()">
-											<input type="radio" class="section-subscribe__button">
-											<label>Women</label>
-										</div>
+										<button id="buttonGender1" class="section-subscribe__button" onclick="buttonFunctionGender1()">
+											<a>Women</a></button>
 										<button id="buttonGender2" class="section-subscribe__button" onclick="buttonFunctionGender2()">
 											<a>Men</a>
 										</button>
@@ -1409,13 +1407,13 @@
 						<div class="block-input__column-input">
 							<label>Password</label>
 							<div class="password">
-								<input id="inputType" type="password" name="password" tabindex="2">
+								<input type="password" name="password" tabindex="2">
 								<a id="open" class="password-control" onclick="passwordHide()"></a>
 							</div>
 						</div>
 						<div class="block-input__column-profile">
-							<div class="column-profile__input">
-								<input type="checkbox">
+							<div class="column-profile__input checkbox">
+								<input class="custom-checkbox" type="checkbox">
 								<span>Keep me signed in</span>
 							</div>
 							<a href="#" class="column-profile__forgot-password">Forgot password?</a>
