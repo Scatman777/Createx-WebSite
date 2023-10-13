@@ -1758,23 +1758,20 @@ svg {
 
 //////////////////// INPUT-PRICE ////////////////////
 .block-sorting__input-range {
-	display: none;
-	width: 400px;
-	background-color: #fff;
-	padding: 20px 25px 40px;
-	border-radius: 10px;
-	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	gap: 21px;
 }
 
-.block-sorting__input-range header h2 {
-	font-size: 24px;
-	font-weight: 600;
-}
+// .block-sorting__input-range header h2 {
+// 	font-size: 24px;
+// 	font-weight: 600;
+// }
   
-.block-sorting__input-range header p {
-	font-size: 15px;
-	margin-top: 5px;
-}
+// .block-sorting__input-range header p {
+// 	font-size: 15px;
+// 	margin-top: 5px;
+// }
   
 .block-sorting__input-range .price-input {
 	display: flex;
@@ -1790,14 +1787,17 @@ svg {
 }
 
 .price-input input {
+	max-width: 110px;
 	width: 100%;
 	height: 100%;
 	outline: none;
-	border: 1px solid #999;
-	border-radius: 5px;
-	text-align: center;
-	font-size: 18px;
-	margin-left: 12px;
+	border: 1px solid $gray-400;
+	border-radius: 4px;
+	padding: 9px 12px;
+	@include text-14px;
+	font-size: 12px;
+	opacity: 1;
+	color: $gray-800;
 }
   
 .price-input input::-webkit-outer-spin-button,
@@ -1805,18 +1805,18 @@ svg {
 	display: none;
 }
   
-.block-sorting__input-range .seperator {
-	width: 130px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 19px;
+.block-sorting__input-range .field {
+	&::before {
+		content: "-";
+		width: 10px;
+		padding: 0px 10px;
+	}
 }
   
 .block-sorting__input-range .slider {
-	height: 5px;
+	height: 3px;
 	position: relative;
-	background-color: #ddd;
+	background-color: $gray-400;
 	border-radius: 5px;
 }
   
@@ -1825,7 +1825,7 @@ svg {
 	height: 100%;
 	left: 5%;
 	right: 65%;
-	background-color: #4070f4;
+	background-color: $green;
 	border-radius: 5px;
 }
 
@@ -1841,13 +1841,13 @@ svg {
 	pointer-events: none;
 	background: none;
 	appearance: none;
-	accent-color: #4070f4;
+	accent-color: $green;
 }
   
 .block-sorting__input-range .range-input input::-webkit-slider-thumb {
 	height: 15px;
 	width: 15px;
-	background-color: #4070f4;
+	background-color: $green;
 	border-radius: 50%;
 	pointer-events: auto;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
