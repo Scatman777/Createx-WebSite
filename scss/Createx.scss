@@ -992,12 +992,14 @@ svg {
     display: flex;
     flex-direction: column;
 }
+
 .section-mobile__block-mobile {
     display: flex;
     justify-content: space-between;
     gap: 10.5rem;
     height: 300px;
 }
+
 .section-mobile__img {
     transform: translateY(-29px);
     img {

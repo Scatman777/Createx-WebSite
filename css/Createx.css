@@ -3707,7 +3707,7 @@ body.touch .arrow {
 }
 
 .bread-crumb__text::before {
-  background: url("/img/Right-chevron.svg") no-repeat #9A9CA5;
+  content: url("/img/Right-chevron.svg");
   padding: 0px 8px;
 }
 
