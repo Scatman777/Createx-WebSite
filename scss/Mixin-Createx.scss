@@ -343,7 +343,7 @@
 
     .single-slider {
         background-size: cover;
-        background-position: center;
+        background-position: right;
         position: relative;
         z-index: 2;
     }
@@ -402,16 +402,16 @@
         }
 
         &:nth-child(1) {
-            background: url("/img/01-number.svg") center center no-repeat;
+            background: url("/img/01-number.svg") left no-repeat;
         }
         &:nth-child(2) {
-            background: url("/img/02-number.svg") center center no-repeat;
+            background: url("/img/02-number.svg") left no-repeat;
         }
         &:nth-child(3) {
-            background: url("/img/03-number.svg") center center no-repeat;
+            background: url("/img/03-number.svg") left no-repeat;
         }
         &:nth-child(4) {
-            background: url("/img/04-number.svg") center center no-repeat;
+            background: url("/img/04-number.svg") left no-repeat;
         }
     }
 

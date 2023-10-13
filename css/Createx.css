@@ -2535,7 +2535,7 @@ svg {
 
 .single-slider {
   background-size: cover;
-  background-position: center;
+  background-position: right;
   position: relative;
   z-index: 2;
 }
