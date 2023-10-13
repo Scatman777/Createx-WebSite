@@ -3687,6 +3687,7 @@ body.touch .arrow {
 
 .bread-crumb__body {
   display: flex;
+  align-items: center;
   padding: 1rem 0px;
 }
 
@@ -3708,6 +3709,8 @@ body.touch .arrow {
 
 .bread-crumb__text::before {
   content: url("/img/Right-chevron.svg");
+  position: relative;
+  top: 3px;
   padding: 0px 8px;
 }
 
