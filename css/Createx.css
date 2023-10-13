@@ -3727,6 +3727,28 @@ body.touch .arrow {
   gap: 20px;
 }
 
+.bread-crumb__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  transition: all 0.5s;
+}
+.bread-crumb__button label {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #9A9CA5;
+  opacity: 1;
+}
+.bread-crumb__button:hover {
+  color: #424551;
+  transition: all 0.5s;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;

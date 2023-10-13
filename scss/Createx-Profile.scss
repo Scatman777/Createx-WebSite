@@ -165,11 +165,23 @@
 		align-items: center;
 		gap: 20px;
 	}
+
 	.bread-crumb__button {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		background: none;
+		transition: all 0.5s;
+
 		label {
 			@include text-14px;
 			color: $gray-600;
 			opacity: 1;
+		}
+
+		&:hover {
+			color: $gray-800;
+			transition: all 0.5s;
 		}
 	}
 }
