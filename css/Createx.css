@@ -3687,7 +3687,12 @@ body.touch .arrow {
 
 .bread-crumb__body {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.bread-crumb__block {
+  display: flex;
   padding: 1rem 0px;
 }
 
@@ -3712,6 +3717,12 @@ body.touch .arrow {
   position: relative;
   top: 3px;
   padding: 0px 8px;
+}
+
+.bread-crumb__block-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 /* для элемента input c type="checkbox" */

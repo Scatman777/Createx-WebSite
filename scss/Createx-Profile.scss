@@ -126,9 +126,14 @@
         background-color: $gray-200;
     }
 
-    .bread-crumb__body {
-        display: flex;
+	.bread-crumb__body {
+		display: flex;
+		justify-content: space-between;
 		align-items: center;
+	}
+
+    .bread-crumb__block {
+        display: flex;
         padding: 1rem 0px;
     }
     
@@ -152,4 +157,12 @@
 		top: 3px;
         padding: 0px 8px;
     }
+
+	.bread-crumb__block-navigation {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+	}
+	.bread-crumb__button {
+	}
 }
