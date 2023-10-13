@@ -210,26 +210,25 @@
 
 //////////////////// SLIDER ////////////////////
 @mixin slider {
-
 /* SLIDER */
-.slick-slider
-{
-    position: relative;
+	.slick-slider
+	{
+		position: relative;
 
-    display: block;
-    box-sizing: border-box;
+		display: block;
+		box-sizing: border-box;
 
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+			-ms-user-select: none;
+				user-select: none;
 
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
+		-webkit-touch-callout: none;
+		-khtml-user-select: none;
+		-ms-touch-action: pan-y;
+			touch-action: pan-y;
+		-webkit-tap-highlight-color: transparent;
+	}
 
     .slick-list
     {
@@ -332,6 +331,16 @@
 
 //////////////////////
     
+	.sliders {
+		position: absolute;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+
     .single-slider {
         background-size: cover;
         background-position: center;
@@ -414,10 +423,6 @@
             opacity: 1;
             color: black;
         }
-    }
-
-    .sliders {
-        transform: translateY(-691px);
     }
 }
 
@@ -1200,28 +1205,6 @@
 			opacity: 1;
 		}
 	}
-
-//     body.mouse .menu-lang__list>li:hover .sub-menu-lang__list {
-//         display: flex;
-//         flex-direction: column;
-//         gap: 15px;
-//         background: $gray-800;
-//         border-radius: 4px;
-//         box-shadow: 8px 4px 5px 5px #06060691;
-//     }
-
-//     body.touch .sub-menu-lang__list.open{
-//         display: flex;
-//         flex-direction: column;
-//         gap: 15px;
-//         background: $gray-800;
-//         border-radius: 4px;
-//         box-shadow: 8px 4px 5px 5px #06060691;
-//     }
-
-//     body.touch .arrow {
-//         display: block;
-//     }
 }
 
 //////////////////// INPUT-CHECKBOX ////////////////////
