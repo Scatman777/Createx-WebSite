@@ -1340,6 +1340,11 @@ svg {
     border-radius: 0px 4px 4px 0px;
 }
 
+.section-subscribe__checkbox {
+	width: 400px;
+	height: 25px
+}
+
 .section-subscribe__agreement-text {
     @include text-16px;
     font-weight: 400;
