@@ -91,6 +91,7 @@ h6 {
 }
 
 /* Media */
+/* FILE-STYLE */
 /* variables */
 html,
 body {
@@ -3732,7 +3733,7 @@ body.touch .arrow {
   align-items: center;
   gap: 8px;
   background: none;
-  transition: all 0.5s;
+  cursor: pointer;
 }
 .bread-crumb__button label {
   font-family: "Lato";
@@ -3743,10 +3744,14 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #9A9CA5;
   opacity: 1;
+  transition: all 0.2s;
 }
-.bread-crumb__button:hover {
+.bread-crumb__button:hover svg path {
+  fill: #424551;
+}
+.bread-crumb__button:hover label {
   color: #424551;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 /* для элемента input c type="checkbox" */

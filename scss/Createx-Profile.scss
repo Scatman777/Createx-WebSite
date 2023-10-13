@@ -171,17 +171,24 @@
 		align-items: center;
 		gap: 8px;
 		background: none;
-		transition: all 0.5s;
+		cursor: pointer;
 
 		label {
 			@include text-14px;
 			color: $gray-600;
 			opacity: 1;
+			transition: all 0.2s;
 		}
 
 		&:hover {
-			color: $gray-800;
-			transition: all 0.5s;
+			svg path {
+				fill: $gray-800;
+			}
+
+			label {
+				color: $gray-800;
+				transition: all 0.2s;
+			}
 		}
 	}
 }
