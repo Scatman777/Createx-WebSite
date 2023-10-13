@@ -134,6 +134,7 @@
 
     .bread-crumb__block {
         display: flex;
+		align-items: center;
         padding: 1rem 0px;
     }
     
@@ -161,8 +162,14 @@
 	.bread-crumb__block-navigation {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		gap: 20px;
 	}
 	.bread-crumb__button {
+		label {
+			@include text-14px;
+			color: $gray-600;
+			opacity: 1;
+		}
 	}
 }

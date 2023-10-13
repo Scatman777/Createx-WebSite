@@ -3693,6 +3693,7 @@ body.touch .arrow {
 
 .bread-crumb__block {
   display: flex;
+  align-items: center;
   padding: 1rem 0px;
 }
 
@@ -3722,6 +3723,7 @@ body.touch .arrow {
 .bread-crumb__block-navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 20px;
 }
 
