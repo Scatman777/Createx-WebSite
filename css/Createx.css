@@ -2362,12 +2362,12 @@ svg {
   border-radius: 5px;
 }
 
-.block-sorting__input-range .range-input {
+.block-sorting__input-range .range-input__column {
   position: relative;
-  top: 4px;
+  height: 36px;
 }
 
-.block-sorting__input-range .range-input input {
+.block-sorting__input-range .range-input__input-range {
   position: absolute;
   width: 100%;
   height: 5px;
@@ -2378,14 +2378,6 @@ svg {
      -moz-appearance: none;
           appearance: none;
   accent-color: #17696A;
-}
-
-.block-sorting__input-range .range-input input::-webkit-slider-thumb {
-  height: 15px;
-  width: 15px;
-  background-color: #17696A;
-  border-radius: 50%;
-  pointer-events: auto;
 }
 
 .show-flex {
