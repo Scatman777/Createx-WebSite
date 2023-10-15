@@ -2380,6 +2380,14 @@ svg {
   accent-color: #17696A;
 }
 
+.block-sorting__input-range .range-input__input-range input::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #17696A;
+  border-radius: 50%;
+  pointer-events: auto;
+}
+
 .show-flex {
   display: flex;
   animation: list-animation 1s ease;
