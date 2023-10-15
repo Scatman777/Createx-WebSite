@@ -1491,8 +1491,10 @@ svg {
 
 
 ///////////// CREATEX-CTALOG /////////////
+
 .section-catalog__body {
 	display: flex;
+	gap: 30px;
 	margin: 2rem 0px 11.25rem 0px;
 }
 
@@ -1501,6 +1503,7 @@ svg {
 	justify-content: center;
 }
 
+/* BLOCK-SORTING */
 .block-sorting__block {
 	display: flex;
 	flex-direction: column;
@@ -1899,7 +1902,7 @@ svg {
 	pointer-events: auto;
 }
 
-//////////////////// BLOCK-PRODUCT ////////////////////
+/* BLOCK-PRODUCT */
 .block-product__block-column {
 	display: grid;
 	grid-template-areas: 'a a a';
