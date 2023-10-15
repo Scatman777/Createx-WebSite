@@ -1899,6 +1899,14 @@ svg {
 	pointer-events: auto;
 }
 
+//////////////////// BLOCK-PRODUCT ////////////////////
+.block-product__block-column {
+	display: grid;
+	grid-template-areas: 'a a a';
+	column-gap: 30px;
+	row-gap: 60px;
+}
+
 .show-flex {
 	display: flex;
 	animation: list-animation 1s ease;
