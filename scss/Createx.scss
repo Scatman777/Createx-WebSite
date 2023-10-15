@@ -1493,7 +1493,6 @@ svg {
 ///////////// CREATEX-CTALOG /////////////
 .section-catalog__body {
 	display: flex;
-	max-width: 260px;
 	margin: 2rem 0px 11.25rem 0px;
 }
 
@@ -1516,6 +1515,7 @@ svg {
 .block-sorting__block {
 	display: flex;
 	flex-direction: column;
+	max-width: 260px;
 }
 
 .block-sorting__column {
