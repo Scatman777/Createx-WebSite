@@ -2055,7 +2055,8 @@ svg {
 
 .section-catalog__body {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  gap: 60px;
   margin: 2rem 0px 11.25rem 0px;
 }
 
