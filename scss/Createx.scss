@@ -1857,15 +1857,11 @@ svg {
 	align-items: center;
 	background: $gray-800;
 	border-radius: 4px;
-
-	input {
-		width: 48px;
-		height: 22px;
-		background: $gray-800;
-		@include text-14px;
-		color: $white;
-		opacity: 1;
-	}
+	width: 48px;
+	height: 22px;
+	@include text-14px;
+	color: $white;
+	opacity: 1;
 }
   
 .block-sorting__input-range .range-input input::-webkit-slider-thumb {

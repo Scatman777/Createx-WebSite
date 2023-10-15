@@ -2389,11 +2389,8 @@ svg {
   align-items: center;
   background: #424551;
   border-radius: 4px;
-}
-.block-sorting__input-range .number-input input {
   width: 48px;
   height: 22px;
-  background: #424551;
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
