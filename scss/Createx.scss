@@ -1838,17 +1838,29 @@ svg {
 
 .block-sorting__input-range .range-input {
 	position: relative;
+
+	input {
+		position: absolute;
+		width: 100%;
+		height: 5px;
+		top: -5px;
+		pointer-events: none;
+		background: none;
+		appearance: none;
+		accent-color: #17696A;
+	}
 }
 
-.block-sorting__input-range .range-input input {
-	position: absolute;
-	width: 100%;
-	height: 5px;
-	top: -5px;
-	pointer-events: none;
-	background: none;
-	appearance: none;
-	accent-color: #17696A;
+.block-sorting__input-range .number-input {
+	display: inline-flex;
+	padding: 2px 10px;
+	align-items: center;
+	border-radius: 4px;
+	background: $gray-800;
+
+	input {
+
+	}
 }
   
 .block-sorting__input-range .range-input input::-webkit-slider-thumb {
