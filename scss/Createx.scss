@@ -1855,11 +1855,16 @@ svg {
 	display: inline-flex;
 	padding: 2px 10px;
 	align-items: center;
-	border-radius: 4px;
 	background: $gray-800;
+	border-radius: 4px;
 
 	input {
-
+		width: 48px;
+		height: 22px;
+		background: $gray-800;
+		@include text-14px;
+		color: $white;
+		opacity: 1;
 	}
 }
   

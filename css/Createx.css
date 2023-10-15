@@ -2387,9 +2387,23 @@ svg {
   display: inline-flex;
   padding: 2px 10px;
   align-items: center;
-  border-radius: 4px;
   background: #424551;
+  border-radius: 4px;
 }
+.block-sorting__input-range .number-input input {
+  width: 48px;
+  height: 22px;
+  background: #424551;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #FFF;
+  opacity: 1;
+}
+
 .block-sorting__input-range .range-input input::-webkit-slider-thumb {
   height: 15px;
   width: 15px;
