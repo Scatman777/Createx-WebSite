@@ -1610,6 +1610,10 @@ svg {
 	height: 100%;
 }
 
+.block-sorting__hide {
+	display: none;
+}
+
 .block-sorting__column {
 	padding: 20px 0px;
 
@@ -2006,6 +2010,10 @@ svg {
 	grid-template-areas: 'a a a';
 	column-gap: 30px;
 	row-gap: 60px;
+}
+
+.block-product__style {
+	grid-template-areas: 'a a a a';
 }
 
 .block-product__column {

@@ -125,6 +125,12 @@ function buttonFunctionGender4() {
     document.getElementById("buttonGender4").classList.toggle("background-green");
 }
 
+///////////////// SECTION-CATALOG /////////////////
+function HideFilters() {
+    document.getElementById("BlockSortingHide").classList.toggle("block-sorting__hide");
+	document.getElementById("BlockProductOpen").classList.toggle("block-product__style");
+}
+
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
