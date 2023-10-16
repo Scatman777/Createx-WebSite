@@ -1581,9 +1581,16 @@ svg {
 	align-items: center;
     gap: 20px;
 
-	a:nth-child(3)::after {
-		content: "...";
-		padding: 0px 20px;
+	a {
+		@include text-16px;
+		&:nth-child(3)::after {
+			content: "...";
+			padding-left: 20px;
+		}
+
+		&:hover {
+			color: $green;
+		}
 	}
 }
 

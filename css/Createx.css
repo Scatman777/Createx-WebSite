@@ -2168,9 +2168,19 @@ svg {
   align-items: center;
   gap: 20px;
 }
+.block-filter__more-navigation a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+}
 .block-filter__more-navigation a:nth-child(3)::after {
   content: "...";
-  padding: 0px 20px;
+  padding-left: 20px;
+}
+.block-filter__more-navigation a:hover {
+  color: #17696A;
 }
 
 .section-catalog__content {
