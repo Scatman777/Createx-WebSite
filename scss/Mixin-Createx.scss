@@ -151,7 +151,7 @@
     transition: all 0.5s;
     padding: 0px 32px;
     border-radius: 4px;
-    background: $green;
+    background: url("/img/filter-1.svg") 26% center no-repeat $green;
     a {
         @include text-16px;
         line-height: 44px;

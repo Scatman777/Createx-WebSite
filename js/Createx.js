@@ -137,17 +137,17 @@ function HideFilters() {
 	document.getElementById("BlockProductStyle").classList.toggle("block-product__style");
 
 	var ButtonStyle1 = document.getElementById("ButtonStyle1");
-	if (ButtonStyle1.style.display === "block") {
-		ButtonStyle1.style.display = "none";
-	} else {
+	if (ButtonStyle1.style.display === "none") {
 		ButtonStyle1.style.display = "block";
+	} else {
+		ButtonStyle1.style.display = "none";
 	}
 
 	var ButtonStyle2 = document.getElementById("ButtonStyle2");
-	if (ButtonStyle2.style.display === "none") {
-		ButtonStyle2.style.display = "block";
-	} else {
+	if (ButtonStyle2.style.display === "block") {
 		ButtonStyle2.style.display = "none";
+	} else {
+		ButtonStyle2.style.display = "block";
 	}
 }
 

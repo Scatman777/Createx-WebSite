@@ -734,7 +734,7 @@ body {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: #17696A;
+  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
 }
 .section-banner__button-green a {
   font-family: "Lato";
@@ -1349,7 +1349,7 @@ svg {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: #17696A;
+  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
   justify-content: center;
 }
 .buy-block__button a {
@@ -1872,7 +1872,7 @@ svg {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: #17696A;
+  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
   border-radius: 0px 4px 4px 0px;
 }
 .section-subscribe__button-input a {
@@ -2076,7 +2076,7 @@ svg {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: #17696A;
+  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
   justify-content: center;
   width: 255px;
   height: 44px;
@@ -3552,7 +3552,7 @@ body.touch .arrow {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: #17696A;
+  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
   justify-content: center;
   margin-top: 4px;
 }
@@ -3876,7 +3876,7 @@ body.touch .arrow {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: #17696A;
+  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
 }
 .content-profile__button-down a {
   font-family: "Lato";
