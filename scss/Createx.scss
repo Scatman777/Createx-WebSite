@@ -415,8 +415,7 @@ body {
 
 .body-cloth__icon-heart {
     position: relative;
-
-    width: 35px;
+    width: 32px;
     background: $white;
     padding: 8px;
     border-radius: 50%;
@@ -1909,6 +1908,13 @@ svg {
 	grid-template-areas: 'a a a';
 	column-gap: 30px;
 	row-gap: 60px;
+}
+
+.block-product__column {
+}
+
+.block-product__item {
+
 }
 
 .show-flex {
