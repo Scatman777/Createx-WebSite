@@ -1113,7 +1113,7 @@
 						</div>
 					</div>
 				</section>
-				
+
 				<section class="section-subscribe">
 					<div class="section-subscribe__countainer _countainer">
 						<div class="section-subscribe__body">
@@ -1220,6 +1220,298 @@
 				</div>
 				<div class="footer__border-bottom"></div>
 			</footer>
+		</div>
+		<div class="filter-popap">
+			<a href="#" class="filter-popap__area"></a>
+			<div class="filter-popap__body">
+				<div id="BlockSortingHide" class="block-sorting__block">
+					<div class="block-sorting__column">
+						<div class="block-sorting__item">
+							<div class="block-sorting__column-title">
+								<div class="block-sorting__text">Clothes</div>
+								<div id="plus1" class="block-sorting__plus" onclick="buttonFunction1()">
+									<img src="/img/Plus.svg" alt="cover">
+								</div>
+							</div>
+							<div id="list1" class="block-sorting__list">
+								<div class="block-sorting__input-search">
+									<input type="text" placeholder="Search the clothes type" id="myInput" onkeyup="filterFunction()" tabindex="1">
+									<img src="/img/search.svg" alt="cover">
+								</div>
+								<div class="block-sorting__input-column-sorting input-column-sorting">
+									<div class="checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Coats" tabindex="2">
+										<label class="input-column-sorting__name">Coats <number>(16)</number></label>
+									</div>
+									<div class="checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Jackets" tabindex="3">
+										<label class="input-column-sorting__name">Jackets <number>(12)</number></label>
+									</div>
+									<div class="checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Suits" tabindex="4">
+										<label class="input-column-sorting__name">Suits <number>(5)</number></label>
+									</div>
+									<div class="checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Dresses " tabindex="5">
+										<label class="input-column-sorting__name">Dresses <number>(11)</number></label>
+									</div>
+									<div class="checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Cardigans & sweaters" tabindex="6">
+										<label class="input-column-sorting__name">Cardigans & sweaters <number>(18)</number></label>
+									</div>
+									<div class="checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Sweatshirts & hoodies" tabindex="7">
+										<label class="input-column-sorting__name">Sweatshirts & hoodies <number>(21)</number></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-sorting__column">
+						<div class="block-sorting__item">
+							<div class="block-sorting__column-title">
+								<div class="block-sorting__text">Size</div>
+								<div id="plus2" class="block-sorting__plus" onclick="buttonFunction2()">
+									<img src="/img/Plus.svg" alt="cover">
+								</div>
+							</div>
+							<div id="list2" class="block-sorting__list">
+								<div class="block-sorting__input-column-sorting input-column-sorting">
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="XS" tabindex="8">
+										<label class="input-column-sorting__name">XS <number>(16)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="S" tabindex="9">
+										<label class="input-column-sorting__name">S <number>(12)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="M" tabindex="10">
+										<label class="input-column-sorting__name">M <number>(5)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="L" tabindex="11">
+										<label class="input-column-sorting__name">L <number>(11)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="XL" tabindex="12">
+										<label class="input-column-sorting__name">XL <number>(18)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Plus Size" tabindex="13">
+										<label class="input-column-sorting__name">Plus Size <number>(21)</number></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-sorting__column">
+						<div class="block-sorting__item">
+							<div class="block-sorting__column-title">
+								<div class="block-sorting__text">Color</div>
+								<div id="plus3" class="block-sorting__plus" onclick="buttonFunction3()">
+									<img src="/img/Plus.svg" alt="cover">
+								</div>
+							</div>
+							<div id="list3" class="block-sorting__block-color">
+								<div class="block-sorting__color" onclick="buttonColor1()">
+									<button id="border1">
+										<a></a>
+									</button>
+									<label>Black</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor2()">
+									<button id="border2">
+										<a></a>
+									</button>
+									<label>Blue-gray</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor3()">
+									<button id="border3">
+										<a></a>
+									</button>
+									<label>Yellow</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor4()">
+									<button id="border4">
+										<a></a>
+									</button>
+									<label>Red</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor5()">
+									<button id="border5">
+										<a></a>
+									</button>
+									<label>Dark blue</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor6()">
+									<button id="border6">
+										<a></a>
+									</button>
+									<label>Beige</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor7()">
+									<button id="border7">
+										<a></a>
+									</button>
+									<label>Brown</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor8()">
+									<button id="border8">
+										<a></a>
+									</button>
+									<label>Gray</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor9()">
+									<button id="border9">
+										<a></a>
+									</button>
+									<label>Purple</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor10()">
+									<button id="border10">
+										<a></a>
+									</button>
+									<label>Green</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor11()">
+									<button id="border11">
+										<a></a>
+									</button>
+									<label>Orange</label>
+								</div>
+								<div class="block-sorting__color" onclick="buttonColor12()">
+									<button id="border12">
+										<a></a>
+									</button>
+									<label>White</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-sorting__column">
+						<div class="block-sorting__item">
+							<div class="block-sorting__column-title">
+								<div class="block-sorting__text">Material</div>
+								<div id="plus4" class="block-sorting__plus" onclick="buttonFunction4()">
+									<img src="/img/Plus.svg" alt="cover">
+								</div>
+							</div>
+							<div id="list4" class="block-sorting__list">
+								<div class="block-sorting__input-search">
+									<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
+									<img src="/img/search.svg" alt="cover">
+								</div>
+								<div class="block-sorting__input-column-sorting input-column-sorting">
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Cotton" tabindex="2">
+										<label class="input-column-sorting__name">Cotton <number>(162)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Synthetics" tabindex="3">
+										<label class="input-column-sorting__name">Synthetics <number>(12)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Suits" tabindex="4">
+										<label class="input-column-sorting__name">Suits <number>(26)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Leather " tabindex="5">
+										<label class="input-column-sorting__name">Leather <number>(5)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Cashmere" tabindex="6">
+										<label class="input-column-sorting__name">Cashmere <number>(41)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Denim" tabindex="7">
+										<label class="input-column-sorting__name">Denim <number>(48)</number></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-sorting__column">
+						<div class="block-sorting__item">
+							<div class="block-sorting__column-title">
+								<div class="block-sorting__text">Brand</div>
+								<div id="plus5" class="block-sorting__plus" onclick="buttonFunction5()">
+									<img src="/img/Plus.svg" alt="cover">
+								</div>
+							</div>
+							<div id="list5" class="block-sorting__list">
+								<div class="block-sorting__input-search">
+									<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
+									<img src="/img/search.svg" alt="cover">
+								</div>
+								<div class="block-sorting__input-column-sorting input-column-sorting">
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Adidas" tabindex="2">
+										<label class="input-column-sorting__name">Adidas <number>(162)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Ann Taylor" tabindex="3">
+										<label class="input-column-sorting__name">Ann Taylor <number>(12)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Armani" tabindex="4">
+										<label class="input-column-sorting__name">Armani <number>(26)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Banana Republic  " tabindex="5">
+										<label class="input-column-sorting__name">Banana Republic <number>(5)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Calvin Klein" tabindex="6">
+										<label class="input-column-sorting__name">Calvin Klein <number>(41)</number></label>
+									</div>
+									<div class="input-column-sorting__input-checkbox">
+										<input class="custom-checkbox" type="checkbox" name="Columbia" tabindex="7">
+										<label class="input-column-sorting__name">Columbia <number>(48)</number></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-sorting__column">
+						<div class="block-sorting__item">
+							<div class="block-sorting__column-title">
+								<div class="block-sorting__text">Price</div>
+								<div id="plus6" class="block-sorting__plus" onclick="buttonFunction6()">
+									<img src="/img/Plus.svg" alt="cover">
+								</div>
+							</div>
+							<div id="list6" class="block-sorting__input-range">
+								<div class="slider">
+									<div class="progress"></div>
+								  </div>
+
+								<div class="range-input1">
+									<div class="number-input1 min-input" value="480"></div>
+									<input type="range" min="0" max="10000" value="480" class="min-range"/>
+								</div>
+								<div class="range-input2">
+									<div class="number-input2 max-input" value="800"></div>
+									<input type="range" min="0" max="10000" value="800" class="max-range"/>
+								</div>
+
+								<div class="price-input">
+									<div class="field">
+										<input type="number" value="480" class="min-input" />
+									</div>
+
+									<div class="seperator">-</div>
+
+									<div class="field">
+										<input type="number" value="800" class="max-input" />
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="login-popap" class="login-popap">
 			<a href="#header" class="login-popap__area"></a>
