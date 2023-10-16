@@ -2094,6 +2094,9 @@ svg {
 .block-filter__button:hover {
   background: #18888a;
 }
+.block-filter__button a:nth-child(2) {
+  display: none;
+}
 
 .block-filter__filter-column {
   display: flex;
@@ -2197,10 +2200,6 @@ svg {
   max-width: 260px;
   width: 100%;
   height: 100%;
-}
-
-.block-sorting__hide {
-  display: none;
 }
 
 .block-sorting__column {

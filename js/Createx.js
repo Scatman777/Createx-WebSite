@@ -127,8 +127,28 @@ function buttonFunctionGender4() {
 
 ///////////////// SECTION-CATALOG /////////////////
 function HideFilters() {
-    document.getElementById("BlockSortingHide").classList.toggle("block-sorting__hide");
-	document.getElementById("BlockProductOpen").classList.toggle("block-product__style");
+	var ButtonFilter = document.getElementById("BlockSortingHide");
+	if (ButtonFilter.style.display === "none") {
+		ButtonFilter.style.display = "flex";
+	} else {
+		ButtonFilter.style.display = "none";
+	}
+
+	document.getElementById("BlockProductStyle").classList.toggle("block-product__style");
+
+	var ButtonStyle1 = document.getElementById("ButtonStyle1");
+	if (ButtonStyle1.style.display === "block") {
+		ButtonStyle1.style.display = "none";
+	} else {
+		ButtonStyle1.style.display = "block";
+	}
+
+	var ButtonStyle2 = document.getElementById("ButtonStyle2");
+	if (ButtonStyle2.style.display === "none") {
+		ButtonStyle2.style.display = "block";
+	} else {
+		ButtonStyle2.style.display = "none";
+	}
 }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
