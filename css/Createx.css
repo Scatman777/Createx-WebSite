@@ -2119,7 +2119,7 @@ svg {
 }
 
 .block-sorting__list {
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 16px;
 }
@@ -2512,17 +2512,17 @@ svg {
 
 .show-flex {
   display: flex;
-  animation: list-animation 1s ease;
+  animation: list-animation 0.5s ease;
 }
 
 .show-grid {
   display: grid;
-  animation: list-animation 1s ease;
+  animation: list-animation 0.5s ease;
 }
 
 .show-block {
   display: block;
-  animation: list-animation 1s ease;
+  animation: list-animation 0.5s ease;
 }
 
 @keyframes list-animation {
