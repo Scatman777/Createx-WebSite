@@ -151,7 +151,7 @@
     transition: all 0.5s;
     padding: 0px 32px;
     border-radius: 4px;
-    background: url("/img/filter-1.svg") 26% center no-repeat $green;
+    background-color: $green;
     a {
         @include text-16px;
         line-height: 44px;
@@ -159,7 +159,7 @@
         color: $white;
     }
     &:hover {
-        background: #18888a;
+        background-color: #18888a;
     }
 }
 

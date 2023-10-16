@@ -142,13 +142,14 @@ function HideFilters() {
 	} else {
 		ButtonStyle1.style.display = "none";
 	}
-
 	var ButtonStyle2 = document.getElementById("ButtonStyle2");
 	if (ButtonStyle2.style.display === "block") {
 		ButtonStyle2.style.display = "none";
 	} else {
 		ButtonStyle2.style.display = "block";
 	}
+
+	document.getElementById("ButtonStyleImg").classList.toggle("");
 }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////

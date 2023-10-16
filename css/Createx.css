@@ -734,7 +734,7 @@ body {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
+  background-color: #17696A;
 }
 .section-banner__button-green a {
   font-family: "Lato";
@@ -747,7 +747,7 @@ body {
   color: #FFF;
 }
 .section-banner__button-green:hover {
-  background: #18888a;
+  background-color: #18888a;
 }
 
 .section-banner__block-time {
@@ -1349,7 +1349,7 @@ svg {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
+  background-color: #17696A;
   justify-content: center;
 }
 .buy-block__button a {
@@ -1363,7 +1363,7 @@ svg {
   color: #FFF;
 }
 .buy-block__button:hover {
-  background: #18888a;
+  background-color: #18888a;
 }
 
 .section-mobile {
@@ -1872,7 +1872,7 @@ svg {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
+  background-color: #17696A;
   border-radius: 0px 4px 4px 0px;
 }
 .section-subscribe__button-input a {
@@ -1886,7 +1886,7 @@ svg {
   color: #FFF;
 }
 .section-subscribe__button-input:hover {
-  background: #18888a;
+  background-color: #18888a;
 }
 
 .section-subscribe__checkbox {
@@ -2076,6 +2076,7 @@ svg {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
+  background-color: #17696A;
   background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
   justify-content: center;
   width: 255px;
@@ -2092,7 +2093,7 @@ svg {
   color: #FFF;
 }
 .block-filter__button:hover {
-  background: #18888a;
+  background-color: #18888a;
 }
 .block-filter__button a:nth-child(2) {
   display: none;
@@ -3552,7 +3553,7 @@ body.touch .arrow {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
+  background-color: #17696A;
   justify-content: center;
   margin-top: 4px;
 }
@@ -3567,7 +3568,7 @@ body.touch .arrow {
   color: #FFF;
 }
 .block-input__button:hover {
-  background: #18888a;
+  background-color: #18888a;
 }
 
 .block-input__text-profile {
@@ -3876,7 +3877,7 @@ body.touch .arrow {
   transition: all 0.5s;
   padding: 0px 32px;
   border-radius: 4px;
-  background: url("/img/filter-1.svg") 26% center no-repeat #17696A;
+  background-color: #17696A;
 }
 .content-profile__button-down a {
   font-family: "Lato";
@@ -3889,7 +3890,7 @@ body.touch .arrow {
   color: #FFF;
 }
 .content-profile__button-down:hover {
-  background: #18888a;
+  background-color: #18888a;
 }
 
 .content-profile__select {

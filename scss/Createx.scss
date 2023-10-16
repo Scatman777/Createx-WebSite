@@ -1511,6 +1511,7 @@ svg {
 
 .block-filter__button {
 	@include button-green-backround;
+	background: url("/img/filter-1.svg") 26% center no-repeat $green;
 	justify-content: center;
 	width: 255px;
 	height: 44px;
