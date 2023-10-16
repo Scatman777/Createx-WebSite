@@ -153,10 +153,10 @@ function HideFilters() {
 	}
 
 	var ButtonStyleDown = document.getElementById("ButtonHideDown");
-	if (ButtonStyleDown.style.display === "block") {
-		ButtonStyleDown.style.display = "none";
-	} else {
+	if (ButtonStyleDown.style.display === "none") {
 		ButtonStyleDown.style.display = "block";
+	} else {
+		ButtonStyleDown.style.display = "none";
 	}
 }
 
@@ -222,20 +222,6 @@ function buttonColor11() {
 }
 function buttonColor12() {
     document.getElementById("border12").classList.toggle("border-green");
-}
-
-///////////////// PASSWORD-OPEN /////////////////
-function show_hide_password(target){
-	let input = document.getElementById('password-input');
-
-	if (input.getAttribute('type') == 'password') {
-		target.classList.add('view');
-		input.setAttribute('type', 'text');
-	} else {
-		target.classList.remove('view');
-		input.setAttribute('type', 'text');
-	}
-	return false;
 }
 
 ///////////////// MENU-LANG /////////////////
