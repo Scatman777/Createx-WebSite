@@ -375,686 +375,688 @@
 			<main class="main">
 				<section class="section-catalog">
 					<div class="section-catalog__countainer _countainer">
-						<div class="section-catalog__block-filter block-filter">
-							<div class="block-filter__navigation">
-								<div class="block-filter__button">
-									<a href="#">Hide filters</a>
-								</div>
-								<div class="block-filter__filter-column">
-									<div class="block-filter__column">
-										<div class="block-filter__item">
-											<label>Sort by</label>
-											<div class="block-filter__select">
-												<a href="#">popularity</a>
-												<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1387 5.52827C13.3991 5.78862 13.3991 6.21073 13.1387 6.47108L8.47206 11.1377C8.21171 11.3981 7.7896 11.3981 7.52925 11.1377L2.86258 6.47108C2.60223 6.21073 2.60223 5.78862 2.86258 5.52827C3.12293 5.26792 3.54504 5.26792 3.80539 5.52827L8.00065 9.72353L12.1959 5.52827C12.4563 5.26792 12.8784 5.26792 13.1387 5.52827Z" fill="#424551"/>
-												</svg>
-											</div>
-										</div>
+						<div class="section-catalog__body">
+							<div class="section-catalog__block-filter block-filter">
+								<div class="block-filter__navigation">
+									<div class="block-filter__button">
+										<a href="#">Hide filters</a>
 									</div>
-									<div class="block-filter__column">
-										<div class="block-filter__item">
-											<label>Show</label>
-											<div class="block-filter__input">
-												<input type="number">
-											</div>
-											<p class="block-filter__text">products per page</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="block-filter__more-navigation">
-								<a>1</a>
-								<a>2</a>
-								<a>3</a>
-								<a>10</a>
-								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
-								</svg>
-							</div>
-						</div>
-						<div class="section-catalog__content">
-							<div class="block-sorting__block">
-								<div class="block-sorting__column">
-									<div class="block-sorting__item">
-										<div class="block-sorting__column-title">
-											<div class="block-sorting__text">Clothes</div>
-											<div id="plus1" class="block-sorting__plus" onclick="buttonFunction1()">
-												<img src="/img/Plus.svg" alt="cover">
+									<div class="block-filter__filter-column">
+										<div class="block-filter__column">
+											<div class="block-filter__item">
+												<label>Sort by</label>
+												<div class="block-filter__select">
+													<a href="#">popularity</a>
+													<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1387 5.52827C13.3991 5.78862 13.3991 6.21073 13.1387 6.47108L8.47206 11.1377C8.21171 11.3981 7.7896 11.3981 7.52925 11.1377L2.86258 6.47108C2.60223 6.21073 2.60223 5.78862 2.86258 5.52827C3.12293 5.26792 3.54504 5.26792 3.80539 5.52827L8.00065 9.72353L12.1959 5.52827C12.4563 5.26792 12.8784 5.26792 13.1387 5.52827Z" fill="#424551"/>
+													</svg>
+												</div>
 											</div>
 										</div>
-										<div id="list1" class="block-sorting__list">
-											<div class="block-sorting__input-search">
-												<input type="text" placeholder="Search the clothes type" id="myInput" onkeyup="filterFunction()" tabindex="1">
-												<img src="/img/search.svg" alt="cover">
-											</div>
-											<div class="block-sorting__input-column-sorting input-column-sorting">
-												<div class="checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Coats" tabindex="2">
-													<label class="input-column-sorting__name">Coats <number>(16)</number></label>
+										<div class="block-filter__column">
+											<div class="block-filter__item">
+												<label>Show</label>
+												<div class="block-filter__input">
+													<input type="number">
 												</div>
-												<div class="checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Jackets" tabindex="3">
-													<label class="input-column-sorting__name">Jackets <number>(12)</number></label>
-												</div>
-												<div class="checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Suits" tabindex="4">
-													<label class="input-column-sorting__name">Suits <number>(5)</number></label>
-												</div>
-												<div class="checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Dresses " tabindex="5">
-													<label class="input-column-sorting__name">Dresses <number>(11)</number></label>
-												</div>
-												<div class="checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Cardigans & sweaters" tabindex="6">
-													<label class="input-column-sorting__name">Cardigans & sweaters <number>(18)</number></label>
-												</div>
-												<div class="checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Sweatshirts & hoodies" tabindex="7">
-													<label class="input-column-sorting__name">Sweatshirts & hoodies <number>(21)</number></label>
-												</div>
+												<p class="block-filter__text">products per page</p>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="block-sorting__column">
-									<div class="block-sorting__item">
-										<div class="block-sorting__column-title">
-											<div class="block-sorting__text">Size</div>
-											<div id="plus2" class="block-sorting__plus" onclick="buttonFunction2()">
-												<img src="/img/Plus.svg" alt="cover">
-											</div>
-										</div>
-										<div id="list2" class="block-sorting__list">
-											<div class="block-sorting__input-column-sorting input-column-sorting">
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="XS" tabindex="8">
-													<label class="input-column-sorting__name">XS <number>(16)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="S" tabindex="9">
-													<label class="input-column-sorting__name">S <number>(12)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="M" tabindex="10">
-													<label class="input-column-sorting__name">M <number>(5)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="L" tabindex="11">
-													<label class="input-column-sorting__name">L <number>(11)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="XL" tabindex="12">
-													<label class="input-column-sorting__name">XL <number>(18)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Plus Size" tabindex="13">
-													<label class="input-column-sorting__name">Plus Size <number>(21)</number></label>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="block-sorting__column">
-									<div class="block-sorting__item">
-										<div class="block-sorting__column-title">
-											<div class="block-sorting__text">Color</div>
-											<div id="plus3" class="block-sorting__plus" onclick="buttonFunction3()">
-												<img src="/img/Plus.svg" alt="cover">
-											</div>
-										</div>
-										<div id="list3" class="block-sorting__block-color">
-											<div class="block-sorting__color" onclick="buttonColor1()">
-												<button id="border1">
-													<a></a>
-												</button>
-												<label>Black</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor2()">
-												<button id="border2">
-													<a></a>
-												</button>
-												<label>Blue-gray</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor3()">
-												<button id="border3">
-													<a></a>
-												</button>
-												<label>Yellow</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor4()">
-												<button id="border4">
-													<a></a>
-												</button>
-												<label>Red</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor5()">
-												<button id="border5">
-													<a></a>
-												</button>
-												<label>Dark blue</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor6()">
-												<button id="border6">
-													<a></a>
-												</button>
-												<label>Beige</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor7()">
-												<button id="border7">
-													<a></a>
-												</button>
-												<label>Brown</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor8()">
-												<button id="border8">
-													<a></a>
-												</button>
-												<label>Gray</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor9()">
-												<button id="border9">
-													<a></a>
-												</button>
-												<label>Purple</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor10()">
-												<button id="border10">
-													<a></a>
-												</button>
-												<label>Green</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor11()">
-												<button id="border11">
-													<a></a>
-												</button>
-												<label>Orange</label>
-											</div>
-											<div class="block-sorting__color" onclick="buttonColor12()">
-												<button id="border12">
-													<a></a>
-												</button>
-												<label>White</label>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="block-sorting__column">
-									<div class="block-sorting__item">
-										<div class="block-sorting__column-title">
-											<div class="block-sorting__text">Material</div>
-											<div id="plus4" class="block-sorting__plus" onclick="buttonFunction4()">
-												<img src="/img/Plus.svg" alt="cover">
-											</div>
-										</div>
-										<div id="list4" class="block-sorting__list">
-											<div class="block-sorting__input-search">
-												<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
-												<img src="/img/search.svg" alt="cover">
-											</div>
-											<div class="block-sorting__input-column-sorting input-column-sorting">
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Cotton" tabindex="2">
-													<label class="input-column-sorting__name">Cotton <number>(162)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Synthetics" tabindex="3">
-													<label class="input-column-sorting__name">Synthetics <number>(12)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Suits" tabindex="4">
-													<label class="input-column-sorting__name">Suits <number>(26)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Leather " tabindex="5">
-													<label class="input-column-sorting__name">Leather <number>(5)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Cashmere" tabindex="6">
-													<label class="input-column-sorting__name">Cashmere <number>(41)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Denim" tabindex="7">
-													<label class="input-column-sorting__name">Denim <number>(48)</number></label>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="block-sorting__column">
-									<div class="block-sorting__item">
-										<div class="block-sorting__column-title">
-											<div class="block-sorting__text">Brand</div>
-											<div id="plus5" class="block-sorting__plus" onclick="buttonFunction5()">
-												<img src="/img/Plus.svg" alt="cover">
-											</div>
-										</div>
-										<div id="list5" class="block-sorting__list">
-											<div class="block-sorting__input-search">
-												<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
-												<img src="/img/search.svg" alt="cover">
-											</div>
-											<div class="block-sorting__input-column-sorting input-column-sorting">
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Adidas" tabindex="2">
-													<label class="input-column-sorting__name">Adidas <number>(162)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Ann Taylor" tabindex="3">
-													<label class="input-column-sorting__name">Ann Taylor <number>(12)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Armani" tabindex="4">
-													<label class="input-column-sorting__name">Armani <number>(26)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Banana Republic  " tabindex="5">
-													<label class="input-column-sorting__name">Banana Republic <number>(5)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Calvin Klein" tabindex="6">
-													<label class="input-column-sorting__name">Calvin Klein <number>(41)</number></label>
-												</div>
-												<div class="input-column-sorting__input-checkbox">
-													<input class="custom-checkbox" type="checkbox" name="Columbia" tabindex="7">
-													<label class="input-column-sorting__name">Columbia <number>(48)</number></label>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="block-sorting__column">
-									<div class="block-sorting__item">
-										<div class="block-sorting__column-title">
-											<div class="block-sorting__text">Price</div>
-											<div id="plus6" class="block-sorting__plus" onclick="buttonFunction6()">
-												<img src="/img/Plus.svg" alt="cover">
-											</div>
-										</div>
-										<div id="list6" class="block-sorting__input-range">
-											<div class="slider">
-												<div class="progress"></div>
-											  </div>
-
-											<div class="range-input1">
-												<div class="number-input1 min-input" value="480"></div>
-												<input type="range" min="0" max="10000" value="480" class="min-range"/>
-											</div>
-											<div class="range-input2">
-												<div class="number-input2 max-input" value="800"></div>
-												<input type="range" min="0" max="10000" value="800" class="max-range"/>
-											</div>
-
-											<div class="price-input">
-												<div class="field">
-													<input type="number" value="480" class="min-input" />
-												</div>
-
-												<div class="seperator">-</div>
-
-												<div class="field">
-													<input type="number" value="800" class="max-input" />
-												</div>
-
-											</div>
-										</div>
-									</div>
+								<div class="block-filter__more-navigation">
+									<a>1</a>
+									<a>2</a>
+									<a>3</a>
+									<a>10</a>
+									<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
+									</svg>
 								</div>
 							</div>
-							<div class="block-product__block-column">
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
+							<div class="section-catalog__content">
+								<div class="block-sorting__block">
+									<div class="block-sorting__column">
+										<div class="block-sorting__item">
+											<div class="block-sorting__column-title">
+												<div class="block-sorting__text">Clothes</div>
+												<div id="plus1" class="block-sorting__plus" onclick="buttonFunction1()">
+													<img src="/img/Plus.svg" alt="cover">
+												</div>
 											</div>
-											<div class="body-cloth__icon-heart">
-												<img src="/img/outline.svg" alt="cover">
+											<div id="list1" class="block-sorting__list">
+												<div class="block-sorting__input-search">
+													<input type="text" placeholder="Search the clothes type" id="myInput" onkeyup="filterFunction()" tabindex="1">
+													<img src="/img/search.svg" alt="cover">
+												</div>
+												<div class="block-sorting__input-column-sorting input-column-sorting">
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Coats" tabindex="2">
+														<label class="input-column-sorting__name">Coats <number>(16)</number></label>
+													</div>
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Jackets" tabindex="3">
+														<label class="input-column-sorting__name">Jackets <number>(12)</number></label>
+													</div>
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Suits" tabindex="4">
+														<label class="input-column-sorting__name">Suits <number>(5)</number></label>
+													</div>
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Dresses " tabindex="5">
+														<label class="input-column-sorting__name">Dresses <number>(11)</number></label>
+													</div>
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Cardigans & sweaters" tabindex="6">
+														<label class="input-column-sorting__name">Cardigans & sweaters <number>(18)</number></label>
+													</div>
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Sweatshirts & hoodies" tabindex="7">
+														<label class="input-column-sorting__name">Sweatshirts & hoodies <number>(21)</number></label>
+													</div>
+												</div>
 											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/trend1.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Shirt with insertion lace trims</p>
-										<div class="body-cloth__price">$49.95</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/cloth4.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Mid-rise slim cropped fit jeans</p>
-										<div class="body-cloth__price">$40.00</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/cloth1.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Black and white sport cap</p>
-										<div class="body-cloth__price">$18.15</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395ZM8.22659 4.57418L7.00065 1.74705L5.77471 4.57418C5.60604 4.96315 5.23923 5.22965 4.81717 5.26987L1.74958 5.56218L4.0595 7.60175C4.37731 7.88236 4.51742 8.31357 4.42525 8.7274L3.75531 11.7352L6.40886 10.1686C6.77395 9.95304 7.22735 9.95304 7.59244 10.1686L10.246 11.7352L9.57605 8.7274C9.48388 8.31357 9.62399 7.88236 9.9418 7.60175L12.2517 5.56218L9.18413 5.26987C8.76207 5.22965 8.39526 4.96315 8.22659 4.57418Z" fill="#B3B7BC"/>
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/cloth3.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Green baby romper</p>
-										<div class="body-cloth__price">$20.40</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/trend3.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Check coat with colour contrast</p>
-										<div class="body-cloth__price">$183.45</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/cloth5.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Red dangle earrings</p>
-										<div class="body-cloth__price">$29.95</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395ZM8.22659 4.57418L7.00065 1.74705L5.77471 4.57418C5.60604 4.96315 5.23923 5.22965 4.81717 5.26987L1.74958 5.56218L4.0595 7.60175C4.37731 7.88236 4.51742 8.31357 4.42525 8.7274L3.75531 11.7352L6.40886 10.1686C6.77395 9.95304 7.22735 9.95304 7.59244 10.1686L10.246 11.7352L9.57605 8.7274C9.48388 8.31357 9.62399 7.88236 9.9418 7.60175L12.2517 5.56218L9.18413 5.26987C8.76207 5.22965 8.39526 4.96315 8.22659 4.57418Z" fill="#B3B7BC"/>
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/trend2.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Chrono watch with blue...</p>
-										<div class="body-cloth__price">$120.60</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/cloth6.svg" alt="cover">
-										</div>
-										<p class="body-cloth__product-name">Baby shoes with laces</p>
-										<div class="body-cloth__price">$30.60</div>
-									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="section-discount__discount">
-											<a href="#">-50%</a>
-										</div>
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
-											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/img-catalog1.svg" alt="cover">
-										</div>
-										<div class="block-product__product-name">Basic hooded sweatshirt in pink</div>
-										<div class="block-product__price-column">
-											<div class="block-product__price">$15.50</div>
-											<div class="block-product__price-gray">$31.00</div>
 										</div>
 									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="section-discount__discount">
-											<a href="#">-50%</a>
-										</div>
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
+									<div class="block-sorting__column">
+										<div class="block-sorting__item">
+											<div class="block-sorting__column-title">
+												<div class="block-sorting__text">Size</div>
+												<div id="plus2" class="block-sorting__plus" onclick="buttonFunction2()">
+													<img src="/img/Plus.svg" alt="cover">
+												</div>
 											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
+											<div id="list2" class="block-sorting__list">
+												<div class="block-sorting__input-column-sorting input-column-sorting">
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="XS" tabindex="8">
+														<label class="input-column-sorting__name">XS <number>(16)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="S" tabindex="9">
+														<label class="input-column-sorting__name">S <number>(12)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="M" tabindex="10">
+														<label class="input-column-sorting__name">M <number>(5)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="L" tabindex="11">
+														<label class="input-column-sorting__name">L <number>(11)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="XL" tabindex="12">
+														<label class="input-column-sorting__name">XL <number>(18)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Plus Size" tabindex="13">
+														<label class="input-column-sorting__name">Plus Size <number>(21)</number></label>
+													</div>
+												</div>
 											</div>
 										</div>
-										<div class="body-cloth__img">
-											<img src="/img/image-discount2.svg" alt="cover">
+									</div>
+									<div class="block-sorting__column">
+										<div class="block-sorting__item">
+											<div class="block-sorting__column-title">
+												<div class="block-sorting__text">Color</div>
+												<div id="plus3" class="block-sorting__plus" onclick="buttonFunction3()">
+													<img src="/img/Plus.svg" alt="cover">
+												</div>
+											</div>
+											<div id="list3" class="block-sorting__block-color">
+												<div class="block-sorting__color" onclick="buttonColor1()">
+													<button id="border1">
+														<a></a>
+													</button>
+													<label>Black</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor2()">
+													<button id="border2">
+														<a></a>
+													</button>
+													<label>Blue-gray</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor3()">
+													<button id="border3">
+														<a></a>
+													</button>
+													<label>Yellow</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor4()">
+													<button id="border4">
+														<a></a>
+													</button>
+													<label>Red</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor5()">
+													<button id="border5">
+														<a></a>
+													</button>
+													<label>Dark blue</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor6()">
+													<button id="border6">
+														<a></a>
+													</button>
+													<label>Beige</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor7()">
+													<button id="border7">
+														<a></a>
+													</button>
+													<label>Brown</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor8()">
+													<button id="border8">
+														<a></a>
+													</button>
+													<label>Gray</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor9()">
+													<button id="border9">
+														<a></a>
+													</button>
+													<label>Purple</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor10()">
+													<button id="border10">
+														<a></a>
+													</button>
+													<label>Green</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor11()">
+													<button id="border11">
+														<a></a>
+													</button>
+													<label>Orange</label>
+												</div>
+												<div class="block-sorting__color" onclick="buttonColor12()">
+													<button id="border12">
+														<a></a>
+													</button>
+													<label>White</label>
+												</div>
+											</div>
 										</div>
-										<div class="block-product__product-name">Skinny push-up jeans</div>
-										<div class="block-product__price-column">
-											<div class="block-product__price">$40.00</div>
-											<div class="block-product__price-gray">$80.00</div>
+									</div>
+									<div class="block-sorting__column">
+										<div class="block-sorting__item">
+											<div class="block-sorting__column-title">
+												<div class="block-sorting__text">Material</div>
+												<div id="plus4" class="block-sorting__plus" onclick="buttonFunction4()">
+													<img src="/img/Plus.svg" alt="cover">
+												</div>
+											</div>
+											<div id="list4" class="block-sorting__list">
+												<div class="block-sorting__input-search">
+													<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
+													<img src="/img/search.svg" alt="cover">
+												</div>
+												<div class="block-sorting__input-column-sorting input-column-sorting">
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Cotton" tabindex="2">
+														<label class="input-column-sorting__name">Cotton <number>(162)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Synthetics" tabindex="3">
+														<label class="input-column-sorting__name">Synthetics <number>(12)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Suits" tabindex="4">
+														<label class="input-column-sorting__name">Suits <number>(26)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Leather " tabindex="5">
+														<label class="input-column-sorting__name">Leather <number>(5)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Cashmere" tabindex="6">
+														<label class="input-column-sorting__name">Cashmere <number>(41)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Denim" tabindex="7">
+														<label class="input-column-sorting__name">Denim <number>(48)</number></label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="block-sorting__column">
+										<div class="block-sorting__item">
+											<div class="block-sorting__column-title">
+												<div class="block-sorting__text">Brand</div>
+												<div id="plus5" class="block-sorting__plus" onclick="buttonFunction5()">
+													<img src="/img/Plus.svg" alt="cover">
+												</div>
+											</div>
+											<div id="list5" class="block-sorting__list">
+												<div class="block-sorting__input-search">
+													<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
+													<img src="/img/search.svg" alt="cover">
+												</div>
+												<div class="block-sorting__input-column-sorting input-column-sorting">
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Adidas" tabindex="2">
+														<label class="input-column-sorting__name">Adidas <number>(162)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Ann Taylor" tabindex="3">
+														<label class="input-column-sorting__name">Ann Taylor <number>(12)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Armani" tabindex="4">
+														<label class="input-column-sorting__name">Armani <number>(26)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Banana Republic  " tabindex="5">
+														<label class="input-column-sorting__name">Banana Republic <number>(5)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Calvin Klein" tabindex="6">
+														<label class="input-column-sorting__name">Calvin Klein <number>(41)</number></label>
+													</div>
+													<div class="input-column-sorting__input-checkbox">
+														<input class="custom-checkbox" type="checkbox" name="Columbia" tabindex="7">
+														<label class="input-column-sorting__name">Columbia <number>(48)</number></label>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="block-sorting__column">
+										<div class="block-sorting__item">
+											<div class="block-sorting__column-title">
+												<div class="block-sorting__text">Price</div>
+												<div id="plus6" class="block-sorting__plus" onclick="buttonFunction6()">
+													<img src="/img/Plus.svg" alt="cover">
+												</div>
+											</div>
+											<div id="list6" class="block-sorting__input-range">
+												<div class="slider">
+													<div class="progress"></div>
+												  </div>
+	
+												<div class="range-input1">
+													<div class="number-input1 min-input" value="480"></div>
+													<input type="range" min="0" max="10000" value="480" class="min-range"/>
+												</div>
+												<div class="range-input2">
+													<div class="number-input2 max-input" value="800"></div>
+													<input type="range" min="0" max="10000" value="800" class="max-range"/>
+												</div>
+	
+												<div class="price-input">
+													<div class="field">
+														<input type="number" value="480" class="min-input" />
+													</div>
+	
+													<div class="seperator">-</div>
+	
+													<div class="field">
+														<input type="number" value="800" class="max-input" />
+													</div>
+	
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
-								<div class="block-product__column">
-									<div class="block-product__item">
-										<div class="section-discount__discount">
-											<a href="#">-50%</a>
-										</div>
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
+								<div class="block-product__block-column">
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
 											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
+											<div class="body-cloth__img">
+												<img src="/img/trend1.svg" alt="cover">
 											</div>
-										</div>
-										<div class="body-cloth__img">
-											<img src="/img/image-discount1.svg" alt="cover">
-										</div>
-										<div class="block-product__product-name">Leather crossbody bag with...</div>
-										<div class="block-product__price-column">
-											<div class="block-product__price">$89.50</div>
-											<div class="block-product__price-gray">$179.00</div>
+											<p class="body-cloth__product-name">Shirt with insertion lace trims</p>
+											<div class="body-cloth__price">$49.95</div>
 										</div>
 									</div>
-								</div>
-								<div class="block-product__column">
-									<div class="body-cloth__item">
-										<div class="body-cloth__block-icon">
-											<div class="body-cloth__icon-star">
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
-												<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-												</svg>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
 											</div>
-											<div class="body-cloth__icon-heart icon-heart-transform">
-												<img src="/img/outline.svg" alt="cover">
+											<div class="body-cloth__img">
+												<img src="/img/cloth4.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Mid-rise slim cropped fit jeans</p>
+											<div class="body-cloth__price">$40.00</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/cloth1.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Black and white sport cap</p>
+											<div class="body-cloth__price">$18.15</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395ZM8.22659 4.57418L7.00065 1.74705L5.77471 4.57418C5.60604 4.96315 5.23923 5.22965 4.81717 5.26987L1.74958 5.56218L4.0595 7.60175C4.37731 7.88236 4.51742 8.31357 4.42525 8.7274L3.75531 11.7352L6.40886 10.1686C6.77395 9.95304 7.22735 9.95304 7.59244 10.1686L10.246 11.7352L9.57605 8.7274C9.48388 8.31357 9.62399 7.88236 9.9418 7.60175L12.2517 5.56218L9.18413 5.26987C8.76207 5.22965 8.39526 4.96315 8.22659 4.57418Z" fill="#B3B7BC"/>
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/cloth3.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Green baby romper</p>
+											<div class="body-cloth__price">$20.40</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/trend3.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Check coat with colour contrast</p>
+											<div class="body-cloth__price">$183.45</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/cloth5.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Red dangle earrings</p>
+											<div class="body-cloth__price">$29.95</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395Z" fill="#F89828"/>
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M5.93269 1.28395C6.33796 0.349362 7.66334 0.349361 8.06861 1.28395L9.29455 4.11107L12.3621 4.40338C13.3762 4.50001 13.7858 5.76052 13.0222 6.43476L10.7123 8.47433L11.3822 11.4821C11.6037 12.4764 10.5314 13.2555 9.6542 12.7376L7.00065 11.171L4.3471 12.7376C3.4699 13.2555 2.39764 12.4764 2.61911 11.4821L3.28905 8.47433L0.979126 6.43476C0.215517 5.76052 0.62508 4.50001 1.63916 4.40338L4.70675 4.11108L5.93269 1.28395ZM8.22659 4.57418L7.00065 1.74705L5.77471 4.57418C5.60604 4.96315 5.23923 5.22965 4.81717 5.26987L1.74958 5.56218L4.0595 7.60175C4.37731 7.88236 4.51742 8.31357 4.42525 8.7274L3.75531 11.7352L6.40886 10.1686C6.77395 9.95304 7.22735 9.95304 7.59244 10.1686L10.246 11.7352L9.57605 8.7274C9.48388 8.31357 9.62399 7.88236 9.9418 7.60175L12.2517 5.56218L9.18413 5.26987C8.76207 5.22965 8.39526 4.96315 8.22659 4.57418Z" fill="#B3B7BC"/>
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/trend2.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Chrono watch with blue...</p>
+											<div class="body-cloth__price">$120.60</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/cloth6.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Baby shoes with laces</p>
+											<div class="body-cloth__price">$30.60</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="section-discount__discount">
+												<a href="#">-50%</a>
+											</div>
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/img-catalog1.svg" alt="cover">
+											</div>
+											<div class="block-product__product-name">Basic hooded sweatshirt in pink</div>
+											<div class="block-product__price-column">
+												<div class="block-product__price">$15.50</div>
+												<div class="block-product__price-gray">$31.00</div>
 											</div>
 										</div>
-										<div class="body-cloth__img">
-											<img src="/img/img-catalog2.svg" alt="cover">
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="section-discount__discount">
+												<a href="#">-50%</a>
+											</div>
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/image-discount2.svg" alt="cover">
+											</div>
+											<div class="block-product__product-name">Skinny push-up jeans</div>
+											<div class="block-product__price-column">
+												<div class="block-product__price">$40.00</div>
+												<div class="block-product__price-gray">$80.00</div>
+											</div>
 										</div>
-										<p class="body-cloth__product-name">Men fashion gray shoes</p>
-										<div class="body-cloth__price">$85.50</div>
+									</div>
+									<div class="block-product__column">
+										<div class="block-product__item">
+											<div class="section-discount__discount">
+												<a href="#">-50%</a>
+											</div>
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/image-discount1.svg" alt="cover">
+											</div>
+											<div class="block-product__product-name">Leather crossbody bag with...</div>
+											<div class="block-product__price-column">
+												<div class="block-product__price">$89.50</div>
+												<div class="block-product__price-gray">$179.00</div>
+											</div>
+										</div>
+									</div>
+									<div class="block-product__column">
+										<div class="body-cloth__item">
+											<div class="body-cloth__block-icon">
+												<div class="body-cloth__icon-star">
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+													<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+													</svg>
+												</div>
+												<div class="body-cloth__icon-heart icon-heart-transform">
+													<img src="/img/outline.svg" alt="cover">
+												</div>
+											</div>
+											<div class="body-cloth__img">
+												<img src="/img/img-catalog2.svg" alt="cover">
+											</div>
+											<p class="body-cloth__product-name">Men fashion gray shoes</p>
+											<div class="body-cloth__price">$85.50</div>
+										</div>
 									</div>
 								</div>
 							</div>
