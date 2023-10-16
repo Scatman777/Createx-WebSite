@@ -1911,10 +1911,38 @@ svg {
 }
 
 .block-product__column {
+	max-width: 285px;
 }
 
 .block-product__item {
+	position: relative;
+	width: 100%;
+    height: 100%;
+    text-align: left;
+}
 
+.block-product__product-name {
+	@include text-18px;
+}
+
+.block-product__price-column {
+	display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.block-product__price {
+	@include h4;
+	line-height: 130%;
+	color: $red;
+}
+
+.block-product__price-gray {
+	@include text-16px;
+	font-weight: 400;
+	line-height: 150%;
+	color: $gray-700;
 }
 
 .show-flex {
