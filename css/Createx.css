@@ -2053,7 +2053,12 @@ svg {
   color: #FFF;
 }
 
-.bsection-catalog__button-filter {
+.section-catalog__block-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-filter__button {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -2063,7 +2068,7 @@ svg {
   background: #17696A;
   justify-content: center;
 }
-.bsection-catalog__button-filter a {
+.block-filter__button a {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -2073,7 +2078,7 @@ svg {
   letter-spacing: 0.5px;
   color: #FFF;
 }
-.bsection-catalog__button-filter:hover {
+.block-filter__button:hover {
   background: #18888a;
 }
 

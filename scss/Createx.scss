@@ -1490,11 +1490,38 @@ svg {
 
 
 ///////////// CREATEX-CTALOG /////////////
+.section-catalog__block-filter {
+	display: flex;
+	justify-content: space-between;
+}
 
+.block-filter {
+}
 
-.bsection-catalog__button-filter {
+.block-filter__navigation {
+}
+
+.block-filter__button {
 	@include button-green-backround;
 	justify-content: center;
+}
+
+.block-filter__filter-column {
+}
+
+.block-filter__column {
+}
+
+.block-filter__item {
+}
+
+.block-filter__input {
+}
+
+.block-filter__text {
+}
+
+.block-filter__more-navigation {
 }
 
 .section-catalog__content {
