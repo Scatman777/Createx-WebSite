@@ -128,6 +128,7 @@ function buttonFunctionGender4() {
 ///////////////// SECTION-CATALOG /////////////////
 function HideFilters() {
 	var ButtonFilter = document.getElementById("BlockSortingHide");
+
 	if (ButtonFilter.style.display === "none") {
 		ButtonFilter.style.display = "flex";
 	} else {
@@ -136,17 +137,26 @@ function HideFilters() {
 
 	document.getElementById("BlockProductStyle").classList.toggle("block-product__style");
 	document.getElementById("ButtonStyleImg").classList.toggle("button-icon");
+
 	var ButtonStyle1 = document.getElementById("ButtonStyle1");
 	if (ButtonStyle1.style.display === "none") {
 		ButtonStyle1.style.display = "block";
 	} else {
 		ButtonStyle1.style.display = "none";
 	}
+
 	var ButtonStyle2 = document.getElementById("ButtonStyle2");
 	if (ButtonStyle2.style.display === "block") {
 		ButtonStyle2.style.display = "none";
 	} else {
 		ButtonStyle2.style.display = "block";
+	}
+
+	var ButtonStyleDown = document.getElementById("ButtonHideDown");
+	if (ButtonStyleDown.style.display === "block") {
+		ButtonStyleDown.style.display = "none";
+	} else {
+		ButtonStyleDown.style.display = "block";
 	}
 }
 
