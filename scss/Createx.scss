@@ -1491,16 +1491,17 @@ svg {
 
 ///////////// CREATEX-CTALOG /////////////
 
-.section-catalog__body {
+
+.bsection-catalog__button-filter {
+	@include button-green-backround;
+	justify-content: center;
+}
+
+.section-catalog__content {
 	display: flex;
 	justify-content: space-between;
 	gap: 60px;
 	margin: 2rem 0px 11.25rem 0px;
-}
-
-.block-sorting__button {
-	@include button-green-backround;
-	justify-content: center;
 }
 
 /* BLOCK-SORTING */
