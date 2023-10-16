@@ -2099,6 +2099,10 @@ svg {
   display: none;
 }
 
+.button-icon {
+  background-image: url("/img/filter-2.svg");
+}
+
 .block-filter__filter-column {
   display: flex;
   justify-content: space-between;

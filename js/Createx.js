@@ -135,7 +135,7 @@ function HideFilters() {
 	}
 
 	document.getElementById("BlockProductStyle").classList.toggle("block-product__style");
-
+	document.getElementById("ButtonStyleImg").classList.toggle("button-icon");
 	var ButtonStyle1 = document.getElementById("ButtonStyle1");
 	if (ButtonStyle1.style.display === "none") {
 		ButtonStyle1.style.display = "block";
@@ -148,8 +148,6 @@ function HideFilters() {
 	} else {
 		ButtonStyle2.style.display = "block";
 	}
-
-	document.getElementById("ButtonStyleImg").classList.toggle("");
 }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
