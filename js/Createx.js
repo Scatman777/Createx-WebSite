@@ -30,6 +30,11 @@ function MenuLangList() {
 	document.getElementById("MenuLang__Arrow").classList.toggle("lang-list__arrow-open");
 }
 
+function burgerLangList() {
+    document.getElementById("BurgerLang__Open").classList.toggle("burger-list__open");
+	document.getElementById("BurgerLang__Arrow").classList.toggle("burger-list__arrow-open");
+}
+
 ///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
 function buttonFunction1Color1() {
     document.getElementById("buttonCircle1.1").classList.toggle("border-green");
