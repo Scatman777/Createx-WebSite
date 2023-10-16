@@ -2053,6 +2053,10 @@ svg {
   color: #FFF;
 }
 
+.section-catalog__body {
+  margin: 32px 0px 180px 0px;
+}
+
 .section-catalog__block-filter {
   display: flex;
   justify-content: space-between;
@@ -2094,6 +2098,7 @@ svg {
 .block-filter__filter-column {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 }
 
 .block-filter__item {
@@ -2145,6 +2150,23 @@ svg {
   width: 80px;
   height: 44px;
   padding: 11px 16px 12px 16px;
+}
+
+.block-filter__text {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+
+.block-filter__more-navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .section-catalog__content {

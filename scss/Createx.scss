@@ -1490,6 +1490,10 @@ svg {
 
 
 ///////////// CREATEX-CTALOG /////////////
+.section-catalog__body {
+	margin: 32px 0px 180px 0px;
+}
+
 .section-catalog__block-filter {
 	display: flex;
 	justify-content: space-between;
@@ -1515,6 +1519,7 @@ svg {
 .block-filter__filter-column {
 	display: flex;
 	justify-content: space-between;
+	gap: 60px;
 }
 
 .block-filter__column {
@@ -1566,9 +1571,15 @@ svg {
 }
 
 .block-filter__text {
+	@include text-14px;
+	color: $gray-700;
+	opacity: 1;
 }
 
 .block-filter__more-navigation {
+	display: flex;
+	align-items: center;
+    gap: 20px;
 }
 
 .section-catalog__content {
