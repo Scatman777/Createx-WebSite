@@ -2056,6 +2056,7 @@ svg {
 .section-catalog__block-filter {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .block-filter__navigation {
@@ -2074,6 +2075,7 @@ svg {
   background: #17696A;
   justify-content: center;
   width: 255px;
+  height: 44px;
 }
 .block-filter__button a {
   font-family: "Lato";
@@ -2095,14 +2097,11 @@ svg {
 }
 
 .block-filter__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   width: 100%;
   height: 100%;
-}
-.block-filter__item:nth-child(1) {
-  max-width: 233px;
-}
-.block-filter__item:nth-child(2) {
-  max-width: 255px;
 }
 .block-filter__item label {
   font-family: "Lato";
@@ -2132,6 +2131,18 @@ svg {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+}
+
+.block-filter__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.block-filter__input input {
+  width: 80px;
+  height: 44px;
+  padding: 11px 16px 12px 16px;
 }
 
 .section-catalog__content {
