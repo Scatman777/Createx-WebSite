@@ -2073,6 +2073,7 @@ svg {
   border-radius: 4px;
   background: #17696A;
   justify-content: center;
+  width: 255px;
 }
 .block-filter__button a {
   font-family: "Lato";
@@ -2110,7 +2111,8 @@ svg {
   line-height: 160%;
   color: #424551;
 }
-.block-filter__item select {
+
+.block-filter__select {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2121,7 +2123,7 @@ svg {
   border-radius: 4px;
   border: 1px solid #D7DADD;
 }
-.block-filter__item select a {
+.block-filter__select a {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
