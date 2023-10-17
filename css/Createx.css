@@ -3951,6 +3951,11 @@ body.touch .arrow {
   justify-content: space-between;
 }
 
+.block-down__select-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 .block-down__select-column label {
   font-family: "Lato";
   font-size: 14px;
@@ -3960,6 +3965,22 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+}
+
+.block-down__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 344px;
+  height: 44px;
+  padding: 11px 16px 12px 16px;
+  border-radius: 4px;
+  border: 1px solid #D7DADD;
+  background-color: #FFF;
+}
+.block-down__select input {
+  width: 344px;
+  height: 44px;
 }
 
 .section-profile__body {
