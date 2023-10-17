@@ -4,6 +4,7 @@
 // /* Mixin */
 @import "Createx-Media.scss";
 /* Media */
+@import "Createx-Product.scss";
 @import "Createx-Profile.scss";
 /* FILE-STYLE */
 
@@ -2083,6 +2084,7 @@ svg {
 @include sub-menu-woomen;
 @include login-popap;
 @include register-popap;
-@include Section-ProfileStyle;
+@include CreatexProduct-Style;
+@include CreatexProfile-Style;
 @include input-checkbox;
 @include media-all;

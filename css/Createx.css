@@ -3732,6 +3732,40 @@ body.touch .arrow {
   border-top: 1px solid #E5E8ED;
 }
 
+.section-product__body {
+  margin: 32px 0px 180px;
+}
+
+.section-product__block-up {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.block-up__title-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-product__title {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.section-product__serial-number label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  color: #787A80;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;

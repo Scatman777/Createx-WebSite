@@ -1,0 +1,105 @@
+@mixin CreatexProduct-Style{
+	.section-product__body {
+		margin: 32px 0px 180px;
+	}
+	
+	.section-product__block-up {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+	
+	.block-up {
+	}
+	
+	.block-up__title-column {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.section-product__title {
+		@include h2;
+	}
+	
+	.section-product__serial-number {
+		label {
+			@include text-16px;
+			color: $gray-700;
+		}
+
+		number {
+			@include text-16px;
+			font-weight: 400;
+		}
+	}
+	
+	.block-up__button-column {
+		display: flex;
+		gap: 12px;
+	}
+	
+	.block-up__button-info {
+		@include button-green;
+		padding: 10px 20px;
+	}
+	
+	.section-product__block-down {
+	}
+	
+	.block-down {
+	}
+	
+	.block-down__slider {
+	}
+	
+	.block-down__general-info {
+	}
+	
+	.block-down__setting-column {
+	}
+	
+	.block-down__product-info {
+	}
+	
+	.product-info {
+	}
+	
+	.product-info__price-column {
+	}
+	
+	.product-info__price-red {
+	}
+	
+	.product-info__price-gray {
+	}
+	
+	.product-info__discount {
+	}
+	
+	.product-info__icon-column {
+	}
+	
+	.product-info__icon-star {
+	}
+	
+	.block-down__color-column {
+	}
+	
+	.block-down__buttonColor-column {
+	}
+	
+	.block-down__button-color {
+	}
+	
+	.block-down__button-column {
+	}
+	
+	.block-down__input-quantity {
+	}
+	
+	.block-down__button {
+	}
+	
+	.block-down__button-favourite {
+	}
+}
