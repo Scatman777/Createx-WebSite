@@ -166,8 +166,28 @@
 		border: 1px solid #17696A;
     	transition: all 0.2s;
 	}
+
+	.block-down__size-column {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.block-down__select-column {
+		label {
+			@include text-14px;
+			color: $gray-800;
+			opacity: 1;
+		}
+	}
+
+	.block-down__select {
+	}
+
+	.block-down__size-chart {
+	}
 	
 	.block-down__button-column {
+
 	}
 	
 	.block-down__input-quantity {

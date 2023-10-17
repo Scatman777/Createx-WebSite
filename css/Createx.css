@@ -3946,6 +3946,22 @@ body.touch .arrow {
   transition: all 0.2s;
 }
 
+.block-down__size-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-down__select-column label {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 1;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;
