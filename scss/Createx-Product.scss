@@ -170,6 +170,7 @@
 	.block-down__size-column {
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-end;
 	}
 
 	.block-down__select-column {
@@ -206,6 +207,7 @@
 
 	.block-down__size-chart {
 		display: flex;
+		align-items: center;
 		gap: 8px;
 
 		label {
@@ -217,10 +219,18 @@
 	}
 	
 	.block-down__button-column {
-
+		display: flex;
+		justify-content: space-between;
 	}
 	
 	.block-down__input-quantity {
+		width: 80px;
+		height: 44px;
+		border-radius: 4px;
+		border: 1px solid $gray-400;
+		
+		input {
+		}
 	}
 	
 	.block-down__button {
