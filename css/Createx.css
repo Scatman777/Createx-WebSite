@@ -3825,6 +3825,9 @@ body.touch .arrow {
 }
 
 .block-down__general-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   min-width: 525px;
 }
 
@@ -3974,7 +3977,7 @@ body.touch .arrow {
   align-items: center;
   width: 344px;
   height: 44px;
-  padding: 11px 16px 12px 16px;
+  padding: 12px 16px;
   border-radius: 4px;
   border: 1px solid #D7DADD;
   background-color: #FFF;
@@ -4019,7 +4022,66 @@ body.touch .arrow {
   height: 44px;
   border-radius: 4px;
   border: 1px solid #D7DADD;
+  padding: 12px 16px;
 }
+.block-down__input-quantity input {
+  width: 80px;
+  height: 44px;
+}
+
+.block-down__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s;
+  padding: 0px 32px;
+  border-radius: 4px;
+  background-color: #17696A;
+}
+.block-down__button a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #FFF;
+}
+.block-down__button:hover {
+  background-color: #18888a;
+}
+
+.block-down__button-favourite {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s;
+  padding: 0px 32px;
+  border: 1px solid #17696A;
+  border-radius: 4px;
+  background: none;
+}
+.block-down__button-favourite a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #17696A;
+}
+.block-down__button-favourite:hover {
+  background: #17696A;
+}
+.block-down__button-favourite:hover svg path {
+  fill: #FFF;
+}
+.block-down__button-favourite:hover a {
+  color: #FFF;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;
