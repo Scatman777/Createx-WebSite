@@ -84,10 +84,13 @@
 	}
 	
 	.product-info__price-red {
-		@include text-24
+		@include price-red;
 	}
 	
 	.product-info__price-gray {
+		@include text-18px;
+		color: $gray-700;
+		text-decoration-line: strikethrough;
 	}
 	
 	.product-info__discount {
