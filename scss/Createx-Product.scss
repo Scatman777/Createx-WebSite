@@ -7,6 +7,9 @@
 		display: flex;
 		flex-direction: column;
 		gap: 32px;
+		padding-bottom: 20px;
+		margin-bottom: 32px;
+		border-bottom: 1px solid $gray-300;
 	}
 	
 	.block-up {
@@ -15,6 +18,7 @@
 	.block-up__title-column {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 	
 	.section-product__title {
@@ -40,34 +44,47 @@
 	
 	.block-up__button-info {
 		@include button-green;
-		padding: 10px 20px;
+		padding: 0px 20px;
 	}
 	
 	.section-product__block-down {
+		display: flex;
+		justify-content: space-between;
+		gap: 105px;
 	}
 	
 	.block-down {
 	}
 	
 	.block-down__slider {
+		min-width: 600px;
 	}
 	
 	.block-down__general-info {
+		min-width: 525px;
 	}
 	
 	.block-down__setting-column {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 	
 	.block-down__product-info {
+		display: flex;
+		justify-content: space-between;
 	}
 	
 	.product-info {
 	}
 	
 	.product-info__price-column {
+		display: flex;
+		gap: 12px;
 	}
 	
 	.product-info__price-red {
+		@include text-24
 	}
 	
 	.product-info__price-gray {

@@ -3740,11 +3740,15 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 .block-up__title-column {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .section-product__title {
@@ -3764,6 +3768,70 @@ body.touch .arrow {
   line-height: 160%;
   color: #424551;
   color: #787A80;
+}
+.section-product__serial-number number {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-weight: 400;
+}
+
+.block-up__button-column {
+  display: flex;
+  gap: 12px;
+}
+
+.block-up__button-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s;
+  padding: 0px 32px;
+  border: 1px solid #17696A;
+  border-radius: 4px;
+  background: none;
+  padding: 0px 20px;
+}
+.block-up__button-info a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #17696A;
+}
+.block-up__button-info:hover {
+  background: #17696A;
+}
+.block-up__button-info:hover svg path {
+  fill: #FFF;
+}
+.block-up__button-info:hover a {
+  color: #FFF;
+}
+
+.section-product__block-down {
+  display: flex;
+  justify-content: space-between;
+  gap: 105px;
+}
+
+.block-down__slider {
+  min-width: 600px;
+}
+
+.block-down__general-info {
+  min-width: 525px;
+}
+
+.block-down__setting-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .section-profile__body {

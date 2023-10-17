@@ -49,12 +49,12 @@
 
 @mixin text-18px {
     @include text-16px;
-    color: $gray-800;
     font: {
         size: 18px;
         weight: 400;
     };
     line-height: 150%;
+	color: $gray-800;
 }
 
 @mixin text-18px-upp {
@@ -63,6 +63,13 @@
     color: $gray-900;
     text-transform: uppercase;
 
+}
+
+@mixin red-price {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 130%;
+	color: $red;
 }
 
 @mixin number {
