@@ -376,10 +376,10 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   letter-spacing: 1px;
   margin-bottom: 0.75rem;
 }
@@ -525,10 +525,10 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   color: #787A80;
   margin-bottom: 3.75rem;
 }
@@ -599,10 +599,10 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
 }
 
 .body-cloth__price {
@@ -675,10 +675,10 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   font-weight: 700;
   color: #1E212C;
   text-transform: uppercase;
@@ -762,10 +762,10 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   font-weight: 700;
   color: #1E212C;
   text-transform: uppercase;
@@ -1000,10 +1000,10 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   margin: 0px 0px 0.5rem 0px;
 }
 
@@ -1203,10 +1203,10 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   margin-bottom: 0.5rem;
 }
 
@@ -1236,10 +1236,10 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
   color: #787A80;
   text-decoration-line: line-through;
 }
@@ -2592,10 +2592,10 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
-  color: #424551;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
+  color: #424551;
 }
 
 .block-product__price-column {
@@ -3832,6 +3832,77 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.block-down__product-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-info__price-column {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-info__price-red {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #FF4242;
+}
+
+.product-info__price-gray {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #424551;
+  color: #787A80;
+  text-decoration-line: line-through;
+  margin-right: 22px;
+}
+
+.product-info__discount {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  color: #FFF;
+  background-color: #FF4242;
+  border-radius: 4px;
+  padding: 0px 8px;
+}
+
+.product-info__icon-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.product-info__icon-column label {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  opacity: 1;
+}
+
+.block-down__color-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.block-down__buttonColor-column {
+  display: flex;
+  gap: 8px;
 }
 
 .section-profile__body {
