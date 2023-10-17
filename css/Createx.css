@@ -3977,10 +3977,34 @@ body.touch .arrow {
   border-radius: 4px;
   border: 1px solid #D7DADD;
   background-color: #FFF;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  opacity: 1;
+  color: #9A9CA5;
 }
 .block-down__select input {
-  width: 344px;
-  height: 44px;
+  width: 280px;
+  height: 40px;
+}
+
+.block-down__size-chart {
+  display: flex;
+  gap: 8px;
+}
+.block-down__size-chart label {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-weight: 700;
+  opacity: 1;
+  color: #424551;
 }
 
 .section-profile__body {

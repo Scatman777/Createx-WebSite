@@ -194,14 +194,26 @@
 		border-radius: 4px;
 		border: 1px solid $gray-400;
 		background-color: $white;
+		@include text-14px;
+		opacity: 1;
+		color: $gray-600;
 
 		input {
-			width: 344px;
-			height: 44px;
+			width: 280px;
+			height: 40px;
 		}
 	}
 
 	.block-down__size-chart {
+		display: flex;
+		gap: 8px;
+
+		label {
+			@include text-14px;
+			font-weight: 700;
+			opacity: 1;
+			color: $gray-800;
+		}
 	}
 	
 	.block-down__button-column {
