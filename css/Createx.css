@@ -3918,13 +3918,32 @@ body.touch .arrow {
 }
 
 .block-down__button-color {
+  display: inline-flex;
+  background: none;
   border: 1px solid #D7DADD;
   border-radius: 50%;
   padding: 3px;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 .block-down__button-color a {
-  background-color: #E0AEA2;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
+}
+.block-down__button-color:nth-child(1) a {
+  background-color: #E0AEA2;
+}
+.block-down__button-color:nth-child(2) a {
+  background-color: #C0DDED;
+}
+.block-down__button-color:nth-child(3) a {
+  background-color: #FEDE41;
+}
+
+.border-green {
+  border: 1px solid #17696A;
+  transition: all 0.2s;
 }
 
 .section-profile__body {
