@@ -987,11 +987,11 @@
 			height: 24px;
 			background: url("/img/input-hide.svg") center no-repeat;
 		}
-    }
 
-	.password__open {
-		background: url("/img/Eyes.svg") 0 0 no-repeat;
-	}
+		.password__open {
+			background: url("/img/Eyes.svg") center no-repeat;
+		}
+    }
 
     .block-input__column-profile {
         display: flex;

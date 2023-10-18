@@ -35,11 +35,10 @@ const swiper = new Swiper('.swiper', {
   });
 
 ///////////////// POPAP /////////////////
-function passwordOpen() {
-    document.getElementById("popap-icon").classList.toggle("password__open");
-}
 
 document.getElementById("open-password").addEventListener("change", function() {
+
+	document.getElementById("popap-icon").classList.toggle("password__open");
 	if (document.getElementById("open-password").checked) {
 		document.getElementById("popap-input").setAttribute("type", "text");
 	} else {

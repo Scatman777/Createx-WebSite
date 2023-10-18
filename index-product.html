@@ -662,7 +662,7 @@
 					<div class="login-popap__block-input block-input">
 						<div class="block-input__column-input">
 							<label>Email</label>
-							<input type="email" placeholder="Your working email" tabindex="1">
+							<input class="block-input__input" type="email" placeholder="Your working email" tabindex="1">
 						</div>
 						<div class="block-input__column-input">
 							<label>Password</label>
@@ -724,29 +724,31 @@
 					<div class="register-popap__block-input block-input">
 						<div class="block-input__column-input">
 							<label>Full name</label>
-							<input type="email" placeholder="Your full name">
+							<input class="block-input__input" type="email" placeholder="Your full name" tabindex="1">
 						</div>
 						<div class="block-input__column-input">
 							<label>Email</label>
-							<input type="email" placeholder="Your working email">
+							<input type="email" placeholder="Your working email" tabindex="2">
 						</div>
 						<div class="block-input__column-input">
 							<label>Password</label>
 							<div class="password">
-								<input type="password" name="password" tabindex="2">
-								<a id="open" class="password-control" onclick="passwordHide()"></a>
+								<input id="popap-input" type="password" class="block-input__input" name="password" tabindex="3">
+								<input id="open-password" class="password-control" type="checkbox" name="password-hide" tabindex="4">
+								<span id="popap-icon" onclick="passwordOpen()"></span>
 							</div>
 						</div>
 						<div class="block-input__column-input">
 							<label>Confirm Password</label>
 							<div class="password">
-								<input type="password" name="password" tabindex="2">
-								<a id="open" class="password-control" onclick="passwordHide()"></a>
+								<input id="popap-input" type="password" class="block-input__input" name="password" tabindex="5">
+								<input id="open-password" class="password-control" type="checkbox" name="password-hide" tabindex="6">
+								<span id="popap-icon" onclick="passwordOpen()"></span>
 							</div>
 						</div>
 						<div class="block-input__column-profile">
 							<div class="column-profile__input">
-								<input type="checkbox">
+								<input type="checkbox" tabindex="7">
 								<span>Remember me</span>
 							</div>
 							<a href="#" class="column-profile__forgot-password">Forgot password?</a>
