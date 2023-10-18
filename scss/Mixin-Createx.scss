@@ -978,6 +978,15 @@
             position: absolute;
             margin-right: 16px;
         }
+
+		span {
+			display: inline-block;
+			position: absolute;
+			right: 16px;
+			width: 32px;
+			height: 32px;
+			background: url("/img/input-hide.svg") no-repeat;
+		}
     }
 
     .block-input__column-profile {

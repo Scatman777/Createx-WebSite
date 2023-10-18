@@ -3512,6 +3512,9 @@ body.touch .arrow {
   position: absolute;
   margin-right: 16px;
 }
+.password span {
+  background: url("/img/input-hide.svg") no-repeat;
+}
 
 .block-input__column-profile {
   display: flex;
@@ -4254,13 +4257,12 @@ body.touch .arrow {
   row-gap: 24px;
 }
 
-.block-input__input-hide {
-  position: absolute;
-  right: 10px;
+.password-control {
   display: inline-block;
+  position: absolute;
+  right: 16px;
   width: 14.333px;
   height: 12.333px;
-  background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
 }
 
 .password__open {
