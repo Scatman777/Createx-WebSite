@@ -181,10 +181,12 @@ function HideFilters() {
 	}
 }
 
-
 document.getElementById("open-pass").addEventListener("change", function() {
-	let openPass = false
-	document.getElementById("input").setAttribute("type", "text");
+	if (document.getElementById("open-pass").checked) {
+		document.getElementById("input").setAttribute("type", "text");
+	} else {
+		document.getElementById("input").setAttribute("type", "password");
+	}
 });
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
