@@ -3494,7 +3494,8 @@ body.touch .arrow {
 .block-input__column-input label {
   color: #424551;
 }
-.block-input__column-input input:nth-child(1) {
+
+.block-input__input {
   width: 100%;
   height: 44px;
   padding: 12px 16px;
@@ -4253,12 +4254,12 @@ body.touch .arrow {
   row-gap: 24px;
 }
 
-.password-control {
+.block-input__input-hide {
   position: absolute;
   right: 10px;
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 14.333px;
+  height: 12.333px;
   background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
 }
 
