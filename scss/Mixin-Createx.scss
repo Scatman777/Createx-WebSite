@@ -455,14 +455,15 @@
 		}
 	}
 	
-	.swiper-button-prev, .swiper-rtl .swiper-button-next{
-		border: 1px solid $red;
+	.swiper-button-prev, .swiper-button-next {
+		width: 48px;
+		height: 48px;
 		border-radius: 50%;
-		padding: 14px;
+		padding: 12px;
 	
 		img {
-			width: 32px;
-			height: 32px;
+			width: 24px;
+			height: 24px;
 		}
 	}
 
