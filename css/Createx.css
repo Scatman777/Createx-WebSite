@@ -3732,6 +3732,10 @@ body.touch .arrow {
   border-top: 1px solid #E5E8ED;
 }
 
+.swiper {
+  overflow: hidden;
+}
+
 .swiper .swiper-wrapper {
   display: flex;
   justify-content: space-between;

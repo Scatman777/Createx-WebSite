@@ -435,6 +435,7 @@
 
 @mixin swiper-product {
 	.swiper {
+		overflow: hidden;
 	}
 
 	.swiper .swiper-wrapper {

@@ -19,7 +19,10 @@ for (let elm of elements) {
 }
 
 const swiper = new Swiper('.swiper', {
-	
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
 
 	pagination: {
 	  el: '.swiper-pagination',
@@ -28,10 +31,6 @@ const swiper = new Swiper('.swiper', {
 	navigation: {
 	  nextEl: '.swiper-button-next',
 	  prevEl: '.swiper-button-prev',
-	},
-
-	scrollbar: {
-	  el: '.swiper-scrollbar',
 	},
   });
 
