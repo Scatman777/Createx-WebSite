@@ -148,7 +148,7 @@ function buttonFunctionGender4() {
 
 ///////////////// SECTION-CATALOG /////////////////
 function HideFilters() {
-	var ButtonFilter = document.getElementById("BlockSortingHide");
+	const ButtonFilter = document.getElementById("BlockSortingHide");
 
 	if (ButtonFilter.style.display === "none") {
 		ButtonFilter.style.display = "flex";
@@ -159,27 +159,33 @@ function HideFilters() {
 	document.getElementById("BlockProductStyle").classList.toggle("block-product__style");
 	document.getElementById("ButtonStyleImg").classList.toggle("button-icon");
 
-	var ButtonStyle1 = document.getElementById("ButtonStyle1");
+	const ButtonStyle1 = document.getElementById("ButtonStyle1");
 	if (ButtonStyle1.style.display === "none") {
 		ButtonStyle1.style.display = "block";
 	} else {
 		ButtonStyle1.style.display = "none";
 	}
 
-	var ButtonStyle2 = document.getElementById("ButtonStyle2");
+	const ButtonStyle2 = document.getElementById("ButtonStyle2");
 	if (ButtonStyle2.style.display === "block") {
 		ButtonStyle2.style.display = "none";
 	} else {
 		ButtonStyle2.style.display = "block";
 	}
 
-	var ButtonStyleDown = document.getElementById("ButtonHideDown");
+	const ButtonStyleDown = document.getElementById("ButtonHideDown");
 	if (ButtonStyleDown.style.display === "none") {
 		ButtonStyleDown.style.display = "block";
 	} else {
 		ButtonStyleDown.style.display = "none";
 	}
 }
+
+
+document.getElementById("open-pass").addEventListener("change", function() {
+	let openPass = false
+	document.getElementById("input").setAttribute("type", "text");
+});
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
