@@ -989,6 +989,10 @@
 		}
     }
 
+	.password__open {
+		background: url("/img/Eyes.svg") 0 0 no-repeat;
+	}
+
     .block-input__column-profile {
         display: flex;
         align-items: center;

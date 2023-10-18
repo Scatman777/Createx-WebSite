@@ -35,7 +35,7 @@ const swiper = new Swiper('.swiper', {
   });
 
 ///////////////// POPAP /////////////////
-function passwordHide() {
+function passwordOpen() {
     document.getElementById("popap-icon").classList.toggle("password__open");
 }
 
