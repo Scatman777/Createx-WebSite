@@ -93,9 +93,11 @@
 		display: inline-block;
 		position: absolute;
         right: 16px;
-		width: 14.333px;
-		height: 12.333px;
-    }
+		width: 24px;
+		height: 24px;
+		z-index: 2;
+		opacity: 0;
+	}
 
 	.password__open {
 		background: url("/img/Eyes.svg") 0 0 no-repeat;

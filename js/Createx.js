@@ -36,9 +36,16 @@ const swiper = new Swiper('.swiper', {
 
 ///////////////// POPAP /////////////////
 function passwordHide() {
-    document.getElementById("open").classList.toggle("password__open");
-	document.getElementById("password").setAttribute("type", "text");
+    document.getElementById("popap-icon").classList.toggle("password__open");
 }
+
+document.getElementById("open-password").addEventListener("change", function() {
+	if (document.getElementById("open-password").checked) {
+		document.getElementById("popap-input").setAttribute("type", "text");
+	} else {
+		document.getElementById("popap-input").setAttribute("type", "password");
+	}
+});
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
@@ -180,14 +187,6 @@ function HideFilters() {
 		ButtonStyleDown.style.display = "none";
 	}
 }
-
-document.getElementById("open-pass").addEventListener("change", function() {
-	if (document.getElementById("open-pass").checked) {
-		document.getElementById("input").setAttribute("type", "text");
-	} else {
-		document.getElementById("input").setAttribute("type", "password");
-	}
-});
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {

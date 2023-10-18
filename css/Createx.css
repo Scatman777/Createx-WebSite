@@ -3513,7 +3513,12 @@ body.touch .arrow {
   margin-right: 16px;
 }
 .password span {
-  background: url("/img/input-hide.svg") no-repeat;
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  background: url("/img/input-hide.svg") center no-repeat;
 }
 
 .block-input__column-profile {
@@ -4261,8 +4266,10 @@ body.touch .arrow {
   display: inline-block;
   position: absolute;
   right: 16px;
-  width: 14.333px;
-  height: 12.333px;
+  width: 24px;
+  height: 24px;
+  z-index: 2;
+  opacity: 0;
 }
 
 .password__open {
