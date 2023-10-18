@@ -455,6 +455,11 @@
 			height: 600px;
 		}
 	}
+
+	.swiper .swiper-button__column {
+		display: flex;
+		gap: 30px;
+	}
 	
 	.swiper-button-prev, .swiper-button-next {
 		width: 48px;
