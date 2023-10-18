@@ -3732,6 +3732,33 @@ body.touch .arrow {
   border-top: 1px solid #E5E8ED;
 }
 
+.swiper .swiper-wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-width: 0;
+}
+
+.swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  max-height: 600px;
+}
+.swiper .swiper-slide img {
+  width: 600px;
+  height: 600px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  border: 1px solid #FF4242;
+  border-radius: 50%;
+  padding: 14px;
+}
+.swiper-button-prev img, .swiper-rtl .swiper-button-next img {
+  width: 32px;
+  height: 32px;
+}
+
 .section-product__body {
   margin: 32px 0px 180px;
 }
