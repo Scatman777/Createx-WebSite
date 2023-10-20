@@ -479,17 +479,15 @@
 		height: 104px;
 	}
 
-	.swiper-pagination__img img {
-		width: 104px;
-		height: 104px;
-	}
-
 	.swiper-pagination-bullet {
-		background: url("/img/image-product1.svg") center no-repeat;
+		background: url("/img/image-product1.svg") center / cover no-repeat;
+		max-width: 104px;
+		width: 100%;
+		height: 100%;
 	}
 	
 	.swiper-pagination-bullet-active {
-		
+
 	}
 
 	.swiper-scrollbar {

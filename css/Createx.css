@@ -3786,9 +3786,16 @@ body.touch .arrow {
   gap: 10px;
   height: 104px;
 }
-.swiper-pagination .swiper-pagination__img img {
+
+.swiper-pagination__img img {
   width: 104px;
   height: 104px;
+}
+
+.swiper-pagination-bullet {
+  background: url("/img/image-product1.svg") center no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 .section-product__body {
