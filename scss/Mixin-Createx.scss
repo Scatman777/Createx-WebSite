@@ -477,11 +477,19 @@
 		display: flex;
 		gap: 10px;
 		height: 104px;
+	}
 
-		.swiper-pagination__img img {
-			width: 104px;
-			height: 104px;
-		}
+	.swiper-pagination__img img {
+		width: 104px;
+		height: 104px;
+	}
+
+	.swiper-pagination-bullet {
+		background: url("/img/image-product1.svg") center no-repeat;
+	}
+	
+	.swiper-pagination-bullet-active {
+		
 	}
 
 	.swiper-scrollbar {
