@@ -475,15 +475,31 @@
 
 	.swiper-pagination {
 		display: flex;
+		justify-content: space-between;
 		gap: 10px;
 		height: 104px;
 	}
 
 	.swiper-pagination-bullet {
-		background: url("/img/image-product1.svg") center / cover no-repeat;
 		max-width: 104px;
 		width: 100%;
 		height: 100%;
+
+		&:nth-child(1) {
+			background: url("/img/image-product1.svg") center / cover no-repeat;
+		}
+		&:nth-child(2) {
+			background: url("/img/image-product2.svg") center / cover no-repeat;
+		}
+		&:nth-child(3) {
+			background: url("/img/image-product3.svg") center / cover no-repeat;
+		}
+		&:nth-child(4) {
+			background: url("/img/image-product4.svg") center / cover no-repeat;
+		}
+		&:nth-child(5) {
+			background: url("/img/image-product2.svg") center / cover no-repeat;
+		}
 	}
 	
 	.swiper-pagination-bullet-active {
