@@ -474,6 +474,14 @@
 	}
 
 	.swiper-pagination {
+		display: flex;
+		gap: 10px;
+		height: 104px;
+
+		.swiper-pagination__img img {
+			width: 104px;
+			height: 104px;
+		}
 	}
 
 	.swiper-scrollbar {
