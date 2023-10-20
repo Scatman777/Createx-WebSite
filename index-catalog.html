@@ -1525,13 +1525,14 @@
 					<div class="login-popap__block-input block-input">
 						<div class="block-input__column-input">
 							<label>Email</label>
-							<input type="email" placeholder="Your working email" tabindex="1">
+							<input class="block-input__input" type="email" placeholder="Your working email" tabindex="1">
 						</div>
 						<div class="block-input__column-input">
 							<label>Password</label>
 							<div class="password">
-								<input id="password" type="password" name="password" tabindex="2">
-								<a id="open" class="password-control" onclick="passwordHide()"></a>
+								<input id="popap-input" type="password" class="block-input__input" name="password" tabindex="2">
+								<input id="open-password" class="password-control" type="checkbox" name="password-hide" tabindex="3">
+								<span id="popap-icon" onclick="passwordOpen()"></span>
 							</div>
 						</div>
 						<div class="block-input__column-profile">
