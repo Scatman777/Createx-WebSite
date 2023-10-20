@@ -4202,11 +4202,8 @@ body.touch .arrow {
 
 .block-down__column-title {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-}
-.block-down__column-title:nth-child(3) {
-  justify-content: flex-start;
+  gap: 16px;
 }
 
 .block-down__text {
@@ -4220,7 +4217,6 @@ body.touch .arrow {
 .block-down__icon-column {
   display: flex;
   gap: 16px;
-  margin-left: 16px;
 }
 
 .section-profile__body {
