@@ -3886,6 +3886,7 @@ body.touch .arrow {
   border-radius: 4px;
   background: none;
   padding: 0px 20px;
+  transition: all 0.5s;
 }
 .block-up__button-info a {
   font-family: "Lato";
@@ -3921,6 +3922,9 @@ body.touch .arrow {
 .block-up__button-info:hover {
   background: none;
   border: 1px solid #17696A;
+}
+.block-up__button-info:hover a {
+  color: #17696A;
 }
 
 .section-product__block-down {

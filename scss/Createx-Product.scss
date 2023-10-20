@@ -46,6 +46,7 @@
 	.block-up__button-info {
 		@include button-green;
 		padding: 0px 20px;
+		transition: all 0.5s;
 
 		&:nth-child(2) {
 			border: none;
@@ -65,6 +66,10 @@
 		&:hover {
 			background: none;
 			border: 1px solid $green;
+
+			a {
+				color: $green;
+			}
 		}
 	}
 	
