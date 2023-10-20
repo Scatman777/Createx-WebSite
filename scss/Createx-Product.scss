@@ -246,12 +246,12 @@
 			color: $gray-800;
 		}
 	}
-	
+
 	.block-down__button-column {
 		display: flex;
 		justify-content: space-between;
 	}
-	
+
 	.block-down__input-quantity {
 		width: 80px;
 		height: 44px;
@@ -264,13 +264,13 @@
 			height: 42px;
 		}
 	}
-	
+
 	.block-down__button {
 		@include button-green-backround;
 		width: 244px;
 		justify-content: center;
 	}
-	
+
 	.block-down__button-favourite {
 		@include button-green;
 		width: 153px;
@@ -280,8 +280,12 @@
 
 	.block-down__column-title {
 		display: flex;
-		justify-items: center;
+		justify-content: space-between;
 		align-items: center;
+
+		&:nth-child(3) {
+			justify-content: flex-start;
+		}
 	}
 
 	.block-down__text {

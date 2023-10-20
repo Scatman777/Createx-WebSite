@@ -4202,8 +4202,11 @@ body.touch .arrow {
 
 .block-down__column-title {
   display: flex;
-  justify-items: center;
+  justify-content: space-between;
   align-items: center;
+}
+.block-down__column-title:nth-child(3) {
+  justify-content: flex-start;
 }
 
 .block-down__text {
