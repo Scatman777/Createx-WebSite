@@ -489,6 +489,7 @@
 		max-width: 104px;
 		width: 100%;
 		height: 100%;
+		border-radius: 4px;
 		opacity: 0.6;
 		transition: all 0.5s;
 		cursor: pointer;
@@ -506,8 +507,7 @@
 			background: url("/img/image-product4.svg") center / cover no-repeat;
 		}
 		&:nth-child(5) {
-			background: url("/img/image-product2.svg") center / cover no-repeat;
-			transform: scaleX(-1);
+			background: url("/img/image-product2.svg") center / cover no-repeat, url("/img/Play.svg") center no-repeat $gray-900;
 		}
 	}
 	
