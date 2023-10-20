@@ -3767,12 +3767,15 @@ body.touch .arrow {
 
 .swiper .swiper-button__column {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
+  margin: 0px 32px;
 }
 
 .swiper-button-prev, .swiper-button-next {
   width: 48px;
   height: 48px;
+  background-color: #FFF;
   border-radius: 50%;
   padding: 12px;
 }
@@ -3793,6 +3796,8 @@ body.touch .arrow {
   width: 100%;
   height: 100%;
   opacity: 0.6;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 .swiper-pagination-bullet:nth-child(1) {
   background: url("/img/image-product1.svg") center/cover no-repeat;
@@ -3808,10 +3813,14 @@ body.touch .arrow {
 }
 .swiper-pagination-bullet:nth-child(5) {
   background: url("/img/image-product2.svg") center/cover no-repeat;
+  transform: scaleX(-1);
 }
 
 .swiper-pagination-bullet-active {
   opacity: 1;
+  transition: all 0.5s;
+  border: 1px solid #17696A;
+  border-radius: 4px;
 }
 
 .section-product__body {
