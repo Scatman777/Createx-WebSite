@@ -4200,6 +4200,26 @@ body.touch .arrow {
   color: #FFF;
 }
 
+.block-down__column-title {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.block-down__text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+}
+
+.block-down__icon-column {
+  display: flex;
+  gap: 16px;
+  margin-left: 16px;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;
