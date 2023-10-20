@@ -46,6 +46,26 @@
 	.block-up__button-info {
 		@include button-green;
 		padding: 0px 20px;
+
+		&:nth-child(2) {
+			border: none;
+
+			a {
+				color: $gray-600;
+			}
+		}
+		&:nth-child(3) {
+			border: none;
+			
+			a {
+				color: $gray-600;
+			}
+		}
+
+		&:hover {
+			background: none;
+			border: 1px solid $green;
+		}
 	}
 	
 	.section-product__block-down {

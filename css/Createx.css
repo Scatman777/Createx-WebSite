@@ -3906,6 +3906,22 @@ body.touch .arrow {
 .block-up__button-info:hover a {
   color: #FFF;
 }
+.block-up__button-info:nth-child(2) {
+  border: none;
+}
+.block-up__button-info:nth-child(2) a {
+  color: #9A9CA5;
+}
+.block-up__button-info:nth-child(3) {
+  border: none;
+}
+.block-up__button-info:nth-child(3) a {
+  color: #9A9CA5;
+}
+.block-up__button-info:hover {
+  background: none;
+  border: 1px solid #17696A;
+}
 
 .section-product__block-down {
   display: flex;
