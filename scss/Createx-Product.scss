@@ -325,8 +325,9 @@
 	}
 
 	.block-delivery__column-title {
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: 180px 180px 85px;
+		width: 440px;
 		padding-bottom: 12px;
 		border-bottom: 1px solid $gray-400;
 	}
