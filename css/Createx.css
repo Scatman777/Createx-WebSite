@@ -4418,6 +4418,11 @@ body.touch .arrow {
 .section-setClothes__swiper-pagination .swiper-pagination-bullet {
   width: 30px;
   height: 2px;
+  background-color: #B3B7BC;
+  border-radius: 4px;
+}
+.section-setClothes__swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #424551;
 }
 
 .section-profile__body {
