@@ -468,10 +468,17 @@
 
 	.section-setClotes__swiper-wrapper {
 		display: flex;
-		justify-content: space-between;
 		gap: 30px;
 	}
 
 	.section-setClothes__swiper-pagination {
+		display: flex;
+		justify-content: center;
+		gap: 12px;
+
+		.swiper-pagination-bullet {
+			width: 30px;
+			height: 2px;
+		}
 	}
 }
