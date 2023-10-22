@@ -419,4 +419,59 @@
 		display: flex;
 		animation: list-animation 0.5s ease;
 	}
+
+	//////////////////// SECTION-SETCLOTHES ////////////////////
+	.section-setClothes__body {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
+		margin-bottom: 100px;
+
+	}
+	.section-setClothes__blockUp-title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.section-setClothes__title {
+		@include h2;
+	}
+
+	.section-setClothes__arrow-column {
+		display: flex;
+		gap: 24px;
+	}
+
+	.section-setClothes__arrow-prev {
+	}
+
+	.section-setClothes__arrow-next {
+	}
+
+	.section-setClothes__blockDown {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.section-setClothes__image {
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.section-setClothes__swiper {
+		overflow: hidden;
+	}
+
+	.section-setClotes__swiper-wrapper {
+		display: flex;
+		justify-content: space-between;
+		gap: 30px;
+	}
+
+	.section-setClothes__swiper-pagination {
+	}
 }
