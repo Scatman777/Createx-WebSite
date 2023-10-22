@@ -456,7 +456,7 @@
 		}
 	}
 
-	.swiper .swiper-button__column {
+	.swiper .section-product__swiper-navigation {
 		display: flex;
 		justify-content: space-between;
 		gap: 30px;
@@ -516,9 +516,6 @@
 		transition: all 0.5s;
 		border: 1px solid #17696A;
 		border-radius: 4px;
-	}
-
-	.swiper-scrollbar {
 	}
 }
 

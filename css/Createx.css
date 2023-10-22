@@ -3765,7 +3765,7 @@ body.touch .arrow {
   height: 600px;
 }
 
-.swiper .swiper-button__column {
+.swiper .section-product__swiper-navigation {
   display: flex;
   justify-content: space-between;
   gap: 30px;
