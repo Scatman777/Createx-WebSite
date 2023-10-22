@@ -326,10 +326,7 @@
 	.block-delivery__item-title {
 		display: flex;
 		justify-content: space-between;
-		&::after {
-			content: url("/img/line-bottom.svg");
-			padding: 24px 0px;
-		} 
+		border-bottom: 1px solid $gray-400;
 	}
 
 	.block-delivery__title {
@@ -341,8 +338,7 @@
 
 	.block-delivery__item-text {
 		display: flex;
-		flex-direction: column;
-		gap: 24px;
+		justify-content: space-between;
 	}
 
 	.block-delivery__column {
@@ -355,6 +351,5 @@
 		@include text-14px;
 		color: $gray-800;
 		opacity: 1;
-		border-bottom: 1px solid $gray-400;
 	}
 }

@@ -4254,10 +4254,7 @@ body.touch .arrow {
 .block-delivery__item-title {
   display: flex;
   justify-content: space-between;
-}
-.block-delivery__item-title::after {
-  content: url("/img/line-bottom.svg");
-  padding: 24px 0px;
+  border-bottom: 1px solid #D7DADD;
 }
 
 .block-delivery__title {
@@ -4274,8 +4271,7 @@ body.touch .arrow {
 
 .block-delivery__item-text {
   display: flex;
-  flex-direction: column;
-  gap: 24px;
+  justify-content: space-between;
 }
 
 .block-delivery__column {
@@ -4293,7 +4289,6 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
-  border-bottom: 1px solid #D7DADD;
 }
 
 .section-profile__body {
