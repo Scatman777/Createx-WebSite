@@ -4203,6 +4203,14 @@ body.touch .arrow {
 .block-down__column-title {
   display: flex;
   align-items: center;
+}
+.block-down__column-title:nth-child(1) {
+  justify-content: space-between;
+}
+.block-down__column-title:nth-child(2) {
+  justify-content: space-between;
+}
+.block-down__column-title:nth-child(3) {
   gap: 16px;
 }
 
@@ -4232,6 +4240,11 @@ body.touch .arrow {
   display: none;
   flex-direction: column;
   gap: 24px;
+}
+
+.show-flex {
+  display: flex;
+  animation: list-animation 0.5s ease;
 }
 
 .block-delivery__text-up {
