@@ -320,13 +320,14 @@
 	.block-delivery__list {
 		display: flex;
 		flex-direction: column;
-		gap: 24px;
+		gap: 12px;
+		padding: 0px 20px;
 	}
 
 	.block-delivery__column-title {
 		display: flex;
 		justify-content: space-between;
-		padding-bottom: 24px;
+		padding-bottom: 12px;
 		border-bottom: 1px solid $gray-400;
 	}
 
@@ -338,11 +339,12 @@
 	}
 
 	.block-delivery__column-text {
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: 180px 180px 85px;
+		width: 440px;
 
 		&:not(:last-child) {
-			padding-bottom: 24px;
+			padding-bottom: 12px;
 			border-bottom: 1px solid $gray-400;
 		}
 	}

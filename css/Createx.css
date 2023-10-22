@@ -4245,16 +4245,17 @@ body.touch .arrow {
   opacity: 1;
 }
 
-.block-delevery__list {
+.block-delivery__list {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 12px;
   padding: 0px 20px;
 }
 
-.block-delivery__item-title {
+.block-delivery__column-title {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 24px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #D7DADD;
 }
 
@@ -4270,19 +4271,13 @@ body.touch .arrow {
   letter-spacing: 1px;
 }
 
-.block-delivery__item-text {
+.block-delivery__column-text {
   display: flex;
   justify-content: space-between;
 }
-.block-delivery__item-text:not(:last-child) {
-  padding-bottom: 24px;
+.block-delivery__column-text:not(:last-child) {
+  padding-bottom: 12px;
   border-bottom: 1px solid #D7DADD;
-}
-
-.block-delivery__column {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
 }
 
 .block-delivery__text {
