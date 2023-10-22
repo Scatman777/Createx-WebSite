@@ -278,6 +278,28 @@
 		padding: 0px;
 	}
 
+	.block-down__column {
+		padding: 20px 0px;
+
+		&:not(:last-child) {
+			border-bottom: 1px solid $gray-300;
+		}
+	
+		&:first-child {
+			padding-top: 0px;
+		}
+	
+		&:last-child {
+			padding-bottom: 0px;
+		}
+	}
+
+	.block-down__item {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
 	.block-down__column-title {
 		display: flex;
 		align-items: center;
