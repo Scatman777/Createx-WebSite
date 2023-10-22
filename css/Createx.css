@@ -4231,6 +4231,35 @@ body.touch .arrow {
 .block-down__block-delivery {
   display: flex;
   flex-direction: column;
+  gap: 24px;
+}
+
+.block-delivery__text-up {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 1;
+}
+
+.block-delivery__column-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-delivery__title {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-size: 12px;
+  color: #787A80;
+  letter-spacing: 1px;
 }
 
 .section-profile__body {

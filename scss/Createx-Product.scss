@@ -305,6 +305,7 @@
 	.block-down__block-delivery {
 		display: flex;
 		flex-direction: column;
+		gap: 24px;
 	}
 
 	.block-delivery {
@@ -329,6 +330,9 @@
 	}
 
 	.block-delivery__list {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 
 	.block-delivery__column {
