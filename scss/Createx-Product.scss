@@ -393,4 +393,27 @@
 		color: $gray-800;
 		opacity: 1;
 	}
+
+	.block-down__block-return {
+		display: flex;
+		gap: 16px;
+	}
+
+	.block-return__text-up {
+		@include text-14px;
+		opacity: 1;
+		color: $gray-800;
+	}
+
+	.block-return__list {
+		display: flex;
+		gap: 4px;
+	}
+
+	.block-return__item {
+		@include text-14px;
+		opacity: 1;
+		color: $gray-800;
+		list-style: circle;
+	}
 }

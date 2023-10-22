@@ -4325,6 +4325,39 @@ body.touch .arrow {
   opacity: 1;
 }
 
+.block-down__block-return {
+  display: flex;
+  gap: 16px;
+}
+
+.block-return__text-up {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  opacity: 1;
+  color: #424551;
+}
+
+.block-return__list {
+  display: flex;
+  gap: 4px;
+}
+
+.block-return__item {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  opacity: 1;
+  color: #424551;
+  list-style: circle;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;
