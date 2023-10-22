@@ -18,7 +18,8 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-const swiper = new Swiper('.swiper', {
+///////////////// SECTION-PRODCT__SWIEPR /////////////////
+const swiperProduct = new Swiper('.swiper', {
 	watchOverflow: false,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
@@ -32,6 +33,23 @@ const swiper = new Swiper('.swiper', {
 	navigation: {
 	  nextEl: '.swiper-button-next',
 	  prevEl: '.swiper-button-prev',
+	},
+  });
+
+  const swiperCloth = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.section-setClothes__swiper-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.section-setClothes__arrow-next',
+	  prevEl: '.section-setClothes__arrow-prev',
 	},
   });
 
