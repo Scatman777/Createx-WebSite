@@ -4228,6 +4228,11 @@ body.touch .arrow {
   gap: 24px;
 }
 
+.block-down__block-delivery {
+  display: flex;
+  flex-direction: column;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;

@@ -301,4 +301,34 @@
 		display: flex;
 		gap: 24px;
 	}
+
+	.block-down__block-delivery {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.block-delivery {
+	}
+
+	.block-delivery__text-up {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
+	}
+
+	.block-delivery__column-title {
+		display: flex;
+	}
+
+	.block-delivery__title {
+	}
+
+	.block-delivery__list {
+	}
+
+	.block-delivery__column {
+	}
+
+	.block-delivery__text {
+	}
 }
