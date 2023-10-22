@@ -4261,11 +4261,6 @@ body.touch .arrow {
   gap: 24px;
 }
 
-.show-flex {
-  display: flex;
-  animation: list-animation 0.5s ease;
-}
-
 .block-delivery__text-up {
   font-family: "Lato";
   font-size: 14px;
@@ -4326,7 +4321,7 @@ body.touch .arrow {
 }
 
 .block-down__block-return {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 16px;
 }
@@ -4359,6 +4354,11 @@ body.touch .arrow {
   color: #424551;
   list-style-position: inside;
   list-style-image: url("/img/bullet.svg");
+}
+
+.show-flex {
+  display: flex;
+  animation: list-animation 0.5s ease;
 }
 
 .section-profile__body {
