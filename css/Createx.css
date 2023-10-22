@@ -4327,6 +4327,7 @@ body.touch .arrow {
 
 .block-down__block-return {
   display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
@@ -4343,6 +4344,7 @@ body.touch .arrow {
 
 .block-return__list {
   display: flex;
+  flex-direction: column;
   gap: 4px;
 }
 
@@ -4355,7 +4357,8 @@ body.touch .arrow {
   opacity: 0.6000000238;
   opacity: 1;
   color: #424551;
-  list-style: circle;
+  list-style-position: inside;
+  list-style-image: url("/img/bullet.svg");
 }
 
 .section-profile__body {
