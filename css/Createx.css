@@ -4255,6 +4255,10 @@ body.touch .arrow {
   display: flex;
   justify-content: space-between;
 }
+.block-delivery__item-title::after {
+  content: url("/img/line-bottom.svg");
+  padding: 24px 0px;
+}
 
 .block-delivery__title {
   font-family: "Lato";
@@ -4268,9 +4272,10 @@ body.touch .arrow {
   letter-spacing: 1px;
 }
 
-.block-delevery__item-text {
+.block-delivery__item-text {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .block-delivery__column {
@@ -4288,6 +4293,7 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+  border-bottom: 1px solid #D7DADD;
 }
 
 .section-profile__body {
