@@ -302,10 +302,6 @@
 		gap: 24px;
 	}
 
-	.block-delivery__main-info {
-		padding: 0px 20px;
-	}
-
 	.block-down__block-delivery {
 		display: flex;
 		flex-direction: column;
@@ -321,6 +317,12 @@
 		opacity: 1;
 	}
 
+	.block-delevery__list {
+		display: flex;
+		justify-content: space-between;
+		padding: 0px 20px;
+	}
+
 	.block-delivery__item-title {
 		display: flex;
 		justify-content: space-between;
@@ -333,10 +335,9 @@
 		letter-spacing: 1px;
 	}
 
-	.block-delivery__list {
+	.block-delevery__item-text {
 		display: flex;
-		flex-direction: column;
-		gap: 24px;
+		justify-content: space-between;
 	}
 
 	.block-delivery__column {
