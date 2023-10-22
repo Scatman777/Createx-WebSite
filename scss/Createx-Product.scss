@@ -336,8 +336,13 @@
 	}
 
 	.block-delivery__column {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.block-delivery__text {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
 	}
 }

@@ -4262,6 +4262,28 @@ body.touch .arrow {
   letter-spacing: 1px;
 }
 
+.block-delivery__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.block-delivery__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-delivery__text {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 1;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;
