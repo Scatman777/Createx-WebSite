@@ -36,20 +36,20 @@ const swiperProduct = new Swiper('.swiper', {
 	},
   });
 
-  const swiperCloth = new Swiper('.section-setClothes__swiper', {
+  const swiperCloth = new Swiper('.swiper-cloth', {
 	watchOverflow: false,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 
 	pagination: {
-	  el: '.section-setClothes__swiper-pagination',
+	  el: '.swiper-cloth-pagination',
 	  clickable: true,
 	},
 
 	navigation: {
-	  nextEl: '.section-setClothes__arrow-next',
-	  prevEl: '.section-setClothes__arrow-prev',
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
 	},
   });
 

@@ -914,6 +914,7 @@ body {
 .section-trend__cheveron-column {
   display: flex;
   align-items: center;
+  gap: 12px;
 }
 
 svg {
@@ -4423,6 +4424,39 @@ body.touch .arrow {
 }
 .section-setClothes__swiper-pagination .swiper-pagination-bullet-active {
   background-color: #424551;
+}
+
+.section-interest-clothes {
+  background-color: #E5E8ED;
+}
+
+.section-interest-clothes__body {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 80px 0px 100px 0px;
+}
+
+.section-interest-clothes__blockUp-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-interest-clothes__title {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.section-interest-clothes__blockDown {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .section-profile__body {
