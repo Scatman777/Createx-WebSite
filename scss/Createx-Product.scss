@@ -318,9 +318,14 @@
 
 	.block-delivery__column-title {
 		display: flex;
+		justify-content: space-between;
 	}
 
 	.block-delivery__title {
+		@include text-14px;
+		font-size: 12px;
+		color: $gray-700;
+		letter-spacing: 1px;
 	}
 
 	.block-delivery__list {
