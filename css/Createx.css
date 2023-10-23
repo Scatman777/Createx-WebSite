@@ -545,6 +545,7 @@ body {
 }
 
 .body-cloth__column {
+  position: relative;
   max-width: 285px;
 }
 
