@@ -3784,6 +3784,10 @@ body.touch .arrow {
   padding: 30px 10px;
 }
 
+.sizeChart-popap__content {
+  background-color: #17696A;
+}
+
 .swiper {
   overflow: hidden;
 }
