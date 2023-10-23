@@ -420,7 +420,7 @@
 		animation: list-animation 0.5s ease;
 	}
 
-	//////////////////// SECTION-SETCLOTHES ////////////////////
+	////////////////// SECTION-SETCLOTHES //////////////////
 	.section-setClothes__body {
 		display: flex;
 		flex-direction: column;
@@ -488,10 +488,7 @@
 		}
 	}
 
-	.section-interest-clothes {
-		background-color: $gray-300;
-	}
-
+////////////////// 	SECTION-INTEREST-CLOTHES //////////////////
 	.section-interest-clothes__body {
 		display: flex;
 		flex-direction: column;

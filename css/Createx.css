@@ -4428,10 +4428,6 @@ body.touch .arrow {
   background-color: #424551;
 }
 
-.section-interest-clothes {
-  background-color: #E5E8ED;
-}
-
 .section-interest-clothes__body {
   display: flex;
   flex-direction: column;

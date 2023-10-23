@@ -215,6 +215,27 @@
     }
 }
 
+@mixin arrow-style {
+	background: $gray-300;
+    border-radius: 50%;
+    padding: 12px;
+    transition: all 0.5s;
+	height: 48px;
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+    &:hover {
+        background: $green;
+        transition: all 0.5s;
+        svg path {
+            fill: $white;
+        }
+    }
+}
+
 //////////////////// SLIDER ////////////////////
 @mixin slider {
 /* SLIDER */
