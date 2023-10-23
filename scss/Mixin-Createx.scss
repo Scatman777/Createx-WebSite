@@ -1276,6 +1276,11 @@
         visibility: visible;
     }
 
+	.sizeChart-popap__hide {
+        opacity: 0;
+        visibility: hidden;
+    }
+
 	.sizeChart-popap__area {
 		position: absolute;
         width: 100%;
