@@ -1256,7 +1256,7 @@
 	}
 }
 
-@mixin popap-sizeChart {
+@mixin sizeChart-popap {
 	.sizeChart-popap {
 		position: fixed;
 		width: 100%;
@@ -1271,7 +1271,7 @@
 		overflow-x: hidden;
 	}
 
-	.sizeChart-popap:target {
+	.sizeChart-popap__open {
         opacity: 1;
         visibility: visible;
     }

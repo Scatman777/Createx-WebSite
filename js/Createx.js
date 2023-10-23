@@ -65,6 +65,10 @@ document.getElementById("open-password").addEventListener("change", function() {
 	}
 });
 
+function buttonSizeChart() {
+    document.getElementById("sizeChart__open").classList.toggle("sizeChart-popap__open");
+}
+
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
