@@ -4451,6 +4451,31 @@ body.touch .arrow {
   line-height: 130%;
 }
 
+.section-interest-clothes__arrow-column {
+  display: flex;
+  gap: 12px;
+}
+
+.section-interest-clothes__arrow {
+  background: #E5E8ED;
+  border-radius: 50%;
+  padding: 12px;
+  transition: all 0.5s;
+  height: 48px;
+  background-color: #FFF;
+}
+.section-interest-clothes__arrow img {
+  width: 24px;
+  height: 24px;
+}
+.section-interest-clothes__arrow:hover {
+  background: #17696A;
+  transition: all 0.5s;
+}
+.section-interest-clothes__arrow:hover svg path {
+  fill: #FFF;
+}
+
 .section-interest-clothes__blockDown {
   display: flex;
   justify-content: space-between;
