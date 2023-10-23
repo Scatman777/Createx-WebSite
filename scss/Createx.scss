@@ -422,6 +422,8 @@ body {
     background: $white;
     padding: 8px;
     border-radius: 50%;
+	cursor: pointer;
+
     img {
         width: 16px;
         height: 16px;
@@ -793,8 +795,8 @@ svg {
     }
 }
 
-.section-discount__img-column {
-    position: relative;
+.section-discount__info-column {
+	padding: 0px 16px 16px 16px;
 }
 
 .section-discount__arrow-column {

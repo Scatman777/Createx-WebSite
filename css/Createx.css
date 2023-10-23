@@ -582,6 +582,7 @@ body {
   background: #FFF;
   padding: 8px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .body-cloth__icon-heart img {
   width: 16px;
@@ -926,7 +927,7 @@ svg {
   background: #E5E8ED;
   border-radius: 50%;
   padding: 12px;
-  transition: all 0.5s;
+  transition: all 0.2s;
   height: 48px;
 }
 .section-trend__cheveron img {
@@ -935,7 +936,7 @@ svg {
 }
 .section-trend__cheveron:hover {
   background: #17696A;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .section-trend__cheveron:hover svg path {
   fill: #FFF;
@@ -1130,8 +1131,8 @@ svg {
   opacity: 1;
 }
 
-.section-discount__img-column {
-  position: relative;
+.section-discount__info-column {
+  padding: 0px 16px 16px 16px;
 }
 
 .section-discount__arrow-column {
@@ -4460,7 +4461,7 @@ body.touch .arrow {
   background: #E5E8ED;
   border-radius: 50%;
   padding: 12px;
-  transition: all 0.5s;
+  transition: all 0.2s;
   height: 48px;
   background-color: #FFF;
 }
@@ -4470,7 +4471,7 @@ body.touch .arrow {
 }
 .section-interest-clothes__arrow:hover {
   background: #17696A;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .section-interest-clothes__arrow:hover svg path {
   fill: #FFF;
