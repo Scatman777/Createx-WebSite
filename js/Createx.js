@@ -66,7 +66,7 @@ document.getElementById("open-password").addEventListener("change", function() {
 });
 
 function PopapOpen() {
-    document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
+    document.getElementById("PopapSize-Open").classList.toggle("sizeChart-popap__open");
 }
 
 ///////////////// HEADER__MENU-LANG /////////////////
