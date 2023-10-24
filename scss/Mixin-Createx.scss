@@ -1271,7 +1271,7 @@
 		overflow-x: hidden;
 	}
 
-	.sizeChart-popap__open {
+	.sizeChart-popap:target {
         opacity: 1;
         visibility: visible;
     }
