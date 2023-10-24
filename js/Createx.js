@@ -69,6 +69,10 @@ function PopapOpen() {
     document.getElementById("PopapSize-Open").classList.toggle("sizeChart-popap__open");
 }
 
+function PopapHide() {
+    document.getElementById("PopapSize-Hide").classList.toggle("sizeChart-popap__hide");
+}
+
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
