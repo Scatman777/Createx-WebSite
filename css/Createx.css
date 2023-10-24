@@ -3763,14 +3763,9 @@ body.touch .arrow {
   overflow-x: hidden;
 }
 
-.sizeChart-popap__open {
+.sizeChart-popap:target {
   opacity: 1;
   visibility: visible;
-}
-
-.sizeChart-popap__hide {
-  opacity: 0;
-  visibility: hidden;
 }
 
 .sizeChart-popap__area {
@@ -3791,6 +3786,16 @@ body.touch .arrow {
 
 .sizeChart-popap__content {
   background-color: #17696A;
+}
+
+.sizeChart-popap__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.sizeChart-popap__close img {
+  width: 24px;
+  height: 24px;
 }
 
 .swiper {

@@ -1295,6 +1295,16 @@
 	.sizeChart-popap__content {
 		background-color: #17696A;
 	}
+
+	.sizeChart-popap__close {
+		position: absolute;
+        top: 24px;
+        right: 24px;
+        img {
+            width: 24px;
+            height: 24px;
+        }
+	}
 }
 
 .password__open {
