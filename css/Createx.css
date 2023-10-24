@@ -3763,12 +3763,12 @@ body.touch .arrow {
   overflow-x: hidden;
 }
 
-.sizeChart-popap__open {
+#sizeChart-popap__open {
   opacity: 1;
   visibility: visible;
 }
 
-.sizeChart-popap__hide {
+#sizeChart-popap__hide {
   opacity: 0;
   visibility: hidden;
 }
