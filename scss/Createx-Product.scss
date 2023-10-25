@@ -72,6 +72,22 @@
 			}
 		}
 	}
+
+	.border-acctiv:active {
+		border: 1px solid $green;
+		
+		a {
+			color: $green;
+		}
+	}
+
+	.border-disabled {
+		border: none;
+		
+		a {
+			color: $gray-600;
+		}
+	}
 	
 	.section-product__block-down {
 		display: flex;
@@ -532,9 +548,12 @@
 		justify-content: space-between;
 	}
 
-	.show-flex {
+	.block-open {
 		display: flex;
-		animation: list-animation 0.5s ease;
+	}
+
+	.block-hide {
+		display: none;
 	}
 
 	.block-details {

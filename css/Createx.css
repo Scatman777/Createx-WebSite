@@ -4257,6 +4257,20 @@ body.touch .arrow {
   color: #17696A;
 }
 
+.border-acctiv:active {
+  border: 1px solid #17696A;
+}
+.border-acctiv:active a {
+  color: #17696A;
+}
+
+.border-disabled {
+  border: none;
+}
+.border-disabled a {
+  color: #9A9CA5;
+}
+
 .section-product__block-down {
   display: flex;
   justify-content: space-between;
@@ -4819,9 +4833,12 @@ body.touch .arrow {
   justify-content: space-between;
 }
 
-.show-flex {
+.block-open {
   display: flex;
-  animation: list-animation 0.5s ease;
+}
+
+.block-hide {
+  display: none;
 }
 
 .block-details__info-details {

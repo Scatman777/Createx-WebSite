@@ -65,8 +65,6 @@ document.getElementById("open-password").addEventListener("change", function() {
 	}
 });
 
-
-
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
@@ -213,26 +211,11 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function HideBlock1() {
-    document.getElementById("show").classList.add("show-flex");
+    document.getElementById("blockDitails__Open").classList.add("block-open");
+	document.getElementById("blockProduct__Hide").classList.add("block-hide");
+	document.getElementById("buttonBorder__Acctive").classList.add("border-acctiv");
+	document.getElementById("buttonBorder__Disabled").classList.add("border-disabled");
 }
-
-// function HideBlock1() {
-// 	const BlocKProductHide1 = document.getElementById("BlockProduct__Hide1");
-
-// 	if (BlocKProductHide1.style.display === "flex") {
-// 		BlocKProductHide1.style.display = "none";
-// 	} else {
-// 		BlocKProductHide1.style.display = "flex";
-// 	}
-
-// 	const BlocKProductHide2 = document.getElementById("BlockProduct__Hide2");
-
-// 	if (BlocKProductHide2.style.display === "none") {
-// 		BlocKProductHide2.style.display = "flex";
-// 	} else {
-// 		BlocKProductHide2.style.display = "none";
-// 	}
-// }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
