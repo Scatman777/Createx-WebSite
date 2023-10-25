@@ -1290,6 +1290,7 @@
         align-items: center;
 		min-height: 100%;
         padding: 30px 10px;
+		position: relative;
 	}
 
 	.sizeChart-popap__content {
@@ -1339,6 +1340,7 @@
 		flex-direction: column;
 		gap: 16px;
 		text-align: center;
+		padding-top: 16px;
 		margin-bottom: 32px;
 		border: 1px solid $gray-300;
 	}
@@ -1359,6 +1361,7 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 20px;
+		text-align: left;
 		padding: 10px 16px;
 
 		&:nth-child(1) {
@@ -1382,6 +1385,8 @@
 		@include text-14px;
 		color: $gray-800;
 		opacity: 1;
+		width: 120px;
+		height: 21px;
 	}
 
 	.block-second-popap__column-size {
@@ -1469,6 +1474,11 @@
 		@include text-14px;
 		color: $gray-800;
 		opacity: 1;
+	}
+
+	.sizeChart-popap__border {
+		position: absolute;
+
 	}
 }
 

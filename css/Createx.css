@@ -3782,6 +3782,7 @@ body.touch .arrow {
   align-items: center;
   min-height: 100%;
   padding: 30px 10px;
+  position: relative;
 }
 
 .sizeChart-popap__content {
@@ -3860,6 +3861,7 @@ body.touch .arrow {
   flex-direction: column;
   gap: 16px;
   text-align: center;
+  padding-top: 16px;
   margin-bottom: 32px;
   border: 1px solid #E5E8ED;
 }
@@ -3882,6 +3884,7 @@ body.touch .arrow {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  text-align: left;
   padding: 10px 16px;
 }
 .block-second-popap__column:nth-child(1) {
@@ -3906,6 +3909,8 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+  width: 120px;
+  height: 21px;
 }
 
 .block-second-popap__column-size {
@@ -4042,6 +4047,10 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+}
+
+.sizeChart-popap__border {
+  position: absolute;
 }
 
 .swiper {
