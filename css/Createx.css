@@ -4815,7 +4815,7 @@ body.touch .arrow {
 
 /* BLOCK-DOWN__DITAILS*/
 .section-product__block-details {
-  display: flex;
+  display: none;
   justify-content: space-between;
 }
 
