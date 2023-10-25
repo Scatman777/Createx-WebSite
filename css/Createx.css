@@ -278,9 +278,6 @@ body {
 .body-middle__item:nth-child(5) a {
   color: #FF4242;
 }
-.body-middle__item:nth-child(2):hover .main {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
 .body-middle__block-input {
   display: flex;
@@ -2774,7 +2771,6 @@ svg {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
 }
 
 .single-slider {
@@ -2790,7 +2786,6 @@ svg {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: -1;
 }
 
 .sliders .slick-arrow {
