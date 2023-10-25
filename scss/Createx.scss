@@ -187,6 +187,12 @@ body {
             color: $red;
         }
     }
+
+	&:nth-child(2):hover {
+		.main {
+			background-color: rgba(0, 0, 0, 0.8);
+		}
+	}
 }
 
 .body-middle__block-input {

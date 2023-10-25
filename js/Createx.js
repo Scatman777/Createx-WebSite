@@ -124,6 +124,9 @@ function buttonFunction1Size3() {
 function buttonFunction1Size4() {
     document.getElementById("buttonSize1.4").classList.toggle("border-green");
 }
+function buttonFunction1Size5() {
+    document.getElementById("buttonSize1.5").classList.toggle("border-green");
+}
 
 
 function buttonFunction2Size1() {

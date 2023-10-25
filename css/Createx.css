@@ -278,6 +278,9 @@ body {
 .body-middle__item:nth-child(5) a {
   color: #FF4242;
 }
+.body-middle__item:nth-child(2):hover .main {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 .body-middle__block-input {
   display: flex;
@@ -5104,13 +5107,13 @@ body.touch .arrow {
   cursor: pointer;
 }
 .edit-color__color:nth-child(1) a {
-  background: #000000;
+  background: #E0AEA2;
 }
 .edit-color__color:nth-child(2) a {
-  background: #874E19;
+  background: #C0DDED;
 }
 .edit-color__color:nth-child(3) a {
-  background: #C0DDED;
+  background: #FEDE41;
 }
 .edit-color__color a {
   width: 20px;
