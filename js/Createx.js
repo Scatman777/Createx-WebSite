@@ -213,7 +213,7 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function HideBlock1() {
-    document.getElementById("show").getElementById("show-flex");
+    document.getElementById("show").classList.add("show-flex");
 }
 
 // function HideBlock1() {

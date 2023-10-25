@@ -2633,10 +2633,6 @@ svg {
   color: #787A80;
 }
 
-#show-flex {
-  display: flex;
-}
-
 .show-flex {
   display: flex;
   animation: list-animation 0.5s ease;
@@ -4821,6 +4817,11 @@ body.touch .arrow {
 .section-product__block-details {
   display: none;
   justify-content: space-between;
+}
+
+.show-flex {
+  display: flex;
+  animation: list-animation 0.5s ease;
 }
 
 .block-details__info-details {

@@ -532,6 +532,11 @@
 		justify-content: space-between;
 	}
 
+	.show-flex {
+		display: flex;
+		animation: list-animation 0.5s ease;
+	}
+
 	.block-details {
 	}
 
