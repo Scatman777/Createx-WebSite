@@ -4894,7 +4894,6 @@ body.touch .arrow {
   position: relative;
   max-width: 390px;
   width: 100%;
-  height: 100%;
   transition: all 0.5s;
 }
 .info-product__item:hover {
@@ -5069,7 +5068,7 @@ body.touch .arrow {
   transition: all 0.5s;
 }
 
-.section-discount__edit-color {
+.info-product__edit-color {
   display: flex;
   justify-content: space-between;
 }
@@ -5080,9 +5079,12 @@ body.touch .arrow {
 }
 
 .edit-color__size {
-  padding: 5px;
+  width: 24px;
+  height: 24px;
+  padding: 4px 0px 4px 0px;
+  text-align: center;
   border: 1px solid #B3B7BC;
-  border-radius: 7px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
