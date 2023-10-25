@@ -211,6 +211,25 @@ function HideFilters() {
 	}
 }
 
+///////////////// SECTION-PRODUCT /////////////////
+function HideBlock1() {
+	const BlocKProductHide1 = document.getElementById("BlockProduct__Hide1");
+
+	if (BlocKProductHide1.style.display === "flex") {
+		BlocKProductHide1.style.display = "none";
+	} else {
+		BlocKProductHide2.style.display = "flex";
+	}
+
+	const BlocKProductHide2 = document.getElementById("BlockProduct__Hide2");
+
+	if (BlocKProductHide2.style.display === "none") {
+		BlocKProductHide2.style.display = "flex";
+	} else {
+		BlocKProductHide2.style.display = "none";
+	}
+}
+
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
