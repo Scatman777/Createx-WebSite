@@ -546,23 +546,61 @@
 
 	.info-details__column {
 		&:not(:last-child) {
+			padding-bottom: 24px;
 			border-bottom: 1px solid $gray-400;
+		}
+
+		&:last-child {
+			.info-details__item {
+				&:nth-child(1) {
+					list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+				}
+
+				&:nth-child(2) {
+					list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+				}
+
+				&:nth-child(3) {
+					list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+				}
+
+				&:nth-child(4) {
+					list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+				}
+			}
 		}
 	}
 
 	.info-details__title {
 		@include h4;
 		color: $gray-900;
+		margin-bottom: 16px; 
 	}
 
 	.info-details__text {
 		@include text-16px;
 		font-weight: 400;
+		margin-bottom: 20px;
 	}
 
 	.info-details__list {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	.info-details__item {
+		@include text-16px;
+		font-weight: 400;
+		list-style: disc inside;
+
+		svg {
+			margin-right: 16px;
+		}
+
+		a {
+			@include text-16px;
+			font-weight: 400;
+		}
 	}
 }

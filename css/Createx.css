@@ -4828,7 +4828,20 @@ body.touch .arrow {
 }
 
 .info-details__column:not(:last-child) {
+  padding-bottom: 24px;
   border-bottom: 1px solid #D7DADD;
+}
+.info-details__column:last-child .info-details__item:nth-child(1) {
+  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+}
+.info-details__column:last-child .info-details__item:nth-child(2) {
+  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+}
+.info-details__column:last-child .info-details__item:nth-child(3) {
+  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+}
+.info-details__column:last-child .info-details__item:nth-child(4) {
+  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
 }
 
 .info-details__title {
@@ -4840,9 +4853,38 @@ body.touch .arrow {
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
+  margin-bottom: 16px;
 }
 
 .info-details__text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.info-details__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-details__item {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  font-weight: 400;
+  list-style: disc inside;
+}
+.info-details__item svg {
+  margin-right: 16px;
+}
+.info-details__item a {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
