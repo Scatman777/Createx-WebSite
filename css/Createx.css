@@ -3785,7 +3785,9 @@ body.touch .arrow {
 }
 
 .sizeChart-popap__content {
-  background-color: #17696A;
+  width: 870px;
+  height: 812px;
+  background-color: #FFF;
 }
 
 .sizeChart-popap__close {
