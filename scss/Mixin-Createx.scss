@@ -1461,6 +1461,8 @@
 			@include text-14px;
 			color: $gray-800;
 			opacity: 1;
+			width: 120px;
+			height: 21px;
 		}
 	}
 
@@ -1474,12 +1476,16 @@
 		@include text-14px;
 		color: $gray-800;
 		opacity: 1;
+		width: 61px;
+		height: 21px;
 	}
 
-	.sizeChart-popap__border {
-		position: absolute;
-
-	}
+	// .sizeChart-popap__border {
+	// 	position: absolute;
+	// 	background-color: #000;
+	// 	width: 100%;
+	// 	height: 2px;
+	// }
 }
 
 .password__open {

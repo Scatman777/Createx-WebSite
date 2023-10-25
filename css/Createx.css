@@ -4030,6 +4030,8 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+  width: 120px;
+  height: 21px;
 }
 
 .block-down-popap__column {
@@ -4047,10 +4049,8 @@ body.touch .arrow {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
-}
-
-.sizeChart-popap__border {
-  position: absolute;
+  width: 61px;
+  height: 21px;
 }
 
 .swiper {
