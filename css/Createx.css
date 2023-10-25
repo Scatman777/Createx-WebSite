@@ -2633,6 +2633,10 @@ svg {
   color: #787A80;
 }
 
+#show-flex {
+  display: flex;
+}
+
 .show-flex {
   display: flex;
   animation: list-animation 0.5s ease;
