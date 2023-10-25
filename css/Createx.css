@@ -4831,17 +4831,10 @@ body.touch .arrow {
   padding-bottom: 24px;
   border-bottom: 1px solid #D7DADD;
 }
-.info-details__column:last-child .info-details__item:nth-child(1) {
-  list-style: url("/img/ditails-icon1.svg") inside;
-}
-.info-details__column:last-child .info-details__item:nth-child(2) {
-  list-style: url("/img/ditails-icon2.svg") inside;
-}
-.info-details__column:last-child .info-details__item:nth-child(3) {
-  list-style: url("/img/ditails-icon3.svg") inside;
-}
-.info-details__column:last-child .info-details__item:nth-child(4) {
-  list-style: url("/img/ditails-icon4.svg") inside;
+.info-details__column:last-child .info-details__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .info-details__title {
@@ -4881,8 +4874,8 @@ body.touch .arrow {
   font-weight: 400;
   list-style: disc inside;
 }
-.info-details__item svg {
-  margin-right: 16px;
+.info-details__item::marker {
+  color: #17696A;
 }
 .info-details__item a {
   font-family: "Lato";
