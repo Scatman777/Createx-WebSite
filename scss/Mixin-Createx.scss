@@ -1295,6 +1295,7 @@
 	.sizeChart-popap__content {
 		width: 870px;
 		height: 812px;
+		padding: 48px;
 		background-color: $white;
 	}
 
@@ -1309,28 +1310,55 @@
 	}
 
 	.sizeChart-popap__block-up-popap {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		margin-bottom: 24px;
 	}
 
 	.block-up-popap {
 	}
+
 	.block-up-popap__title-up {
+		@include h4;
+		font-size: 28px;
+		line-height: 150%;
+		color: $gray-900;
 	}
+
 	.block-up-popap__column-gender {
+		display: flex;
+		gap: 12px;
 	}
+
 	.block-up-popap__button-gender {
+		@include button-green;
 	}
+
 	.sizeChart-popap__block-second-popap {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
+
 	.block-second-popap {
 	}
+
 	.block-second-popap__tittle-second {
+		@include text-18px;
+		font-weight: 700;
+		color: $gray-900;
 	}
+
 	.block-second-popap__block-column {
 	}
+
 	.block-second-popap__column {
 	}
+
 	.block-second-popap__title-column {
 	}
+
 	.block-second-popap__column-size {
 	}
 	.block-second-popap__size {
