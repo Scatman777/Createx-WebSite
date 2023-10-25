@@ -4832,16 +4832,16 @@ body.touch .arrow {
   border-bottom: 1px solid #D7DADD;
 }
 .info-details__column:last-child .info-details__item:nth-child(1) {
-  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+  list-style: url("/img/ditails-icon1.svg") inside;
 }
 .info-details__column:last-child .info-details__item:nth-child(2) {
-  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+  list-style: url("/img/ditails-icon2.svg") inside;
 }
 .info-details__column:last-child .info-details__item:nth-child(3) {
-  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+  list-style: url("/img/ditails-icon3.svg") inside;
 }
 .info-details__column:last-child .info-details__item:nth-child(4) {
-  list-style: url(https://www.figma.com/file/Eu3bJwzrCsKebYiDiaYADc/createx-shop?type=design&node-id=2508-1007&mode=dev) inside;
+  list-style: url("/img/ditails-icon4.svg") inside;
 }
 
 .info-details__title {
