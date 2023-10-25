@@ -1293,8 +1293,6 @@
 	}
 
 	.sizeChart-popap__content {
-		width: 870px;
-		height: 812px;
 		padding: 48px;
 		background-color: $white;
 	}
@@ -1312,6 +1310,7 @@
 	.sizeChart-popap__block-up-popap {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		gap: 32px;
 		margin-bottom: 24px;
 	}
@@ -1339,6 +1338,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+		text-align: center;
+		margin-bottom: 32px;
 		border: 1px solid $gray-300;
 	}
 
@@ -1358,12 +1359,7 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 20px;
-	}
-
-	.block-second-popap__title-column {
-		@include text-14px;
-		color: $gray-800;
-		opacity: 1;
+		padding: 10px 16px;
 
 		&:nth-child(1) {
 			background-color: $gray-200;
@@ -1382,26 +1378,39 @@
 		}
 	}
 
+	.block-second-popap__title-column {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
+	}
+
 	.block-second-popap__column-size {
 		display: flex;
 		justify-content: space-between;
 		gap: 16px;
 	}
+	
 	.block-second-popap__size {
 		@include text-14px;
 		color: $gray-800;
 		opacity: 1;
+		width: 61px;
+		height: 21px;
 	}
+
 	.sizeChart-popap__block-down-popap {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
 	}
+
 	.block-down-popap {
 	}
 
-	.block-down-popap__size-sslect {
+	.block-down-popap__size-select {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 		gap: 24px;
 	}
 
@@ -1423,9 +1432,11 @@
 	.block-down-popap__size-info-column {
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 		gap: 16px;
-		padding: 16px;
-		border: 1px solid $gray-200;
+		padding-top: 16px;
+		border-radius: 4px;
+		border: 1px solid #F4F5F6;
 	}
 
 	.block-down-popap__title-down {
@@ -1437,7 +1448,9 @@
 	.block-down-popap__foot-lenght-column {
 		display: flex;
 		justify-content: space-between;
-		gap: 20px;
+		gap: 72px;
+		background: $gray-200;
+		padding: 10px 16px;
 
 		label {
 			@include text-14px;
