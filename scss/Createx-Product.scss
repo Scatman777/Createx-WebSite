@@ -248,12 +248,6 @@
 			color: $gray-800;
 			cursor: pointer;
 		}
-
-		&:hover {
-			svg path {
-				transform: rotate(60deg);
-			}
-		}
 	}
 
 	.block-down__button-column {

@@ -4459,9 +4459,6 @@ body.touch .arrow {
   color: #424551;
   cursor: pointer;
 }
-.block-down__size-chart:hover svg path {
-  transform: rotate(60deg);
-}
 
 .block-down__button-column {
   display: flex;
