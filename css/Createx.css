@@ -4444,6 +4444,8 @@ body.touch .arrow {
   display: flex;
   align-items: center;
   gap: 8px;
+  height: 45px;
+  cursor: pointer;
 }
 .block-down__size-chart label {
   font-family: "Lato";
@@ -4455,6 +4457,10 @@ body.touch .arrow {
   font-weight: 700;
   opacity: 1;
   color: #424551;
+  cursor: pointer;
+}
+.block-down__size-chart:hover svg path {
+  transform: rotate(60deg);
 }
 
 .block-down__button-column {

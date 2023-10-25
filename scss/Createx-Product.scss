@@ -238,12 +238,21 @@
 		display: flex;
 		align-items: center;
 		gap: 8px;
+		height: 45px;
+		cursor: pointer;
 
 		label {
 			@include text-14px;
 			font-weight: 700;
 			opacity: 1;
 			color: $gray-800;
+			cursor: pointer;
+		}
+
+		&:hover {
+			svg path {
+				transform: rotate(60deg);
+			}
 		}
 	}
 
