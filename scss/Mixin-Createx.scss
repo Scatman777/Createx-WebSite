@@ -129,7 +129,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: all 0.5s;
+    transition: all 0.3s;
     padding: 0px 32px;
     border: 1px solid $green;
     border-radius: 4px;
@@ -137,7 +137,7 @@
     a {
         @include text-16px;
         line-height: 44px;
-        letter-spacing: 0.5px;
+        letter-spacing: 0.3px;
         color: $green;
     }
     &:hover {
@@ -1333,6 +1333,20 @@
 
 	.block-up-popap__button-gender {
 		@include button-green;
+		border: 1px solid $gray-400;
+
+		a {
+			color: $gray-600;
+		}
+
+		&:hover {
+			border: 1px solid $green;
+			background: none;
+
+			a {
+				color: $green;
+			}
+		}
 	}
 
 	.sizeChart-popap__block-second-popap {
@@ -1432,6 +1446,20 @@
 
 	.block-down-popap__button-unit {
 		@include button-green;
+		border: 1px solid $gray-400;
+
+		a {
+			color: $gray-600;
+		}
+
+		&:hover {
+			border: 1px solid $green;
+			background: none;
+
+			a {
+				color: $green;
+			}
+		}
 	}
 
 	.block-down-popap__size-info-column {
@@ -1453,7 +1481,8 @@
 	.block-down-popap__foot-lenght-column {
 		display: flex;
 		justify-content: space-between;
-		gap: 72px;
+		gap: 20px;
+		text-align: left;
 		background: $gray-200;
 		padding: 10px 16px;
 

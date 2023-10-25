@@ -65,6 +65,8 @@ document.getElementById("open-password").addEventListener("change", function() {
 	}
 });
 
+
+
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
