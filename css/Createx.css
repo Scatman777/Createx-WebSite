@@ -3860,6 +3860,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  border: 1px solid #E5E8ED;
 }
 
 .block-second-popap__tittle-second {
@@ -3874,6 +3875,23 @@ body.touch .arrow {
   color: #424551;
   font-weight: 700;
   color: #1E212C;
+}
+
+.block-second-popap__column {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block-second-popap__title-column {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #1E212C;
+  opacity: 1;
 }
 
 .swiper {

@@ -1339,6 +1339,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+		border: 1px solid $gray-300;
 	}
 
 	.block-second-popap {
@@ -1354,36 +1355,107 @@
 	}
 
 	.block-second-popap__column {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
 	}
 
 	.block-second-popap__title-column {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
+
+		&:nth-child(1) {
+			background-color: $gray-200;
+		}
+
+		&:nth-child(3) {
+			background-color: $gray-200;
+		}
+
+		&:nth-child(5) {
+			background-color: $gray-200;
+		}
+
+		&:nth-child(7) {
+			background-color: $gray-200;
+		}
 	}
 
 	.block-second-popap__column-size {
+		display: flex;
+		justify-content: space-between;
+		gap: 16px;
 	}
 	.block-second-popap__size {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
 	}
 	.sizeChart-popap__block-down-popap {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 	.block-down-popap {
 	}
+
 	.block-down-popap__size-sslect {
+		display: flex;
+		gap: 24px;
 	}
+
 	.block-down-popap__text {
+		@include text-16px;
+		color: $gray-900;
 	}
+
 	.block-down-popap__button-unit-column {
+		display: flex;
+		justify-content: space-between;
+		gap: 12px;
 	}
+
 	.block-down-popap__button-unit {
+		@include button-green;
 	}
+
 	.block-down-popap__size-info-column {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 16px;
+		border: 1px solid $gray-200;
 	}
+
 	.block-down-popap__title-down {
+		@include text-18px;
+		font-weight: 700;
+		color: $gray-900;
 	}
+
 	.block-down-popap__foot-lenght-column {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+
+		label {
+			@include text-14px;
+			color: $gray-800;
+			opacity: 1;
+		}
 	}
+
 	.block-down-popap__column {
+		display: flex;
+		justify-content: space-between;
+		gap: 16px;
 	}
+
 	.block-down-popap__size {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
 	}
 }
 
