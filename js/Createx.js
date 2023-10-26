@@ -54,8 +54,9 @@ const swiperProduct = new Swiper('.swiper', {
   });
 
 ///////////////// POPAP /////////////////
-document.getElementById("open-password").addEventListener("change", function() {
+// document.getElementById("open-password").addEventListener("change", 
 
+function passwordOpen() {
 	document.getElementById("popap-icon").classList.toggle("password__open");
 
 	if (document.getElementById("open-password").checked) {
@@ -63,7 +64,7 @@ document.getElementById("open-password").addEventListener("change", function() {
 	} else {
 		document.getElementById("popap-input").setAttribute("type", "password");
 	}
-});
+};
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
