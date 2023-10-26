@@ -4257,10 +4257,10 @@ body.touch .arrow {
   color: #17696A;
 }
 
-.border-acctiv:active {
+.border-acctiv:focus {
   border: 1px solid #17696A;
 }
-.border-acctiv:active a {
+.border-acctiv:focus a {
   color: #17696A;
 }
 
