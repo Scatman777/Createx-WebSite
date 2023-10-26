@@ -211,16 +211,8 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function HideBlock1() {
-	const blockDitails__Open = document.getElementById("block-open");
-
-	if (blockDitails__Open.style.display === "flex") {
-		blockDitails__Open.style.display = "none";
-	} else {
-		blockDitails__Open.display = "flex";
-	}
-
-    // document.getElementById("blockDitails__Open").classList.add("block-open");
-	// document.getElementById("blockProduct__Hide").classList.add("block-hide");
+    document.getElementById("blockDitails__Open").classList.toggle("block-open");
+	// document.getElementById("blockProduct__Hide").classList.toggle("block-hide");
 	// document.getElementById("buttonBorder__Acctive").classList.add("border-acctiv");
 	// document.getElementById("buttonBorder__Disabled").classList.add("border-disabled");
 }

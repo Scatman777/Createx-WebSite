@@ -94,6 +94,14 @@
 		justify-content: space-between;
 		gap: 105px;
 	}
+
+	.block-open {
+		display: flex;
+
+		.section-product__block-down {
+			display: none;
+		}
+	}
 	
 	.block-down {
 	}
@@ -550,11 +558,15 @@
 
 	.block-open {
 		display: flex;
+
+		.section-product__block-down {
+			display: none;
+		}
 	}
 
-	.block-hide {
-		display: none;
-	}
+	// .block-hide {
+	// 	display: none;
+	// }
 
 	.block-details {
 	}
