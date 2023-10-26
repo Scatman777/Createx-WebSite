@@ -211,7 +211,8 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function HideBlock1() {
-    document.getElementById("blockDitails__Open").classList.toggle("block-open");
+    document.getElementById("blockDitails__Open1").classList.toggle("block-open");
+	document.getElementById("blockDitails__Open2").classList.toggle("block-open");
 	// document.getElementById("blockProduct__Hide").classList.toggle("block-hide");
 	// document.getElementById("buttonBorder__Acctive").classList.add("border-acctiv");
 	// document.getElementById("buttonBorder__Disabled").classList.add("border-disabled");
