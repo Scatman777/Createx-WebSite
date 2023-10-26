@@ -4280,9 +4280,6 @@ body.touch .arrow {
 .block-open {
   display: flex;
 }
-.block-open .section-product__block-down {
-  display: none;
-}
 
 .block-down__slider {
   min-width: 600px;
