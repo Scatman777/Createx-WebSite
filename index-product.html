@@ -378,10 +378,10 @@
 									</div>
 								</div>
 								<div class="block-up__button-column">
-									<button class="block-up__button-info" onclick="OpenBlock1()">
+									<button class="block-up__button-info">
 										<a>General info</a>
 									</button>
-									<button class="block-up__button-info" onclick="OpenBlock2()">
+									<button id="ButtonOpen__Block" class="block-up__button-info">
 										<a>Product details</a>
 									</button>
 									<button class="block-up__button-info">
@@ -616,7 +616,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="section-product__block-details block-details">
+							<div id="blockDitails" class="section-product__block-details block-details">
 								<div class="block-details__info-details info-details">
 									<div class="info-details__column">
 										<div class="info-details__title">Details</div>
@@ -1412,7 +1412,7 @@
 							<label>Password</label>
 							<div class="password">
 								<input id="popap-input" type="password" class="block-input__input" name="password" tabindex="2">
-								<input id="open-password" class="password-control" type="checkbox" name="password-hide" tabindex="3">
+								<input id="open-password" type="checkbox" class="password-control" name="password-hide" tabindex="3">
 								<span id="popap-icon" onclick="passwordOpen()"></span>
 							</div>
 						</div>

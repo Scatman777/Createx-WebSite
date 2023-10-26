@@ -210,17 +210,16 @@ function HideFilters() {
 }
 
 ///////////////// SECTION-PRODUCT /////////////////
-function OpenBlock1() {
-	document.querySelectorAll("section-product__block-down").getElementById.add("block-open");
+document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
 
-}
+	// document.getElementById("popap-icon").classList.toggle("password__open");
 
-function OpenBlock2() {
-    document.querySelectorAll("section-product__block-details").getElementById.add("block-open");
-	// document.getElementById("blockProduct__Hide").classList.toggle("block-hide");
-	// document.getElementById("buttonBorder__Acctive").classList.add("border-acctiv");
-	// document.getElementById("buttonBorder__Disabled").classList.add("border-disabled");
-}
+	if (document.getElementById("ButtonOpen__Block").checked) {
+		document.getElementById("blockDitails").setAttribute("type", "text");
+	} else {
+		document.getElementById("blockDitails").setAttribute("type", "password");
+	}
+});
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
