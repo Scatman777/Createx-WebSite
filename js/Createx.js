@@ -54,7 +54,7 @@ const swiperProduct = new Swiper('.swiper', {
   });
 
 ///////////////// POPAP /////////////////
-document.getElementById("passwordOpen").addEventListener("change", function() {
+document.getElementById("open-password").addEventListener("change", function() {
 
 	document.getElementById("popap-icon").classList.toggle("password__open");
 
