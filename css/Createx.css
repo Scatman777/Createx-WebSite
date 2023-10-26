@@ -4277,7 +4277,7 @@ body.touch .arrow {
   gap: 105px;
 }
 
-.block-open {
+#block-open {
   display: flex;
 }
 
