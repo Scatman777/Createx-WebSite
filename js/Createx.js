@@ -176,8 +176,8 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
-	document.getElementById("blockDown").classList.add("show-flex");
-	document.getElementById("blockDetails").classList.remove("block-hide");
+	document.getElementById("blockDetails").classList.add("block-hide");
+	document.getElementById("blockDown").classList.toggle("show-flex");
 	// document.getElementById("blockDetails").classList.add("block-hide");
 
 	// const blockDetails = document.getElementById("blockDetails__Style");
@@ -196,8 +196,8 @@ function OpenBlockProduct1() {
 }
 
 function OpenBlockProduct2() {
-	document.getElementById("blockDetails").classList.add("show-flex");
-	document.getElementById("blockdown").classList.remove("block-hide");
+	document.getElementById("blockDown").classList.add("block-hide");
+	document.getElementById("blockDetails").classList.toggle("show-flex");
 
 	// const blockDetails = document.getElementById("blockDetails__Style");
 	// if (blockDetails.style.display === "flex") {
