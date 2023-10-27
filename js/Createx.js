@@ -175,16 +175,25 @@ function HideFilters() {
 }
 
 ///////////////// SECTION-PRODUCT /////////////////
-document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
+function OpenBlockProduct() {
+	const blockDetails = document.getElementById("blockDetails__Style");
 
-	// document.getElementById("popap-icon").classList.toggle("password__open");
-
-	if (document.getElementById("ButtonOpen__Block").change) {
-		document.getElementById("blockDetails").style("display", "flex");
+	if (blockDetails.style.display === "none") {
+		blockDetails.style.display = "flex";
 	} else {
-		document.getElementById("blockDetails").style("display", "flex");
+		blockDetails.style.display = "none";
 	}
-});
+}
+// document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
+
+// 	// document.getElementById("popap-icon").classList.toggle("password__open");
+
+// 	if (document.getElementById("ButtonOpen__Block").style.display === "none") {
+// 		document.getElementById("blockDetails").style.display = "flex";
+// 	} else {
+// 		document.getElementById("blockDetails").style.display ="none";
+// 	}
+// });
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
