@@ -176,18 +176,17 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
-	document.getElementById("blockDetails").classList.add("block-hide");
-	document.getElementById("blockDown").classList.toggle("show-flex");
-	// document.getElementById("blockDetails").classList.add("block-hide");
+	// document.getElementById("blockDown").classList.toggle("show-flex");
 
-	// const blockDetails = document.getElementById("blockDetails__Style");
-	// if (blockDetails.style.display === "none") {s
-	// 	blockDetails.style.display = "flex";
-	// } else {
-	// 	blockDetails.style.display = "none";
-	// }
+	const blockDown = document.getElementById("blockDown__style");
+	document.getElementById("blockDetails__style").classList.add("block-hide");
+	if (blockDown.style.display === "none") {
+		blockDown.style.display = "flex";
+	} else {
+		blockDown.style.display = "flex";
+	}
 
-	// const blockDown = document.getElementById("blockDown__Style");
+	// const blockDown = document.getElementById("blockDown");
 	// if (blockDown.style.display === "flex") {
 	// 	blockDown.style.display = "none";
 	// } else {
@@ -196,17 +195,24 @@ function OpenBlockProduct1() {
 }
 
 function OpenBlockProduct2() {
-	document.getElementById("blockDown").classList.add("block-hide");
-	document.getElementById("blockDetails").classList.toggle("show-flex");
+	// document.getElementById("blockDetails").classList.toggle("show-flex");
 
-	// const blockDetails = document.getElementById("blockDetails__Style");
+	const blockDetails = document.getElementById("blockDetails__style");
+	document.getElementById("blockDown__style").classList.add("block-hide");
+	if (blockDetails.style.display === "none") {
+		blockDetails.style.display = "flex";
+	} else {
+		blockDetails.style.display = "none";
+	}
+
+	// const blockDetails = document.getElementById("blockDetails");
 	// if (blockDetails.style.display === "flex") {
 	// 	blockDetails.style.display = "none";
 	// } else {
 	// 	blockDetails.style.display = "flex";
 	// }
 
-	// const blockDown = document.getElementById("blockDown__Style");
+	// const blockDown = document.getElementById("blockDown");
 	// if (blockDown.style.display === "none") {
 	// 	blockDown.style.display = "flex";
 	// } else {
