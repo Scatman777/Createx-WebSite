@@ -18,41 +18,6 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-///////////////// SECTION-PRODCT__SWIEPR /////////////////
-// const swiperProduct = new Swiper('.swiper', {
-// 	watchOverflow: false,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
-
-// 	pagination: {
-// 	  el: '.swiper-pagination',
-// 	  clickable: true,
-// 	},
-
-// 	navigation: {
-// 	  nextEl: '.swiper-button-next',
-// 	  prevEl: '.swiper-button-prev',
-// 	},
-//   });
-
-//   const swiperCloth = new Swiper('.swiper-cloth', {
-// 	watchOverflow: false,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
-
-// 	pagination: {
-// 	  el: '.swiper-cloth-pagination',
-// 	  clickable: true,
-// 	},
-
-// 	navigation: {
-// 	  nextEl: '.swiper-cloth__next',
-// 	  prevEl: '.swiper-cloth__prev',
-// 	},
-//   });
-
 ///////////////// POPAP /////////////////
 document.getElementById("open-password").addEventListener("change", function(passwordOpen) {
 
@@ -64,6 +29,41 @@ document.getElementById("open-password").addEventListener("change", function(pas
 		document.getElementById("popap-input").setAttribute("type", "password");
 	}
 });
+
+///////////////// SECTION-PRODCT__SWIEPR /////////////////
+const swiperProduct = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+  });
+
+  const swiperCloth = new Swiper('.swiper-cloth', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-cloth-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
+	},
+  });
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
