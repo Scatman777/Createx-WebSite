@@ -4825,10 +4825,12 @@ body.touch .arrow {
   justify-content: space-between;
 }
 
-.block-open {
+.show-flex {
   display: flex;
+  animation: list-animation 0.5s ease;
 }
-.block-open .section-product__block-down {
+
+.block-hide {
   display: none;
 }
 
