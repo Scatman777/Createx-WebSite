@@ -4217,6 +4217,7 @@ body.touch .arrow {
   background: none;
   padding: 0px 20px;
   transition: all 0.5s;
+  border: none;
 }
 .block-up__button-info a {
   font-family: "Lato";
@@ -4237,16 +4238,7 @@ body.touch .arrow {
 .block-up__button-info:hover a {
   color: #FFF;
 }
-.block-up__button-info:nth-child(2) {
-  border: none;
-}
-.block-up__button-info:nth-child(2) a {
-  color: #9A9CA5;
-}
-.block-up__button-info:nth-child(3) {
-  border: none;
-}
-.block-up__button-info:nth-child(3) a {
+.block-up__button-info a {
   color: #9A9CA5;
 }
 .block-up__button-info:hover {
