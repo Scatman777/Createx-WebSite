@@ -176,11 +176,12 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
-	document.getElementById("blockDetails").classList.add("block-hide");
 	document.getElementById("blockDown").classList.add("show-flex");
+	document.getElementById("blockDetails").classList.remove("block-hide");
+	// document.getElementById("blockDetails").classList.add("block-hide");
 
 	// const blockDetails = document.getElementById("blockDetails__Style");
-	// if (blockDetails.style.display === "none") {
+	// if (blockDetails.style.display === "none") {s
 	// 	blockDetails.style.display = "flex";
 	// } else {
 	// 	blockDetails.style.display = "none";
@@ -196,7 +197,7 @@ function OpenBlockProduct1() {
 
 function OpenBlockProduct2() {
 	document.getElementById("blockDetails").classList.add("show-flex");
-	document.getElementById("blockDown").classList.add("block-hide");
+	document.getElementById("blockdown").classList.remove("block-hide");
 
 	// const blockDetails = document.getElementById("blockDetails__Style");
 	// if (blockDetails.style.display === "flex") {

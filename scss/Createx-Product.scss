@@ -79,9 +79,18 @@
 	}
 	
 	.section-product__block-down {
-		display: flex;
+		display: none;
 		justify-content: space-between;
 		gap: 105px;
+	}
+
+	.show-flex {
+		display: flex;
+		animation: list-animation 0.5s ease;
+	}
+
+	.block-hide {
+		display: none;
 	}
 	
 	.block-down__slider {
