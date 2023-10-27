@@ -179,10 +179,10 @@ document.getElementById("ButtonOpen__Block").addEventListener("change", function
 
 	// document.getElementById("popap-icon").classList.toggle("password__open");
 
-	if (document.getElementById("ButtonOpen__Block").checked) {
-		document.getElementById("blockDetails").style.display = "flex";
+	if (document.getElementById("ButtonOpen__Block").change) {
+		document.getElementById("blockDetails").style("display", "flex");
 	} else {
-		document.getElementById("blockDetails").style.display = "none";
+		document.getElementById("blockDetails").style("display", "flex");
 	}
 });
 
