@@ -274,6 +274,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
 }
 .body-middle__item:nth-child(5) a {
   color: #FF4242;
@@ -333,6 +334,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 12px;
   font-weight: 900;
   color: #FFF;
@@ -376,10 +378,12 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   letter-spacing: 1px;
   margin-bottom: 0.75rem;
 }
@@ -415,6 +419,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 52px;
   letter-spacing: 0.5px;
   color: #17696A;
@@ -436,6 +441,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 52px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -499,6 +505,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
 }
@@ -525,10 +532,12 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   color: #787A80;
   margin-bottom: 3.75rem;
 }
@@ -601,10 +610,12 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
 }
 
 .body-cloth__price {
@@ -613,6 +624,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
 }
@@ -677,10 +689,12 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 700;
   color: #1E212C;
   text-transform: uppercase;
@@ -715,6 +729,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -744,6 +759,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -764,10 +780,12 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 700;
   color: #1E212C;
   text-transform: uppercase;
@@ -886,6 +904,7 @@ body {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
 }
@@ -1004,10 +1023,12 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   margin: 0px 0px 0.5rem 0px;
 }
 
@@ -1017,6 +1038,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-size: 24px;
@@ -1040,6 +1062,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -1165,6 +1188,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FFF;
 }
 
@@ -1208,10 +1232,12 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   margin-bottom: 0.5rem;
 }
 
@@ -1228,6 +1254,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-size: 24px;
@@ -1241,10 +1268,12 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   color: #787A80;
   text-decoration-line: line-through;
 }
@@ -1266,6 +1295,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -1363,6 +1393,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -1478,6 +1509,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
@@ -1490,6 +1522,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   color: #787A80;
 }
@@ -1514,6 +1547,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #1E212C;
@@ -1547,6 +1581,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -1622,6 +1657,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -1672,6 +1708,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
@@ -1723,6 +1760,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
 }
 
@@ -1784,6 +1822,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-weight: 400;
@@ -1847,6 +1886,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   color: #9A9CA5;
 }
@@ -1856,6 +1896,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   color: #9A9CA5;
 }
@@ -1866,6 +1907,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   margin-bottom: 8px;
 }
@@ -1886,6 +1928,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -1905,6 +1948,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
 }
 
@@ -1960,6 +2004,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FFF;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1978,6 +2023,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   color: #FFF;
   opacity: 0.6000000238;
@@ -2052,6 +2098,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   opacity: 0.6000000238;
 }
 .footer__link a {
@@ -2093,6 +2140,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -2127,6 +2175,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
 }
 
 .block-filter__select {
@@ -2187,6 +2236,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
 }
 .block-filter__more-navigation a:nth-child(3)::after {
   content: "...";
@@ -2249,6 +2299,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
 }
 
 .block-sorting__plus {
@@ -2597,10 +2648,12 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
 }
 
 .block-product__price-column {
@@ -2616,6 +2669,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   line-height: 130%;
@@ -2628,6 +2682,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   line-height: 150%;
   color: #787A80;
@@ -2975,6 +3030,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
 }
@@ -2992,6 +3048,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   opacity: 1;
@@ -3018,6 +3075,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   color: rgba(255, 255, 255, 0.7607843137);
@@ -3072,6 +3130,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FFF;
 }
 
@@ -3095,6 +3154,7 @@ svg {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FFF;
 }
 
@@ -3369,6 +3429,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -3454,6 +3515,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-size: 28px;
@@ -3582,6 +3644,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -3718,6 +3781,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-size: 28px;
@@ -3812,6 +3876,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-size: 28px;
@@ -3841,6 +3906,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -3881,10 +3947,12 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 700;
   color: #1E212C;
 }
@@ -3960,6 +4028,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #1E212C;
 }
 
@@ -3986,6 +4055,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -4026,10 +4096,12 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 700;
   color: #1E212C;
 }
@@ -4190,6 +4262,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #787A80;
 }
 .section-product__serial-number number {
@@ -4198,6 +4271,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
 }
 
@@ -4225,6 +4299,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -4319,10 +4394,12 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   color: #787A80;
   text-decoration-line: line-through;
   margin-right: 22px;
@@ -4334,6 +4411,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FFF;
   background-color: #FF4242;
   border-radius: 4px;
@@ -4508,6 +4586,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -4535,6 +4614,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -4588,6 +4668,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
 }
 
 .block-down__icon-column {
@@ -4812,6 +4893,204 @@ body.touch .arrow {
   gap: 60px;
 }
 
+.block-comments__button-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-comments__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.5s;
+  padding: 0px 32px;
+  border-radius: 4px;
+  background-color: #17696A;
+}
+.block-comments__button a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #FFF;
+}
+.block-comments__button:hover {
+  background-color: #18888a;
+}
+
+.block-comments__sort-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.block-comments__text-sort {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+}
+
+.block-comments__button-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+  height: 44px;
+  padding: 12px 16px;
+  background: none;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+}
+.block-comments__button-select a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 1;
+}
+
+.block-comments__comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.block-comments__item {
+  display: flex;
+  justify-content: space-between;
+}
+.block-comments__item:not(:last-child) {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #E5E8ED;
+}
+
+.block-comments__column-user {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.column-user__user-name {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 700;
+  color: #1E212C;
+}
+
+.column-user__data {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+
+.general-reviews__column-icon {
+  display: flex;
+}
+
+.block-comments__column-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 555px;
+}
+
+.column-comment__text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+}
+.column-comment__text span {
+  font-weight: 700;
+  color: #17696A;
+}
+
+.column-comment__block-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-comment__icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.column-comment__icon a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+
+.column-comment__icon-grade-column {
+  display: flex;
+  gap: 16px;
+}
+
+.column-comment__icon-grade {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.column-comment__icon-grade a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+
+.block-comments__list-page {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.block-comments__item-page {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 1;
+}
+
 .section-setClothes__body {
   display: flex;
   flex-direction: column;
@@ -4970,6 +5249,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
@@ -4982,6 +5262,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -4998,6 +5279,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   list-style: disc inside;
 }
@@ -5010,6 +5292,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
 }
 
@@ -5068,6 +5351,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FFF;
 }
 
@@ -5111,10 +5395,12 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   margin-bottom: 0.5rem;
 }
 
@@ -5131,6 +5417,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   font-size: 24px;
@@ -5144,10 +5431,12 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
   color: #424551;
+  opacity: 0.9;
   color: #787A80;
   text-decoration-line: line-through;
 }
@@ -5169,6 +5458,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.3px;
   color: #17696A;
@@ -5269,6 +5559,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -5309,6 +5600,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-size: 20px;
   line-height: 150%;
   margin-bottom: 4px;
@@ -5320,6 +5612,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   line-height: 150%;
   color: #787A80;
@@ -5345,6 +5638,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   line-height: 160%;
   color: #424551;
@@ -5395,6 +5689,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   color: #FF4242;
 }
 
@@ -5435,6 +5730,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   line-height: 44px;
   letter-spacing: 0.5px;
   color: #FFF;
@@ -5458,6 +5754,7 @@ body.touch .arrow {
   font-weight: 700;
   line-height: 160%;
   color: #424551;
+  opacity: 0.9;
   font-weight: 400;
   color: #424551;
 }
