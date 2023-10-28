@@ -447,6 +447,7 @@
 	.block-reviews__body {
 		display: flex;
 		flex-direction: column;
+		gap: 80px;
 		max-width: 735px;
 		width: 100%;
 		height: 100%;
@@ -517,30 +518,45 @@
 		background: $gray-300;
 	}
 
-	.block-reviews__block-comment {
+	.block-reviews__block-comments {
+		display: flex;
+		flex-direction: column;
+		gap: 60px;
 	}
 
 	.block-comments {
 	}
 
 	.block-comments__button-column {
+		display: flex;
+		justify-content: space-between;
 	}
+
 	.block-comments__button {
+		@include button-green-backround
 	}
+
 	.block-comments__sort-block {
+		
 	}
 	.block-comments__text-sort {
 	}
+
 	.block-comments__button-select {
 	}
+
 	.block-comments__comments-list {
 	}
+
 	.block-comments__item {
 	}
+
 	.block-comments__column-user {
 	}
+
 	.column-user {
 	}
+
 	.column-user__user-name {
 	}
 	.column-user__data {
