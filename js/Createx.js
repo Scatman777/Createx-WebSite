@@ -176,48 +176,37 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
-	// document.getElementById("blockDown").classList.toggle("show-flex");
 
 	const blockDown = document.getElementById("blockDown__style");
-	document.getElementById("blockDetails__style").classList.add("block-hide");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "flex";
 	} else {
-		blockDown.style.display = "flex";
+		blockDown.style.display = "none";
 	}
 
-	// const blockDown = document.getElementById("blockDown");
-	// if (blockDown.style.display === "flex") {
-	// 	blockDown.style.display = "none";
-	// } else {
-	// 	blockDown.style.display = "flex";
-	// }
+	const blockDetails = document.getElementById("blockDetails__style");
+	if (blockDetails.style.display === "flex") {
+		blockDetails.style.display = "none";
+	} else {
+		blockDown.style.display = "flex";
+	}
 }
 
 function OpenBlockProduct2() {
-	// document.getElementById("blockDetails").classList.toggle("show-flex");
 
-	const blockDetails = document.getElementById("blockDetails__style");
-	document.getElementById("blockDown__style").classList.add("block-hide");
-	if (blockDetails.style.display === "none") {
-		blockDetails.style.display = "flex";
-	} else {
+	const blockDetails = document.getElementById("blockDetails");
+	if (blockDetails.style.display === "flex") {
 		blockDetails.style.display = "none";
+	} else {
+		blockDetails.style.display = "flex";
 	}
 
-	// const blockDetails = document.getElementById("blockDetails");
-	// if (blockDetails.style.display === "flex") {
-	// 	blockDetails.style.display = "none";
-	// } else {
-	// 	blockDetails.style.display = "flex";
-	// }
-
-	// const blockDown = document.getElementById("blockDown");
-	// if (blockDown.style.display === "none") {
-	// 	blockDown.style.display = "flex";
-	// } else {
-	// 	blockDown.style.display = "none";
-	// }
+	const blockDown = document.getElementById("blockDown");
+	if (blockDown.style.display === "none") {
+		blockDown.style.display = "flex";
+	} else {
+		blockDown.style.display = "none";
+	}
 }
 // document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
 
