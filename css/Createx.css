@@ -4710,6 +4710,99 @@ body.touch .arrow {
   animation: list-animation 0.5s ease;
 }
 
+.section-product__block-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-reviews__body {
+  display: flex;
+  flex-direction: column;
+  max-width: 735px;
+  width: 100%;
+  height: 100%;
+}
+
+.block-reviews__general-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.general-reviews__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 235px;
+  width: 100%;
+  height: 100%;
+}
+
+.general-reviews__quantity {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 32px;
+}
+
+.general-reviews__column-icon {
+  display: flex;
+}
+
+.general-reviews__text {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+
+.general-reviews__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.general-reviews__item {
+  display: flex;
+  gap: 16px;
+}
+.general-reviews__item label {
+  display: flex;
+  gap: 2px;
+}
+.general-reviews__item label a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+.general-reviews__item a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 1;
+}
+
+.general-reviews__progress-bar {
+  width: 312px;
+  height: 4px;
+  border-radius: 40px 0px 0px 40px;
+  background: #E5E8ED;
+}
+
 .section-setClothes__body {
   display: flex;
   flex-direction: column;
