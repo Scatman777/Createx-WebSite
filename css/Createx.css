@@ -4814,7 +4814,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 235px;
+  max-width: 245px;
   width: 100%;
   height: 100%;
 }
@@ -4882,10 +4882,35 @@ body.touch .arrow {
 }
 
 .general-reviews__progress-bar {
-  width: 312px;
+  width: 356px;
   height: 4px;
   border-radius: 40px 0px 0px 40px;
-  background: #E5E8ED;
+  background-color: #E5E8ED;
+}
+
+.general-reviews__line {
+  height: 4px;
+  border-radius: 40px 0px 0px 40px;
+}
+.general-reviews__line:nth-child(1) {
+  width: 312px;
+  background-color: #03CEA4;
+}
+.general-reviews__line:nth-child(2) {
+  width: 170px;
+  background-color: #1FDF58;
+}
+.general-reviews__line:nth-child(3) {
+  width: 86px;
+  background-color: #F2EA2B;
+}
+.general-reviews__line:nth-child(4) {
+  width: 86px;
+  background-color: #F89828;
+}
+.general-reviews__line:nth-child(4) {
+  width: 86px;
+  background-color: #FF4242;
 }
 
 .block-reviews__block-comments {
