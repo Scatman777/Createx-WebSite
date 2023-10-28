@@ -488,10 +488,12 @@
 
 	.general-reviews__item {
 		display: flex;
+		align-items: center;
 		gap: 16px;
 
 		label {
 			display: flex;
+			align-items: center;
 			gap: 2px;
 
 			a {

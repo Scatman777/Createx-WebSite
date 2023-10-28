@@ -4769,10 +4769,12 @@ body.touch .arrow {
 
 .general-reviews__item {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 .general-reviews__item label {
   display: flex;
+  align-items: center;
   gap: 2px;
 }
 .general-reviews__item label a {
