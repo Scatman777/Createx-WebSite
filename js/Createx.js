@@ -176,6 +176,12 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
+	const blockDetails = document.getElementById("blockDetails__style");
+	if (blockDetails.style.display === "flex") {
+		blockDetails.style.display = "none";
+	} else {
+		blockDown.style.display = "flex";
+	}
 
 	const blockDown = document.getElementById("blockDown__style");
 	if (blockDown.style.display === "none") {
@@ -183,29 +189,21 @@ function OpenBlockProduct1() {
 	} else {
 		blockDown.style.display = "none";
 	}
-
-	const blockDetails = document.getElementById("blockDetails__style");
-	if (blockDetails.style.display === "flex") {
-		blockDetails.style.display = "none";
-	} else {
-		blockDown.style.display = "flex";
-	}
 }
 
 function OpenBlockProduct2() {
-
-	const blockDetails = document.getElementById("blockDetails");
-	if (blockDetails.style.display === "flex") {
-		blockDetails.style.display = "none";
+	const blockDown = document.getElementById("blockDown__style");
+	if (blockDown.style.display === "flex") {
+		blockDown.style.display = "none";
 	} else {
-		blockDetails.style.display = "flex";
+		blockDown.style.display = "flex";
 	}
 
-	const blockDown = document.getElementById("blockDown");
-	if (blockDown.style.display === "none") {
-		blockDown.style.display = "flex";
+	const blockDetails = document.getElementById("blockDetails__style");
+	if (blockDetails.style.display === "none") {
+		blockDetails.style.display = "flex";
 	} else {
-		blockDown.style.display = "none";
+		blockDetails.style.display = "none";
 	}
 }
 // document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
