@@ -4880,6 +4880,26 @@ body.touch .arrow {
   color: #787A80;
   opacity: 1;
 }
+.general-reviews__item:nth-child(1) .general-reviews__progress-bar .general-reviews__line {
+  width: 312px;
+  background-color: #03CEA4;
+}
+.general-reviews__item:nth-child(2) .general-reviews__progress-bar .general-reviews__line {
+  width: 170px;
+  background-color: #1FDF58;
+}
+.general-reviews__item:nth-child(3) .general-reviews__progress-bar .general-reviews__line {
+  width: 86px;
+  background-color: #F2EA2B;
+}
+.general-reviews__item:nth-child(4) .general-reviews__progress-bar .general-reviews__line {
+  width: 86px;
+  background-color: #F89828;
+}
+.general-reviews__item:nth-child(5) .general-reviews__progress-bar .general-reviews__line {
+  width: 86px;
+  background-color: #FF4242;
+}
 
 .general-reviews__progress-bar {
   width: 356px;
@@ -4891,26 +4911,6 @@ body.touch .arrow {
 .general-reviews__line {
   height: 4px;
   border-radius: 40px 0px 0px 40px;
-}
-.general-reviews__line:nth-child(1) {
-  width: 312px;
-  background-color: #03CEA4;
-}
-.general-reviews__line:nth-child(2) {
-  width: 170px;
-  background-color: #1FDF58;
-}
-.general-reviews__line:nth-child(3) {
-  width: 86px;
-  background-color: #F2EA2B;
-}
-.general-reviews__line:nth-child(4) {
-  width: 86px;
-  background-color: #F89828;
-}
-.general-reviews__line:nth-child(4) {
-  width: 86px;
-  background-color: #FF4242;
 }
 
 .block-reviews__block-comments {

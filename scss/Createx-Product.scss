@@ -510,6 +510,51 @@
 			color: $gray-700;
 			opacity: 1;
 		}
+
+		&:nth-child(1) {
+			.general-reviews__progress-bar {
+				.general-reviews__line {
+					width: 312px;
+					background-color: #03CEA4;
+				}
+			}
+		}
+		
+		&:nth-child(2) {
+			.general-reviews__progress-bar {
+				.general-reviews__line {
+					width: 170px;
+					background-color: #1FDF58;
+				}
+			}
+		}
+
+		&:nth-child(3) {
+			.general-reviews__progress-bar {
+				.general-reviews__line {
+					width: 86px;
+					background-color: #F2EA2B;
+				}
+			}
+		}
+
+		&:nth-child(4) {
+			.general-reviews__progress-bar {
+				.general-reviews__line {
+					width: 86px;
+					background-color: #F89828;
+				}
+			}
+		}
+
+		&:nth-child(5) {
+			.general-reviews__progress-bar {
+				.general-reviews__line {
+					width: 86px;
+					background-color: #FF4242;
+				}
+			}
+		}
 	}
 
 	.general-reviews__progress-bar {
@@ -522,31 +567,6 @@
 	.general-reviews__line {
 		height: 4px;
 		border-radius: 40px 0px 0px 40px;
-
-		&:nth-child(1) {
-			width: 312px;
-			background-color: #03CEA4;
-		}
-
-		&:nth-child(2) {
-			width: 170px;
-			background-color: #1FDF58;
-		}
-
-		&:nth-child(3) {
-			width: 86px;
-			background-color: #F2EA2B;
-		}
-
-		&:nth-child(4) {
-			width: 86px;
-			background-color: #F89828;
-		}
-
-		&:nth-child(4) {
-			width: 86px;
-			background-color: #FF4242;
-		}
 	}
 
 	.block-reviews__block-comments {
