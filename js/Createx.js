@@ -187,7 +187,7 @@ function OpenBlockProduct1() {
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
-		blockReviews.display = "none";
+		blockReviews.style.display = "none";
 	}
 
 	const blockDown = document.getElementById("blockDown__style");
@@ -210,7 +210,7 @@ function OpenBlockProduct2() {
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
-		blockReviews.display = "none";
+		blockReviews.style.display = "none";
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
@@ -240,7 +240,7 @@ function OpenBlockProduct3() {
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "flex";
 	} else {
-		blockReviews.display = "flex";
+		blockReviews.style.display = "flex";
 	}
 }
 // document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
@@ -319,67 +319,39 @@ function buttonColor12() {
 }
 
 ///////////////// SECTION-PRODCT__SWIEPR /////////////////
-// const swiperProduct = new Swiper('.swiper', {
-// 	watchOverflow: false,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
+const swiperProduct = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
 
-// 	pagination: {
-// 	  el: '.swiper-pagination',
-// 	  clickable: true,
-// 	},
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
 
-// 	navigation: {
-// 	  nextEl: '.swiper-button-next',
-// 	  prevEl: '.swiper-button-prev',
-// 	},
-// });
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+});
 
-// const swiperCloth = new Swiper('.swiper-cloth', {
-// 	watchOverflow: false,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
+const swiperCloth = new Swiper('.swiper-cloth', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
 
-// 	pagination: {
-// 	  el: '.swiper-cloth-pagination',
-// 	  clickable: true,
-// 	},
+	pagination: {
+	  el: '.swiper-cloth-pagination',
+	  clickable: true,
+	},
 
-// 	navigation: {
-// 	  nextEl: '.swiper-cloth__next',
-// 	  prevEl: '.swiper-cloth__prev',
-// 	},
-// });
-
-///////////////// MENU-LANG /////////////////
-// let isMobile = {
-// 	Android: function() {return navigator.userAgent.match(/Android/i);},
-// 	BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},
-// 	iOS: function() {return navigator.userAgent.match(/iPhone|iPad|iPod/i);},
-// 	Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},
-// 	Windows: function() {return navigator.userAgent.match(/IEMobile/i);},
-// 	any: function() {return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());}
-// };
-// 		let body=document.querySelector('section-catalog__body');
-// if(isMobile.any()){
-// 		body.classList.add('touch');
-// 		let arrow=document.querySelectorAll('.arrow');
-// 	for(i=0; i<arrow.length; i++){
-// 			let thisLink=arrow[i].previousElementSibling;
-// 			let subMenu=arrow[i].nextElementSibling;
-// 			let thisArrow=arrow[i];
-
-// 			thisLink.classList.add('parent');
-// 		arrow[i].addEventListener('click', function(){
-// 			subMenu.classList.toggle('open');
-// 			thisArrow.classList.toggle('active');
-// 		});
-// 	}
-// }else{
-// 	body.classList.add('touch');
-// }
+	navigation: {
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
+	},
+});
 
 
 /////////////// INPUT-PRICE ///////////////
