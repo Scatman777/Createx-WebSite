@@ -4792,7 +4792,7 @@ body.touch .arrow {
 }
 
 .section-product__block-reviews {
-  display: flex;
+  display: none;
   justify-content: space-between;
 }
 

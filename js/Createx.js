@@ -237,8 +237,8 @@ function OpenBlockProduct3() {
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
-	if (blockReviews.style.display === "flex") {
-		blockReviews.style.display = "none";
+	if (blockReviews.style.display === "none") {
+		blockReviews.style.display = "flex";
 	} else {
 		blockReviews.display = "none";
 	}
