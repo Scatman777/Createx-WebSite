@@ -4146,6 +4146,57 @@ body.touch .arrow {
   height: 21px;
 }
 
+.Popap-Review {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Popap-Review:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Popap-Review__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.Popap-Review__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 30px 10px;
+  position: relative;
+}
+
+.Popap-Review__content {
+  padding: 48px;
+  background-color: #FFF;
+}
+
+.Popap-Review__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.Popap-Review__close img {
+  width: 24px;
+  height: 24px;
+}
+
 .swiper {
   overflow: hidden;
 }
