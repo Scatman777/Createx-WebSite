@@ -180,14 +180,14 @@ function OpenBlockProduct1() {
 	if (blockDetails.style.display === "flex") {
 		blockDetails.style.display = "none";
 	} else {
-		blockDown.style.display = "flex";
+		blockDetails.style.display = "flex";
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
 	if (blockReviews.style.display === "flex") {
 		blockReviews.style.display = "none";
 	} else {
-		blockReviews.display = "none";
+		blockReviews.display = "flex";
 	}
 
 	const blockDown = document.getElementById("blockDown__style");
@@ -230,10 +230,10 @@ function OpenBlockProduct3() {
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
-	if (blockDetails.style.display === "flex") {
+	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
-		blockDetails.style.display = "flex";
+		blockDetails.style.display = "none";
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
