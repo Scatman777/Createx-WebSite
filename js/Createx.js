@@ -177,37 +177,37 @@ function HideFilters() {
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
 	const blockDetails = document.getElementById("blockDetails__style");
-	if (blockDetails.style.display === "flex") {
+	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
-		blockDetails.style.display = "flex";
+		blockDetails.style.display = "none";
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
-	if (blockReviews.style.display === "flex") {
+	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
-		blockReviews.display = "flex";
+		blockReviews.display = "none";
 	}
 
 	const blockDown = document.getElementById("blockDown__style");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "flex";
 	} else {
-		blockDown.style.display = "none";
+		blockDown.style.display = "flex";
 	}
 }
 
 function OpenBlockProduct2() {
 	const blockDown = document.getElementById("blockDown__style");
-	if (blockDown.style.display === "flex") {
+	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
-		blockDown.style.display = "flex";
+		blockDown.style.display = "none";
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
-	if (blockReviews.style.display === "flex") {
+	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
 		blockReviews.display = "none";
@@ -217,16 +217,16 @@ function OpenBlockProduct2() {
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "flex";
 	} else {
-		blockDetails.style.display = "none";
+		blockDetails.style.display = "flex";
 	}
 }
 
 function OpenBlockProduct3() {
 	const blockDown = document.getElementById("blockDown__style");
-	if (blockDown.style.display === "flex") {
+	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
-		blockDown.style.display = "flex";
+		blockDown.style.display = "none";
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
@@ -240,7 +240,7 @@ function OpenBlockProduct3() {
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "flex";
 	} else {
-		blockReviews.display = "none";
+		blockReviews.display = "flex";
 	}
 }
 // document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
