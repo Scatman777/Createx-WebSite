@@ -183,6 +183,13 @@ function OpenBlockProduct1() {
 		blockDown.style.display = "flex";
 	}
 
+	const blockReviews = document.getElementById("blockReviews__style");
+	if (blockReviews.style.display === "flex") {
+		blockReviews.style.display = "none";
+	} else {
+		blockReviews.display = "none";
+	}
+
 	const blockDown = document.getElementById("blockDown__style");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "flex";
@@ -199,11 +206,41 @@ function OpenBlockProduct2() {
 		blockDown.style.display = "flex";
 	}
 
+	const blockReviews = document.getElementById("blockReviews__style");
+	if (blockReviews.style.display === "flex") {
+		blockReviews.style.display = "none";
+	} else {
+		blockReviews.display = "none";
+	}
+
 	const blockDetails = document.getElementById("blockDetails__style");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "flex";
 	} else {
 		blockDetails.style.display = "none";
+	}
+}
+
+function OpenBlockProduct3() {
+	const blockDown = document.getElementById("blockDown__style");
+	if (blockDown.style.display === "flex") {
+		blockDown.style.display = "none";
+	} else {
+		blockDown.style.display = "flex";
+	}
+
+	const blockDetails = document.getElementById("blockDetails__style");
+	if (blockDetails.style.display === "flex") {
+		blockDetails.style.display = "none";
+	} else {
+		blockDetails.style.display = "flex";
+	}
+
+	const blockReviews = document.getElementById("blockReviews__style");
+	if (blockReviews.style.display === "flex") {
+		blockReviews.style.display = "none";
+	} else {
+		blockReviews.display = "none";
 	}
 }
 // document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
