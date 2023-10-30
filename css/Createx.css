@@ -4577,6 +4577,19 @@ body.touch .arrow {
   height: 24px;
 }
 
+.Popap-Purchases__title {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+  line-height: 130%;
+}
+
 .swiper {
   overflow: hidden;
 }

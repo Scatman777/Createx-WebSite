@@ -1764,15 +1764,14 @@
 	}
 
 	.Popap-Purchases__content {
-		width: 486px;
-		height: 864px;
-		padding: 48px;
+		width: 352px;
+		height: 1080px;
+		padding: 32px 24px;
 		background-color: $white;
 		border-radius: 4px;
 	}
 
 	.Popap-Purchases__close {
-		position: absolute;
         top: 24px;
         right: 24px;
         img {
@@ -1782,66 +1781,121 @@
 	}
 
 	.Popap-Purchases__block-title {
-		
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid $gray-300;
+		padding-bottom: 24px;
 	}
 
 	.Popap-Purchases__title {
-	}
-
-	.Popap-Purchases__close {
+		@include h4;
+		color: $gray-900;
+		line-height: 130%;
 	}
 
 	.Popap-Purchases__block-second {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 
 	.block-second-purchases {
 	}
+
 	.block-second-purchases__column {
+		display: flex;
+		justify-content: space-between;
+		gap: 16px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		&:not(:last-child) {
+			padding-bottom: 16px;
+			border-bottom: 1px solid $gray-300;
+		}
 	}
+
 	.block-second-purchases__item {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
 	}
 	.block-second-purchases__block-up {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
+
 	.block-second-purchases__column-title {
+		display: flex;
+		justify-content: space-between;
 	}
+
 	.block-second-purchases__title {
+		@include text-14px;
+		font-weight: 700;
+		color: $gray-900;
+		opacity: 0.9;
 	}
+
 	.block-second-purchases__column-edit {
 	}
+
 	.block-second-purchases__edit-color {
 	}
+
 	.block-second-purchases__select-text {
 	}
+
 	.block-second-purchases__edit-size {
 	}
+
 	.block-second-purchases__block-down {
 	}
+
 	.block-second-purchases__column-down {
 	}
+
 	.block-second-purchases__input-down {
 	}
+
 	.block-second-purchases__column-price {
 	}
+
 	.block-second-purchases__price-red {
 	}
+
 	.block-second-purchases__price-gray {
 	}
+
 	.block-second-purchases__button-transition {
 	}
+
 	.button-transition {
 	}
+
 	.button-transition__text {
 	}
+
 	.Popap-Purchases__block-down {
 	}
+
 	.block-down-purchases {
 	}
+
 	.block-down-purchases__price-column {
 	}
+
 	.block-down-purchases__subtotal {
 	}
+
 	.block-down-purchases__price {
 	}
+
 	.block-down-purchases__button {
 	}
 }
