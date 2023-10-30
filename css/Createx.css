@@ -734,6 +734,17 @@ body {
   letter-spacing: 0.3px;
   color: #17696A;
 }
+.section-banner__button label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
 .section-banner__button:hover {
   background: #17696A;
 }
@@ -1067,6 +1078,17 @@ svg {
   letter-spacing: 0.3px;
   color: #17696A;
 }
+.section-trend__button label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
 .section-trend__button:hover {
   background: #17696A;
 }
@@ -1290,6 +1312,17 @@ svg {
   text-align: center;
 }
 .section-discount__button a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.section-discount__button label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -1586,6 +1619,17 @@ svg {
   letter-spacing: 0.3px;
   color: #17696A;
 }
+.block-messenger__button label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
 .block-messenger__button:hover {
   background: #17696A;
 }
@@ -1652,6 +1696,17 @@ svg {
   background: none;
 }
 .block-blog__button-up a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.block-blog__button-up label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -3434,6 +3489,17 @@ body.touch .arrow {
   letter-spacing: 0.3px;
   color: #17696A;
 }
+.sub-menu-img__button label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
 .sub-menu-img__button:hover {
   background: #17696A;
 }
@@ -3911,6 +3977,17 @@ body.touch .arrow {
   letter-spacing: 0.3px;
   color: #17696A;
 }
+.block-up-popap__button-gender label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
 .block-up-popap__button-gender:hover {
   background: #17696A;
 }
@@ -4050,6 +4127,17 @@ body.touch .arrow {
   border: 1px solid #D7DADD;
 }
 .block-down-popap__button-unit a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.block-down-popap__button-unit label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -4252,6 +4340,12 @@ body.touch .arrow {
   opacity: 0.9;
 }
 
+.Popap-Review__column-input-select {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .Popap-Review__input-select {
   display: flex;
   justify-content: space-between;
@@ -4262,7 +4356,6 @@ body.touch .arrow {
 }
 .Popap-Review__input-select input {
   width: 100%;
-  height: 44px;
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
@@ -4324,8 +4417,21 @@ body.touch .arrow {
   border: 1px solid #17696A;
   border-radius: 4px;
   background: none;
+  padding: 0px 24px;
+  height: 36px;
 }
 .Popap-Review__button-submit a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.Popap-Review__button-submit label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -4345,10 +4451,9 @@ body.touch .arrow {
 .Popap-Review__button-submit:hover a {
   color: #FFF;
 }
-.Popap-Review__button-submit a {
-  font-size: 12px;
+.Popap-Review__button-submit input {
+  display: none;
 }
-
 .Popap-Review__column-input-text {
   display: flex;
   flex-direction: column;
@@ -4552,6 +4657,17 @@ body.touch .arrow {
   border: 1px solid #E5E8ED;
 }
 .block-up__button-info a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.block-up__button-info label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -4873,6 +4989,17 @@ body.touch .arrow {
   padding: 0px;
 }
 .block-down__button-favourite a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.block-down__button-favourite label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -5748,6 +5875,17 @@ body.touch .arrow {
   text-align: center;
 }
 .info-product__button a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.info-product__button label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
