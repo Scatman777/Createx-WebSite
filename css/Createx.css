@@ -4478,6 +4478,7 @@ body.touch .arrow {
   opacity: 0.9;
 }
 .Popap-Review__column-input-text textarea {
+  resize: none;
   width: 100%;
   height: 107px;
   border: 1px solid #D7DADD;
@@ -4520,6 +4521,60 @@ body.touch .arrow {
 }
 .Popap-Review__button:hover {
   background-color: #18888a;
+}
+
+.Popap-Purchases {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.Popap-Purchases:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.Popap-Purchases__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.Popap-Purchases__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 30px 10px;
+  position: relative;
+}
+
+.Popap-Purchases__content {
+  width: 486px;
+  height: 864px;
+  padding: 48px;
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+.Popap-Purchases__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.Popap-Purchases__close img {
+  width: 24px;
+  height: 24px;
 }
 
 .swiper {
