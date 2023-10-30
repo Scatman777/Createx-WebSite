@@ -1845,58 +1845,99 @@
 	.block-second-purchases__column-edit {
 	}
 
-	.block-second-purchases__edit-color {
+	.block-second-purchases__edit {
+		display: flex;
+		gap: 4px;
+
+		label {
+			@include text-14px;
+			font-size: 12px;
+			color: $gray-700;
+			opacity: 0.9;
+		}
 	}
 
 	.block-second-purchases__select-text {
-	}
-
-	.block-second-purchases__edit-size {
+		@include text-14px;
+		font-size: 12px;
+		color: $gray-800;
+		opacity: 0.9;
 	}
 
 	.block-second-purchases__block-down {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	.block-second-purchases__column-down {
+		display: flex;
+		gap: 16px;
 	}
 
 	.block-second-purchases__input-down {
+		width: 72px;
+		height: 36px;
+		border-radius: 4px;
+		border: 1px solid $gray-400;
+		padding: 0px 16px;
+
+		input {
+			width: 48px;
+    		height: 18px;
+		}
 	}
 
 	.block-second-purchases__column-price {
+		display: flex;
+		gap: 4px;
 	}
 
 	.block-second-purchases__price-red {
+		@include text-16px;
+		color: $red;
 	}
 
 	.block-second-purchases__price-gray {
+		@include text-14px;
+		color: $gray-700;
+		opacity: 0.9;
+		text-decoration-line: line-through;
 	}
 
 	.block-second-purchases__button-transition {
-	}
-
-	.button-transition {
-	}
-
-	.button-transition__text {
+		@include button-green;
+		width: 48px;
+		height: 36px;
 	}
 
 	.Popap-Purchases__block-down {
-	}
-
-	.block-down-purchases {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding-top: 20px;
+		border-top: 1px solid $gray-300;
 	}
 
 	.block-down-purchases__price-column {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.block-down-purchases__subtotal {
+		@include text-16px;
+		color: $gray-700;
 	}
 
 	.block-down-purchases__price {
+		@include h4;
+		color: $gray-900;
 	}
 
 	.block-down-purchases__button {
+		@include button-green-backround;
+		height: 52px;
+		padding: 0px 40px;
 	}
 }
 
