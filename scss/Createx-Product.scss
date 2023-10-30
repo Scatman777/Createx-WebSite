@@ -46,8 +46,8 @@
 	.block-up__button-info {
 		@include button-green;
 		padding: 0px 20px;
-		transition: all 0.5s;
-		border: none;
+		transition: all 0.3s;
+		border: 1px solid $gray-300;
 		a {
 			color: $gray-600;
 		}

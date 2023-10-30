@@ -177,15 +177,19 @@ function HideFilters() {
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
 	const blockDetails = document.getElementById("blockDetails__style");
-	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
 		blockDetails.style.display = "none";
 	}
+	const buttonBorder1 = document.getElementById("button-border1");
+	if (buttonBorder1.style.border === "1px solid #E5E8ED") {
+		buttonBorder1.style.border === "1px solid #17696A";
+	} else {
+		blockDetails.style.border === "1px solid #E5E8ED";
+	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
-	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
@@ -203,7 +207,6 @@ function OpenBlockProduct1() {
 
 function OpenBlockProduct2() {
 	const blockDown = document.getElementById("blockDown__style");
-	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
@@ -211,7 +214,6 @@ function OpenBlockProduct2() {
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
-	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
@@ -219,7 +221,7 @@ function OpenBlockProduct2() {
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
-	document.getElementById("button-border1").classList.toggle("border-acctiv");
+	document.getElementById("button-border1").classList.add("border-acctiv");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "flex";
 	} else {
@@ -229,7 +231,6 @@ function OpenBlockProduct2() {
 
 function OpenBlockProduct3() {
 	const blockDown = document.getElementById("blockDown__style");
-	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
@@ -237,7 +238,6 @@ function OpenBlockProduct3() {
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
-	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
