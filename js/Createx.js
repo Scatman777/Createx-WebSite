@@ -191,6 +191,7 @@ function OpenBlockProduct1() {
 	}
 
 	const blockDown = document.getElementById("blockDown__style");
+	document.getElementById("button-border1").classList.toggle("border-green");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "flex";
 	} else {
@@ -243,16 +244,6 @@ function OpenBlockProduct3() {
 		blockReviews.style.display = "flex";
 	}
 }
-// document.getElementById("ButtonOpen__Block").addEventListener("change", function() {
-
-// 	// document.getElementById("popap-icon").classList.toggle("password__open");
-
-// 	if (document.getElementById("ButtonOpen__Block").style.display === "none") {
-// 		document.getElementById("blockDetails").style.display = "flex";
-// 	} else {
-// 		document.getElementById("blockDetails").style.display ="none";
-// 	}
-// });
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
