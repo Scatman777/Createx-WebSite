@@ -177,6 +177,7 @@ function HideFilters() {
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
 	const blockDetails = document.getElementById("blockDetails__style");
+	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
@@ -184,6 +185,7 @@ function OpenBlockProduct1() {
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
+	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
@@ -191,7 +193,7 @@ function OpenBlockProduct1() {
 	}
 
 	const blockDown = document.getElementById("blockDown__style");
-	document.getElementById("button-border1").classList.toggle("border-green");
+	document.getElementById("button-border1").classList.add("border-acctiv");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "flex";
 	} else {
@@ -215,6 +217,7 @@ function OpenBlockProduct2() {
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
+	document.getElementById("button-border1").classList.toggle("border-green");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "flex";
 	} else {
