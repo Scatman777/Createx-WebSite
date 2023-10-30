@@ -344,6 +344,10 @@
 		@include text-16px;
 	}
 
+	.block-down__plus {
+		cursor: pointer;
+	}
+
 	.block-down__icon-column {
 		display: flex;
 		gap: 16px;

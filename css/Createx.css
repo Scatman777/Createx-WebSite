@@ -4935,6 +4935,10 @@ body.touch .arrow {
   opacity: 0.9;
 }
 
+.block-down__plus {
+  cursor: pointer;
+}
+
 .block-down__icon-column {
   display: flex;
   gap: 16px;
