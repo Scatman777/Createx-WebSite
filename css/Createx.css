@@ -4582,17 +4582,17 @@ body.touch .arrow {
   color: #17696A;
 }
 
-.border-acctiv:focus {
+.border-acctiv {
   border: 1px solid #17696A;
 }
-.border-acctiv:focus a {
+.border-acctiv a {
   color: #17696A;
 }
 
-.border-disabled {
-  border: none;
+.border-gray {
+  border: 1px solid #E5E8ED;
 }
-.border-disabled a {
+.border-gray a {
   color: #9A9CA5;
 }
 

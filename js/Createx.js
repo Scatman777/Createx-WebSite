@@ -203,6 +203,7 @@ function OpenBlockProduct1() {
 
 function OpenBlockProduct2() {
 	const blockDown = document.getElementById("blockDown__style");
+	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
@@ -210,6 +211,7 @@ function OpenBlockProduct2() {
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
+	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
@@ -217,7 +219,7 @@ function OpenBlockProduct2() {
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
-	document.getElementById("button-border1").classList.toggle("border-green");
+	document.getElementById("button-border1").classList.toggle("border-acctiv");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "flex";
 	} else {
@@ -227,6 +229,7 @@ function OpenBlockProduct2() {
 
 function OpenBlockProduct3() {
 	const blockDown = document.getElementById("blockDown__style");
+	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
@@ -234,6 +237,7 @@ function OpenBlockProduct3() {
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
+	document.getElementById("button-border1").classList.add("border-gray");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
@@ -241,6 +245,7 @@ function OpenBlockProduct3() {
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
+	document.getElementById("button-border1").classList.toggle("border-acctiv");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "flex";
 	} else {
