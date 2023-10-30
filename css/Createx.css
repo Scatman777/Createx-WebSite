@@ -4581,6 +4581,12 @@ body.touch .arrow {
 .block-up__button-info:hover a {
   color: #17696A;
 }
+.block-up__button-info:focus {
+  border: 1px solid #17696A;
+}
+.block-up__button-info:focus a {
+  color: #17696A;
+}
 
 .border-acctiv {
   border: 1px solid #17696A;

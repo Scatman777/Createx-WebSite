@@ -60,6 +60,14 @@
 				color: $green;
 			}
 		}
+
+		&:focus {
+			border: 1px solid $green;
+
+			a {
+				color: $green;
+			}
+		}
 	}
 
 	.border-acctiv {

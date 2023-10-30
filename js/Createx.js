@@ -176,90 +176,62 @@ function HideFilters() {
 
 ///////////////// SECTION-PRODUCT /////////////////
 function OpenBlockProduct1() {
+
+	/* BLOKC-DETAILS */
 	const blockDetails = document.getElementById("blockDetails__style");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
 	} else {
 		blockDetails.style.display = "none";
 	}
-	const buttonBorder2 = document.getElementById("button-border2");
-	if (buttonBorder2.style.border === "1px solid #E5E8ED") {
-		buttonBorder2.style.border === "1px solid #E5E8ED";
-	} else {
-		buttonBorder2.style.border === "1px solid #E5E8ED";
-	}
 
+	/* BLOKC-REVIEWS */
 	const blockReviews = document.getElementById("blockReviews__style");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
 		blockReviews.style.display = "none";
 	}
-	const buttonBorder3 = document.getElementById("button-border3");
-	if (buttonBorder3.style.border === "1px solid #E5E8ED") {
-		buttonBorder3.style.border === "1px solid #E5E8ED";
-	} else {
-		buttonBorder3.style.border === "1px solid #E5E8ED";
-	}
 
+	/* BLOKC-DOWN */
 	const blockDown = document.getElementById("blockDown__style");
-	document.getElementById("button-border1").classList.add("border-acctiv");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "flex";
 	} else {
 		blockDown.style.display = "flex";
-	}
-	const buttonBorder1 = document.getElementById("button-border1");
-	if (buttonBorder1.style.border === "1px solid #E5E8ED") {
-		buttonBorder1.style.border === "1px solid #17696A";
-	} else {
-		buttonBorder1.style.border === "1px solid #17696A";
 	}
 }
 
 function OpenBlockProduct2() {
+
+	/* BLOKC-DOWN */
 	const blockDown = document.getElementById("blockDown__style");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
 	} else {
 		blockDown.style.display = "none";
 	}
-	const buttonBorder1 = document.getElementById("button-border1");
-	if (buttonBorder1.style.border === "1px solid #E5E8ED") {
-		buttonBorder1.style.border === "1px solid #E5E8ED";
-	} else {
-		buttonBorder1.style.border === "1px solid #E5E8ED";
-	}
 
+	/* BLOKC-REVIEWS */
 	const blockReviews = document.getElementById("blockReviews__style");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
 		blockReviews.style.display = "none";
 	}
-	const buttonBorder3 = document.getElementById("button-border3");
-	if (buttonBorder3.style.border === "1px solid #E5E8ED") {
-		buttonBorder3.style.border === "1px solid #E5E8ED";
-	} else {
-		buttonBorder3.style.border === "1px solid #E5E8ED";
-	}
 
+	/* BLOKC-DETAILS */
 	const blockDetails = document.getElementById("blockDetails__style");
-	document.getElementById("button-border1").classList.add("border-acctiv");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "flex";
 	} else {
 		blockDetails.style.display = "flex";
 	}
-	const buttonBorder2 = document.getElementById("button-border2");
-	if (buttonBorder2.style.border === "1px solid #E5E8ED") {
-		buttonBorder2.style.border === "1px solid #17696A";
-	} else {
-		buttonBorder2.style.border === "1px solid #17696A";
-	}
 }
 
 function OpenBlockProduct3() {
+
+	/* BLOKC-DOWN */
 	const blockDown = document.getElementById("blockDown__style");
 	if (blockDown.style.display === "none") {
 		blockDown.style.display = "none";
@@ -267,6 +239,7 @@ function OpenBlockProduct3() {
 		blockDown.style.display = "none";
 	}
 
+	/* BLOKC-DETAILS */
 	const blockDetails = document.getElementById("blockDetails__style");
 	if (blockDetails.style.display === "none") {
 		blockDetails.style.display = "none";
@@ -274,8 +247,8 @@ function OpenBlockProduct3() {
 		blockDetails.style.display = "none";
 	}
 
+	/* BLOKC-REVIEWS */
 	const blockReviews = document.getElementById("blockReviews__style");
-	document.getElementById("button-border1").classList.toggle("border-acctiv");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "flex";
 	} else {
