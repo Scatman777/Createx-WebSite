@@ -4272,7 +4272,7 @@ body.touch .arrow {
 
 .Popap-Review__content {
   width: 486px;
-  height: 868px;
+  height: 864px;
   padding: 48px;
   background-color: #FFF;
   border-radius: 4px;
@@ -4454,6 +4454,14 @@ body.touch .arrow {
 .Popap-Review__button-submit input {
   display: none;
 }
+.Popap-Review__button-submit label {
+  font-size: 12px;
+  cursor: pointer;
+}
+.Popap-Review__button-submit:hover {
+  background: none;
+}
+
 .Popap-Review__column-input-text {
   display: flex;
   flex-direction: column;
@@ -4469,7 +4477,7 @@ body.touch .arrow {
   color: #424551;
   opacity: 0.9;
 }
-.Popap-Review__column-input-text input {
+.Popap-Review__column-input-text textarea {
   width: 100%;
   height: 107px;
   border: 1px solid #D7DADD;

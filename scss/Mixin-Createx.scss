@@ -1562,7 +1562,7 @@
 
 	.Popap-Review__content {
 		width: 486px;
-		height: 868px;
+		height: 864px;
 		padding: 48px;
 		background-color: $white;
 		border-radius: 4px;
@@ -1670,7 +1670,7 @@
 		font-size: 12px;
 		color: $gray-800;
 		opacity: 0.9;
-		margin-bottom: 20px; 
+		margin-bottom: 20px;
 	}
 
 	.Popap-Review__button-submit {
@@ -1683,7 +1683,12 @@
 		}
 
 		label {
+			font-size: 12px;
+			cursor: pointer;
+		}
 
+		&:hover {
+			background: none;
 		}
 	}
 
@@ -1698,7 +1703,18 @@
 			opacity: 0.9;
 		}
 
-		input {
+		// input {
+		// 	width: 100%;
+		// 	height: 107px;
+		// 	border: 1px solid $gray-400;
+		// 	border-radius: 4px;
+		// 	padding: 16px;
+		// 	@include text-14px;
+		// 	color: $gray-600;
+		// 	opacity: 0.9;
+		// }
+
+		textarea {
 			width: 100%;
 			height: 107px;
 			border: 1px solid $gray-400;
