@@ -182,11 +182,11 @@ function OpenBlockProduct1() {
 	} else {
 		blockDetails.style.display = "none";
 	}
-	const buttonBorder1 = document.getElementById("button-border1");
-	if (buttonBorder1.style.border === "1px solid #E5E8ED") {
-		buttonBorder1.style.border === "1px solid #17696A";
+	const buttonBorder2 = document.getElementById("button-border2");
+	if (buttonBorder2.style.border === "1px solid #E5E8ED") {
+		buttonBorder2.style.border === "1px solid #E5E8ED";
 	} else {
-		blockDetails.style.border === "1px solid #E5E8ED";
+		buttonBorder2.style.border === "1px solid #E5E8ED";
 	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
@@ -195,6 +195,12 @@ function OpenBlockProduct1() {
 	} else {
 		blockReviews.style.display = "none";
 	}
+	const buttonBorder3 = document.getElementById("button-border3");
+	if (buttonBorder3.style.border === "1px solid #E5E8ED") {
+		buttonBorder3.style.border === "1px solid #E5E8ED";
+	} else {
+		buttonBorder3.style.border === "1px solid #E5E8ED";
+	}
 
 	const blockDown = document.getElementById("blockDown__style");
 	document.getElementById("button-border1").classList.add("border-acctiv");
@@ -202,6 +208,12 @@ function OpenBlockProduct1() {
 		blockDown.style.display = "flex";
 	} else {
 		blockDown.style.display = "flex";
+	}
+	const buttonBorder1 = document.getElementById("button-border1");
+	if (buttonBorder1.style.border === "1px solid #E5E8ED") {
+		buttonBorder1.style.border === "1px solid #17696A";
+	} else {
+		buttonBorder1.style.border === "1px solid #17696A";
 	}
 }
 
@@ -212,12 +224,24 @@ function OpenBlockProduct2() {
 	} else {
 		blockDown.style.display = "none";
 	}
+	const buttonBorder1 = document.getElementById("button-border1");
+	if (buttonBorder1.style.border === "1px solid #E5E8ED") {
+		buttonBorder1.style.border === "1px solid #E5E8ED";
+	} else {
+		buttonBorder1.style.border === "1px solid #E5E8ED";
+	}
 
 	const blockReviews = document.getElementById("blockReviews__style");
 	if (blockReviews.style.display === "none") {
 		blockReviews.style.display = "none";
 	} else {
 		blockReviews.style.display = "none";
+	}
+	const buttonBorder3 = document.getElementById("button-border3");
+	if (buttonBorder3.style.border === "1px solid #E5E8ED") {
+		buttonBorder3.style.border === "1px solid #E5E8ED";
+	} else {
+		buttonBorder3.style.border === "1px solid #E5E8ED";
 	}
 
 	const blockDetails = document.getElementById("blockDetails__style");
@@ -226,6 +250,12 @@ function OpenBlockProduct2() {
 		blockDetails.style.display = "flex";
 	} else {
 		blockDetails.style.display = "flex";
+	}
+	const buttonBorder2 = document.getElementById("button-border2");
+	if (buttonBorder2.style.border === "1px solid #E5E8ED") {
+		buttonBorder2.style.border === "1px solid #17696A";
+	} else {
+		buttonBorder2.style.border === "1px solid #17696A";
 	}
 }
 
