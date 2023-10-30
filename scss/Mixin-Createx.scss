@@ -1726,6 +1726,11 @@
 		}
 	}
 
+	.Popap-Review__button-column {
+		display: flex;
+		justify-content: center;
+	}
+
 	.Popap-Review__button {
 		@include button-green-backround;
 	}

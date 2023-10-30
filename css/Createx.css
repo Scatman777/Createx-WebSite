@@ -4493,6 +4493,11 @@ body.touch .arrow {
   opacity: 0.9;
 }
 
+.Popap-Review__button-column {
+  display: flex;
+  justify-content: center;
+}
+
 .Popap-Review__button {
   display: flex;
   align-items: center;
