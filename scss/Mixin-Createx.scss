@@ -1926,12 +1926,14 @@
 
 	.block-down-purchases__subtotal {
 		@include text-16px;
+		font-weight: 400;
 		color: $gray-700;
 	}
 
 	.block-down-purchases__price {
 		@include h4;
 		color: $gray-900;
+		line-height: 130%;
 	}
 
 	.block-down-purchases__button {
