@@ -4793,6 +4793,10 @@ body.touch .arrow {
   line-height: 36px;
   letter-spacing: 0.5px;
 }
+.block-second-purchases__button-transition img {
+  width: 16px;
+  height: 16px;
+}
 
 .Popap-Purchases__block-down {
   display: flex;
