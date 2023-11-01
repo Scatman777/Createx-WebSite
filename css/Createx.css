@@ -4600,6 +4600,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding: 16px 0px;
 }
 
 .block-second-purchases__column {
@@ -4608,8 +4609,8 @@ body.touch .arrow {
   gap: 16px;
 }
 .block-second-purchases__column img {
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
 }
