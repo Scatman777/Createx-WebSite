@@ -4552,7 +4552,7 @@ body.touch .arrow {
 
 .Popap-Purchases__body {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   min-height: 100%;
   padding: 30px 10px;
@@ -4647,6 +4647,12 @@ body.touch .arrow {
   opacity: 0.9;
 }
 
+.block-second-purchases__column-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
 .block-second-purchases__edit {
   display: flex;
   gap: 4px;
@@ -4700,6 +4706,7 @@ body.touch .arrow {
 
 .block-second-purchases__column-price {
   display: flex;
+  align-items: center;
   gap: 4px;
 }
 
@@ -4725,14 +4732,14 @@ body.touch .arrow {
   text-decoration-line: line-through;
 }
 
-.block-second-purchases__price-red {
+.block-second-purchases__price {
   font-family: "Lato";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #FFF;
-  opacity: 0.6000000238;
-  color: #FF4242;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #1E212C;
 }
 
 .block-second-purchases__button-transition {
@@ -4744,8 +4751,9 @@ body.touch .arrow {
   border: 1px solid #17696A;
   border-radius: 4px;
   background: none;
-  width: 48px;
   height: 36px;
+  border: none;
+  padding: 0px;
 }
 .block-second-purchases__button-transition a {
   font-family: "Lato";
@@ -4777,6 +4785,11 @@ body.touch .arrow {
 }
 .block-second-purchases__button-transition:hover a {
   color: #FFF;
+}
+.block-second-purchases__button-transition a {
+  color: #424551;
+  line-height: 36px;
+  letter-spacing: 0.5px;
 }
 
 .Popap-Purchases__block-down {

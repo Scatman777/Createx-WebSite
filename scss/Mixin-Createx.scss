@@ -1756,7 +1756,7 @@
 
 	.Popap-Purchases__body {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
 		min-height: 100%;
         padding: 30px 10px;
@@ -1843,6 +1843,9 @@
 	}
 
 	.block-second-purchases__column-edit {
+		display: flex;
+		flex-direction: column;
+		gap: 9px;
 	}
 
 	.block-second-purchases__edit {
@@ -1890,6 +1893,7 @@
 
 	.block-second-purchases__column-price {
 		display: flex;
+		align-items: center;
 		gap: 4px;
 	}
 
@@ -1905,15 +1909,22 @@
 		text-decoration-line: line-through;
 	}
 
-	.block-second-purchases__price-red {
-		@include text-14px;
-		color: $red;
+	.block-second-purchases__price {
+		@include text-16px;
+		color: $gray-900;
 	}
 
 	.block-second-purchases__button-transition {
 		@include button-green;
-		width: 48px;
 		height: 36px;
+		border: none;
+		padding: 0px;
+
+		a {
+			color: $gray-800;
+			line-height: 36px;
+			letter-spacing: 0.5px;
+		}
 	}
 
 	.Popap-Purchases__block-down {
