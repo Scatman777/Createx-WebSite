@@ -1938,6 +1938,10 @@
 
 		&:hover {
 			background: none;
+
+			a {
+				color: $gray-800;
+			}
 		}
 	}
 

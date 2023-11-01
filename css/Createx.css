@@ -4802,6 +4802,9 @@ body.touch .arrow {
 .block-second-purchases__button-transition:hover {
   background: none;
 }
+.block-second-purchases__button-transition:hover a {
+  color: #424551;
+}
 
 .Popap-Purchases__block-down {
   display: flex;
