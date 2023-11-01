@@ -4701,8 +4701,8 @@ body.touch .arrow {
   padding: 0px 16px;
 }
 .block-second-purchases__input-down input {
-  width: 48px;
-  height: 18px;
+  width: 100%;
+  height: 100%;
 }
 
 .block-second-purchases__column-price {
