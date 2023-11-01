@@ -1905,6 +1905,11 @@
 		text-decoration-line: line-through;
 	}
 
+	.block-second-purchases__price-red {
+		@include text-14px;
+		color: $red;
+	}
+
 	.block-second-purchases__button-transition {
 		@include button-green;
 		width: 48px;
