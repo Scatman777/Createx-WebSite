@@ -4753,6 +4753,7 @@ body.touch .arrow {
   border: 1px solid #17696A;
   border-radius: 4px;
   background: none;
+  width: 72px;
   height: 36px;
   border: none;
   padding: 0px;
@@ -4789,6 +4790,7 @@ body.touch .arrow {
   color: #FFF;
 }
 .block-second-purchases__button-transition a {
+  font-size: 12px;
   color: #424551;
   line-height: 36px;
   letter-spacing: 0.5px;
@@ -4796,6 +4798,9 @@ body.touch .arrow {
 .block-second-purchases__button-transition img {
   width: 16px;
   height: 16px;
+}
+.block-second-purchases__button-transition:hover {
+  background: none;
 }
 
 .Popap-Purchases__block-down {
