@@ -6361,6 +6361,10 @@ body.touch .arrow {
   background-color: #18888a;
 }
 
+.section-checkout__body {
+  margin: 32px 0px 180px 0px;
+}
+
 .section-checkout__block-product-checkout {
   display: flex;
   flex-direction: column;
@@ -6460,6 +6464,12 @@ body.touch .arrow {
   display: flex;
   gap: 22px;
 }
+.item-review__block-info img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .item-review__column-info {
   display: flex;
@@ -6490,9 +6500,11 @@ body.touch .arrow {
   border-radius: 4px;
   background-color: #FFF;
   border: 1px solid #D7DADD;
-  padding: 0px 12px input;
-  padding-width: 100%;
-  padding-height: 100%;
+  padding: 0px 12px;
+}
+.item-review__input input {
+  width: 100%;
+  height: 100%;
 }
 
 .item-review__column-price {

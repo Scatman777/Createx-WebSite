@@ -1,6 +1,7 @@
 @mixin CreatexCheckout-Style {
 
 	.section-checkout__body {
+		margin: 32px 0px 180px 0px;
 	}
 
 	.section-checkout__block-product-checkout {
@@ -89,6 +90,12 @@
 	.item-review__block-info {
 		display: flex;
 		gap: 22px;
+
+		img {
+			width: 80px;
+			height: 80px;
+			object-fit: cover;
+		}
 	}
 
 	.item-review__column-info {
@@ -118,7 +125,7 @@
 		border-radius: 4px;
 		background-color: $white;
 		border: 1px solid #D7DADD;
-		padding: 0px 12px
+		padding: 0px 12px;
 
 		input {
 			width: 100%;
@@ -153,7 +160,9 @@
 
 		&:nth-child(2) {
 			display: flex;
+			align-items: center;
 			gap: 8px;
+			background: none;
 
 			a {
 				@include text-12px;
