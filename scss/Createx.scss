@@ -5,6 +5,7 @@
 @import "Createx-Media.scss";
 /* Media */
 @import "Createx-Product.scss";
+@import "Createx-Checkout.scss";
 @import "Createx-Profile.scss";
 /* FILE-STYLE */
 
@@ -2081,6 +2082,7 @@ svg {
 @include Popap-Purchases;
 @include swiper-product;
 @include CreatexProduct-Style;
+@include CreatexCheckout-Style;
 @include CreatexProfile-Style;
 @include input-checkbox;
 @include media-all;
