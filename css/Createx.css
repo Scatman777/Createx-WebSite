@@ -6485,10 +6485,17 @@ body.touch .arrow {
   width: 72px;
   height: 36px;
   border-radius: 4px;
+  background-color: #FFF;
   border: 1px solid #D7DADD;
   padding: 0px 12px input;
   padding-width: 100%;
   padding-height: 100%;
+}
+
+.item-review__column-price {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .section-profile__body {

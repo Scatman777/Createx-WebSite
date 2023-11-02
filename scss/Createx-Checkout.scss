@@ -114,6 +114,7 @@
 		width: 72px;
 		height: 36px;
 		border-radius: 4px;
+		background-color: $white;
 		border: 1px solid #D7DADD;
 		padding: 0px 12px
 
@@ -124,9 +125,13 @@
 	}
 
 	.item-review__column-price {
+		display: flex;
+		align-items: center;
+		gap: 4px;
 	}
 
 	.item-review__price-red {
+		
 	}
 
 	.item-review__price-gray {
