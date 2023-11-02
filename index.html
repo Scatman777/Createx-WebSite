@@ -1413,7 +1413,9 @@
 							</div>
 							<a href="#" class="column-profile__forgot-password">Forgot password?</a>
 						</div>
-						<button class="block-input__button"><a href="#">Sign in</a></button>
+						<button class="block-input__button">
+							<a href="#">Sign in</a>
+						</button>
 						<p class="block-input__text-profile">Don't have an account?<a href="#">Sign up</a></p>
 					</div>
 					<div class="login-popap__block-sing-in-messenger block-sing-in-messenger">
@@ -1453,31 +1455,33 @@
 					<a href="#" class="register-popap__close">
 						<img href="#header" src="/img/Cross.svg" alt="cover">
 					</a>
-						<div class="register-popap__column-title">
+					<div class="register-popap__column-title">
 							<h4 class="register-popap__title">Sign up</h4>
 							<p class="register-popap__text">Registration takes less than a minute but gives you full control over your orders.</p>
-						</div>
-						<div class="register-popap__block-input block-input">
+					</div>
+					<div class="register-popap__block-input block-input">
 							<div class="block-input__column-input">
 								<label>Full name</label>
-								<input type="email" placeholder="Your full name" tabindex="1">
+								<input class="block-input__input" type="email" placeholder="Your full name" tabindex="1">
 							</div>
 							<div class="block-input__column-input">
 								<label>Email</label>
-								<input type="email" placeholder="Your working email" tabindex="2">
+								<input class="block-input__input" type="email" placeholder="Your working email" tabindex="2">
 							</div>
 							<div class="block-input__column-input">
 								<label>Password</label>
 								<div class="password">
-									<input type="password" id="password-input" name="password" tabindex="3">
-									<a id="open" class="password-control" onclick="passwordHide()"></a>
+									<input id="popap-input" type="password" class="block-input__input" name="password" tabindex="2">
+									<input id="open-password" type="checkbox" class="password-control" name="password-hide" tabindex="3">
+									<span id="popap-icon"></span>
 								</div>
 							</div>
 							<div class="block-input__column-input">
 								<label>Confirm Password</label>
 								<div class="password">
-									<input type="password" id="password-input" name="password" tabindex="4">
-									<a id="open" class="password-control" onclick="passwordHide()"></a>
+									<input id="popap-input" type="password" class="block-input__input" name="password" tabindex="2">
+									<input id="open-password" type="checkbox" class="password-control" name="password-hide" tabindex="3">
+									<span id="popap-icon"></span>
 								</div>
 							</div>
 							<div class="block-input__column-profile">
@@ -1487,10 +1491,12 @@
 								</div>
 								<a href="#" class="column-profile__forgot-password">Forgot password?</a>
 							</div>
-							<button class="block-input__button"><a href="#">Sign up</a></button>
+							<button class="block-input__button">
+								<a href="#">Sign up</a>
+							</button>
 							<p class="block-input__text-profile">Already have an account?<a href="#">Sign in</a></p>
-						</div>
-						<div class="register-popap__block-sing-in-messenger block-sing-in-messenger">
+					</div>
+					<div class="register-popap__block-sing-in-messenger block-sing-in-messenger">
 							<p class="block-sing-in-messenger__text">Or sign in with</p>
 							<div class="block-sing-in-messenger__column-icon">
 								<div class="block-sing-in-messenger__icon">
@@ -1516,31 +1522,10 @@
 									</svg>	
 								</div>
 							</div>
-						</div>
+					</div>
 				</div>	
 			</div>	
-		<script src="./js/Createx.js"></script>
-		<script src="/js/jquery.min.js"></script>
-		<script src="/js/slick.min.js"></script>
-		<script>
-			$(document).ready(function(){
-				$('.sliders').slick({
-					prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
-					nextArrow: '<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
-					autoplay:true,
-					autoplaySpeed: 1500,
-					speed: 1300,
-					easing: 'ease',
-					loop: true,
-					dots: true,
-					infinite: true,
-					slidesToShow: 1,
-					pauseOnHover: false,
-					draggable: false
-				});
-			});
-		</script>
-	</div>
+		</div>
 	<script src="./js/Createx.js"></script>
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/slick.min.js"></script>
