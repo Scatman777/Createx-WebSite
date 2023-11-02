@@ -26,6 +26,18 @@
     line-height: 150%;
 }
 
+@mixin text-12px {
+	font: {
+        family: "Lato";
+        size: 12px;
+        weight: 700;
+    };
+    line-height: 300%;
+    color: $gray-800; 
+	opacity: 0.9;
+	letter-spacing: 0.5px;
+}
+
 @mixin text-12px-gray {
 	font: {
         family: "Lato";

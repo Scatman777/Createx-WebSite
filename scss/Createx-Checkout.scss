@@ -131,59 +131,105 @@
 	}
 
 	.item-review__price-red {
-		
+		@include text-16px-red;
 	}
 
 	.item-review__price-gray {
+		@include text-12px-gray;
 	}
+
 	.item-review__column-button {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
+
 	.item-review__button {
+		&:nth-child(1) {
+			@include button-green-backround;
+		}
+
+		&:nth-child(2) {
+			display: flex;
+			gap: 8px;
+			
+			a {
+				@include text-12px;
+			}
+		}
+
+		img {
+			width: 16px;
+			height: 16px;
+		}
 	}
+
 	.item-review__price {
 	}
+
 	.item-review__subtotal {
 	}
+
 	.block-product-checkout__delivery-address {
 	}
+	
 	.delivery-address {
 	}
+
 	.delivery-address__title {
 	}
+
 	.delivery-address__block-input {
 	}
+
 	.delivery-address__column-input {
 	}
+
 	.delivery-address__input {
 	}
+
 	.delivery-address__input-checkbox {
 	}
+
 	.custom-checkbox {
 	}
+
 	.input-column-sorting__name {
 	}
+
 	.block-product-checkout__shipping-method {
 	}
+
 	.shipping-method {
 	}
+
 	.shipping-method__title {
 	}
+	
 	.shipping-method__block-column {
 	}
+
 	.shipping-method__column {
 	}
+
 	.shipping-method__input {
 	}
+
 	.shipping-address__info-method {
 	}
+	
 	.info-method {
 	}
+
 	.info-method__column-info {
 	}
+
 	.info-method__address {
 	}
+
 	.info-method__expectation {
 	}
+
 	.info-method__price {
 	}
 }
