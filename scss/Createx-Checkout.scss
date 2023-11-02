@@ -81,6 +81,7 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 40px;
+		border-bottom: ;
 	}
 
 	.item-review__block-info {
@@ -152,7 +153,7 @@
 		&:nth-child(2) {
 			display: flex;
 			gap: 8px;
-			
+
 			a {
 				@include text-12px;
 			}
@@ -165,24 +166,37 @@
 	}
 
 	.item-review__price {
+		@include text-16px;
+		color: $gray-900;
 	}
 
 	.item-review__subtotal {
+		@include text-18px;
+		font-weight: 700;
+		color: $gray-900;
 	}
 
 	.block-product-checkout__delivery-address {
-	}
-	
-	.delivery-address {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 
 	.delivery-address__title {
+		@include h1;
+		font-size: 24px;
 	}
 
 	.delivery-address__block-input {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		column-gap: 25px;
+		row-gap: 24px;
 	}
 
 	.delivery-address__column-input {
+
 	}
 
 	.delivery-address__input {
