@@ -325,9 +325,13 @@
 	}
 
 	.payment-method__item-up {
+		display: flex;
+		// align-items: center;
+		gap: 20px;
 	}
 
 	.payment-method__input {
+		
 	}
 
 	.payment-method__input-column {
