@@ -2001,6 +2001,7 @@
 
 	.block-down-purchases__button {
 		@include button-green-backround;
+		justify-content: center;
 		height: 52px;
 		padding: 0px 40px;
 	}
