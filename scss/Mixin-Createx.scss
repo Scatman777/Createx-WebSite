@@ -2226,6 +2226,7 @@
 	/* стили для чекбокса, находящегося в состоянии checked */
 	.custom-radio:checked+label::before {
 		border: 1px solid #17696A;
+		background-color: $green;
 	}
 	  
 	/* стили для чекбокса, находящегося в состоянии disabled */
