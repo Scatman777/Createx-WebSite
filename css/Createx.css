@@ -6674,6 +6674,32 @@ body.touch .arrow {
   height: 100%;
 }
 
+.block-product-checkout__shipping-method {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.shipping-method__title {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 24px;
+}
+
+.shipping-method__block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.shipping-method__column {
+  display: flex;
+  gap: 12px;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;

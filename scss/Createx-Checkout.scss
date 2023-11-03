@@ -236,25 +236,32 @@
 	}
 
 	.block-product-checkout__shipping-method {
-		
-	}
-
-	.shipping-method {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 
 	.shipping-method__title {
+		@include h1;
+		font-size: 24px;
 	}
 	
 	.shipping-method__block-column {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 
 	.shipping-method__column {
+		display: flex;
+		gap: 12px;
 	}
 
 	.shipping-method__input {
 	}
 
 	.shipping-address__info-method {
+		
 	}
 	
 	.info-method {
