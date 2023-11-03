@@ -331,35 +331,53 @@
 	}
 
 	.payment-method__input {
-		
+		display: flex;
+		gap: 12px;
 	}
 
 	.payment-method__input-column {
 	}
+
 	.payment-method__label {
+		@include text-16px;
+		color: $gray-800;
 	}
+
 	.payment-method__cards-column {
+		display: flex;
+		gap: 12px;
 	}
+
 	.payment-method__item-down {
 	}
+
 	.payment-method__block-dataCard {
 	}
+
 	.block-dataCard {
 	}
+
 	.block-dataCard__column-input {
 	}
+
 	.block-dataCard__block-input {
 	}
+
 	.block-dataCard__input-column {
 	}
+
 	.payment-method__column {
 	}
+
 	.block-poduct-checkout__additional-information {
 	}
+
 	.additional-information {
 	}
+
 	.additional-information__title {
 	}
+
 	.additional-information__column-input {
 	}
 }

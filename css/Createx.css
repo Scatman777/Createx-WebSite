@@ -6782,8 +6782,27 @@ body.touch .arrow {
 
 .payment-method__item-up {
   display: flex;
-  align-items: center;
   gap: 20px;
+}
+
+.payment-method__input {
+  display: flex;
+  gap: 12px;
+}
+
+.payment-method__label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #424551;
+}
+
+.payment-method__cards-column {
+  display: flex;
+  gap: 12px;
 }
 
 .section-profile__body {
