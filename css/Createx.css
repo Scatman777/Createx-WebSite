@@ -7092,19 +7092,10 @@ body.touch .arrow {
   flex-grow: 0;
   border: 1px solid #B3B7BC;
   border-radius: 50%;
-  margin-right: 12px;
 }
 
 /* стили при наведении курсора на checkbox */
-.custom-radio:not(:disabled):not(:checked) + label:hover::before {
-  border-color: #1b8688;
-}
-
 /* стили для активного чекбокса (при нажатии на него) */
-.custom-radio:not(:disabled):active + label::before {
-  border: 1px solid #17696A;
-}
-
 /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
 /* стили для чекбокса, находящегося в состоянии checked */
 .custom-radio:checked + label::before {

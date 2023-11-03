@@ -2202,21 +2202,20 @@
 		flex-grow: 0;
 		border: 1px solid $gray-500;
 		border-radius: 50%;
-		margin-right: 12px;
 		// background-repeat: no-repeat;
 		// background-position: center center;
 		// background-size: 77% 80%;
 	}
 	  
 	/* стили при наведении курсора на checkbox */
-	.custom-radio:not(:disabled):not(:checked)+label:hover::before {
-		border-color: #1b8688;
-	}
+	// .custom-radio:not(:disabled):not(:checked)+label:hover::before {
+	// 	border-color:  1px solid #1b8688;
+	// }
 	  
 	/* стили для активного чекбокса (при нажатии на него) */
-	.custom-radio:not(:disabled):active+label::before {
-		border: 1px solid #17696A;
-	}
+	// .custom-radio:not(:disabled):active+label::before {
+	// 	border: 1px solid #17696A;
+	// }
 	  
 	/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
 	// .custom-checkbox:focus:not(:checked)+label::before {
