@@ -261,21 +261,33 @@
 	}
 
 	.shipping-address__info-method {
-		
+		display: flex;
+		justify-content: space-between;
 	}
 	
 	.info-method {
 	}
 
 	.info-method__column-info {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	.info-method__address {
+		@include text-16px;
+		color: $gray-800;
 	}
 
 	.info-method__expectation {
+		@include text-16px;
+		font-weight: 400;
+		color: $gray-700;
 	}
 
 	.info-method__price {
+		@include text-16px;
+		font-weight: 400;
+		color: $gray-800;
 	}
 }

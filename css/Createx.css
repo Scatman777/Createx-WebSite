@@ -6700,6 +6700,49 @@ body.touch .arrow {
   gap: 12px;
 }
 
+.shipping-address__info-method {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-method__column-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-method__address {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #424551;
+}
+
+.info-method__expectation {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #787A80;
+}
+
+.info-method__price {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #424551;
+}
+
 .section-profile__body {
   display: flex;
   justify-content: space-between;
