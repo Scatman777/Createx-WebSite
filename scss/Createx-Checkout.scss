@@ -4,6 +4,7 @@
 		margin: 32px 0px 180px 0px;
 	}
 
+//////////////////// BLOCK-PRODUCT ////////////////////
 	.section-checkout__block-product-checkout {
 		display: flex;
 		flex-direction: column;
@@ -423,5 +424,81 @@
 			font-weight: 400;
 			color: $gray-800;
 		}
+	}
+
+//////////////////// BLOCK-ODERED-TOTALS ////////////////////
+	.section-checkout__block-orderTotals {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+	.block-orderTotals {
+	}
+
+	.block-orderTotals__column-promoCode {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+	.block-orderTotals__column-input {
+		display: flex;
+	}
+
+	.block-orderTotals__input {
+		@include input;
+	}
+
+	.block-orderTotals__button-apply {
+		@include button-green-backround;
+	}
+
+	.block-orderTotals__column-orderTotals {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 24px;
+		background-color: $gray-200;
+		border-radius: 4px;
+	}
+
+	.block-orderTotals__title {
+		@include h1;
+		font-size: 24px;
+		padding-bottom: 16px;
+		border: 1px solid $gray-300;
+	}
+
+	.block-orderTotals__list {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+	}
+
+	.block-orderTotals__item {
+		label {
+			@include text-16px;
+			font-weight: 400;
+		}
+
+		span {
+			@include text-16px;
+			font-weight: 400;
+		}
+
+		&:nth-child(1) {
+			label {
+				@include text-16px;
+			}
+	
+			span {
+				@include text-16px;
+			}
+		}
+	}
+
+	.block-orderTotals__text-down {
+	}
+
+	.block-orderTotals__button {
 	}
 }
