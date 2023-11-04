@@ -6971,6 +6971,9 @@ body.touch .arrow {
 .block-orderTotals__button-apply:hover {
   background-color: #18888a;
 }
+.block-orderTotals__button-apply a {
+  line-height: 52px;
+}
 
 .block-orderTotals__column-orderTotals {
   display: flex;
@@ -6996,6 +6999,8 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 .block-orderTotals__item label {
@@ -7031,6 +7036,56 @@ body.touch .arrow {
   line-height: 160%;
   color: #424551;
   opacity: 0.9;
+}
+
+.block-orderTotals__text-down label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+.block-orderTotals__text-down span {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+.block-orderTotals__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+  padding: 0px 32px;
+  border-radius: 4px;
+  background-color: #17696A;
+}
+.block-orderTotals__button a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #FFF;
+}
+.block-orderTotals__button:hover {
+  background-color: #18888a;
+}
+.block-orderTotals__button a {
+  line-height: 52px;
 }
 
 .section-profile__body {
