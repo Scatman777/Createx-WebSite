@@ -784,8 +784,8 @@
 									<form class="payment-method__block-column">
 										<div class="payment-method__column-card">
 											<div class="payment-method__item-up">
-												<div class="payment-method__input">
-													<div class="payment-method__input-column checkbox">
+												<div class="payment-method__input-column">
+													<div class="payment-method__input checkbox">
 														<input class="custom-radio" type="radio" name="Credit-card">
 														<label></label>
 													</div>
@@ -809,26 +809,24 @@
 													</svg>
 												</div>
 											</div>
-											<div class="payment-method__item-down">
-												<div class="payment-method__block-dataCard block-dataCard">
-													<div class="block-dataCard__column-input">
-														<label>Card number</label>
+											<div class="payment-method__block-dataCard block-dataCard">
+												<div class="block-dataCard__column">
+													<label>Card number</label>
+													<div class="block-dataCard__input">
+														<input type="text" placeholder="0000 0000 0000 0000" name="Card number" tabindex="1">
+													</div>
+												</div>
+												<div class="block-dataCard__block-column">
+													<div class="block-dataCard__column">
+														<label>Expiry date</label>
 														<div class="block-dataCard__input">
-															<input type="text" placeholder="0000 0000 0000 0000" name="Card number" tabindex="1">
+															<input type="datetime" placeholder="mm/yy" name="Expiry date" tabindex="2">
 														</div>
 													</div>
-													<div class="block-dataCard__block-input">
-														<div class="block-dataCard__column-input">
-															<label>Expiry date</label>
-															<div class="block-dataCard__input-column">
-																<input type="datetime" placeholder="mm/yy" name="Expiry date" tabindex="2">
-															</div>
-														</div>
-														<div class="block-dataCard__column-input">
-															<label>CVC</label>
-															<div class="block-dataCard__input-column">
-																<input type="text" placeholder="000" name="CVC" tabindex="3">
-															</div>
+													<div class="block-dataCard__column">
+														<label>CVC</label>
+														<div class="block-dataCard__input">
+															<input type="text" placeholder="000" name="CVC" tabindex="3">
 														</div>
 													</div>
 												</div>

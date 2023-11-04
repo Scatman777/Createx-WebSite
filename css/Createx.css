@@ -6812,12 +6812,12 @@ body.touch .arrow {
   gap: 20px;
 }
 
-.block-dataCard__column-input {
+.block-dataCard__column {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.block-dataCard__column-input label {
+.block-dataCard__column label {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -6828,7 +6828,6 @@ body.touch .arrow {
 }
 
 .block-dataCard__input {
-  width: 100%;
   height: 52px;
   padding: 13px 16px;
   border: 1px solid #D7DADD;
@@ -6844,7 +6843,13 @@ body.touch .arrow {
 }
 .block-dataCard__input input {
   width: 100%;
-  height: 52px;
+  height: 100%;
+}
+
+.block-dataCard__block-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .section-profile__body {

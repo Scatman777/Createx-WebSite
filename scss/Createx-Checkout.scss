@@ -331,12 +331,12 @@
 		gap: 20px;
 	}
 
-	.payment-method__input {
+	.payment-method__input-column {
 		display: flex;
 		gap: 12px;
 	}
 
-	.payment-method__input-column {
+	.payment-method__input {
 	}
 
 	.payment-method__label {
@@ -349,16 +349,13 @@
 		gap: 12px;
 	}
 
-	.payment-method__item-down {
-	}
-
 	.payment-method__block-dataCard {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
 	}
 
-	.block-dataCard__column-input {
+	.block-dataCard__column {
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
@@ -373,7 +370,10 @@
 		@include input;
 	}
 
-	.block-dataCard__block-input {
+	.block-dataCard__block-column {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
 	}
 
 	.block-dataCard__input-column {
