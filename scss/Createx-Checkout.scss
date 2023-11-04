@@ -333,10 +333,12 @@
 
 	.payment-method__input-column {
 		display: flex;
+		align-items: center;
 		gap: 12px;
 	}
 
 	.payment-method__input {
+		@include input;
 	}
 
 	.payment-method__label {

@@ -6786,8 +6786,9 @@ body.touch .arrow {
   gap: 20px;
 }
 
-.payment-method__input {
+.payment-method__input-column {
   display: flex;
+  align-items: center;
   gap: 12px;
 }
 
