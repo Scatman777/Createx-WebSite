@@ -367,10 +367,10 @@
 			@include text-16px;
 			color: $gray-800;
 		}
+	}
 
-		input {
-			
-		}
+	.block-dataCard__input {
+		@include input;
 	}
 
 	.block-dataCard__block-input {
