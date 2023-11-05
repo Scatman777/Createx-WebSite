@@ -7253,16 +7253,6 @@ body.touch .arrow {
   flex-direction: column;
   gap: 8px;
 }
-.content-profile__column-input:nth-child(7) .content-profile__input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.content-profile__column-input:nth-child(8) .content-profile__input {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .content-profile__input {
   height: 52px;
@@ -7291,6 +7281,24 @@ body.touch .arrow {
 .input__content-profile {
   width: 100%;
   height: 100%;
+}
+
+.content-profile__select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  padding: 13px 16px;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #9A9CA5;
 }
 
 .password-control {
