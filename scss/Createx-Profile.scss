@@ -92,15 +92,19 @@
 		gap: 8px;
 
 		&:nth-child(7) {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
+			.content-profile__input {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
 		}
 
 		&:nth-child(8) {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
+			.content-profile__input {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
 		}
 	}
 

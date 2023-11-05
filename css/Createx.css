@@ -7253,12 +7253,12 @@ body.touch .arrow {
   flex-direction: column;
   gap: 8px;
 }
-.content-profile__column-input:nth-child(7) {
+.content-profile__column-input:nth-child(7) .content-profile__input {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.content-profile__column-input:nth-child(8) {
+.content-profile__column-input:nth-child(8) .content-profile__input {
   display: flex;
   justify-content: space-between;
   align-items: center;
