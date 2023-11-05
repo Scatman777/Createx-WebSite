@@ -7278,6 +7278,8 @@ body.touch .arrow {
   justify-content: space-between;
   padding: 13px 16px;
   background-color: #E5E8ED;
+  width: 100%;
+  height: 52px;
 }
 
 .password-control {

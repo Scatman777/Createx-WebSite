@@ -92,14 +92,7 @@
 		gap: 8px;
 	}
 
-	.password {
-	}
-
 	.block-input__input {
-		@include input;
-	}
-
-	.password-control {
 	}
 
 	.block-input__open-password {
@@ -107,6 +100,8 @@
 		justify-content: space-between;
 		padding: 13px 16px;
 		background-color: $gray-300;
+		width: 100%;
+		height: 52px;
 	}
 
     .password-control {
