@@ -93,6 +93,7 @@
 	}
 
 	.content-profile__input {
+		position: relative;
 		height: 52px;
 		padding: 13px 16px;
 		border: 1px solid $gray-400;
@@ -127,6 +128,10 @@
 		a {
 			@include text-16px;
 			font-weight: 400;
+		}
+
+		svg {
+			cursor: pointer;
 		}
 	}
 

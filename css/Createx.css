@@ -7255,6 +7255,7 @@ body.touch .arrow {
 }
 
 .content-profile__input {
+  position: relative;
   height: 52px;
   padding: 13px 16px;
   border: 1px solid #D7DADD;
@@ -7299,6 +7300,18 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
   color: #9A9CA5;
+}
+.content-profile__select a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+}
+.content-profile__select svg {
+  cursor: pointer;
 }
 
 .password-control {
