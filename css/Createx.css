@@ -7278,6 +7278,17 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
 }
+.content-profile__input span {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  background: url("/img/input-hide.svg") center no-repeat;
+}
+.content-profile__input .password__open {
+  background: url("/img/Eyes.svg") center no-repeat;
+}
 
 .input__content-profile {
   width: 100%;
@@ -7322,10 +7333,6 @@ body.touch .arrow {
   height: 24px;
   z-index: 2;
   opacity: 0;
-}
-
-.password__open {
-  background: url("/img/Eyes.svg") 0 0 no-repeat;
 }
 
 .content-profile__button-down {
