@@ -124,6 +124,7 @@
 
     /* BREAD-CRUMB */
     .bread-crumb {
+		padding: 1rem 0px;
         background-color: $gray-200;
     }
 
@@ -136,7 +137,6 @@
     .bread-crumb__block {
         display: flex;
 		align-items: center;
-        padding: 1rem 0px;
     }
     
     .bread-crumb__icon {

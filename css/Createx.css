@@ -3554,7 +3554,7 @@ body.touch .arrow {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 208px 10px;
+  padding: 30px 10px;
 }
 
 .login-popap__content {
@@ -7308,6 +7308,7 @@ body.touch .arrow {
 
 /* BREAD-CRUMB */
 .bread-crumb {
+  padding: 1rem 0px;
   background-color: #F4F5F6;
 }
 
@@ -7320,7 +7321,6 @@ body.touch .arrow {
 .bread-crumb__block {
   display: flex;
   align-items: center;
-  padding: 1rem 0px;
 }
 
 .bread-crumb__icon img {
