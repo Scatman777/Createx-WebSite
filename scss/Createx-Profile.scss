@@ -90,10 +90,27 @@
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
+
+		&:nth-child(7) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&:nth-child(8) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
 	}
 
 	.content-profile__input {
 		@include input;
+
+		a {
+			@include text-16px;
+			font-weight: 400;
+		}
 	}
 
     .password-control {
