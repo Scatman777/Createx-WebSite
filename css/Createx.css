@@ -7248,13 +7248,13 @@ body.touch .arrow {
   row-gap: 24px;
 }
 
-.block-input__column-input {
+.content-profile__column-input {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.block-input__input {
+.content-profile__input {
   height: 52px;
   padding: 13px 16px;
   border: 1px solid #D7DADD;
@@ -7268,18 +7268,9 @@ body.touch .arrow {
   font-weight: 400;
   color: #9A9CA5;
 }
-.block-input__input input {
+.content-profile__input input {
   width: 100%;
   height: 100%;
-}
-
-.block-input__open-password {
-  display: flex;
-  justify-content: space-between;
-  padding: 13px 16px;
-  background-color: #E5E8ED;
-  width: 100%;
-  height: 52px;
 }
 
 .password-control {
@@ -7318,26 +7309,6 @@ body.touch .arrow {
 }
 .content-profile__button-down:hover {
   background-color: #18888a;
-}
-
-.content-profile__select {
-  width: 100%;
-  height: 44px;
-  padding: 0px 16px;
-  border: 1px solid #D7DADD;
-  border-radius: 4px;
-  background: url("/img/Down-chevron-black.svg") right no-repeat;
-}
-
-.content-profile__select {
-  font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  opacity: 0.9;
-  font-weight: 400;
-  color: #424551;
 }
 
 /* BREAD-CRUMB */
