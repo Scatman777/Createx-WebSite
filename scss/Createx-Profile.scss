@@ -103,7 +103,10 @@
 	}
 
 	.block-input__open-password {
-		@include input;
+		display: flex;
+		justify-content: space-between;
+		padding: 13px 16px;
+		background-color: $gray-300;
 	}
 
     .password-control {

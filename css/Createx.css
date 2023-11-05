@@ -7248,6 +7248,38 @@ body.touch .arrow {
   row-gap: 24px;
 }
 
+.block-input__column-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block-input__input {
+  height: 52px;
+  padding: 13px 16px;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #9A9CA5;
+}
+.block-input__input input {
+  width: 100%;
+  height: 100%;
+}
+
+.block-input__open-password {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 16px;
+  background-color: #E5E8ED;
+}
+
 .password-control {
   display: inline-block;
   position: absolute;
