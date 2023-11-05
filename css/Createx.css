@@ -6365,7 +6365,7 @@ body.touch .arrow {
 .section-checkout__body {
   display: flex;
   justify-content: space-between;
-  gap: 30pxs;
+  gap: 30px;
   margin: 32px 0px 180px 0px;
 }
 
@@ -6429,7 +6429,14 @@ body.touch .arrow {
   color: #17696A;
 }
 .block-product-checkout__item-account p a {
+  font-family: "Lato";
+  font-size: 16px;
   font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 700;
+  color: #17696A;
   text-decoration-line: underline;
 }
 
@@ -6946,6 +6953,8 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
   color: #9A9CA5;
+  width: 100%;
+  border-radius: 4px 0px 0px 4px;
 }
 .block-orderTotals__input input {
   width: 100%;
@@ -6960,6 +6969,7 @@ body.touch .arrow {
   padding: 0px 32px;
   border-radius: 4px;
   background-color: #17696A;
+  border-radius: 0px 4px 4px 0px;
 }
 .block-orderTotals__button-apply a {
   font-family: "Lato";

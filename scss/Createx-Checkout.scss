@@ -3,7 +3,7 @@
 	.section-checkout__body {
 		display: flex;
 		justify-content: space-between;
-		gap: 30pxs;
+		gap: 30px;
 		margin: 32px 0px 180px 0px;
 	}
 
@@ -52,7 +52,9 @@
 			color: $green;
 
 			a {
+				@include text-16px;
 				font-weight: 700;
+				color: $green;
 				text-decoration-line: underline;
 			}
 		}
@@ -445,16 +447,20 @@
 		flex-direction: column;
 		gap: 8px;
 	}
+
 	.block-orderTotals__column-input {
 		display: flex;
 	}
 
 	.block-orderTotals__input {
 		@include input;
+		width: 100%;
+		border-radius: 4px 0px 0px 4px;
 	}
 
 	.block-orderTotals__button-apply {
 		@include button-green-backround;
+		border-radius: 0px 4px 4px 0px;
 		
 		a {
 			line-height: 52px;
