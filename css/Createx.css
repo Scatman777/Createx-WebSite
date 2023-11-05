@@ -7278,10 +7278,6 @@ body.touch .arrow {
   font-weight: 400;
   color: #9A9CA5;
 }
-.content-profile__input input {
-  width: 100%;
-  height: 100%;
-}
 .content-profile__input a {
   font-family: "Lato";
   font-size: 16px;
@@ -7290,6 +7286,11 @@ body.touch .arrow {
   color: #424551;
   opacity: 0.9;
   font-weight: 400;
+}
+
+.input__content-profile {
+  width: 100%;
+  height: 100%;
 }
 
 .password-control {
