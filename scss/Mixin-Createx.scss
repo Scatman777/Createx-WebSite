@@ -1187,6 +1187,10 @@
     }
 }
 
+.password__open {
+	background: url("/img/Eyes.svg") 0 0 no-repeat;
+}
+
 @mixin register-popap {
     .register-popap {
         position: fixed;
@@ -1272,6 +1276,10 @@
         gap: 16px;
         border-top: 1px solid $gray-300;
     }
+}
+
+.password__open {
+	background: url("/img/Eyes.svg") 0 0 no-repeat;
 }
 
 @mixin filter-popap {
