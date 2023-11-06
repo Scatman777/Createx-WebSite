@@ -20,14 +20,22 @@ for (let elm of elements) {
 
 ///////////////// POPAP__SING-IN /////////////////
 
-const openPassword = document.querySelector('.login-popap__block-input');
-openPassword.addEventListener("click", function (open) {
+const openPassword = document.getElementById('password');
+openPassword.addEventListener("click", function () {
+	document.getElementById("popap-icon1").classList.toggle("password__open");
+
 	let targetItemOpen = open.target
-	if (targetItemOpen.closest('.section__button')) {
-		targetItemOpen.closest('.section__button')
-			.classList.toggle('done');
-		targetItemOpen.innerHTML = "Нажата!"	
+	if (targetItemOpen.closest('.password-control')) {
+		targetItemOpen.closest('.password-control').setAttribute("type", "text")
+	} else {
+		targetItemOpen.closest(".password-control").setAttribute("type", "password");
 	}
+
+	// if (document.getElementById("open-password1").checked) {
+	// 	document.getElementById("popap-input1").setAttribute("type", "text");
+	// } else {
+	// 	document.getElementById("popap-input1").setAttribute("type", "password");
+	// }
 });
 
 // document.getElementById("open-password1").addEventListener("change", function() {
@@ -42,26 +50,26 @@ openPassword.addEventListener("click", function (open) {
 // });
 
 ///////////////// POPAP__SING-UP /////////////////
-document.getElementById("open-password2.1").addEventListener("change", function() {
+// document.getElementById("open-password2.1").addEventListener("change", function() {
 
-	document.getElementById("popap-icon2.1").classList.toggle("password__open");
+// 	document.getElementById("popap-icon2.1").classList.toggle("password__open");
 
-	if (document.getElementById("open-password2.1").checked) {
-		document.getElementById("popap-input2.1").setAttribute("type", "text");
-	} else {
-		document.getElementById("popap-input2.1").setAttribute("type", "password");
-	}
-});
-document.getElementById("open-password2.2").addEventListener("change", function() {
+// 	if (document.getElementById("open-password2.1").checked) {
+// 		document.getElementById("popap-input2.1").setAttribute("type", "text");
+// 	} else {
+// 		document.getElementById("popap-input2.1").setAttribute("type", "password");
+// 	}
+// });
+// document.getElementById("open-password2.2").addEventListener("change", function() {
 
-	document.getElementById("popap-icon2.2").classList.toggle("password__open");
+// 	document.getElementById("popap-icon2.2").classList.toggle("password__open");
 
-	if (document.getElementById("open-password2.2").checked) {
-		document.getElementById("popap-input2.2").setAttribute("type", "text");
-	} else {
-		document.getElementById("popap-input2.2").setAttribute("type", "password");
-	}
-});
+// 	if (document.getElementById("open-password2.2").checked) {
+// 		document.getElementById("popap-input2.2").setAttribute("type", "text");
+// 	} else {
+// 		document.getElementById("popap-input2.2").setAttribute("type", "password");
+// 	}
+// });
 
 ///////////////// SECTION-PROFILE__FORM /////////////////
 document.getElementById("open-password3").addEventListener("change", function() {
