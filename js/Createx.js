@@ -19,16 +19,27 @@ for (let elm of elements) {
 }
 
 ///////////////// POPAP__SING-IN /////////////////
-document.getElementById("open-password1").addEventListener("change", function() {
 
-	document.getElementById("popap-icon1").classList.toggle("password__open");
-
-	if (document.getElementById("open-password1").checked) {
-		document.getElementById("popap-input1").setAttribute("type", "text");
-	} else {
-		document.getElementById("popap-input1").setAttribute("type", "password");
+const openPassword = document.querySelector('.login-popap__block-input');
+openPassword.addEventListener("click", function (open) {
+	let targetItemOpen = open.target
+	if (targetItemOpen.closest('.section__button')) {
+		targetItemOpen.closest('.section__button')
+			.classList.toggle('done');
+		targetItemOpen.innerHTML = "Нажата!"	
 	}
 });
+
+// document.getElementById("open-password1").addEventListener("change", function() {
+
+// 	document.getElementById("popap-icon1").classList.toggle("password__open");
+
+// 	if (document.getElementById("open-password1").checked) {
+// 		document.getElementById("popap-input1").setAttribute("type", "text");
+// 	} else {
+// 		document.getElementById("popap-input1").setAttribute("type", "password");
+// 	}
+// });
 
 ///////////////// POPAP__SING-UP /////////////////
 document.getElementById("open-password2.1").addEventListener("change", function() {
@@ -366,39 +377,39 @@ function buttonColor12() {
 }
 
 ///////////////// SECTION-PRODCT__SWIEPR /////////////////
-const swiperProduct = new Swiper('.swiper', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
+// const swiperProduct = new Swiper('.swiper', {
+// 	watchOverflow: false,
+// 	slidesPerView: 'auto',
+// 	slidesPerGroup: 1,
+// 	slidesPerColumn: 1,
 
-	pagination: {
-	  el: '.swiper-pagination',
-	  clickable: true,
-	},
+// 	pagination: {
+// 	  el: '.swiper-pagination',
+// 	  clickable: true,
+// 	},
 
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
-	},
-});
+// 	navigation: {
+// 	  nextEl: '.swiper-button-next',
+// 	  prevEl: '.swiper-button-prev',
+// 	},
+// });
 
-const swiperCloth = new Swiper('.swiper-cloth', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
+// const swiperCloth = new Swiper('.swiper-cloth', {
+// 	watchOverflow: false,
+// 	slidesPerView: 'auto',
+// 	slidesPerGroup: 1,
+// 	slidesPerColumn: 1,
 
-	pagination: {
-	  el: '.swiper-cloth-pagination',
-	  clickable: true,
-	},
+// 	pagination: {
+// 	  el: '.swiper-cloth-pagination',
+// 	  clickable: true,
+// 	},
 
-	navigation: {
-	  nextEl: '.swiper-cloth__next',
-	  prevEl: '.swiper-cloth__prev',
-	},
-});
+// 	navigation: {
+// 	  nextEl: '.swiper-cloth__next',
+// 	  prevEl: '.swiper-cloth__prev',
+// 	},
+// });
 
 
 /////////////// INPUT-PRICE ///////////////
@@ -443,4 +454,14 @@ rangeInputs.forEach((input) => {
       range.style.right = 100 - (maxVal / rangeInputs[1].max) * 100 + "%";
     }
   });
+});
+
+const section = document.querySelector('.section');
+section.addEventListener("click", function (open) {
+	let targetItemOpen = open.target
+	if (targetItemOpen.closest('.section__button')) {
+		targetItemOpen.closest('.section__button')
+			.classList.toggle('done');
+		targetItemOpen.innerHTML = "Нажата!"	
+	}
 });

@@ -7432,6 +7432,16 @@ body.touch .arrow {
   transition: all 0.2s;
 }
 
+.section__button {
+  padding: 10px;
+  background: #787A80;
+  border-radius: 4px;
+}
+
+.done {
+  background: #D7DADD;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;
