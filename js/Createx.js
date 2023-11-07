@@ -68,27 +68,25 @@ for (let elm of elements) {
 // });
 
 ///////////////// SECTION-PROFILE__FORM /////////////////
-document.getElementById("open-password3").addEventListener("change", function() {
+// document.getElementById("open-password3").addEventListener("change", function() {
+// 	document.getElementById("popap-icon3").classList.toggle("password__open");
 
-	document.getElementById("popap-icon3").classList.toggle("password__open");
+// 	if (document.getElementById("open-password3").checked) {
+// 		document.getElementById("popap-input3").setAttribute("type", "text");
+// 	} else {
+// 		document.getElementById("popap-input3").setAttribute("type", "password");
+// 	}
+// });
 
-	if (document.getElementById("open-password3").checked) {
-		document.getElementById("popap-input3").setAttribute("type", "text");
-	} else {
-		document.getElementById("popap-input3").setAttribute("type", "password");
-	}
-});
+// document.getElementById("open-password4").addEventListener("change", function() {
+// 	document.getElementById("popap-icon4").classList.toggle("password__open");
 
-document.getElementById("open-password4").addEventListener("change", function() {
-
-	document.getElementById("popap-icon4").classList.toggle("password__open");
-
-	if (document.getElementById("open-password4").checked) {
-		document.getElementById("popap-input4").setAttribute("type", "text");
-	} else {
-		document.getElementById("popap-input4").setAttribute("type", "password");
-	}
-});
+// 	if (document.getElementById("open-password4").checked) {
+// 		document.getElementById("popap-input4").setAttribute("type", "text");
+// 	} else {
+// 		document.getElementById("popap-input4").setAttribute("type", "password");
+// 	}
+// });
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
@@ -101,89 +99,14 @@ function burgerLangList() {
 	document.getElementById("BurgerLang__Arrow").classList.toggle("burger-list__arrow-open");
 }
 
-///////////////// SECTION-DISCOUNT__BORDER-CIRCLE /////////////////
-function buttonFunction1Color1() {
-    document.getElementById("buttonCircle1.1").classList.toggle("border-green");
-}
-function buttonFunction1Color2() {
-    document.getElementById("buttonCircle1.2").classList.toggle("border-green");
-}
-function buttonFunction1Color3() {
-    document.getElementById("buttonCircle1.3").classList.toggle("border-green");
-}
-
-
-function buttonFunction2Color1() {
-    document.getElementById("buttonCircle2.1").classList.toggle("border-green");
-}
-function buttonFunction2Color2() {
-    document.getElementById("buttonCircle2.2").classList.toggle("border-green");
-}
-function buttonFunction2Color3() {
-    document.getElementById("buttonCircle2.3").classList.toggle("border-green");
-}
-
-
-function buttonFunction3Color1() {
-    document.getElementById("buttonCircle3.1").classList.toggle("border-green");
-}
-function buttonFunction3Color2() {
-    document.getElementById("buttonCircle3.2").classList.toggle("border-green");
-}
-function buttonFunction3Color3() {
-    document.getElementById("buttonCircle3.3").classList.toggle("border-green");
-}
-
-///////////////// SECTION-DISCOUNT__BORDER-SIZE /////////////////
-function buttonFunction1Size1() {
-    document.getElementById("buttonSize1.1").classList.toggle("border-green");
-}
-function buttonFunction1Size2() {
-    document.getElementById("buttonSize1.2").classList.toggle("border-green");
-}
-function buttonFunction1Size3() {
-    document.getElementById("buttonSize1.3").classList.toggle("border-green");
-}
-function buttonFunction1Size4() {
-    document.getElementById("buttonSize1.4").classList.toggle("border-green");
-}
-function buttonFunction1Size5() {
-    document.getElementById("buttonSize1.5").classList.toggle("border-green");
-}
-
-
-function buttonFunction2Size1() {
-    document.getElementById("buttonSize2.1").classList.toggle("border-green");
-}
-function buttonFunction2Size2() {
-    document.getElementById("buttonSize2.2").classList.toggle("border-green");
-}
-function buttonFunction2Size3() {
-    document.getElementById("buttonSize2.3").classList.toggle("border-green");
-}
-function buttonFunction2Size4() {
-    document.getElementById("buttonSize2.4").classList.toggle("border-green");
-}
-function buttonFunction2Size5() {
-    document.getElementById("buttonSize2.5").classList.toggle("border-green");
-}
-
-
-function buttonFunction3Size1() {
-    document.getElementById("buttonSize3.1").classList.toggle("border-green");
-}
-function buttonFunction3Size2() {
-    document.getElementById("buttonSize3.2").classList.toggle("border-green");
-}
-function buttonFunction3Size3() {
-    document.getElementById("buttonSize3.3").classList.toggle("border-green");
-}
-function buttonFunction3Size4() {
-    document.getElementById("buttonSize3.4").classList.toggle("border-green");
-}
-function buttonFunction3Size5() {
-    document.getElementById("buttonSize3.5").classList.toggle("border-green");
-}
+///////////////// SECTION-DISCOUNT__BORDER-GREEN /////////////////
+const sectionButtons = document.querySelector('.buy-block');
+sectionButtons.addEventListener("click", function (e) {
+		let borderGreen = e.target;
+		if (borderGreen.closest('.function-borderItem')) {
+			borderGreen.closest('.function-borderItem').classList.toggle('border-green');
+		}
+	});
 
 ///////////////// SECTION-SUBSCRIBE__BORDER /////////////////
 function buttonFunctionGender1() {
@@ -343,13 +266,6 @@ function buttonFunction6() {
 }
 
 ///////////////// COLOR BORDER-CATALOG /////////////////
-const sectionButtons = document.querySelector('.buy-block__size-column');
-sectionButtons.addEventListener("click", function (e) {
-		let borderGreen = e.target;
-		if (borderGreen.closest('.buy-block__size')) {
-			borderGreen.closest('.buy-block__size').classList.toggle('border-green');
-		}
-	});
 function buttonColor1() {
     document.getElementById("border1").classList.toggle("border-green");
 }
