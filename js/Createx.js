@@ -343,6 +343,13 @@ function buttonFunction6() {
 }
 
 ///////////////// COLOR BORDER-CATALOG /////////////////
+const sectionButtons = document.querySelector('.buy-block__size-column');
+sectionButtons.addEventListener("click", function (e) {
+		let borderGreen = e.target;
+		if (borderGreen.closest('.buy-block__size')) {
+			borderGreen.closest('.buy-block__size').classList.toggle('border-green');
+		}
+	});
 function buttonColor1() {
     document.getElementById("border1").classList.toggle("border-green");
 }
@@ -458,16 +465,4 @@ rangeInputs.forEach((input) => {
       range.style.right = 100 - (maxVal / rangeInputs[1].max) * 100 + "%";
     }
   });
-});
-
-const sectionButtons = document.querySelector('.section__button');
-sectionButtons.forEach(sectionButton => {
-	sectionButton.addEventListener("click", function (e) {
-		let = openInput.classList(".section__input") 
-		if (openInput.getElementById("popap-input")) {
-			openInput.getElementById("popap-input").setAttribute("type", "text");
-		} else {
-			openInput.getElementById("popap-input").setAttribute("type", "password");
-		}
-})
 });
