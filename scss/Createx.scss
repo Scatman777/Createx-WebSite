@@ -916,9 +916,12 @@ svg {
 }
 
 .buy-block__size {
-    padding: 5px;
-    border: 1px solid $gray-500;
-    border-radius: 7px;
+    width: 24px;
+    height: 24px;
+    padding: 4px 0px 4px 0px;
+    text-align: center;
+    border: 1px solid #B3B7BC;
+    border-radius: 5px;
     cursor: pointer;
 }
 

@@ -100,7 +100,7 @@ function burgerLangList() {
 }
 
 ///////////////// SECTION-DISCOUNT__BORDER-GREEN /////////////////
-const sectionButtons = document.querySelector('.buy-block');
+const sectionButtons = document.querySelector('.function-borderColumn');
 sectionButtons.addEventListener("click", function (e) {
 		let borderGreen = e.target;
 		if (borderGreen.closest('.function-borderItem')) {
