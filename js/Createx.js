@@ -99,7 +99,7 @@ function burgerLangList() {
 	document.getElementById("BurgerLang__Arrow").classList.toggle("burger-list__arrow-open");
 }
 
-///////////////// SECTION-DISCOUNT__BORDER-GREEN /////////////////
+///////////////// ALL-SECTION__BORDER-GREEN /////////////////
 const sectionButtons = document.querySelector('.function-borderColumn');
 sectionButtons.addEventListener("click", function (e) {
 		let borderGreen = e.target;
@@ -266,42 +266,42 @@ function buttonFunction6() {
 }
 
 ///////////////// COLOR BORDER-CATALOG /////////////////
-function buttonColor1() {
-    document.getElementById("border1").classList.toggle("border-green");
-}
-function buttonColor2() {
-    document.getElementById("border2").classList.toggle("border-green");
-}
-function buttonColor3() {
-    document.getElementById("border3").classList.toggle("border-green");
-}
-function buttonColor4() {
-    document.getElementById("border4").classList.toggle("border-green");
-}
-function buttonColor5() {
-    document.getElementById("border5").classList.toggle("border-green");
-}
-function buttonColor6() {
-    document.getElementById("border6").classList.toggle("border-green");
-}
-function buttonColor7() {
-    document.getElementById("border7").classList.toggle("border-green");
-}
-function buttonColor8() {
-    document.getElementById("border8").classList.toggle("border-green");
-}
-function buttonColor9() {
-    document.getElementById("border9").classList.toggle("border-green");
-}
-function buttonColor10() {
-    document.getElementById("border10").classList.toggle("border-green");
-}
-function buttonColor11() {
-    document.getElementById("border11").classList.toggle("border-green");
-}
-function buttonColor12() {
-    document.getElementById("border12").classList.toggle("border-green");
-}
+// function buttonColor1() {
+//     document.getElementById("border1").classList.toggle("border-green");
+// }
+// function buttonColor2() {
+//     document.getElementById("border2").classList.toggle("border-green");
+// }
+// function buttonColor3() {
+//     document.getElementById("border3").classList.toggle("border-green");
+// }
+// function buttonColor4() {
+//     document.getElementById("border4").classList.toggle("border-green");
+// }
+// function buttonColor5() {
+//     document.getElementById("border5").classList.toggle("border-green");
+// }
+// function buttonColor6() {
+//     document.getElementById("border6").classList.toggle("border-green");
+// }
+// function buttonColor7() {
+//     document.getElementById("border7").classList.toggle("border-green");
+// }
+// function buttonColor8() {
+//     document.getElementById("border8").classList.toggle("border-green");
+// }
+// function buttonColor9() {
+//     document.getElementById("border9").classList.toggle("border-green");
+// }
+// function buttonColor10() {
+//     document.getElementById("border10").classList.toggle("border-green");
+// }
+// function buttonColor11() {
+//     document.getElementById("border11").classList.toggle("border-green");
+// }
+// function buttonColor12() {
+//     document.getElementById("border12").classList.toggle("border-green");
+// }
 
 ///////////////// SECTION-PRODCT__SWIEPR /////////////////
 // const swiperProduct = new Swiper('.swiper', {
