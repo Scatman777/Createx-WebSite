@@ -234,15 +234,30 @@
 	}
 
 	.section {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.section__column-input {
+		display: flex;
+		gap: 30px;
+	}
+
+	.section__input {
+		padding: 10px;
+		border: 1px solid $gray-900;
+		border-radius: 4px;
 	}
 
 	.section__button {
 		padding: 10px;
-		background: $gray-700;
+		background: $gray-900;
 		border-radius: 4px;
-	}
 
-	.done {
-		background: $gray-400;
+		a {
+			@include text-14px;
+			opacity: 0.9;
+		}
 	}
 }

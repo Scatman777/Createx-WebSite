@@ -20,23 +20,19 @@ for (let elm of elements) {
 
 ///////////////// POPAP__SING-IN /////////////////
 
-const openPassword = document.getElementById('password');
-openPassword.addEventListener("click", function () {
-	document.getElementById("popap-icon1").classList.toggle("password__open");
-
-	let targetItemOpen = open.target
-	if (targetItemOpen.closest('.password-control')) {
-		targetItemOpen.closest('.password-control').setAttribute("type", "text")
-	} else {
-		targetItemOpen.closest(".password-control").setAttribute("type", "password");
-	}
-
-	// if (document.getElementById("open-password1").checked) {
-	// 	document.getElementById("popap-input1").setAttribute("type", "text");
-	// } else {
-	// 	document.getElementById("popap-input1").setAttribute("type", "password");
-	// }
-});
+// const openPassword = document.getElementById('password');
+// openPassword.addEventListener("click", function (e) {
+// 	let targetItemOpen = e.target
+// 	// if (targetItemOpen.closest("open-password1").checked) {
+// 	// 	targetItemOpen.closest("popap-input1").setAttribute("type", "text");
+// 	// }
+// 	if (targetItemOpen.closest('.password-control')) {
+// 		targetItemOpen.closest('.block-input__input').setAttribute("type", "text")
+// 	} else {
+// 		document.getElementById("popap-input1").setAttribute("type", "password");
+// 	}
+// 	document.getElementById("popap-icon1").classList.toggle("password__open");
+// });
 
 // document.getElementById("open-password1").addEventListener("change", function() {
 
@@ -464,12 +460,14 @@ rangeInputs.forEach((input) => {
   });
 });
 
-const section = document.querySelector('.section');
-section.addEventListener("click", function (open) {
-	let targetItemOpen = open.target
-	if (targetItemOpen.closest('.section__button')) {
-		targetItemOpen.closest('.section__button')
-			.classList.toggle('done');
-		targetItemOpen.innerHTML = "Нажата!"	
-	}
+const sectionButtons = document.querySelector('.section__button');
+sectionButtons.forEach(sectionButton => {
+	sectionButton.addEventListener("click", function (e) {
+		let = openInput.classList(".section__input") 
+		if (openInput.getElementById("popap-input")) {
+			openInput.getElementById("popap-input").setAttribute("type", "text");
+		} else {
+			openInput.getElementById("popap-input").setAttribute("type", "password");
+		}
+})
 });

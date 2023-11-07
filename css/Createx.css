@@ -7432,14 +7432,36 @@ body.touch .arrow {
   transition: all 0.2s;
 }
 
-.section__button {
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section__column-input {
+  display: flex;
+  gap: 30px;
+}
+
+.section__input {
   padding: 10px;
-  background: #787A80;
+  border: 1px solid #1E212C;
   border-radius: 4px;
 }
 
-.done {
-  background: #D7DADD;
+.section__button {
+  padding: 10px;
+  background: #1E212C;
+  border-radius: 4px;
+}
+.section__button a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  opacity: 0.9;
 }
 
 /* для элемента input c type="checkbox" */
