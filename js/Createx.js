@@ -109,18 +109,18 @@ sectionButtons.addEventListener("click", function (e) {
 	});
 
 ///////////////// SECTION-SUBSCRIBE__BORDER /////////////////
-function buttonFunctionGender1() {
-    document.getElementById("buttonGender1").classList.toggle("background-green");
-}
-function buttonFunctionGender2() {
-    document.getElementById("buttonGender2").classList.toggle("background-green");
-}
-function buttonFunctionGender3() {
-    document.getElementById("buttonGender3").classList.toggle("background-green");
-}
-function buttonFunctionGender4() {
-    document.getElementById("buttonGender4").classList.toggle("background-green");
-}
+// function buttonFunctionGender1() {
+//     document.getElementById("buttonGender1").classList.toggle("background-green");
+// }
+// function buttonFunctionGender2() {
+//     document.getElementById("buttonGender2").classList.toggle("background-green");
+// }
+// function buttonFunctionGender3() {
+//     document.getElementById("buttonGender3").classList.toggle("background-green");
+// }
+// function buttonFunctionGender4() {
+//     document.getElementById("buttonGender4").classList.toggle("background-green");
+// }
 
 ///////////////// SECTION-CATALOG /////////////////
 function HideFilters() {
@@ -265,78 +265,40 @@ function buttonFunction6() {
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
-///////////////// COLOR BORDER-CATALOG /////////////////
-// function buttonColor1() {
-//     document.getElementById("border1").classList.toggle("border-green");
-// }
-// function buttonColor2() {
-//     document.getElementById("border2").classList.toggle("border-green");
-// }
-// function buttonColor3() {
-//     document.getElementById("border3").classList.toggle("border-green");
-// }
-// function buttonColor4() {
-//     document.getElementById("border4").classList.toggle("border-green");
-// }
-// function buttonColor5() {
-//     document.getElementById("border5").classList.toggle("border-green");
-// }
-// function buttonColor6() {
-//     document.getElementById("border6").classList.toggle("border-green");
-// }
-// function buttonColor7() {
-//     document.getElementById("border7").classList.toggle("border-green");
-// }
-// function buttonColor8() {
-//     document.getElementById("border8").classList.toggle("border-green");
-// }
-// function buttonColor9() {
-//     document.getElementById("border9").classList.toggle("border-green");
-// }
-// function buttonColor10() {
-//     document.getElementById("border10").classList.toggle("border-green");
-// }
-// function buttonColor11() {
-//     document.getElementById("border11").classList.toggle("border-green");
-// }
-// function buttonColor12() {
-//     document.getElementById("border12").classList.toggle("border-green");
-// }
-
 ///////////////// SECTION-PRODCT__SWIEPR /////////////////
-// const swiperProduct = new Swiper('.swiper', {
-// 	watchOverflow: false,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
+const swiperProduct = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
 
-// 	pagination: {
-// 	  el: '.swiper-pagination',
-// 	  clickable: true,
-// 	},
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
 
-// 	navigation: {
-// 	  nextEl: '.swiper-button-next',
-// 	  prevEl: '.swiper-button-prev',
-// 	},
-// });
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+});
 
-// const swiperCloth = new Swiper('.swiper-cloth', {
-// 	watchOverflow: false,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
+const swiperCloth = new Swiper('.swiper-cloth', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
 
-// 	pagination: {
-// 	  el: '.swiper-cloth-pagination',
-// 	  clickable: true,
-// 	},
+	pagination: {
+	  el: '.swiper-cloth-pagination',
+	  clickable: true,
+	},
 
-// 	navigation: {
-// 	  nextEl: '.swiper-cloth__next',
-// 	  prevEl: '.swiper-cloth__prev',
-// 	},
-// });
+	navigation: {
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
+	},
+});
 
 
 /////////////// INPUT-PRICE ///////////////
