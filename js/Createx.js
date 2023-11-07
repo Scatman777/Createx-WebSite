@@ -108,6 +108,13 @@ sectionButtons.addEventListener("click", function (e) {
 		}
 	});
 
+sectionButtons.addEventListener("click", function (e) {
+	let borderGreen = e.target;
+	if (borderGreen.closest('.function-borderItem')) {
+		borderGreen.closest('.function-borderItem').classList.toggle('border-green');
+	}
+});
+
 ///////////////// SECTION-SUBSCRIBE__BORDER /////////////////
 // function buttonFunctionGender1() {
 //     document.getElementById("buttonGender1").classList.toggle("background-green");
