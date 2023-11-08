@@ -389,12 +389,18 @@
 	}
 
 	.block-columnProduct__block-column {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 20px 24px;
 		background-color: $gray-200;
 	}
 
 	.block-columnProduct__column {
 		display: flex;
 		justify-content: space-between;
+		padding-bottom: 16px;
+		border-bottom: 1px solid $gray-300;
 	}
 
 	.block-columnProduct__item-title {
@@ -518,6 +524,7 @@
 	.block-columnProduct__order-tracking {
 		display: flex;
 		justify-content: flex-end;
+		align-items: center;
 		gap: 20px;
 
 		p {

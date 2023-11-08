@@ -7597,12 +7597,18 @@ body.touch .arrow {
 }
 
 .block-columnProduct__block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 24px;
   background-color: #F4F5F6;
 }
 
 .block-columnProduct__column {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 .block-columnProduct__item-title {
@@ -7782,6 +7788,7 @@ body.touch .arrow {
 .block-columnProduct__order-tracking {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   gap: 20px;
 }
 .block-columnProduct__order-tracking p {
