@@ -289,6 +289,44 @@
 			border-bottom: 1px solid $gray-300;
 	
 		}
+
+		&:nth-child(1) {
+			.section-myOrders__progress {
+				background-color: #5A87FC;
+			}
+		}
+
+		&:nth-child(2) {
+			.section-myOrders__item {
+				.section-myOrders__progress {
+					background-color: #5A87FC;
+				}
+			}
+		}
+
+		&:nth-child(3) {
+			.section-myOrders__progress {
+				background-color: #03CEA4;
+			}
+		}
+
+		&:nth-child(4) {
+			.section-myOrders__progress {
+				background-color: $red;
+			}
+		}
+
+		&:nth-child(5) {
+			.section-myOrders__progress {
+				background-color: #03CEA4;
+			}
+		}
+
+		&:nth-child(6) {
+			.section-myOrders__progress {
+				background-color: #03CEA4;
+			}
+		}
 	}
 
 	.section-myOrders__serial-number {
@@ -319,30 +357,6 @@
 		padding: 0px 8px;
 		@include text-14px;
 		opacity: 0.9;
-
-		&:nth-child(1) {
-			background-color: #5A87FC;
-		}
-
-		&:nth-child(2) {
-			background-color: #5A87FC;
-		}
-
-		&:nth-child(3) {
-			background-color: #03CEA4;
-		}
-
-		&:nth-child(4) {
-			background-color: $red;
-		}
-
-		&:nth-child(5) {
-			background-color: #03CEA4;
-		}
-
-		&:nth-child(6) {
-			background-color: #03CEA4;
-		}
 	}
 
 	.section-myOrders__price {

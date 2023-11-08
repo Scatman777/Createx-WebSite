@@ -7504,6 +7504,24 @@ body.touch .arrow {
   padding-bottom: 16px;
   border-bottom: 1px solid #E5E8ED;
 }
+.section-myOrders__column:nth-child(1) .section-myOrders__progress {
+  background-color: #5A87FC;
+}
+.section-myOrders__column:nth-child(2) .section-myOrders__item .section-myOrders__progress {
+  background-color: #5A87FC;
+}
+.section-myOrders__column:nth-child(3) .section-myOrders__progress {
+  background-color: #03CEA4;
+}
+.section-myOrders__column:nth-child(4) .section-myOrders__progress {
+  background-color: #FF4242;
+}
+.section-myOrders__column:nth-child(5) .section-myOrders__progress {
+  background-color: #03CEA4;
+}
+.section-myOrders__column:nth-child(6) .section-myOrders__progress {
+  background-color: #03CEA4;
+}
 
 .section-myOrders__serial-number {
   font-family: "Lato";
@@ -7548,24 +7566,6 @@ body.touch .arrow {
   color: #FFF;
   opacity: 0.6000000238;
   opacity: 0.9;
-}
-.section-myOrders__progress:nth-child(1) {
-  background-color: #5A87FC;
-}
-.section-myOrders__progress:nth-child(2) {
-  background-color: #5A87FC;
-}
-.section-myOrders__progress:nth-child(3) {
-  background-color: #03CEA4;
-}
-.section-myOrders__progress:nth-child(4) {
-  background-color: #FF4242;
-}
-.section-myOrders__progress:nth-child(5) {
-  background-color: #03CEA4;
-}
-.section-myOrders__progress:nth-child(6) {
-  background-color: #03CEA4;
 }
 
 .section-myOrders__price {
