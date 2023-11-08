@@ -7588,6 +7588,88 @@ body.touch .arrow {
   border-bottom: 1px solid #E5E8ED;
 }
 
+.section-myOrders__block-columnProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 24px;
+}
+
+.block-columnProduct__block-column {
+  background-color: #F4F5F6;
+}
+
+.block-columnProduct__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-columnProduct__item-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.block-columnProduct__title-product {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-weight: 700;
+  color: #1E212C;
+  opacity: 0.9;
+}
+
+.block-columnProduct__column-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.block-columnProduct__edit {
+  display: flex;
+  gap: 4px;
+}
+.block-columnProduct__edit label {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #787A80;
+  opacity: 0.9;
+  text-decoration-line: line-through;
+  text-decoration-line: none;
+}
+
+.block-columnProduct__edit-text {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #787A80;
+  opacity: 0.9;
+  text-decoration-line: line-through;
+  color: #424551;
+  text-decoration-line: none;
+}
+
+.section-myOrders__load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.section-myOrders__load-more a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;

@@ -378,43 +378,130 @@
 	}
 
 	.section-myOrders__block-columnProduct {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		padding: 20px 24px;
 	}
 
 	.block-columnProduct {
 	}
 
 	.block-columnProduct__block-column {
+		background-color: $gray-200;
 	}
 
 	.block-columnProduct__column {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.block-columnProduct__item-title {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
+
 	.block-columnProduct__title-product {
+		@include text-14px;
+		font-weight: 700;
+		color: $gray-900;
+		opacity: 0.9;
 	}
+
 	.block-columnProduct__column-edit {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
+
 	.block-columnProduct__edit {
+		display: flex;
+		gap: 4px;
+
+		label {
+			@include text-12px-gray;
+			text-decoration-line: none;
+		}
 	}
+
 	.block-columnProduct__edit-text {
+		@include text-12px-gray;
+		color: $gray-800;
+		text-decoration-line: none;
 	}
+
 	.block-columnProduct__column-price {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+
+		label {
+			@include text-12px-gray;
+			text-decoration-line: none;
+		}
+
+		span {
+			@include text-14px;
+			color: $gray-900;
+			opacity: 0.9;
+		}
 	}
+
 	.block-columnProduct__column-quantity {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+
+		label {
+			@include text-12px-gray;
+			text-decoration-line: none;
+		}
+
+		span {
+			@include text-14px;
+			color: $gray-900;
+			opacity: 0.9;
+		}
 	}
-	.block-columnProduct__quantity-number {
-	}
+
 	.block-columnProduct__column-subtotal {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+
+		label {
+			@include text-12px-gray;
+			text-decoration-line: none;
+		}
+
+		span {
+			@include text-14px;
+			color: $gray-900;
+			opacity: 0.9;
+		}
 	}
+
 	.block-columnProduct__subtotal-text {
 	}
+
 	.block-columnProduct__column-info {
 	}
+
 	.block-columnProduct__item {
 	}
+
 	.block-columnProduct__order-tracking {
 	}
+
 	.section-myOrders__load-more {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 16px;
+
+		a {
+			@include text-16px;
+		}
 	}
 }
