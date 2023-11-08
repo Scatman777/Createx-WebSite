@@ -210,6 +210,9 @@ function OpenBlockProduct3() {
 	}
 }
 
+///////////////// SECTION-PROFILE /////////////////
+
+
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
