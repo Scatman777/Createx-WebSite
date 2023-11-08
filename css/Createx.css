@@ -7734,6 +7734,18 @@ body.touch .arrow {
   opacity: 0.9;
 }
 
+.block-columnProduct__subtotal-price {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-weight: 700;
+  color: #1E212C;
+  opacity: 0.9;
+}
+
 .section-myOrders__load-more {
   display: flex;
   justify-content: center;
