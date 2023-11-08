@@ -7491,6 +7491,7 @@ body.touch .arrow {
 .section-myOrders__column {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-bottom: 16px;
   border-bottom: 1px solid #E5E8ED;
 }
@@ -7508,6 +7509,7 @@ body.touch .arrow {
 
 .section-myOrders__column-time {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 
@@ -7518,17 +7520,16 @@ body.touch .arrow {
   line-height: 150%;
   color: #FFF;
   opacity: 0.6000000238;
-  color: #D7DADD;
+  color: #787A80;
   opacity: 0.9;
 }
 
 .section-myOrders__progress {
-  width: 69px;
   height: 21px;
   background-color: #5A87FC;
-  padding: 0px 8px;
+  padding: 4px 8px;
 }
-.section-myOrders__progress a {
+.section-myOrders__progress button a {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
