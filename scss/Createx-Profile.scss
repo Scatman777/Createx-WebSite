@@ -191,7 +191,6 @@
         @include text-14px;
         color: $gray-800;
         opacity: 1;
-
     }
 
     .bread-crumb__text::before {
@@ -280,7 +279,7 @@
 		display: flex;
 		justify-content: space-between;
 		padding-bottom: 16px; 
-		border: 1px solid $gray-300;
+		border-bottom: 1px solid $gray-300;
 	}
 
 	.section-myOrders__serial-number {
@@ -322,16 +321,20 @@
 	}
 
 	.section-myOrders__item {
-
 	}
+
 	.section-myOrders__block-columnProduct {
 	}
+
 	.block-columnProduct {
 	}
+
 	.block-columnProduct__block-column {
 	}
+
 	.block-columnProduct__column {
 	}
+
 	.block-columnProduct__item-title {
 	}
 	.block-columnProduct__title-product {

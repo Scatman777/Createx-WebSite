@@ -2253,7 +2253,7 @@ svg {
   padding: 11px 16px 12px 16px;
   gap: 58px;
   border-radius: 4px;
-  border: 1px solid #D7DADD;
+  border-bottom: 1px solid #D7DADD;
 }
 .block-filter__select a {
   font-family: "Lato";
@@ -7492,7 +7492,7 @@ body.touch .arrow {
   display: flex;
   justify-content: space-between;
   padding-bottom: 16px;
-  border: 1px solid #E5E8ED;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 .section-myOrders__serial-number {
