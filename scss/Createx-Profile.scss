@@ -270,7 +270,8 @@
 
 	.section-myOrders__block-down {
 		display: flex;
-		gap: 12px;
+		flex-direction: column;
+		gap: 16px;
 		padding: 24px;
 		background-color: $gray-200;
 	}
@@ -278,7 +279,8 @@
 	.section-myOrders__column {
 		display: flex;
 		justify-content: space-between;
-		padding-bottom: 12px; 
+		padding-bottom: 16px; 
+		border: 1px solid $gray-300;
 	}
 
 	.section-myOrders__serial-number {
