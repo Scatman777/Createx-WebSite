@@ -7483,11 +7483,14 @@ body.touch .arrow {
 .section-myOrders__block-down {
   display: flex;
   gap: 12px;
+  padding: 24px;
+  background-color: #F4F5F6;
 }
 
 .section-myOrders__column {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 12px;
 }
 
 .section-myOrders__serial-number {
