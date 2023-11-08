@@ -234,13 +234,14 @@
 	}
 
 
-	.section-myOrders {
+	.section-myOrders {	
 		width: 810px;
 	}
 
 	.section-myOrders__block-up {
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 48px;
 	}
 
 	.section-myOrders__title {
@@ -276,8 +277,8 @@
 	.section-myOrders__block-down {
 		display: flex;
 		flex-direction: column;
-		gap: 16px;
-		padding: 24px;
+		gap: 24px;
+		margin-bottom: 60px;
 	}
 
 	.section-myOrders__column {
@@ -285,7 +286,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			padding-bottom: 16px; 
+			padding-bottom: 24px; 
 			border-bottom: 1px solid $gray-300;
 	
 		}
@@ -409,7 +410,7 @@
 		opacity: 0.9;
 	}
 
-	.block-columnProduct__column-edit {
+	.block-columnProduct__item-edit {
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
@@ -431,7 +432,7 @@
 		text-decoration-line: none;
 	}
 
-	.block-columnProduct__column-price {
+	.block-columnProduct__item-price {
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
@@ -448,7 +449,7 @@
 		}
 	}
 
-	.block-columnProduct__column-quantity {
+	.block-columnProduct__item-quantity {
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
@@ -465,7 +466,7 @@
 		}
 	}
 
-	.block-columnProduct__column-subtotal {
+	.block-columnProduct__item-subtotal {
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
