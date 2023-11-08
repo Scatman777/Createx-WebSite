@@ -7338,6 +7338,7 @@ body.touch .arrow {
   height: 24px;
   z-index: 2;
   opacity: 0;
+  cursor: pointer;
 }
 
 .content-profile__button-down {
