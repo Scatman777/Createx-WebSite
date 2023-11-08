@@ -491,12 +491,45 @@
 	}
 
 	.block-columnProduct__column-info {
+		display: flex;
+		justify-content: space-between;
+
+		label {
+			@include text-12px-gray;
+			text-decoration-line: none;
+		}
+
+		span {
+			@include text-14px;
+			color: $gray-900;
+			opacity: 0.9;
+		}
 	}
 
 	.block-columnProduct__item {
+		display: flex;
+		gap: 4px;
+
+		span:nth-child(4) {
+			font-weight: 700;
+		}
 	}
 
 	.block-columnProduct__order-tracking {
+		display: flex;
+		justify-content: flex-end;
+		gap: 20px;
+
+		p {
+			@include text-16px;
+			color: $gray-900;
+		}
+
+		button {
+			@include button-green;
+			height: 36px;
+			padding: 0px 24px;
+		}
 	}
 
 	.section-myOrders__load-more {

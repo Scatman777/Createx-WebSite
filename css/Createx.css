@@ -7746,6 +7746,97 @@ body.touch .arrow {
   opacity: 0.9;
 }
 
+.block-columnProduct__column-info {
+  display: flex;
+  justify-content: space-between;
+}
+.block-columnProduct__column-info label {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #787A80;
+  opacity: 0.9;
+  text-decoration-line: line-through;
+  text-decoration-line: none;
+}
+.block-columnProduct__column-info span {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #1E212C;
+  opacity: 0.9;
+}
+
+.block-columnProduct__item {
+  display: flex;
+  gap: 4px;
+}
+.block-columnProduct__item span:nth-child(4) {
+  font-weight: 700;
+}
+
+.block-columnProduct__order-tracking {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.block-columnProduct__order-tracking p {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #1E212C;
+}
+.block-columnProduct__order-tracking button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+  padding: 0px 32px;
+  border: 1px solid #17696A;
+  border-radius: 4px;
+  background: none;
+  height: 36px;
+  padding: 0px 24px;
+}
+.block-columnProduct__order-tracking button a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.block-columnProduct__order-tracking button label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.3px;
+  color: #17696A;
+}
+.block-columnProduct__order-tracking button:hover {
+  background: #17696A;
+}
+.block-columnProduct__order-tracking button:hover svg path {
+  fill: #FFF;
+}
+.block-columnProduct__order-tracking button:hover a {
+  color: #FFF;
+}
+
 .section-myOrders__load-more {
   display: flex;
   justify-content: center;
