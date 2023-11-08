@@ -7471,7 +7471,7 @@ body.touch .arrow {
 
 .section-myOrders__select {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 170px;
   height: 44px;
@@ -7479,16 +7479,25 @@ body.touch .arrow {
   border: 1px solid #D7DADD;
   border-radius: 4px;
 }
+.section-myOrders__select a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 0.9;
+}
 
 .section-myOrders__block-down {
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding: 24px;
-  background-color: #F4F5F6;
 }
 
-.section-myOrders__column {
+.section-myOrders__column:not(:nth-child(2)) {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7505,12 +7514,14 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
   color: #1E212C;
+  width: 180px;
 }
 
 .section-myOrders__column-time {
   display: flex;
   align-items: center;
   gap: 8px;
+  width: 140px;
 }
 
 .section-myOrders__wating-time {
@@ -7525,11 +7536,11 @@ body.touch .arrow {
 }
 
 .section-myOrders__progress {
-  height: 21px;
-  background-color: #5A87FC;
-  padding: 4px 8px;
-}
-.section-myOrders__progress button a {
+  width: 85px;
+  height: 23px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0px 8px;
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
@@ -7537,6 +7548,24 @@ body.touch .arrow {
   color: #FFF;
   opacity: 0.6000000238;
   opacity: 0.9;
+}
+.section-myOrders__progress:nth-child(1) {
+  background-color: #5A87FC;
+}
+.section-myOrders__progress:nth-child(2) {
+  background-color: #5A87FC;
+}
+.section-myOrders__progress:nth-child(3) {
+  background-color: #03CEA4;
+}
+.section-myOrders__progress:nth-child(4) {
+  background-color: #FF4242;
+}
+.section-myOrders__progress:nth-child(5) {
+  background-color: #03CEA4;
+}
+.section-myOrders__progress:nth-child(6) {
+  background-color: #03CEA4;
 }
 
 .section-myOrders__price {
@@ -7548,6 +7577,15 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
   color: #1E212C;
+  width: 105px;
+}
+
+.section-myOrders__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 /* для элемента input c type="checkbox" */

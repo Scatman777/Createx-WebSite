@@ -258,13 +258,19 @@
 
 	.section-myOrders__select {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		width: 170px;
 		height: 44px;
 		padding: 12px 16px;
 		border: 1px solid $gray-400;
 		border-radius: 4px;
+
+		a {
+			@include text-14px;
+			color: $gray-800;
+			opacity: 0.9;
+		}
 	}
 
 	.section-myOrders__block-down {
@@ -272,27 +278,31 @@
 		flex-direction: column;
 		gap: 16px;
 		padding: 24px;
-		background-color: $gray-200;
 	}
 
 	.section-myOrders__column {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding-bottom: 16px; 
-		border-bottom: 1px solid $gray-300;
+		&:not(:nth-child(2)) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding-bottom: 16px; 
+			border-bottom: 1px solid $gray-300;
+	
+		}
 	}
 
 	.section-myOrders__serial-number {
 		@include text-16px;
 		font-weight: 400;
 		color: $gray-900;
+		width: 180px;
 	}
 
 	.section-myOrders__column-time {
 		display: flex;
 		align-items: center;
 		gap: 8px;
+		width: 140px;
 	}
 
 	.section-myOrders__wating-time {
@@ -302,23 +312,55 @@
 	}
 
 	.section-myOrders__progress {
-		height: 21px;
-		background-color: #5A87FC;
-		padding: 4px 8px;
+		width: 85px;
+		height: 23px;
+		text-align: center;
+		border-radius: 4px;
+		padding: 0px 8px;
 		@include text-14px;
 		opacity: 0.9;
+
+		&:nth-child(1) {
+			background-color: #5A87FC;
+		}
+
+		&:nth-child(2) {
+			background-color: #5A87FC;
+		}
+
+		&:nth-child(3) {
+			background-color: #03CEA4;
+		}
+
+		&:nth-child(4) {
+			background-color: $red;
+		}
+
+		&:nth-child(5) {
+			background-color: #03CEA4;
+		}
+
+		&:nth-child(6) {
+			background-color: #03CEA4;
+		}
 	}
 
 	.section-myOrders__price {
 		@include text-16px;
 		font-weight: 400;
 		color: $gray-900;
+		width: 105px;
 	}
 
 	.section-myOrders__button-plus {
 	}
 
 	.section-myOrders__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 16px; 
+		border-bottom: 1px solid $gray-300;
 	}
 
 	.section-myOrders__block-columnProduct {
