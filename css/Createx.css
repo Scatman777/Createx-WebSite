@@ -7588,6 +7588,10 @@ body.touch .arrow {
   width: 105px;
 }
 
+.section-myOrders__button-plus {
+  cursor: pointer;
+}
+
 .section-myOrders__item {
   display: flex;
   justify-content: space-between;
