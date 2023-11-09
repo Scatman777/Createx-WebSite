@@ -7909,6 +7909,7 @@ body.touch .arrow {
   display: flex;
   align-items: center;
   gap: 8px;
+  background: none;
 }
 .section-wishlist__button a {
   font-family: "Lato";
