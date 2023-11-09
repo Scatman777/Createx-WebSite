@@ -7595,7 +7595,7 @@ body.touch .arrow {
 }
 
 .section-myOrders__block-columnProduct {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 24px;
 }
