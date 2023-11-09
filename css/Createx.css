@@ -7600,6 +7600,10 @@ body.touch .arrow {
   gap: 24px;
 }
 
+.columnProfile__open {
+  display: flex;
+}
+
 .block-columnProduct__block-column {
   display: flex;
   flex-direction: column;

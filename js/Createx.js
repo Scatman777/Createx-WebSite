@@ -197,7 +197,7 @@ function OpenBlockProduct3() {
 
 ///////////////// SECTION-PROFILE__PRODUCT-OPEN /////////////////
 function buttonProfile__plus() {
-    document.getElementById("block-columnProduct__open").classList.toggle("show-flex");
+    document.getElementById("block-columnProduct__open").classList.toggle("columnProfile__open");
 	document.getElementById("section-myOrders__plus").classList.toggle("minus-image");
 }
 
