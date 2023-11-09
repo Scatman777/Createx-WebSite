@@ -408,6 +408,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 4px;
+		width: 246px
 	}
 
 	.block-columnProduct__title-product {
@@ -536,7 +537,6 @@
 
 		button {
 			@include button-green;
-			height: 36px;
 			padding: 0px 24px;
 		}
 	}

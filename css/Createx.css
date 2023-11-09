@@ -7620,6 +7620,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  width: 246px;
 }
 
 .block-columnProduct__title-product {
@@ -7815,7 +7816,6 @@ body.touch .arrow {
   border: 1px solid #17696A;
   border-radius: 4px;
   background: none;
-  height: 36px;
   padding: 0px 24px;
 }
 .block-columnProduct__order-tracking button a {
