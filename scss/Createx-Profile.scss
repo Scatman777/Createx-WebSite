@@ -387,6 +387,19 @@
 
 	.columnProfile__open {
 		display: flex;
+		animation: columnProfile__open 0.2s;
+	}
+
+	@keyframes columnProfile__open {
+		0% {
+			transition: all 0.2s;
+			opacity: 0;
+		}
+
+		100% {
+			transition: all 0.2s;
+			opacity: 1;
+		}
 	}
 
 	.block-columnProduct {
