@@ -210,8 +210,11 @@ function OpenBlockProduct3() {
 	}
 }
 
-///////////////// SECTION-PROFILE /////////////////
-
+///////////////// SECTION-PROFILE__PRODUCT-OPEN /////////////////
+// function buttonProfile__plus() {
+//     document.getElementById("list1").classList.toggle("show-flex");
+// 	document.getElementById("plus1").classList.toggle("minus-image");
+// }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
