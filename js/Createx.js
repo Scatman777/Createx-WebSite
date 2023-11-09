@@ -78,21 +78,6 @@ function burgerLangList() {
 	document.getElementById("BurgerLang__Arrow").classList.toggle("burger-list__arrow-open");
 }
 
-///////////////// ALL-SECTION__BORDER-GREEN /////////////////
-const sectionButtons = document.querySelector('.function-borderColumn');
-sectionButtons.addEventListener("click", function (e) {
-	let borderGreen = e.target;
-	if (borderGreen.closest('.function-borderItem')) {
-		borderGreen.closest('.function-borderItem').classList.toggle('border-green');
-	}
-});
-sectionButtons.addEventListener("click", function (e) {
-	let backgroundGreen = e.target;
-	if (backgroundGreen.closest('.function-backgroundItem')) {
-		backgroundGreen.closest('.function-backgroundItem').classList.toggle('background-green');
-	}
-});
-
 ///////////////// SECTION-CATALOG /////////////////
 function HideFilters() {
 	const ButtonFilter = document.getElementById("BlockSortingHide");
@@ -211,10 +196,10 @@ function OpenBlockProduct3() {
 }
 
 ///////////////// SECTION-PROFILE__PRODUCT-OPEN /////////////////
-// function buttonProfile__plus() {
-//     document.getElementById("list1").classList.toggle("show-flex");
-// 	document.getElementById("plus1").classList.toggle("minus-image");
-// }
+function buttonProfile__plus() {
+    document.getElementById("block-columnProduct__open").classList.toggle("show-flex");
+	document.getElementById("section-myOrders__plus").classList.toggle("minus-image");
+}
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
@@ -241,6 +226,21 @@ function buttonFunction6() {
     document.getElementById("list6").classList.toggle("show-block");
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
+
+///////////////// ALL-SECTION__BORDER-GREEN /////////////////
+const sectionButtons = document.querySelector('.function-borderColumn');
+sectionButtons.addEventListener("click", function (e) {
+	let borderGreen = e.target;
+	if (borderGreen.closest('.function-borderItem')) {
+		borderGreen.closest('.function-borderItem').classList.toggle('border-green');
+	}
+});
+sectionButtons.addEventListener("click", function (e) {
+	let backgroundGreen = e.target;
+	if (backgroundGreen.closest('.function-backgroundItem')) {
+		backgroundGreen.closest('.function-backgroundItem').classList.toggle('background-green');
+	}
+});
 
 ///////////////// SECTION-PRODCT__SWIEPR /////////////////
 const swiperProduct = new Swiper('.swiper', {
