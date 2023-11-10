@@ -675,11 +675,13 @@
 	.section-wishlist__product-price-red {
 		@include h1;
 		font-size: 24px;
+		font-weight: 700;
 		color: $red;
 	}
 
 	.section-wishlist__product-price-gray {
 		@include text-12px-gray;
+		font-weight: 400;
 		font-size: 18px;
 	}
 
@@ -692,5 +694,35 @@
 	.section-wishlist__edit-color {
 		display: flex;
 		gap: 8px;
+
+		button {
+			display: inline-flex;
+			background: none;
+			border: 1px solid #D7DADD;
+			border-radius: 50%;
+			margin-bottom: 2px;
+			padding: 3px;
+			transition: all 0.2s;
+		}
+
+		&:nth-child(1) button {
+			a {
+				background-color: #6B3A44;
+			}
+		}
+		&:nth-child(2) button {
+			a {
+				background-color: #C86D19;
+			}
+		}
+		&:nth-child(3) button {
+			a {
+				background-color: #000;
+			}
+		}
+	}
+
+	.section-wishlist__button-buy {
+		@include button-green-backround;
 	}
 }

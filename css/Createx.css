@@ -8013,6 +8013,7 @@ body.touch .arrow {
   line-height: 130%;
   color: #1E212C;
   font-size: 24px;
+  font-weight: 700;
   color: #FF4242;
 }
 
@@ -8024,7 +8025,61 @@ body.touch .arrow {
   color: #787A80;
   opacity: 0.9;
   text-decoration-line: line-through;
+  font-weight: 400;
   font-size: 18px;
+}
+
+.section-wishlist__block-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-wishlist__edit-color {
+  display: flex;
+  gap: 8px;
+}
+.section-wishlist__edit-color button {
+  display: inline-flex;
+  background: none;
+  border: 1px solid #D7DADD;
+  border-radius: 50%;
+  margin-bottom: 2px;
+  padding: 3px;
+  transition: all 0.2s;
+}
+.section-wishlist__edit-color:nth-child(1) button a {
+  background-color: #6B3A44;
+}
+.section-wishlist__edit-color:nth-child(2) button a {
+  background-color: #C86D19;
+}
+.section-wishlist__edit-color:nth-child(3) button a {
+  background-color: #000;
+}
+
+.section-wishlist__button-buy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+  padding: 0px 32px;
+  border-radius: 4px;
+  background-color: #17696A;
+}
+.section-wishlist__button-buy a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #FFF;
+}
+.section-wishlist__button-buy:hover {
+  background-color: #18888a;
 }
 
 /* для элемента input c type="checkbox" */
