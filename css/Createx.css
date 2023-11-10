@@ -7934,6 +7934,99 @@ body.touch .arrow {
   padding: 16px;
 }
 
+.section-wishlist__block-info {
+  padding: 0px 16px 16px 16px;
+}
+
+.section-wishlist__block-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 350px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.section-wishlist__icon-heart {
+  position: relative;
+  background: #FFF;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.section-wishlist__product-name {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #424551;
+  opacity: 0.9;
+}
+
+.section-wishlist__product-price {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 24px;
+}
+
+.section-wishlist__discount {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  max-width: 54px;
+  background: #FF4242;
+  border-radius: 3px;
+  padding: 0px 8px;
+}
+
+.section-wishlist__arrow-column {
+  display: flex;
+  position: absolute;
+  gap: 310px;
+  justify-content: space-between;
+  transform: translateY(-245px);
+  opacity: 0;
+}
+
+.section-wishlist__arrow {
+  background: none;
+}
+
+.section-wishlist__column-price {
+  display: flex;
+  gap: 12px;
+}
+
+.section-wishlist__product-price-red {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 24px;
+  color: #FF4242;
+}
+
+.section-wishlist__product-price-gray {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #787A80;
+  opacity: 0.9;
+  text-decoration-line: line-through;
+  font-size: 18px;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;

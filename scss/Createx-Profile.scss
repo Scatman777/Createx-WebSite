@@ -611,6 +611,10 @@
 		padding: 16px;
 	}
 
+	.section-wishlist__block-info {
+		padding: 0px 16px 16px 16px;
+	}
+
 	.section-wishlist__block-icon {
 		display: flex;
 		flex-direction: column;
@@ -660,6 +664,7 @@
 	}
 
 	.section-wishlist__arrow {
+		background: none;
 	}
 
 	.section-wishlist__column-price {
@@ -674,11 +679,18 @@
 	}
 
 	.section-wishlist__product-price-gray {
+		@include text-12px-gray;
+		font-size: 18px;
 	}
 
 	.section-wishlist__block-edit {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
 	}
 
 	.section-wishlist__edit-color {
+		display: flex;
+		gap: 8px;
 	}
 }
