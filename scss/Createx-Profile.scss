@@ -698,28 +698,6 @@
 	.section-wishlist__edit-color {
 		display: flex;
 		gap: 8px;
-
-		&:nth-child(1) {
-			.section-wishlist__color {
-				a {
-					background-color: #6B3A44;
-				}
-			}
-		}
-		&:nth-child(2) {
-			.section-wishlist__color {
-				a {
-					background-color: #C86D19;
-				}
-			}
-		}
-		&:nth-child(3) {
-			.section-wishlist__color {
-				a {
-					background-color: #000;
-				}
-			}
-		}
 	}
 
 	.section-wishlist__color {
@@ -734,6 +712,22 @@
 			width: 20px;
 			height: 20px;
 			border-radius: 50%;
+		}
+
+		&:nth-child(1) {
+			a {
+				background-color: #6B3A44;
+			}
+		}	
+		&:nth-child(2) {
+			a {
+				background-color: #C86D19;
+			}
+		}
+		&:nth-child(3) {
+			a {
+				background-color: #000;
+			}
 		}
 	}
 
