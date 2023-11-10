@@ -7937,8 +7937,21 @@ body.touch .arrow {
   height: 100%;
 }
 
+.section-wishlist__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .section-wishlist__block-info {
   padding: 0px 16px 16px 16px;
+}
+
+.section-wishlist__column-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .section-wishlist__block-icon {
@@ -7970,7 +7983,6 @@ body.touch .arrow {
   line-height: 150%;
   color: #424551;
   opacity: 0.9;
-  margin-bottom: 8px;
 }
 
 .section-wishlist__product-price {
@@ -8017,7 +8029,6 @@ body.touch .arrow {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
 }
 
 .section-wishlist__product-price-red {
@@ -8043,7 +8054,7 @@ body.touch .arrow {
   font-size: 18px;
 }
 
-.section-wishlist__block-edit {
+.section-wishlist__column-edit {
   display: flex;
   flex-direction: column;
   gap: 20px;
