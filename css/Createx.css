@@ -1209,7 +1209,7 @@ svg {
   left: 16px;
   max-width: 54px;
   background: #FF4242;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 0px 8px;
 }
 .section-discount__discount a {
@@ -7928,6 +7928,9 @@ body.touch .arrow {
 }
 
 .section-wishlist__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   position: relative;
   max-width: 390px;
   width: 100%;
@@ -7986,8 +7989,15 @@ body.touch .arrow {
   left: 16px;
   max-width: 54px;
   background: #FF4242;
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 0px 8px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #FFF;
 }
 
 .section-wishlist__arrow-column {
@@ -8065,6 +8075,11 @@ body.touch .arrow {
 }
 .section-wishlist__color:nth-child(3) a {
   background-color: #000;
+}
+
+.border-green {
+  border: 1px solid #17696A;
+  transition: all 0.2s;
 }
 
 .section-wishlist__button-buy {

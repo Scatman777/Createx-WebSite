@@ -605,6 +605,9 @@
 	}
 
 	.section-wishlist__column {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 		position: relative;
 		max-width: 390px;
 		width: 100%;
@@ -652,8 +655,10 @@
 		left: 16px;
 		max-width: 54px;
 		background: #FF4242;
-		border-radius: 3px;
+		border-radius: 4px;
 		padding: 0px 8px;
+		@include text-16px;
+		color: $white;
 	}
 
 	.section-wishlist__arrow-column {
@@ -729,6 +734,11 @@
 				background-color: #000;
 			}
 		}
+	}
+
+	.border-green {
+		border: 1px solid $green;
+		transition: all 0.2s;
 	}
 
 	.section-wishlist__button-buy {
