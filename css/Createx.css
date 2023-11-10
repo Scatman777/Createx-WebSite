@@ -8043,7 +8043,17 @@ body.touch .arrow {
   display: flex;
   gap: 8px;
 }
-.section-wishlist__edit-color button {
+.section-wishlist__edit-color:nth-child(1) .section-wishlist__color a {
+  background-color: #6B3A44;
+}
+.section-wishlist__edit-color:nth-child(2) .section-wishlist__color a {
+  background-color: #C86D19;
+}
+.section-wishlist__edit-color:nth-child(3) .section-wishlist__color a {
+  background-color: #000;
+}
+
+.section-wishlist__color {
   display: inline-flex;
   background: none;
   border: 1px solid #D7DADD;
@@ -8051,19 +8061,10 @@ body.touch .arrow {
   padding: 3px;
   transition: all 0.2s;
 }
-.section-wishlist__edit-color button a {
+.section-wishlist__color a {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-}
-.section-wishlist__edit-color:nth-child(1) button a {
-  background-color: #6B3A44;
-}
-.section-wishlist__edit-color:nth-child(2) button a {
-  background-color: #C86D19;
-}
-.section-wishlist__edit-color:nth-child(3) button a {
-  background-color: #000;
 }
 
 .section-wishlist__button-buy {
