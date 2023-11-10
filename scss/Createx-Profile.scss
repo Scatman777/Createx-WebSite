@@ -586,7 +586,7 @@
 		@include h3;
 	}
 
-	.section-wishlist__button {
+	.section-wishlist__button-title {
 		display: flex;
 		align-items: center;
 		gap: 8px;
@@ -605,10 +605,10 @@
 	}
 
 	.section-wishlist__column {
+		position: relative;
 		max-width: 390px;
 		width: 100%;
 		height: 100%;
-		padding: 16px;
 	}
 
 	.section-wishlist__block-info {
@@ -637,11 +637,13 @@
 
 	.section-wishlist__product-name {
 		@include text-18px;
+		margin-bottom: 8px;
 	}
 
 	.section-wishlist__product-price {
 		@include h1;
 		font-size: 24px;
+		font-weight: 700;
 	}
 
 	.section-wishlist__discount {
@@ -669,7 +671,9 @@
 
 	.section-wishlist__column-price {
 		display: flex;
+		align-items: center;
 		gap: 12px;
+		margin-bottom: 20px;
 	}
 
 	.section-wishlist__product-price-red {
@@ -700,29 +704,44 @@
 			background: none;
 			border: 1px solid #D7DADD;
 			border-radius: 50%;
-			margin-bottom: 2px;
 			padding: 3px;
 			transition: all 0.2s;
+
+			a {
+				width: 20px;
+				height: 20px;
+				border-radius: 50%;
+			}
 		}
 
-		&:nth-child(1) button {
-			a {
-				background-color: #6B3A44;
+		&:nth-child(1) {
+			button {
+				a {
+					background-color: #6B3A44;
+				}
 			}
 		}
-		&:nth-child(2) button {
-			a {
-				background-color: #C86D19;
+		&:nth-child(2) {
+			button {
+				a {
+					background-color: #C86D19;
+				}
 			}
 		}
-		&:nth-child(3) button {
-			a {
-				background-color: #000;
+		&:nth-child(3) {
+			button {
+				a {
+					background-color: #000;
+				}
 			}
 		}
 	}
 
 	.section-wishlist__button-buy {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
 		@include button-green-backround;
 	}
 }
