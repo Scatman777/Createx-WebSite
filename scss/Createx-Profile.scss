@@ -640,7 +640,6 @@
 
 	.section-wishlist__product-name {
 		@include text-18px;
-		margin-bottom: 8px;
 	}
 
 	.section-wishlist__product-price {
@@ -678,7 +677,6 @@
 		display: flex;
 		align-items: center;
 		gap: 12px;
-		margin-bottom: 20px;
 	}
 
 	.section-wishlist__product-price-red {
