@@ -699,41 +699,41 @@
 		display: flex;
 		gap: 8px;
 
-		button {
-			display: inline-flex;
-			background: none;
-			border: 1px solid #D7DADD;
-			border-radius: 50%;
-			padding: 3px;
-			transition: all 0.2s;
-
-			a {
-				width: 20px;
-				height: 20px;
-				border-radius: 50%;
-			}
-		}
-
 		&:nth-child(1) {
-			button {
+			.section-wishlist__color {
 				a {
 					background-color: #6B3A44;
 				}
 			}
 		}
 		&:nth-child(2) {
-			button {
+			.section-wishlist__color {
 				a {
 					background-color: #C86D19;
 				}
 			}
 		}
 		&:nth-child(3) {
-			button {
+			.section-wishlist__color {
 				a {
 					background-color: #000;
 				}
 			}
+		}
+	}
+
+	.section-wishlist__color {
+		display: inline-flex;
+		background: none;
+		border: 1px solid #D7DADD;
+		border-radius: 50%;
+		padding: 3px;
+		transition: all 0.2s;
+
+		a {
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
 		}
 	}
 
