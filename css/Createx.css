@@ -7891,6 +7891,9 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  max-width: 810px;
+  width: 100%;
+  height: 100%;
 }
 
 .section-wishlist__block-title {
@@ -8187,6 +8190,7 @@ body.touch .arrow {
 
 .section-recentlyViewed__block-column {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
 }
