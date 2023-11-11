@@ -982,6 +982,10 @@
 	}
 
 	.section-myReviews__column {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
 		&:last-child {
 			border-bottom: 1px solid $gray-300;
 			padding-bottom: 28px;
@@ -989,24 +993,67 @@
 	}
 
 	.section-myReviews__item-product {
-		
+		display: flex;
+		gap: 8px;
+
+		label {
+			@include text-16px;
+			font-weight: 400;
+			color: $gray-700;
+		}
+
+		p {
+			@include text-16px;
+			color: $green;
+		}
 	}
+	
 	.section-myReviews__item-reviews {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
+
 	.section-myReviews__block-info {
+		display: flex;
+		justify-content: space-between;
+		gap: 30px;
 	}
+
 	.section-myReviews__column-user {
 	}
+
 	.section-myReviews__user-name {
+		@include text-18px;
+		font-weight: 700;
+		color: $gray-900;
+		margin-bottom: 8px;
 	}
+
 	.section-myReviews__date {
+		@include text-14px;
+		color: $gray-700;
+		opacity: 0.9;
+		margin-bottom: 16px;
 	}
+
 	.section-myReviews__column-icon {
+		display: flex;
 	}
+
 	.section-myReviews__user-text {
+		@include text-16px;
+		font-weight: 400;
 	}
+
 	.section-myReviews__block-grade {
+		display: flex;
+		align-items: center;
+		gap: 16px;
 	}
+
 	.section-myReviews__column-grade {
+		display: flex;
+		gap: 8px;
 	}
 }

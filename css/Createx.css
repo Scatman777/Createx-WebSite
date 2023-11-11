@@ -8361,9 +8361,104 @@ body.touch .arrow {
   gap: 28px;
 }
 
+.section-myReviews__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .section-myReviews__column:last-child {
   border-bottom: 1px solid #E5E8ED;
   padding-bottom: 28px;
+}
+
+.section-myReviews__item-product {
+  display: flex;
+  gap: 8px;
+}
+.section-myReviews__item-product label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #787A80;
+}
+.section-myReviews__item-product p {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #17696A;
+}
+
+.section-myReviews__item-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-myReviews__block-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.section-myReviews__user-name {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 700;
+  color: #1E212C;
+  margin-bottom: 8px;
+}
+
+.section-myReviews__date {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 0.9;
+  margin-bottom: 16px;
+}
+
+.section-myReviews__column-icon {
+  display: flex;
+}
+
+.section-myReviews__user-text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.section-myReviews__block-grade {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.section-myReviews__column-grade {
+  display: flex;
+  gap: 8px;
 }
 
 /* для элемента input c type="checkbox" */
