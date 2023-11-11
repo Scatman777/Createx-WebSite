@@ -801,4 +801,138 @@
 		gap: 8px;
 		@include button-green-backround;
 	}
+
+
+	/* SECTION-RECENTLY-VIEWED */
+	.section-recentlyViewed {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.section-recentlyViewed__block-title {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.section-recentlyViewed__title {
+		@include h3;
+	}
+
+	.section-recentlyViewed__button-title {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		background: none;
+
+		a {
+			@include text-16px;
+			color: $red;
+		}
+	}
+
+	.section-recentlyViewed__block-column {
+		display: flex;
+		justify-content: space-between;
+		gap: 30px;
+	}
+
+	.section-recentlyViewed__column {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		position: relative;
+		max-width: 390px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.section-recentlyViewed__img {
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.section-recentlyViewed__column-info {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.section-recentlyViewed__block-icon {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 350px;
+		position: absolute;
+		top: 16px;
+		right: 16px;
+	}
+
+	.section-recentlyViewed__column-icon {
+	}
+
+	.section-recentlyViewed__icon-heart {
+		position: relative;
+		background: #FFF;
+		padding: 8px;
+		border-radius: 50%;
+	}
+
+	.section-recentlyViewed__product-name {
+		@include text-18px;
+	}
+
+	.section-recentlyViewed__product-price {
+		@include h1;
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.section-recentlyViewed__discount {
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		max-width: 54px;
+		background: #FF4242;
+		border-radius: 4px;
+		padding: 0px 8px;
+		@include text-16px;
+		color: $white;
+	}
+
+	.section-recentlyViewed__arrow-column {
+		display: flex;
+		position: absolute;
+		gap: 310px;
+		justify-content: space-between;
+		transform: translateY(-245px);
+		opacity: 0;
+		transition: all 0.3s;
+	}
+
+	.section-recentlyViewed__arrow {
+		background: none;
+	}
+
+	.section-recentlyViewed__column-price {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+
+	.section-recentlyViewed__product-price-red {
+		@include h1;
+		font-size: 24px;
+		font-weight: 700;
+		color: $red;
+	}
+
+	.section-recentlyViewed__product-price-gray {
+		@include text-12px-gray;
+		font-weight: 400;
+		font-size: 18px;
+	}
 }
