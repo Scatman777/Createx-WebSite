@@ -7936,6 +7936,12 @@ body.touch .arrow {
   width: 100%;
   height: 100%;
 }
+.section-wishlist__column:nth-child(1) .section-wishlist__block-info .section-wishlist__edit-color .section-wishlist__color:nth-child(1) a {
+  background-color: #C0DDED;
+}
+.section-wishlist__column:nth-child(2) .section-wishlist__block-info .section-wishlist__edit-color .section-wishlist__color:nth-child(1) a {
+  background-color: #6B3A44;
+}
 .section-wishlist__column:hover .section-wishlist__arrow-column {
   opacity: 1;
   transition: all 0.3s;
@@ -8079,12 +8085,6 @@ body.touch .arrow {
 .section-wishlist__edit-color {
   display: flex;
   gap: 8px;
-}
-.section-wishlist__edit-color:nth-child(1) .section-wishlist__color:nth-child(1) a {
-  background-color: #C0DDED;
-}
-.section-wishlist__edit-color:nth-child(2) .section-wishlist__color:nth-child(1) a {
-  background-color: #6B3A44;
 }
 
 .section-wishlist__color {
