@@ -7439,7 +7439,9 @@ body.touch .arrow {
 }
 
 .section-myOrders {
-  width: 810px;
+  max-width: 810px;
+  width: 100%;
+  height: 100%;
 }
 
 .section-myOrders__block-up {
@@ -8148,6 +8150,9 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  max-width: 810px;
+  width: 100%;
+  height: 100%;
 }
 
 .section-recentlyViewed__block-title {
