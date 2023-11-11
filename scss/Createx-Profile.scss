@@ -843,7 +843,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		gap: 30px;
+		column-gap: 30px;
+		row-gap: 60px;
 	}
 
 	.section-recentlyViewed__column {
