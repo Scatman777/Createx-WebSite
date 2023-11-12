@@ -7197,16 +7197,6 @@ body.touch .arrow {
   color: #424551;
   cursor: pointer;
 }
-.account-menu__button:hover {
-  background: #17696A;
-  transition: all 0.3s;
-}
-.account-menu__button:hover a {
-  color: #FFF;
-}
-.account-menu__button:hover svg path {
-  fill: #FFF;
-}
 
 /* BREAD-CRUMB */
 .bread-crumb {
