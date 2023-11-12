@@ -231,6 +231,8 @@ sectionButtons.addEventListener("click", function (e) {
 ///////////////// SECTION-PROFILE__ALL-BLOCK-OPEN /////////////////
 function OpenSectionProfile1() {
 
+	document.getElementById("bread-crumbText").innerHTML = "My profile ";
+
 	/* SECTION__MY-ORDERS */
 	const myOrders = document.getElementById("section-myOrders");
 	if (myOrders.style.display === "none") {
@@ -309,9 +311,9 @@ function OpenSectionProfile2() {
 	/* SECTION__MY-ORDERS */
 	const myOrders = document.getElementById("section-myOrders");
 	if (myOrders.style.display === "none") {
-		myOrders.style.display = "flex";
+		myOrders.style.display = "block";
 	} else {
-		myOrders.style.display = "flex";
+		myOrders.style.display = "block";
 	}
 }
 
@@ -403,6 +405,8 @@ function OpenSectionProfile4() {
 
 function OpenSectionProfile5() {
 
+
+
 	/* SECTION__MY-PROFILE */
 	const myProfile = document.getElementById("section-myProfile");
 	if (myProfile.style.display === "none") {
@@ -438,9 +442,9 @@ function OpenSectionProfile5() {
 	/* SECTION__MY-REVIEWS */
 	const myReviews = document.getElementById("section-myReviews");
 	if (myReviews.style.display === "none") {
-		myReviews.style.display = "flex";
+		myReviews.style.display = "block";
 	} else {
-		myReviews.style.display = "flex";
+		myReviews.style.display = "block";
 	}
 }
 
