@@ -242,9 +242,9 @@ function OpenSectionProfile1() {
 	/* SECTION__WISHLIST */
 	const wishlist = document.getElementById("section-wishlist");
 	if (wishlist.style.display === "none") {
-		wishlist.style.display = "flex";
+		wishlist.style.display = "none";
 	} else {
-		wishlist.style.display = "flex";
+		wishlist.style.display = "none";
 	}
 
 	/* SECTION__RECENTLY-VIEWED */
@@ -285,9 +285,9 @@ function OpenSectionProfile2() {
 	/* SECTION__WISHLIST */
 	const wishlist = document.getElementById("section-wishlist");
 	if (wishlist.style.display === "none") {
-		wishlist.style.display = "flex";
+		wishlist.style.display = "none";
 	} else {
-		wishlist.style.display = "flex";
+		wishlist.style.display = "none";
 	}
 
 	/* SECTION__RECENTLY-VIEWED */
@@ -309,13 +309,21 @@ function OpenSectionProfile2() {
 	/* SECTION__MY-ORDERS */
 	const myOrders = document.getElementById("section-myOrders");
 	if (myOrders.style.display === "none") {
-		myOrders.style.display = "none";
+		myOrders.style.display = "flex";
 	} else {
-		myOrders.style.display = "none";
+		myOrders.style.display = "flex";
 	}
 }
 
 function OpenSectionProfile3() {
+
+	/* SECTION__MY-PROFILE */
+	const myProfile = document.getElementById("section-myProfile");
+	if (myProfile.style.display === "none") {
+		myProfile.style.display = "none";
+	} else {
+		myProfile.style.display = "none";
+	}
 
 	/* SECTION__MY-ORDERS */
 	const myOrders = document.getElementById("section-myOrders");
@@ -323,6 +331,22 @@ function OpenSectionProfile3() {
 		myOrders.style.display = "none";
 	} else {
 		myOrders.style.display = "none";
+	}
+
+	/* SECTION__RECENTLY-VIEWED */
+	const recentlyViewed = document.getElementById("section-recentlyViewed");
+	if (recentlyViewed.style.display === "none") {
+		recentlyViewed.style.display = "none";
+	} else {
+		recentlyViewed.style.display = "none";
+	}
+
+	/* SECTION__MY-REVIEWS */
+	const myReviews = document.getElementById("section-myReviews");
+	if (myReviews.style.display === "none") {
+		myReviews.style.display = "none";
+	} else {
+		myReviews.style.display = "none";
 	}
 
 	/* SECTION__WISHLIST */
@@ -331,30 +355,6 @@ function OpenSectionProfile3() {
 		wishlist.style.display = "flex";
 	} else {
 		wishlist.style.display = "flex";
-	}
-
-	/* SECTION__RECENTLY-VIEWED */
-	const recentlyViewed = document.getElementById("section-recentlyViewed");
-	if (recentlyViewed.style.display === "none") {
-		recentlyViewed.style.display = "none";
-	} else {
-		recentlyViewed.style.display = "none";
-	}
-
-	/* SECTION__MY-REVIEWS */
-	const myReviews = document.getElementById("section-myReviews");
-	if (myReviews.style.display === "none") {
-		myReviews.style.display = "none";
-	} else {
-		myReviews.style.display = "none";
-	}
-
-	/* SECTION__MY-PROFILE */
-	const myProfile = document.getElementById("section-myProfile");
-	if (myProfile.style.display === "none") {
-		myProfile.style.display = "flex";
-	} else {
-		myProfile.style.display = "flex";
 	}
 }
 
