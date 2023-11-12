@@ -229,7 +229,7 @@ sectionButtons.addEventListener("click", function (e) {
 });
 
 ///////////////// SECTION-PROFILE__ALL-BLOCK-OPEN /////////////////
-function OpenBlockProduct1() {
+function OpenSectionProfile1() {
 
 	/* SECTION__MY-ORDERS */
 	const myOrders = document.getElementById("section-myOrders");
@@ -272,57 +272,175 @@ function OpenBlockProduct1() {
 	}
 }
 
-function OpenBlockProduct2() {
+function OpenSectionProfile2() {
 
-	/* BLOKC-DOWN */
-	const blockDown = document.getElementById("blockDown__style");
-	if (blockDown.style.display === "none") {
-		blockDown.style.display = "none";
+	/* SECTION__MY-PROFILE */
+	const myProfile = document.getElementById("section-myProfile");
+	if (myProfile.style.display === "none") {
+		myProfile.style.display = "none";
 	} else {
-		blockDown.style.display = "none";
+		myProfile.style.display = "none";
 	}
 
-	/* BLOKC-REVIEWS */
-	const blockReviews = document.getElementById("blockReviews__style");
-	if (blockReviews.style.display === "none") {
-		blockReviews.style.display = "none";
+	/* SECTION__WISHLIST */
+	const wishlist = document.getElementById("section-wishlist");
+	if (wishlist.style.display === "none") {
+		wishlist.style.display = "flex";
 	} else {
-		blockReviews.style.display = "none";
+		wishlist.style.display = "flex";
 	}
 
-	/* BLOKC-DETAILS */
-	const blockDetails = document.getElementById("blockDetails__style");
-	if (blockDetails.style.display === "none") {
-		blockDetails.style.display = "flex";
+	/* SECTION__RECENTLY-VIEWED */
+	const recentlyViewed = document.getElementById("section-recentlyViewed");
+	if (recentlyViewed.style.display === "none") {
+		recentlyViewed.style.display = "none";
 	} else {
-		blockDetails.style.display = "flex";
+		recentlyViewed.style.display = "none";
+	}
+
+	/* SECTION__MY-REVIEWS */
+	const myReviews = document.getElementById("section-myReviews");
+	if (myReviews.style.display === "none") {
+		myReviews.style.display = "none";
+	} else {
+		myReviews.style.display = "none";
+	}
+
+	/* SECTION__MY-ORDERS */
+	const myOrders = document.getElementById("section-myOrders");
+	if (myOrders.style.display === "none") {
+		myOrders.style.display = "none";
+	} else {
+		myOrders.style.display = "none";
 	}
 }
 
-function OpenBlockProduct3() {
+function OpenSectionProfile3() {
 
-	/* BLOKC-DOWN */
-	const blockDown = document.getElementById("blockDown__style");
-	if (blockDown.style.display === "none") {
-		blockDown.style.display = "none";
+	/* SECTION__MY-ORDERS */
+	const myOrders = document.getElementById("section-myOrders");
+	if (myOrders.style.display === "none") {
+		myOrders.style.display = "none";
 	} else {
-		blockDown.style.display = "none";
+		myOrders.style.display = "none";
 	}
 
-	/* BLOKC-DETAILS */
-	const blockDetails = document.getElementById("blockDetails__style");
-	if (blockDetails.style.display === "none") {
-		blockDetails.style.display = "none";
+	/* SECTION__WISHLIST */
+	const wishlist = document.getElementById("section-wishlist");
+	if (wishlist.style.display === "none") {
+		wishlist.style.display = "flex";
 	} else {
-		blockDetails.style.display = "none";
+		wishlist.style.display = "flex";
 	}
 
-	/* BLOKC-REVIEWS */
-	const blockReviews = document.getElementById("blockReviews__style");
-	if (blockReviews.style.display === "none") {
-		blockReviews.style.display = "flex";
+	/* SECTION__RECENTLY-VIEWED */
+	const recentlyViewed = document.getElementById("section-recentlyViewed");
+	if (recentlyViewed.style.display === "none") {
+		recentlyViewed.style.display = "none";
 	} else {
-		blockReviews.style.display = "flex";
+		recentlyViewed.style.display = "none";
+	}
+
+	/* SECTION__MY-REVIEWS */
+	const myReviews = document.getElementById("section-myReviews");
+	if (myReviews.style.display === "none") {
+		myReviews.style.display = "none";
+	} else {
+		myReviews.style.display = "none";
+	}
+
+	/* SECTION__MY-PROFILE */
+	const myProfile = document.getElementById("section-myProfile");
+	if (myProfile.style.display === "none") {
+		myProfile.style.display = "flex";
+	} else {
+		myProfile.style.display = "flex";
+	}
+}
+
+function OpenSectionProfile4() {
+
+	/* SECTION__MY-ORDERS */
+	const myOrders = document.getElementById("section-myOrders");
+	if (myOrders.style.display === "none") {
+		myOrders.style.display = "none";
+	} else {
+		myOrders.style.display = "none";
+	}
+
+	/* SECTION__WISHLIST */
+	const wishlist = document.getElementById("section-wishlist");
+	if (wishlist.style.display === "none") {
+		wishlist.style.display = "flex";
+	} else {
+		wishlist.style.display = "flex";
+	}
+
+	/* SECTION__RECENTLY-VIEWED */
+	const recentlyViewed = document.getElementById("section-recentlyViewed");
+	if (recentlyViewed.style.display === "none") {
+		recentlyViewed.style.display = "none";
+	} else {
+		recentlyViewed.style.display = "none";
+	}
+
+	/* SECTION__MY-REVIEWS */
+	const myReviews = document.getElementById("section-myReviews");
+	if (myReviews.style.display === "none") {
+		myReviews.style.display = "none";
+	} else {
+		myReviews.style.display = "none";
+	}
+
+	/* SECTION__MY-PROFILE */
+	const myProfile = document.getElementById("section-myProfile");
+	if (myProfile.style.display === "none") {
+		myProfile.style.display = "flex";
+	} else {
+		myProfile.style.display = "flex";
+	}
+}
+
+function OpenSectionProfile5() {
+
+	/* SECTION__MY-ORDERS */
+	const myOrders = document.getElementById("section-myOrders");
+	if (myOrders.style.display === "none") {
+		myOrders.style.display = "none";
+	} else {
+		myOrders.style.display = "none";
+	}
+
+	/* SECTION__WISHLIST */
+	const wishlist = document.getElementById("section-wishlist");
+	if (wishlist.style.display === "none") {
+		wishlist.style.display = "flex";
+	} else {
+		wishlist.style.display = "flex";
+	}
+
+	/* SECTION__RECENTLY-VIEWED */
+	const recentlyViewed = document.getElementById("section-recentlyViewed");
+	if (recentlyViewed.style.display === "none") {
+		recentlyViewed.style.display = "none";
+	} else {
+		recentlyViewed.style.display = "none";
+	}
+
+	/* SECTION__MY-REVIEWS */
+	const myReviews = document.getElementById("section-myReviews");
+	if (myReviews.style.display === "none") {
+		myReviews.style.display = "none";
+	} else {
+		myReviews.style.display = "none";
+	}
+
+	/* SECTION__MY-PROFILE */
+	const myProfile = document.getElementById("section-myProfile");
+	if (myProfile.style.display === "none") {
+		myProfile.style.display = "flex";
+	} else {
+		myProfile.style.display = "flex";
 	}
 }
 
