@@ -50,6 +50,76 @@
 
     .account-menu__text {
     }
+
+	/* BREAD-CRUMB */
+	.bread-crumb {
+		padding: 1rem 0px;
+		background-color: $gray-200;
+	}
+	
+	.bread-crumb__body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.bread-crumb__block {
+		display: flex;
+		align-items: center;
+	}
+		
+	.bread-crumb__icon {
+		img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+		
+	.bread-crumb__text {
+		@include text-14px;
+		color: $gray-800;
+		opacity: 1;
+	}
+	
+	.bread-crumb__text::before {
+		content: url("/img/Right-chevron.svg");
+		position: relative;
+		top: 3px;
+		padding: 0px 8px;
+	}
+	
+	.bread-crumb__block-navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+	}
+	
+	.bread-crumb__button {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		background: none;
+		cursor: pointer;
+	
+		label {
+			@include text-14px;
+			color: $gray-600;
+			opacity: 1;
+			transition: all 0.2s;
+		}
+	
+		&:hover {
+			svg path {
+				fill: $gray-800;
+			}
+	
+			label {
+				color: $gray-800;
+				transition: all 0.2s;
+			}
+		}
+	}
     
     /* CONTENT-PROFILE */
     .section-profile__content-rofile {
@@ -163,78 +233,9 @@
         @include button-green-backround;
     }
 
-    /* BREAD-CRUMB */
-    .bread-crumb {
-		padding: 1rem 0px;
-        background-color: $gray-200;
-    }
-
-	.bread-crumb__body {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-    .bread-crumb__block {
-        display: flex;
-		align-items: center;
-    }
-    
-    .bread-crumb__icon {
-        img {
-            width: 20px;
-            height: 20px;
-        }
-    }
-    
-    .bread-crumb__text {
-        @include text-14px;
-        color: $gray-800;
-        opacity: 1;
-    }
-
-    .bread-crumb__text::before {
-		content: url("/img/Right-chevron.svg");
-		position: relative;
-		top: 3px;
-        padding: 0px 8px;
-    }
-
-	.bread-crumb__block-navigation {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 20px;
-	}
-
-	.bread-crumb__button {
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		background: none;
-		cursor: pointer;
-
-		label {
-			@include text-14px;
-			color: $gray-600;
-			opacity: 1;
-			transition: all 0.2s;
-		}
-
-		&:hover {
-			svg path {
-				fill: $gray-800;
-			}
-
-			label {
-				color: $gray-800;
-				transition: all 0.2s;
-			}
-		}
-	}
-
-
+	/* SECTION-MY-ORDERS */
 	.section-myOrders {	
+		display: none;
 		max-width: 810px;
 		width: 100%;
 		height: 100%;
@@ -574,7 +575,7 @@
 
 	/* SECTION-WISHLIST */
 	.section-wishlist {
-		display: flex;
+		display: none;
 		flex-direction: column;
 		gap: 40px;
 		max-width: 810px;
@@ -810,7 +811,7 @@
 
 	/* SECTION-RECENTLY-VIEWED */
 	.section-recentlyViewed {
-		display: flex;
+		display: none;
 		flex-direction: column;
 		gap: 40px;
 		max-width: 810px;
@@ -948,9 +949,7 @@
 
 	/* SECTION-MY-REVIEWS */
 	.section-myReviews {
-		display: flex;
-		flex-direction: column;
-		gap: 40px;
+		display: none;
 		max-width: 810px;
 		width: 100%;
 		height: 100%;
@@ -959,6 +958,7 @@
 	.section-myReviews__block-title {
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 60px
 	}
 
 	.section-myReviews__title {
@@ -992,6 +992,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 28px;
+		margin-bottom: 60px;
 	}
 
 	.section-myReviews__column {
@@ -999,7 +1000,7 @@
 		flex-direction: column;
 		gap: 20px;
 
-		&:last-child {
+		&:not(:last-child) {
 			border-bottom: 1px solid $gray-300;
 			padding-bottom: 28px;
 		}
@@ -1073,5 +1074,16 @@
 	.section-myReviews__column-grade {
 		display: flex;
 		gap: 8px;
+	}
+
+	.section-myReviews__load-more {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 16px;
+
+		a {
+			@include text-16px;
+		}
 	}
 }

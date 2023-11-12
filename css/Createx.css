@@ -7207,6 +7207,79 @@ body.touch .arrow {
   fill: #FFF;
 }
 
+/* BREAD-CRUMB */
+.bread-crumb {
+  padding: 1rem 0px;
+  background-color: #F4F5F6;
+}
+
+.bread-crumb__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bread-crumb__block {
+  display: flex;
+  align-items: center;
+}
+
+.bread-crumb__icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.bread-crumb__text {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #424551;
+  opacity: 1;
+}
+
+.bread-crumb__text::before {
+  content: url("/img/Right-chevron.svg");
+  position: relative;
+  top: 3px;
+  padding: 0px 8px;
+}
+
+.bread-crumb__block-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.bread-crumb__button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  cursor: pointer;
+}
+.bread-crumb__button label {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #9A9CA5;
+  opacity: 1;
+  transition: all 0.2s;
+}
+.bread-crumb__button:hover svg path {
+  fill: #424551;
+}
+.bread-crumb__button:hover label {
+  color: #424551;
+  transition: all 0.2s;
+}
+
 /* CONTENT-PROFILE */
 .section-profile__content-rofile {
   display: flex;
@@ -7365,80 +7438,9 @@ body.touch .arrow {
   background-color: #18888a;
 }
 
-/* BREAD-CRUMB */
-.bread-crumb {
-  padding: 1rem 0px;
-  background-color: #F4F5F6;
-}
-
-.bread-crumb__body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.bread-crumb__block {
-  display: flex;
-  align-items: center;
-}
-
-.bread-crumb__icon img {
-  width: 20px;
-  height: 20px;
-}
-
-.bread-crumb__text {
-  font-family: "Lato";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #FFF;
-  opacity: 0.6000000238;
-  color: #424551;
-  opacity: 1;
-}
-
-.bread-crumb__text::before {
-  content: url("/img/Right-chevron.svg");
-  position: relative;
-  top: 3px;
-  padding: 0px 8px;
-}
-
-.bread-crumb__block-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.bread-crumb__button {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: none;
-  cursor: pointer;
-}
-.bread-crumb__button label {
-  font-family: "Lato";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #FFF;
-  opacity: 0.6000000238;
-  color: #9A9CA5;
-  opacity: 1;
-  transition: all 0.2s;
-}
-.bread-crumb__button:hover svg path {
-  fill: #424551;
-}
-.bread-crumb__button:hover label {
-  color: #424551;
-  transition: all 0.2s;
-}
-
+/* SECTION-MY-ORDERS */
 .section-myOrders {
+  display: none;
   max-width: 810px;
   width: 100%;
   height: 100%;
@@ -7888,7 +7890,7 @@ body.touch .arrow {
 
 /* SECTION-WISHLIST */
 .section-wishlist {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 40px;
   max-width: 810px;
@@ -8150,7 +8152,7 @@ body.touch .arrow {
 
 /* SECTION-RECENTLY-VIEWED */
 .section-recentlyViewed {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 40px;
   max-width: 810px;
@@ -8323,9 +8325,7 @@ body.touch .arrow {
 
 /* SECTION-MY-REVIEWS */
 .section-myReviews {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  display: none;
   max-width: 810px;
   width: 100%;
   height: 100%;
@@ -8334,6 +8334,7 @@ body.touch .arrow {
 .section-myReviews__block-title {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .section-myReviews__title {
@@ -8376,6 +8377,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 28px;
+  margin-bottom: 60px;
 }
 
 .section-myReviews__column {
@@ -8383,7 +8385,7 @@ body.touch .arrow {
   flex-direction: column;
   gap: 20px;
 }
-.section-myReviews__column:last-child {
+.section-myReviews__column:not(:last-child) {
   border-bottom: 1px solid #E5E8ED;
   padding-bottom: 28px;
 }
@@ -8484,6 +8486,21 @@ body.touch .arrow {
 .section-myReviews__column-grade {
   display: flex;
   gap: 8px;
+}
+
+.section-myReviews__load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.section-myReviews__load-more a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
 }
 
 /* для элемента input c type="checkbox" */
