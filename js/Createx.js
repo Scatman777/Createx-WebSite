@@ -230,8 +230,7 @@ sectionButtons.addEventListener("click", function (e) {
 
 ///////////////// SECTION-PROFILE__ALL-BLOCK-OPEN /////////////////
 function OpenSectionProfile1() {
-
-	document.getElementById("bread-crumbText").innerHTML = "My profile ";
+	document.getElementById("bread-crumbText").innerHTML = "My profile";
 
 	/* SECTION__MY-ORDERS */
 	const myOrders = document.getElementById("section-myOrders");
@@ -275,6 +274,7 @@ function OpenSectionProfile1() {
 }
 
 function OpenSectionProfile2() {
+	document.getElementById("bread-crumbText").innerHTML = "My orders";
 
 	/* SECTION__MY-PROFILE */
 	const myProfile = document.getElementById("section-myProfile");
@@ -318,6 +318,7 @@ function OpenSectionProfile2() {
 }
 
 function OpenSectionProfile3() {
+	document.getElementById("bread-crumbText").innerHTML = "Wishlist";
 
 	/* SECTION__MY-PROFILE */
 	const myProfile = document.getElementById("section-myProfile");
@@ -361,6 +362,7 @@ function OpenSectionProfile3() {
 }
 
 function OpenSectionProfile4() {
+	document.getElementById("bread-crumbText").innerHTML = "Recently viewed";
 
 	/* SECTION__MY-PROFILE */
 	const myProfile = document.getElementById("section-myProfile");
@@ -404,8 +406,7 @@ function OpenSectionProfile4() {
 }
 
 function OpenSectionProfile5() {
-
-
+	document.getElementById("bread-crumbText").innerHTML = "My reviews";
 
 	/* SECTION__MY-PROFILE */
 	const myProfile = document.getElementById("section-myProfile");
