@@ -146,6 +146,41 @@ function OpenBlockProduct3() {
 	}
 }
 
+///////////////// SECTION-PRODCT__SWIEPR /////////////////
+const swiperProduct = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+});
+
+const swiperCloth = new Swiper('.swiper-cloth', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-cloth-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
+	},
+});
+
 ///////////////// SECTION-PROFILE__PRODUCT-OPEN /////////////////
 function buttonProfile__plus() {
     document.getElementById("block-columnProduct__open").classList.toggle("columnProfile__open");
@@ -192,6 +227,104 @@ sectionButtons.addEventListener("click", function (e) {
 		backgroundGreen.closest('.function-backgroundItem').classList.toggle('background-green');
 	}
 });
+
+///////////////// SECTION-PROFILE__ALL-BLOCK-OPEN /////////////////
+function OpenBlockProduct1() {
+
+	/* SECTION__MY-ORDERS */
+	const myOrders = document.getElementById("section-myOrders");
+	if (myOrders.style.display === "none") {
+		myOrders.style.display = "none";
+	} else {
+		myOrders.style.display = "none";
+	}
+
+	/* SECTION__WISHLIST */
+	const wishlist = document.getElementById("section-wishlist");
+	if (wishlist.style.display === "none") {
+		wishlist.style.display = "flex";
+	} else {
+		wishlist.style.display = "flex";
+	}
+
+	/* SECTION__RECENTLY-VIEWED */
+	const recentlyViewed = document.getElementById("section-recentlyViewed");
+	if (recentlyViewed.style.display === "none") {
+		recentlyViewed.style.display = "none";
+	} else {
+		recentlyViewed.style.display = "none";
+	}
+
+	/* SECTION__MY-REVIEWS */
+	const myReviews = document.getElementById("section-myReviews");
+	if (myReviews.style.display === "none") {
+		myReviews.style.display = "none";
+	} else {
+		myReviews.style.display = "none";
+	}
+
+	/* SECTION__MY-PROFILE */
+	const myProfile = document.getElementById("section-myProfile");
+	if (myProfile.style.display === "none") {
+		myProfile.style.display = "flex";
+	} else {
+		myProfile.style.display = "flex";
+	}
+}
+
+function OpenBlockProduct2() {
+
+	/* BLOKC-DOWN */
+	const blockDown = document.getElementById("blockDown__style");
+	if (blockDown.style.display === "none") {
+		blockDown.style.display = "none";
+	} else {
+		blockDown.style.display = "none";
+	}
+
+	/* BLOKC-REVIEWS */
+	const blockReviews = document.getElementById("blockReviews__style");
+	if (blockReviews.style.display === "none") {
+		blockReviews.style.display = "none";
+	} else {
+		blockReviews.style.display = "none";
+	}
+
+	/* BLOKC-DETAILS */
+	const blockDetails = document.getElementById("blockDetails__style");
+	if (blockDetails.style.display === "none") {
+		blockDetails.style.display = "flex";
+	} else {
+		blockDetails.style.display = "flex";
+	}
+}
+
+function OpenBlockProduct3() {
+
+	/* BLOKC-DOWN */
+	const blockDown = document.getElementById("blockDown__style");
+	if (blockDown.style.display === "none") {
+		blockDown.style.display = "none";
+	} else {
+		blockDown.style.display = "none";
+	}
+
+	/* BLOKC-DETAILS */
+	const blockDetails = document.getElementById("blockDetails__style");
+	if (blockDetails.style.display === "none") {
+		blockDetails.style.display = "none";
+	} else {
+		blockDetails.style.display = "none";
+	}
+
+	/* BLOKC-REVIEWS */
+	const blockReviews = document.getElementById("blockReviews__style");
+	if (blockReviews.style.display === "none") {
+		blockReviews.style.display = "flex";
+	} else {
+		blockReviews.style.display = "flex";
+	}
+}
 
 ///////////////// POPAP__SING-IN /////////////////
 document.getElementById("open-password1").addEventListener("change", function() {
@@ -241,42 +374,6 @@ document.getElementById("open-password4").addEventListener("change", function() 
 		document.getElementById("popap-input4").setAttribute("type", "password");
 	}
 });
-
-///////////////// SECTION-PRODCT__SWIEPR /////////////////
-const swiperProduct = new Swiper('.swiper', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-
-	pagination: {
-	  el: '.swiper-pagination',
-	  clickable: true,
-	},
-
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
-	},
-});
-
-const swiperCloth = new Swiper('.swiper-cloth', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-
-	pagination: {
-	  el: '.swiper-cloth-pagination',
-	  clickable: true,
-	},
-
-	navigation: {
-	  nextEl: '.swiper-cloth__next',
-	  prevEl: '.swiper-cloth__prev',
-	},
-});
-
 
 /////////////// INPUT-PRICE ///////////////
 const priceInputs = document.querySelectorAll(".price-input input");

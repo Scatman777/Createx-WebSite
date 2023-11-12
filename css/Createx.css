@@ -7123,7 +7123,7 @@ body.touch .arrow {
 .section-profile__body {
   display: flex;
   justify-content: space-between;
-  margin: 3.5rem 0px 11.25rem 0px;
+  margin: 40px 0px 180px 0px;
 }
 
 /* ACCOUNT-MENU */
@@ -7170,21 +7170,22 @@ body.touch .arrow {
   color: #787A80;
 }
 
-.account-menu__menu {
+.account-menu__button-menu {
   display: flex;
   flex-direction: column;
 }
 
-.account-menu__item {
+.account-menu__button {
   display: flex;
   align-items: flex-start;
   gap: 8px;
   padding: 12px 20px;
   border-top: 1px solid #E5E8ED;
+  background: none;
   transition: all 0.3s;
   cursor: pointer;
 }
-.account-menu__item label {
+.account-menu__button a {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -7196,14 +7197,14 @@ body.touch .arrow {
   color: #424551;
   cursor: pointer;
 }
-.account-menu__item:hover {
+.account-menu__button:hover {
   background: #17696A;
   transition: all 0.3s;
 }
-.account-menu__item:hover label {
+.account-menu__button:hover a {
   color: #FFF;
 }
-.account-menu__item:hover svg path {
+.account-menu__button:hover svg path {
   fill: #FFF;
 }
 
