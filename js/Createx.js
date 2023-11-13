@@ -233,7 +233,6 @@ function OpenSectionProfile1() {
 	document.getElementById("bread-crumbText").innerHTML = "My profile";
 
 	/* SECTION__MY-ORDERS */
-	document.getElementById("buttonMyOrders").classList.remove("background-green");
 	const myOrders = document.getElementById("section-myOrders");
 	if (myOrders.style.display === "none") {
 		myOrders.style.display = "none";
@@ -242,7 +241,6 @@ function OpenSectionProfile1() {
 	}
 
 	/* SECTION__WISHLIST */
-	document.getElementById("buttonWishlist").classList.remove("background-green");
 	const wishlist = document.getElementById("section-wishlist");
 	if (wishlist.style.display === "none") {
 		wishlist.style.display = "none";
@@ -251,7 +249,6 @@ function OpenSectionProfile1() {
 	}
 
 	/* SECTION__RECENTLY-VIEWED */
-	document.getElementById("buttonRecentlyViewed").classList.remove("background-green");
 	const recentlyViewed = document.getElementById("section-recentlyViewed");
 	if (recentlyViewed.style.display === "none") {
 		recentlyViewed.style.display = "none";
@@ -260,7 +257,6 @@ function OpenSectionProfile1() {
 	}
 
 	/* SECTION__MY-REVIEWS */
-	document.getElementById("buttonMyReviews").classList.remove("background-green");
 	const myReviews = document.getElementById("section-myReviews");
 	if (myReviews.style.display === "none") {
 		myReviews.style.display = "none";
@@ -269,7 +265,6 @@ function OpenSectionProfile1() {
 	}
 
 	/* SECTION__MY-PROFILE */
-	document.getElementById("buttonMyProfile").classList.add("background-green");
 	const myProfile = document.getElementById("section-myProfile");
 	if (myProfile.style.display === "none") {
 		myProfile.style.display = "flex";

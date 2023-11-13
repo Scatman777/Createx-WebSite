@@ -241,16 +241,16 @@
         cursor: pointer;
     }
     
-    // &:hover {
-    //     background: $green;
-    //     transition: all 0.3s;
-    //     a {
-    //         color: $white;
-    //     }
-    //     svg path {
-    //         fill: $white;
-    //     }
-    // }
+    &:focus {
+        background: $green;
+        transition: all 0.3s;
+        a {
+            color: $white;
+        }
+        svg path {
+            fill: $white;
+        }
+    }
 }
 
 @mixin arrow-style {
