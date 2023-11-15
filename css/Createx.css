@@ -8746,6 +8746,9 @@ body.touch .arrow {
   opacity: 0.9;
   color: #1E212C;
 }
+.featured-posts__text .featured-posts__column:hover {
+  color: #17696A;
+}
 
 .section-blog__tags {
   display: flex;
@@ -8765,6 +8768,7 @@ body.touch .arrow {
 
 .tags__block-button {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -8784,6 +8788,12 @@ body.touch .arrow {
   opacity: 0.6000000238;
   font-weight: 700;
   color: #787A80;
+}
+.tags__button:hover {
+  background-color: #17696A;
+}
+.tags__button:hover a {
+  color: #FFF;
 }
 
 /* для элемента input c type="checkbox" */

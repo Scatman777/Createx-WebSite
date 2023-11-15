@@ -181,6 +181,10 @@
 	.featured-posts__text {
 		@include text-16px;
 		color: $gray-900;
+
+		.featured-posts__column:hover {
+			color: $green;
+		}
 	}
 
 	.section-blog__tags {
@@ -197,6 +201,7 @@
 
 	.tags__block-button {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 12px;
 	}
 
