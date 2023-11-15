@@ -8532,7 +8532,10 @@ body.touch .arrow {
   gap: 58px;
 }
 
-.section-blog__column img {
+.section-blog__img {
+  margin-bottom: 16px;
+}
+.section-blog__img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -8556,7 +8559,7 @@ body.touch .arrow {
   opacity: 0.9;
 }
 .section-blog__text-itemDate::after {
-  content: "-";
+  content: "";
   width: 1px;
   height: 12px;
   margin: 0px 12px;
@@ -8566,6 +8569,12 @@ body.touch .arrow {
 .section-blog__comments-column {
   display: flex;
   align-items: center;
+  gap: 8px;
+}
+
+.section-blog__item-info {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
 
