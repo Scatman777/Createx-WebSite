@@ -4,6 +4,7 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 20px;
+		margin: 32px 0px 180px 0px;
 	}
 
 	.section-blog__block-left {
@@ -14,12 +15,14 @@
 
 	.section-blog__title {
 		@include h2;
+		margin-bottom: 32px;
 	}
 
 	.section-blog__block-column {
 		display: flex;
 		flex-direction: column;
 		gap: 58px;
+		margin-bottom: 60px;
 	}
 
 	.section-blog__column {
@@ -139,11 +142,14 @@
 	.featured-posts {
 	}
 
-
 	.featured-posts__title {
+		@include h1;
+		font-size: 24px;
 	}
+
 	.featured-posts__block-column {
 	}
+
 	.featured-posts__column {
 	}
 	.featured-posts__item-text {
