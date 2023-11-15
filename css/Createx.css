@@ -8643,18 +8643,18 @@ body.touch .arrow {
 }
 
 .section-blog__input {
-  height: 52px;
-  padding: 13px 16px;
+  display: flex;
   border: 1px solid #D7DADD;
   border-radius: 4px;
+  padding: 12px 16px;
   font-family: "Lato";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  opacity: 0.9;
+  font-size: 14px;
   font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
   color: #9A9CA5;
+  opacity: 0.9;
 }
 .section-blog__input input {
   width: 100%;
