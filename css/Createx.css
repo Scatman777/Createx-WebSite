@@ -8634,10 +8634,46 @@ body.touch .arrow {
   height: 100%;
 }
 
+.section-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .section-blog__blog-categories {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.blog-categories__block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.blog-categories__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-categories__text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+}
+
+.blog-categories__number {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
 }
 
 /* для элемента input c type="checkbox" */

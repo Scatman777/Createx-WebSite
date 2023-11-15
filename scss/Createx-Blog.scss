@@ -99,24 +99,42 @@
 	.section-blog__blog-categories {
 		display: flex;
 		flex-direction: column;
-		gap: 24px ;
+		gap: 24px;
 	}
 
 	.blog-categories {
 	}
 
 	.blog-categories__block-column {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
 	}
+
 	.blog-categories__column {
+		display: flex;
+		justify-content: space-between;
 	}
+
 	.blog-categories__text {
+		@include text-16px;
 	}
+
 	.blog-categories__number {
+		@include text-16px;
+		font-weight: 400;
 	}
+
 	.section-blog__featured-posts {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
+
 	.featured-posts {
 	}
+
+	
 	.featured-posts__title {
 	}
 	.featured-posts__block-column {
