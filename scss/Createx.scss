@@ -83,12 +83,6 @@ body {
     a {
         @include text-14px;
     }
-
-	&:nth-child(3) {
-		a {
-			opacity: 0.9;
-		}
-	}
 }
 
 .body-up__block {

@@ -173,9 +173,6 @@ body {
   color: #FFF;
   opacity: 0.6000000238;
 }
-.body-up__item:nth-child(3) a {
-  opacity: 0.9;
-}
 
 .body-up__block {
   flex: 1 1 auto;
