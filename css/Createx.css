@@ -8618,6 +8618,17 @@ body.touch .arrow {
   display: flex;
   gap: 20px;
 }
+.section-blog__column-numberPage a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+}
+.section-blog__column-numberPage a:first-child {
+  color: #17696A;
+}
 
 .section-blog__block-right {
   display: flex;

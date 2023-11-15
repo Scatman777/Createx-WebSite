@@ -90,6 +90,14 @@
 	.section-blog__column-numberPage {
 		display: flex;
 		gap: 20px;
+
+		a {
+			@include text-16px;
+
+			&:first-child {
+				color: $green;
+			}
+		}
 	}
 
 	.section-blog__block-right {
