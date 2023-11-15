@@ -284,6 +284,9 @@ body {
   color: #424551;
   opacity: 0.9;
 }
+.body-middle__item:nth-child(1):hover .main {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .body-middle__item:nth-child(5) a {
   color: #FF4242;
 }

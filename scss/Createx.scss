@@ -184,8 +184,8 @@ body {
         @include text-16px;
     }
 
-	&:hover {
-		
+	&:nth-child(1):hover .main {
+        background-color: rgba(0, 0, 0, 0.8);
 	}
 
     &:nth-child(5) {
