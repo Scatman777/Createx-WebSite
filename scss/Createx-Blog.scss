@@ -151,6 +151,7 @@
 	.featured-posts__title {
 		@include h1;
 		font-size: 24px;
+		font-weight: 700;
 	}
 
 	.featured-posts__block-column {
@@ -162,20 +163,30 @@
 	.featured-posts__column {
 		display: flex;
 		gap: 20px;
+	}
 
+	.featured-posts__img {
 		img {
-			width: 100px;
-			height: 100px;
+			width: 100%;
+			height: 100%;
 			object-fit: cover;
 		}
 	}
+
 	.featured-posts__item-text {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	.featured-posts__time {
+		display: flex;
+		gap: 8px;
 	}
 
 	.featured-posts__text {
+		@include text-16px;
+		color: $gray-900;
 	}
 
 	.section-blog__tags {
