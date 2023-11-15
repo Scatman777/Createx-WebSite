@@ -8574,6 +8574,16 @@ body.touch .arrow {
   align-items: center;
   gap: 8px;
 }
+.section-blog__comments-column span {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 0.9;
+}
 
 .section-blog__item-info {
   display: flex;
@@ -8695,6 +8705,29 @@ body.touch .arrow {
   line-height: 130%;
   color: #1E212C;
   font-size: 24px;
+}
+
+.featured-posts__block-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.featured-posts__column {
+  display: flex;
+  gap: 20px;
+}
+.featured-posts__column img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-blog__tags {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 /* для элемента input c type="checkbox" */
