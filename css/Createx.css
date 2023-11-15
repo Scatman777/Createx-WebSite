@@ -8548,7 +8548,6 @@ body.touch .arrow {
 }
 
 .section-blog__text-itemDate {
-  display: flex;
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
@@ -8560,6 +8559,7 @@ body.touch .arrow {
 }
 .section-blog__text-itemDate::after {
   content: "";
+  display: inline-flex;
   width: 1px;
   height: 12px;
   margin: 0px 12px;
@@ -8576,6 +8576,68 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.section-blog__title-blog {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 700;
+  color: #1E212C;
+}
+
+.sectioon-blog__text-blog {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.section-blog__column-numberPage {
+  display: flex;
+  gap: 20px;
+}
+
+.section-blog__block-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 342px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-blog__input {
+  height: 52px;
+  padding: 13px 16px;
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #9A9CA5;
+}
+.section-blog__input input {
+  width: 100%;
+  height: 100%;
+}
+
+.section-blog__blog-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 /* для элемента input c type="checkbox" */

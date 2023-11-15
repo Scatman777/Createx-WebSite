@@ -41,13 +41,13 @@
 	}
 
 	.section-blog__text-itemDate {
-		display: flex;
 		@include text-14px;
 		color: $gray-700;
 		opacity: 0.9;
 
 		&::after {
 			content: "";
+			display: inline-flex;
 			width: 1px;
 			height: 12px;
 			margin: 0px 12px;
@@ -68,20 +68,43 @@
 	}
 
 	.section-blog__title-blog {
+		@include h4;
+		font-weight: 700;
+		color: $gray-900;
 	}
 
 	.sectioon-blog__text-blog {
+		@include text-16px;
+		font-weight: 400;
 	}
+
 	.section-blog__column-numberPage {
+		display: flex;
+		gap: 20px;
 	}
+
 	.section-blog__block-right {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		max-width: 342px;
+		width: 100%;
+		height: 100%; 
 	}
+
 	.section-blog__input {
+		@include input;
 	}
+
 	.section-blog__blog-categories {
+		display: flex;
+		flex-direction: column;
+		gap: 24px ;
 	}
+
 	.blog-categories {
 	}
+
 	.blog-categories__block-column {
 	}
 	.blog-categories__column {
