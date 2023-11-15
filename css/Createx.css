@@ -8662,6 +8662,8 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 .blog-categories__title {
@@ -8707,6 +8709,8 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #E5E8ED;
 }
 
 .featured-posts__title {
