@@ -8753,6 +8753,39 @@ body.touch .arrow {
   gap: 24px;
 }
 
+.tags__title {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tags__block-button {
+  display: flex;
+  gap: 12px;
+}
+
+.tags__button {
+  transition: all 0.3s;
+  padding: 0px 32px;
+  border: 1px solid #17696A;
+  border-radius: 4px;
+  background: none;
+}
+.tags__button a {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-weight: 700;
+  color: #787A80;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;

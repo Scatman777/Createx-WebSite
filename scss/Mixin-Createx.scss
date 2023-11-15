@@ -164,6 +164,7 @@
     border: 1px solid $green;
     border-radius: 4px;
     background: none;
+
     a {
         @include text-16px;
         line-height: 44px;
@@ -177,10 +178,12 @@
         letter-spacing: 0.3px;
         color: $green;
     }
+
     &:hover {
         svg path {
             fill: $white;
         }
+		
         background: $green;
         a {
             color: $white;
