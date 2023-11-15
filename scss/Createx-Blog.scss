@@ -31,22 +31,29 @@
 	}
 
 	.section-blog__item-date {
+		display: flex;
 		margin-bottom: 8px;
-
-		time {
-			@include text-14px;
-			color: $gray-700;
-			opacity: 0.9;
-		}
 	}
 
 	.section-blog__text-itemDate {
+		display: flex;
 		@include text-14px;
 		color: $gray-700;
 		opacity: 0.9;
+
+		&::after {
+			content: "-";
+			width: 1px;
+			height: 12px;
+			margin: 0px 12px;
+			background-color: $gray-700;
+		}
 	}
 
 	.section-blog__comments-column {
+		display: flex;
+		align-items: center;
+		gap: 8px;
 	}
 
 	.section-blog__item-info {
