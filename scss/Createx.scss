@@ -184,6 +184,10 @@ body {
         @include text-16px;
     }
 
+	&:hover {
+		
+	}
+
     &:nth-child(5) {
         a {
             color: $red;
