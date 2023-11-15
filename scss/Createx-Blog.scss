@@ -135,6 +135,7 @@
 	.blog-categories__title {
 		@include h1;
 		font-size: 24px;
+		font-weight: 700;
 	}
 
 	.blog-categories__block-column {
