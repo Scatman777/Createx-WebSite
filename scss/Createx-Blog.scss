@@ -105,6 +105,11 @@
 	.blog-categories {
 	}
 
+	.blog-categories__title {
+		@include h1;
+		font-size: 24px;
+	}
+
 	.blog-categories__block-column {
 		display: flex;
 		flex-direction: column;
@@ -134,7 +139,7 @@
 	.featured-posts {
 	}
 
-	
+
 	.featured-posts__title {
 	}
 	.featured-posts__block-column {
