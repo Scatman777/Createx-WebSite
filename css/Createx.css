@@ -8867,7 +8867,8 @@ body.touch .arrow {
   display: inline-block;
   width: 1px;
   height: 12px;
-  padding: 0px 12px;
+  margin: 0px 12px;
+  background-color: #787A80;
 }
 
 .section-blogPage__time {
@@ -8884,7 +8885,8 @@ body.touch .arrow {
   display: inline-block;
   width: 1px;
   height: 12px;
-  padding: 0px 12px;
+  margin: 0px 12px;
+  background-color: #787A80;
 }
 
 .section-blogPage__comments {
