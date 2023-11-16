@@ -1,6 +1,11 @@
 @mixin CreatexBlogPage-Style {
 
+	.section-blogPage__countainer {
+		max-width: 810px;
+	}
+
 	.section-blogPage__body {
+		margin: 32px 0px 120px 0px;
 	}
 
 	.section-blogPage__block-title {
@@ -17,23 +22,42 @@
 	.section-blogPage__column-info {
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-start;
 	}
 
 	.section-blogPage__item-infoFast {
+		display: flex;
 	}
 
 	.section-blogPage__user-name {
 		@include text-16px;
 		color: $green;
+
+		&::after {
+			content: "";
+			display: inline-block;
+			width: 1px;
+			height: 12px;
+			padding: 0px 12px;
+		}
 	}
 
 	.section-blogPage__time {
 		@include text-16px;
 		color: $gray-700;
+
+		&::after {
+			content: "";
+			display: inline-block;
+			width: 1px;
+			height: 12px;
+			padding: 0px 12px;
+		}
 	}
 
 	.section-blogPage__comments {
 		display: flex;
+		align-items: center;
 		gap: 8px;
 	}
 
@@ -45,11 +69,12 @@
 	.section-blogPage__img-massenger {
 		background-color: $gray-700;
 		border-radius: 4px;
+		opacity: 0.12;
 		padding: 8px;
 
 		img {
-			width: 100%;
-			height: 100%;
+			width: 16px;
+			height: 16px;
 		}
 
 		&:hover {
@@ -70,7 +95,6 @@
 		img {
 			width: 100%;
 			height: 100%;
-			object-fit: cover;
 		}
 	}
 

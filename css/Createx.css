@@ -8818,6 +8818,123 @@ body.touch .arrow {
   color: #FFF;
 }
 
+.section-blogPage__countainer {
+  max-width: 810px;
+}
+
+.section-blogPage__body {
+  margin: 32px 0px 120px 0px;
+}
+
+.section-blogPage__block-title {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.section-blogPage__title {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+.section-blogPage__column-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.section-blogPage__item-infoFast {
+  display: flex;
+}
+
+.section-blogPage__user-name {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #17696A;
+}
+.section-blogPage__user-name::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  padding: 0px 12px;
+}
+
+.section-blogPage__time {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #787A80;
+}
+.section-blogPage__time::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  padding: 0px 12px;
+}
+
+.section-blogPage__comments {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.section-blogPage__item-massenger {
+  display: flex;
+  gap: 12px;
+}
+
+.section-blogPage__img-massenger {
+  background-color: #787A80;
+  border-radius: 4px;
+  opacity: 0.12;
+  padding: 8px;
+}
+.section-blogPage__img-massenger img {
+  width: 16px;
+  height: 16px;
+}
+.section-blogPage__img-massenger:hover {
+  background-color: #17696A;
+}
+.section-blogPage__img-massenger:hover svg path {
+  fill: #17696A;
+}
+
+.section-blogPage__img {
+  margin-bottom: 32px;
+}
+.section-blogPage__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-blogPage__title-content {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;

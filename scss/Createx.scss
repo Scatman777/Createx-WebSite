@@ -8,6 +8,7 @@
 @import "Createx-Checkout.scss";
 @import "Createx-Profile.scss";
 @import "Createx-Blog.scss";
+@import "Createx-BlogPage.scss";
 /* FILE-STYLE */
 
 $white: #FFF;
@@ -2095,6 +2096,7 @@ svg {
 @include CreatexCheckout-Style;
 @include CreatexProfile-Style;
 @include CreatexBlog-Style;
+@include CreatexBlogPage-Style;
 @include input-checkbox;
 @include input-radio;
 @include media-all;
