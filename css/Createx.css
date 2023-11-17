@@ -8953,10 +8953,135 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
 }
+.section-blogPage__text:nth-child(3) {
+  margin-bottom: 60px;
+}
 
 .section-blogPage__column-quote {
   display: flex;
   gap: 30px;
+  margin: 48px 0px;
+}
+
+.section-blogPage__quote {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.section-blogPage__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 24px 0px;
+}
+
+.section-blogPage__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.section-blogPage__item p {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.section-blogPage__block-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-blogPage__column-tags {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section-blogPage__column-tags label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #1E212C;
+}
+
+.section-blogPage__tags {
+  border: 1px solid #D7DADD;
+  border-radius: 4px;
+  padding: 5.5px 16px;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  font-weight: 700;
+  color: #787A80;
+  opacity: 0.9;
+}
+
+.section-blogPage__column-massenger {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section-blogPage__column-massenger label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #1E212C;
+}
+
+.section-blogPage__massenger-link {
+  background-color: #eeefef;
+  border-radius: 4px;
+  padding: 8px;
+}
+.section-blogPage__massenger-link:hover {
+  background-color: #e3eded;
+}
+.section-blogPage__massenger-link:hover svg path {
+  fill: #17696A;
+}
+
+.section-blogPage__block-nextPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-blogPage__column-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column-page__item-arrow {
+  display: flex;
+  gap: 8px;
+}
+.column-page__item-arrow a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
 }
 
 /* для элемента input c type="checkbox" */
