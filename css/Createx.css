@@ -8878,6 +8878,7 @@ body.touch .arrow {
   line-height: 160%;
   color: #424551;
   opacity: 0.9;
+  font-weight: 400;
   color: #787A80;
 }
 .section-blogPage__time::after {
@@ -8894,6 +8895,16 @@ body.touch .arrow {
   align-items: center;
   gap: 8px;
 }
+.section-blogPage__comments span {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #787A80;
+}
 
 .section-blogPage__item-massenger {
   display: flex;
@@ -8901,17 +8912,12 @@ body.touch .arrow {
 }
 
 .section-blogPage__img-massenger {
-  background-color: #787A80;
+  background-color: #eeefef;
   border-radius: 4px;
-  opacity: 0.12;
   padding: 8px;
 }
-.section-blogPage__img-massenger img {
-  width: 16px;
-  height: 16px;
-}
 .section-blogPage__img-massenger:hover {
-  background-color: #17696A;
+  background-color: #e3eded;
 }
 .section-blogPage__img-massenger:hover svg path {
   fill: #17696A;
@@ -8935,6 +8941,22 @@ body.touch .arrow {
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
+  margin-bottom: 24px;
+}
+
+.section-blogPage__text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.section-blogPage__column-quote {
+  display: flex;
+  gap: 30px;
 }
 
 /* для элемента input c type="checkbox" */

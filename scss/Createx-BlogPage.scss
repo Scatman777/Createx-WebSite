@@ -64,7 +64,9 @@
 		gap: 8px;
 
 		span {
-			
+			@include text-16px;
+			font-weight: 400;
+			color: $gray-700;
 		}
 	}
 
@@ -74,18 +76,12 @@
 	}
 
 	.section-blogPage__img-massenger {
-		background-color: $gray-700;
+		background-color: #eeefef;
 		border-radius: 4px;
-		opacity: 0.12;
 		padding: 8px;
 
-		img {
-			width: 16px;
-			height: 16px;
-		}
-
 		&:hover {
-			background-color: $green;
+			background-color: #e3eded;
 
 			svg path {
 				fill: $green;
@@ -108,24 +104,37 @@
 	.section-blogPage__title-content {
 		@include h4;
 		color: $gray-900;
+		margin-bottom: 24px;
 	}
 
 	.section-blogPage__text {
+		@include text-16px;
+		font-weight: 400;
 	}
+
 	.section-blogPage__column-quote {
+		display: flex;
+		gap: 30px;
 	}
+
 	.section-blogPage__quote {
 	}
+
 	.section-blogPage__list {
 	}
+
 	.section-blogPage__item {
 	}
+
 	.section-blogPage__block-info {
 	}
+
 	.section-blogPage__column-tags {
 	}
+
 	.section-blogPage__tags {
 	}
+
 	.section-blogPage__column-massenger {
 	}
 	.section-blogPage__massenger-link {
