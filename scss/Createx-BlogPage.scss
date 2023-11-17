@@ -112,7 +112,7 @@
 		@include text-16px;
 		font-weight: 400;
 
-		&:nth-child(3) {
+		&:nth-child(2) {
 			margin-bottom: 60px;
 		}
 	}
@@ -193,7 +193,7 @@
 		gap: 20px;
 	}
 	
-	.column-page__column-arrow {
+	.section-page__column-arrow {
 		display: flex;
 		justify-content: space-between;
 
@@ -202,7 +202,7 @@
 		}
 	}
 
-	.column-page__item-arrow {
+	.section-page__item-arrow {
 		display: flex;
 		align-items: center;
 		gap: 8px;
