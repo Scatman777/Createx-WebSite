@@ -193,11 +193,13 @@
 
 	.section-blogPage__column-page {
 		display: flex;
-		justify-content: space-between;
+		flex-direction: column;
+		gap: 20px;
 	}
 
 	.column-page__item-arrow {
 		display: flex;
+		align-items: center;
 		gap: 8px;
 
 		a {
@@ -210,16 +212,24 @@
 		gap: 20px;
 	}
 
-	.column-page__info-block {
+	.column-page__info {
 		display: flex;
-		gap: 8px;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	.column-page__time {
 		display: flex;
-		gap: ;
+		gap: 8px;
+
+		time {
+			@include text-14px;
+			color: $gray-700;
+		}
 	}
 
-	.column-page {
+	.column-page__text {
+		@include text-16px;
+		color: $gray-900;
 	}
 }
