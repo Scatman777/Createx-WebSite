@@ -80,6 +80,10 @@
 		@include h4;
 		font-weight: 700;
 		color: $gray-900;
+
+		&:hover {
+			color: $green;
+		}
 	}
 
 	.sectioon-blog__text-blog {
