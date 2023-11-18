@@ -461,6 +461,7 @@
 
 	.submit-comment__title {
 		@include h2;
+		text-align: center;
 	}
 
 	.submit-comment__block-input {
@@ -471,6 +472,7 @@
 
 	.submit-comment__column-input {
 		display: flex;
+		justify-content: space-between;
 		gap: 30px;
 	}
 
@@ -489,6 +491,8 @@
 		border: 1px solid $gray-400;
 		border-radius: 4px;
 		padding: 13px 16px;
+		width: 390px;
+		height: 52px;
 
 		input {
 			width: 100%;
@@ -503,15 +507,23 @@
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
+
+		label {
+			@include text-16px;
+			font-weight: 400;
+		}
 	}
 
 	.submit-comment__textarea {
+		width: 100%;
+		height: 100px;
 		border: 1px solid $gray-400;
 		border-radius: 4px;
 		padding: 13px 16px;
 		@include text-16px;
 		font-weight: 400;
 		color: $gray-600;
+		resize: none;
 	}
 
 	.submit-comment__column-button {
@@ -521,6 +533,6 @@
 
 	.submit-comment__button {
 		@include button-green-backround;
-		padding: 40px;
+		padding: 0px 40px;
 	}
 }

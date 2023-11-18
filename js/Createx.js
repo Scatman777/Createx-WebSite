@@ -146,41 +146,6 @@ function OpenBlockProduct3() {
 	}
 }
 
-///////////////// SECTION-PRODCT__SWIEPR /////////////////
-const swiperProduct = new Swiper('.swiper', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-
-	pagination: {
-	  el: '.swiper-pagination',
-	  clickable: true,
-	},
-
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
-	},
-});
-
-const swiperCloth = new Swiper('.swiper-cloth', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-
-	pagination: {
-	  el: '.swiper-cloth-pagination',
-	  clickable: true,
-	},
-
-	navigation: {
-	  nextEl: '.swiper-cloth__next',
-	  prevEl: '.swiper-cloth__prev',
-	},
-});
-
 ///////////////// SECTION-PROFILE__PRODUCT-OPEN /////////////////
 function buttonProfile__plus() {
     document.getElementById("block-columnProduct__open").classList.toggle("columnProfile__open");
@@ -540,4 +505,39 @@ rangeInputs.forEach((input) => {
       range.style.right = 100 - (maxVal / rangeInputs[1].max) * 100 + "%";
     }
   });
+});
+
+///////////////// SECTION-PRODCT__SWIEPR /////////////////
+const swiperProduct = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+});
+
+const swiperCloth = new Swiper('.swiper-cloth', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-cloth-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
+	},
 });
