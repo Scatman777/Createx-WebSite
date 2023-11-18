@@ -378,10 +378,16 @@
 		font-weight: 400;
 	}
 
+	.section-comments__countainer {
+		max-width: 810px;
+	}
+
 	.section-comments__body {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		gap: 120px;
+		margin: 120px 0px;
 	}
 
 	.section-comments__block-content {
@@ -437,6 +443,7 @@
 
 	.section-comments__reply {
 		display: flex;
+		align-items: center;
 		gap: 8px;
 
 		a {
@@ -459,42 +466,61 @@
 	.submit-comment__block-input {
 		display: flex;
 		flex-direction: column;
+		gap: 48px;
 	}
 
 	.submit-comment__column-input {
-	}
-	.submit-comment__input {
-	}
-	.submit-comment__column-textarea {
-	}
-	.submit-comment__textarea {
-	}
-	.submit-comment__button {
+		display: flex;
+		gap: 30px;
 	}
 
-	.section-comments__submit-comment {
-	}
+	.submit-comment__item-input {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
 
-	.submit-comment__title {
-		@include h2;
-	}
-
-	.submit-comment__block-input {
-	}
-
-	.submit-comment__column-input {
+		label {
+			@include text-16px;
+			font-weight: 400;
+		}
 	}
 
 	.submit-comment__input {
+		border: 1px solid $gray-400;
+		border-radius: 4px;
+		padding: 13px 16px;
 
+		input {
+			width: 100%;
+			height: 100%;
+			@include text-16px;
+			font-weight: 400;
+			color: $gray-600;
+		}
 	}
 
 	.submit-comment__column-textarea {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
 	}
 
 	.submit-comment__textarea {
+		border: 1px solid $gray-400;
+		border-radius: 4px;
+		padding: 13px 16px;
+		@include text-16px;
+		font-weight: 400;
+		color: $gray-600;
 	}
-	
+
+	.submit-comment__column-button {
+		display: flex;
+		justify-content: center;
+	}
+
 	.submit-comment__button {
+		@include button-green-backround;
+		padding: 40px;
 	}
 }
