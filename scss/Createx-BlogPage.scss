@@ -111,10 +111,12 @@
 	.section-blogPage__text {
 		@include text-16px;
 		font-weight: 400;
+	}
 
-		&:nth-child(3) {
-			margin-bottom: 60px;
-		}
+	.section-blogPage__big-text {
+		@include text-16px;
+		font-weight: 400;
+		margin-bottom: 60px;
 	}
 
 	.section-blogPage__column-quote {
