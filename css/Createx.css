@@ -9594,7 +9594,9 @@ body.touch .arrow {
   color: #17696A;
 }
 
+/* BLOCK-CONTACT-US */
 .section-contact__block-contactUs {
+  display: none;
   max-width: 810px;
   width: 100%;
   height: 100%;
@@ -9737,8 +9739,9 @@ body.touch .arrow {
   background-color: #18888a;
 }
 
+/* BLOCK-OUTLET-STORES */
 .section-contact__block-outletStores {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   -moz-column-gap: 30px;
        column-gap: 30px;
@@ -9816,8 +9819,9 @@ body.touch .arrow {
   gap: 12px;
 }
 
+/* BLOCK-QUESTIONS */
 .section-contact__block-questions {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 20px;
   max-width: 810px;
