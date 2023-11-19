@@ -9816,6 +9816,56 @@ body.touch .arrow {
   gap: 12px;
 }
 
+.section-contact__block-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block-questions__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.block-questions__column:not(:last-child) {
+  padding-bottom: 20px;
+  border: 1px solid #E5E8ED;
+}
+
+.block-questions__item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-questions__title {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1E212C;
+}
+
+.block-questions__plus img {
+  width: 20px;
+  height: 20px;
+}
+
+.block-questions__text {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #787A80;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;

@@ -196,5 +196,42 @@
 	}
 
 
-	
+	.section-contact__block-questions {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.block-questions__column {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		&:not(:last-child) {
+			padding-bottom: 20px;
+			border: 1px solid $gray-300;
+		}
+	}
+
+	.block-questions__item-title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.block-questions__title {
+		@include h4;
+		color: $gray-900;
+	}
+
+	.block-questions__plus img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.block-questions__text {
+		@include text-16px;
+		font-weight: 400;
+		color: $gray-700;
+	}
 }
