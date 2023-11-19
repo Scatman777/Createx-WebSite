@@ -9769,13 +9769,6 @@ body.touch .arrow {
      object-fit: cover;
 }
 
-.block-outletStores__item {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding: 24px 24px 32px 24px;
-}
-
 .block-outletStores__title {
   font-family: "Lato";
   font-size: 72px;
@@ -9790,6 +9783,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  padding: 24px 24px 32px 24px;
 }
 
 .block-outletStores__info-shopColumn {
