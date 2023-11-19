@@ -178,6 +178,44 @@ function buttonFunction6() {
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
+///////////////// SECTION-CONTACT__QUESTIONS /////////////////
+function buttonPlusQuestions1() {
+    document.getElementById("list1").classList.toggle("show-block");
+	document.getElementById("plus1").classList.toggle("minus-image");
+}
+function buttonPlusQuestions2() {
+    document.getElementById("list2").classList.toggle("show-block");
+	document.getElementById("plus2").classList.toggle("minus-image");
+}
+function buttonPlusQuestions3() {
+    document.getElementById("list3").classList.toggle("show-block");
+	document.getElementById("plus3").classList.toggle("minus-image");
+}
+function buttonPlusQuestions4() {
+    document.getElementById("list4").classList.toggle("show-block");
+	document.getElementById("plus4").classList.toggle("minus-image");
+}
+function buttonPlusQuestions5() {
+    document.getElementById("list5").classList.toggle("show-block");
+	document.getElementById("plus5").classList.toggle("minus-image");
+}
+function buttonPlusQuestions6() {
+    document.getElementById("list6").classList.toggle("show-block");
+	document.getElementById("plus6").classList.toggle("minus-image");
+}
+function buttonPlusQuestions7() {
+    document.getElementById("list7").classList.toggle("show-block");
+	document.getElementById("plus7").classList.toggle("minus-image");
+}
+function buttonPlusQuestions8() {
+    document.getElementById("list8").classList.toggle("show-block");
+	document.getElementById("plus8").classList.toggle("minus-image");
+}
+function buttonPlusQuestions9() {
+    document.getElementById("list9").classList.toggle("show-block");
+	document.getElementById("plus9").classList.toggle("minus-image");
+}
+
 ///////////////// ALL-SECTION__BORDER-GREEN /////////////////
 const sectionButtons = document.querySelector('.function-borderColumn');
 sectionButtons.addEventListener("click", function (e) {

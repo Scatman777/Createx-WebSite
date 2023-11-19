@@ -199,7 +199,7 @@
 
 /* BLOCK-QUESTIONS */
 	.section-contact__block-questions {
-		display: none;
+		display: flex;
 		flex-direction: column;
 		gap: 20px;
 		max-width: 810px;
