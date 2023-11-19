@@ -127,5 +127,54 @@
 		height: 52px;
 	}
 
-	
+
+	.section-contact__block-outletStores {
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 30px;
+		row-gap: 48px;
+		max-width: 810px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.block-outletStores__card {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		max-width: 390px;
+		width: 100%;
+		height: 100%;
+		border: 1px solid $gray-300;
+		border-radius: 4px;
+	}
+
+	.block-outletStores__img img {
+		width: 390px;
+		height: 200px;
+		object-fit: cover;
+	}
+
+	.block-outletStores__item {
+		padding: 24px 24px 32px 24px;
+	}
+
+	.block-outletStores__title {
+		@include h1;
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.block-outletStores__info-shop {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.block-outletStores__info-shopColumn {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+
+	}
 }
