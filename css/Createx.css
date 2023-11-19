@@ -9857,6 +9857,9 @@ body.touch .arrow {
   color: #1E212C;
 }
 
+.block-questions__plus {
+  cursor: pointer;
+}
 .block-questions__plus img {
   width: 20px;
   height: 20px;
