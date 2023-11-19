@@ -9570,6 +9570,7 @@ body.touch .arrow {
 .section-contact__navigation {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 20px;
   max-width: 170px;
   width: 100%;
@@ -9587,6 +9588,7 @@ body.touch .arrow {
   line-height: 150%;
   font-size: 28px;
   color: #9A9CA5;
+  background: none;
 }
 .section-contact__button-navigation:focus {
   color: #17696A;
@@ -9625,7 +9627,17 @@ body.touch .arrow {
 
 .block-contactUs__column-connection {
   display: flex;
+  align-items: center;
   gap: 12px;
+}
+.block-contactUs__column-connection a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
 }
 
 .block-contactUs__column-down {
@@ -9683,6 +9695,7 @@ body.touch .arrow {
   padding: 13px 16px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
+  width: 810px;
 }
 .block-contactUs__textarea textarea {
   width: 100%;
@@ -9707,6 +9720,7 @@ body.touch .arrow {
   border-radius: 4px;
   background-color: #17696A;
   padding: 0px 40px;
+  height: 52px;
 }
 .block-contactUs__button a {
   font-family: "Lato";

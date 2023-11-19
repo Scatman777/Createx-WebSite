@@ -10,6 +10,7 @@
 	.section-contact__navigation {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 20px;
 		max-width: 170px;
 		width: 100%;
@@ -20,6 +21,7 @@
 		@include h4;
 		font-size: 28px;
 		color: $gray-600;
+		background: none;
 
 		&:focus {
 			color: $green;
@@ -52,7 +54,13 @@
 
 	.block-contactUs__column-connection {
 		display: flex;
+		align-items: center;
 		gap: 12px;
+
+		a {
+			@include text-16px;
+			font-weight: 400;
+		}
 	}
 
 	.block-contactUs__column-down {
@@ -101,6 +109,7 @@
 		padding: 13px 16px;
 		border: 1px solid $gray-400;
 		border-radius: 4px;
+		width: 810px;
 
 		textarea {
 			width: 100%;
@@ -115,5 +124,6 @@
 	.block-contactUs__button {
 		@include button-green-backround;
 		padding: 0px 40px;
+		height: 52px;
 	}
 }
