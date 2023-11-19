@@ -9,6 +9,7 @@
 @import "Createx-Profile.scss";
 @import "Createx-Blog.scss";
 @import "Createx-BlogPage.scss";
+@import "Createx-Contact.scss";
 /* FILE-STYLE */
 
 $white: #FFF;
@@ -739,9 +740,11 @@ svg {
     display: flex;
     justify-content: space-between;
 }
+
 .section-discount__title {
     @include h2;
 }
+
 .section-discount__cheveron-column {
     display: flex;
     align-items: center;
@@ -2097,6 +2100,7 @@ svg {
 @include CreatexProfile-Style;
 @include CreatexBlog-Style;
 @include CreatexBlogPage-Style;
+@include CreatexContact-Style;
 @include input-checkbox;
 @include input-radio;
 @include media-all;
