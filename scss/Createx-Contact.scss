@@ -242,6 +242,8 @@
 	.block-questions__text {
 		position: absolute;
 		visibility: hidden;
+		transform: translateY(-20%);
+		transition: all 0.3s;
 		opacity: 0;
 		@include text-16px;
 		font-weight: 400;
@@ -251,6 +253,8 @@
 	.show-blockQuestions {
 		position: static;
 		visibility: visible;
+		transform: translateY(0%);
+		transition: all 0.3s;
 		opacity: 0.9;
 	}
 }

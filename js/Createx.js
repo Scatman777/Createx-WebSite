@@ -180,7 +180,7 @@ function buttonFunction6() {
 
 ///////////////// SECTION-CONTACT__QUESTIONS /////////////////
 function buttonPlusQuestions1() {
-    document.getElementById("list1").classList.toggle(".show-blockQuestions");
+    document.getElementById("list1").classList.toggle("show-blockQuestions");
 	document.getElementById("plus1").classList.toggle("minus-image");
 }
 function buttonPlusQuestions2() {

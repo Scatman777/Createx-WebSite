@@ -9869,6 +9869,8 @@ body.touch .arrow {
 .block-questions__text {
   position: absolute;
   visibility: hidden;
+  transform: translateY(-20%);
+  transition: all 0.3s;
   opacity: 0;
   font-family: "Lato";
   font-size: 16px;
@@ -9883,6 +9885,8 @@ body.touch .arrow {
 .show-blockQuestions {
   position: static;
   visibility: visible;
+  transform: translateY(0%);
+  transition: all 0.3s;
   opacity: 0.9;
 }
 
