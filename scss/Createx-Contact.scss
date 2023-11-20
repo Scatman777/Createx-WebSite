@@ -211,6 +211,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+		position: relative;
 
 		&:not(:last-child) {
 			padding-bottom: 20px;
@@ -239,9 +240,17 @@
 	}
 
 	.block-questions__text {
-		display: none;
+		position: absolute;
+		visibility: hidden;
+		opacity: 0;
 		@include text-16px;
 		font-weight: 400;
 		color: $gray-700;
+	}
+
+	.show-blockQuestions {
+		position: static;
+		visibility: visible;
+		opacity: 0.9;
 	}
 }

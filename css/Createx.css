@@ -9833,6 +9833,7 @@ body.touch .arrow {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  position: relative;
 }
 .block-questions__column:not(:last-child) {
   padding-bottom: 20px;
@@ -9866,7 +9867,9 @@ body.touch .arrow {
 }
 
 .block-questions__text {
-  display: none;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -9875,6 +9878,12 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
   color: #787A80;
+}
+
+.show-blockQuestions {
+  position: static;
+  visibility: visible;
+  opacity: 0.9;
 }
 
 /* для элемента input c type="checkbox" */
