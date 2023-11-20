@@ -9596,7 +9596,7 @@ body.touch .arrow {
 
 /* BLOCK-CONTACT-US */
 .section-contact__block-contactUs {
-  display: none;
+  display: block;
   max-width: 810px;
   width: 100%;
   height: 100%;
@@ -9821,7 +9821,7 @@ body.touch .arrow {
 
 /* BLOCK-QUESTIONS */
 .section-contact__block-questions {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 20px;
   max-width: 810px;

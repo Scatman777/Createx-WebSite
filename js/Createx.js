@@ -91,7 +91,6 @@ function OpenBlockProduct1() {
 		blockDown.style.display = "flex";
 	}
 }
-
 function OpenBlockProduct2() {
 
 	/* BLOKC-DOWN */
@@ -118,7 +117,6 @@ function OpenBlockProduct2() {
 		blockDetails.style.display = "flex";
 	}
 }
-
 function OpenBlockProduct3() {
 
 	/* BLOKC-DOWN */
@@ -200,7 +198,7 @@ function OpenBlockProduct1() {
 	/* BLOKC-CONTACT-US */
 	const block_ContactUs = document.getElementById("blockContactUs");
 	if (block_ContactUs.style.display === "none") {
-		blockDown.style.display = "block";
+		block_ContactUs.style.display = "block";
 	} else {
 		block_ContactUs.style.display = "block";
 	}
@@ -210,7 +208,7 @@ function OpenBlockProduct2() {
 	/* BLOKC-CONTACT-US */
 	const block_ContactUs = document.getElementById("blockContactUs");
 	if (block_ContactUs.style.display === "none") {
-		blockDown.style.display = "none";
+		block_ContactUs.style.display = "none";
 	} else {
 		block_ContactUs.style.display = "none";
 	}
@@ -236,7 +234,7 @@ function OpenBlockProduct3() {
 	/* BLOKC-CONTACT-US */
 	const block_ContactUs = document.getElementById("blockContactUs");
 	if (block_ContactUs.style.display === "none") {
-		blockDown.style.display = "none";
+		block_ContactUs.style.display = "none";
 	} else {
 		block_ContactUs.style.display = "none";
 	}
