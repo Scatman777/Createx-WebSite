@@ -178,6 +178,86 @@ function buttonFunction6() {
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
+///////////////// SECTION-PRODUCT /////////////////
+function OpenBlockProduct1() {
+
+	/* BLOKC-OUTLET-STORES */
+	const block_OutletStores = document.getElementById("blockOutletStores");
+	if (block_OutletStores.style.display === "none") {
+		block_OutletStores.style.display = "none";
+	} else {
+		block_OutletStores.style.display = "none";
+	}
+
+	/* BLOKC-QUESTIONS */
+	const block_Questions = document.getElementById("blockQuestions");
+	if (block_Questions.style.display === "none") {
+		block_Questions.style.display = "none";
+	} else {
+		block_Questions.style.display = "none";
+	}
+
+	/* BLOKC-CONTACT-US */
+	const block_ContactUs = document.getElementById("blockContactUs");
+	if (block_ContactUs.style.display === "none") {
+		blockDown.style.display = "flex";
+	} else {
+		block_ContactUs.style.display = "flex";
+	}
+}
+function OpenBlockProduct2() {
+
+	/* BLOKC-CONTACT-US */
+	const block_ContactUs = document.getElementById("blockContactUs");
+	if (block_ContactUs.style.display === "none") {
+		blockDown.style.display = "none";
+	} else {
+		block_ContactUs.style.display = "none";
+	}
+
+	/* BLOKC-QUESTIONS */
+	const block_Questions = document.getElementById("blockQuestions");
+	if (block_Questions.style.display === "none") {
+		block_Questions.style.display = "none";
+	} else {
+		block_Questions.style.display = "none";
+	}
+
+	/* BLOKC-OUTLET-STORES */
+	const block_OutletStores = document.getElementById("blockOutletStores");
+	if (block_OutletStores.style.display === "none") {
+		block_OutletStores.style.display = "flex";
+	} else {
+		block_OutletStores.style.display = "flex";
+	}
+}
+function OpenBlockProduct3() {
+
+	/* BLOKC-CONTACT-US */
+	const block_ContactUs = document.getElementById("blockContactUs");
+	if (block_ContactUs.style.display === "none") {
+		blockDown.style.display = "none";
+	} else {
+		block_ContactUs.style.display = "none";
+	}
+
+	/* BLOKC-OUTLET-STORES */
+	const block_OutletStores = document.getElementById("blockOutletStores");
+	if (block_OutletStores.style.display === "none") {
+		block_OutletStores.style.display = "none";
+	} else {
+		block_OutletStores.style.display = "none";
+	}
+
+	/* BLOKC-QUESTIONS */
+	const block_Questions = document.getElementById("blockQuestions");
+	if (block_Questions.style.display === "none") {
+		block_Questions.style.display = "flex";
+	} else {
+		block_Questions.style.display = "flex";
+	}
+}
+
 ///////////////// SECTION-CONTACT__QUESTIONS /////////////////
 function buttonPlusQuestions1() {
     document.getElementById("list1").classList.toggle("show-block");
