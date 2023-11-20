@@ -200,9 +200,9 @@ function OpenBlockProduct1() {
 	/* BLOKC-CONTACT-US */
 	const block_ContactUs = document.getElementById("blockContactUs");
 	if (block_ContactUs.style.display === "none") {
-		blockDown.style.display = "flex";
+		blockDown.style.display = "block";
 	} else {
-		block_ContactUs.style.display = "flex";
+		block_ContactUs.style.display = "block";
 	}
 }
 function OpenBlockProduct2() {
