@@ -9867,11 +9867,7 @@ body.touch .arrow {
 }
 
 .block-questions__text {
-  position: absolute;
-  visibility: hidden;
-  transform: translateY(-20%);
-  transition: all 0.3s;
-  opacity: 0;
+  display: none;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -9882,12 +9878,9 @@ body.touch .arrow {
   color: #787A80;
 }
 
-.show-blockQuestions {
-  position: static;
-  visibility: visible;
-  transform: translateY(0%);
-  transition: all 0.3s;
-  opacity: 0.9;
+.show-block {
+  display: block;
+  animation: list-animation 0.5s ease;
 }
 
 /* для элемента input c type="checkbox" */

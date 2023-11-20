@@ -240,21 +240,14 @@
 	}
 
 	.block-questions__text {
-		position: absolute;
-		visibility: hidden;
-		transform: translateY(-20%);
-		transition: all 0.3s;
-		opacity: 0;
+		display: none;
 		@include text-16px;
 		font-weight: 400;
 		color: $gray-700;
 	}
 
-	.show-blockQuestions {
-		position: static;
-		visibility: visible;
-		transform: translateY(0%);
-		transition: all 0.3s;
-		opacity: 0.9;
+	.show-block {
+		display: block;
+		animation: list-animation 0.5s ease;
 	}
 }
