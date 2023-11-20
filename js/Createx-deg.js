@@ -1,38 +1,3 @@
-///////////////// SECTION-PRODCT__SWIEPR /////////////////
-const swiperProduct = new Swiper('.swiper', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-
-	pagination: {
-	  el: '.swiper-pagination',
-	  clickable: true,
-	},
-
-	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
-	},
-});
-
-const swiperCloth = new Swiper('.swiper-cloth', {
-	watchOverflow: false,
-	slidesPerView: 'auto',
-	slidesPerGroup: 1,
-	slidesPerColumn: 1,
-
-	pagination: {
-	  el: '.swiper-cloth-pagination',
-	  clickable: true,
-	},
-
-	navigation: {
-	  nextEl: '.swiper-cloth__next',
-	  prevEl: '.swiper-cloth__prev',
-	},
-});
-
 ///////////////// ALL-SECTION__BORDER-GREEN /////////////////
 const sectionButtons = document.querySelector('.function-borderColumn');
 sectionButtons.addEventListener("click", function (e) {
@@ -95,4 +60,39 @@ document.getElementById("open-password4").addEventListener("change", function() 
 	} else {
 		document.getElementById("popap-input4").setAttribute("type", "password");
 	}
+});
+
+///////////////// SECTION-PRODCT__SWIEPR /////////////////
+const swiperProduct = new Swiper('.swiper', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-button-next',
+	  prevEl: '.swiper-button-prev',
+	},
+});
+
+const swiperCloth = new Swiper('.swiper-cloth', {
+	watchOverflow: false,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+
+	pagination: {
+	  el: '.swiper-cloth-pagination',
+	  clickable: true,
+	},
+
+	navigation: {
+	  nextEl: '.swiper-cloth__next',
+	  prevEl: '.swiper-cloth__prev',
+	},
 });
