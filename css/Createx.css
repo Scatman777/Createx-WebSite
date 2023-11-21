@@ -10001,6 +10001,21 @@ body.touch .arrow {
   color: #787A80;
 }
 
+.section-trackOrder__input-checkbox {
+  display: flex;
+  gap: 12px;
+}
+.section-trackOrder__input-checkbox p {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #424551;
+}
+
 /* для элемента input c type="checkbox" */
 .custom-checkbox {
   position: absolute;
