@@ -11,22 +11,47 @@
 
 	.section-trackOrder__title {
 		@include h2;
+		margin-bottom: 24px;
 	}
 
 	.section-trackOrder__text {
+		@include text-18px;
+		color: $gray-700;
 	}
 
 	.section-trackOrder__entry-field {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+
+		label {
+			@include text-16px;
+			font-weight: 400;
+		}
 	}
 
 	.section-trackOrder__input-column {
+		display: flex;
+
+		button {
+			@include button-green-backround;
+			padding: 0px 40px;
+		}
 	}
 
 	.section-trackOrder__input {
+		border: 1px solid $gray-400;
+		padding: 13px 16px;
+
+		input {
+			width: 100%;
+			height: 100%;
+		}
 	}
 
 	.section-trackOrder__info-product {
 	}
+
 	.section-trackOrder__info-productColumn {
 	}
 	.section-trackOrder__input-checkbox {
