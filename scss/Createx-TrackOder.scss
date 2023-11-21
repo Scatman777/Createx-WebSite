@@ -1,0 +1,44 @@
+@mixin Createx-TrackOrder__Style {
+
+	.section-trackOrder__body {
+		display: flex;
+		justify-content: space-between;
+		gap: 20px;
+	}
+
+	.section-trackOrder__block-left {
+	}
+
+	.section-trackOrder__title {
+		@include h2;
+	}
+
+	.section-trackOrder__text {
+	}
+
+	.section-trackOrder__entry-field {
+	}
+
+	.section-trackOrder__input-column {
+	}
+
+	.section-trackOrder__input {
+	}
+
+	.section-trackOrder__info-product {
+	}
+	.section-trackOrder__info-productColumn {
+	}
+	.section-trackOrder__input-checkbox {
+	}
+	.section-trackOrder__block-right {
+	}
+	.section-trackOrder__column-infoProduct {
+	}
+	.section-trackOrder__title-infoProduct {
+	}
+	.section-trackOrder__text-infoProduct {
+	}
+	.section-trackOrder__text-gray-infoProduct {
+	}
+}
