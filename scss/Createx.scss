@@ -10,6 +10,7 @@
 @import "Createx-Blog.scss";
 @import "Createx-BlogPage.scss";
 @import "Createx-Contact.scss";
+@import "Createx-TrackOrder.scss";
 /* FILE-STYLE */
 
 $white: #FFF;
@@ -2101,6 +2102,7 @@ svg {
 @include CreatexBlog-Style;
 @include CreatexBlogPage-Style;
 @include CreatexContact-Style;
+@include CreatexTrackOrder-Style;
 @include input-checkbox;
 @include input-radio;
 @include media-all;

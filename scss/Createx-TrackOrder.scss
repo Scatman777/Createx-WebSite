@@ -1,4 +1,4 @@
-@mixin Createx-TrackOrder__Style {
+@mixin CreatexTrackOrder-Style {
 
 	.section-trackOrder__body {
 		display: flex;
@@ -42,6 +42,7 @@
 	.section-trackOrder__input {
 		border: 1px solid $gray-400;
 		padding: 13px 16px;
+		border-radius: 0px 4px 4px 0px;
 
 		input {
 			width: 100%;
@@ -50,20 +51,46 @@
 	}
 
 	.section-trackOrder__info-product {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 24px;
+		border: 1px solid $gray-300;
+		box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+
 	}
 
 	.section-trackOrder__info-productColumn {
+		display: flex;
+		justify-content: space-between;
+		gap: 24px;
+
+		label {
+			@include text-16px;
+		}
+
+		span {
+			@include text-16px;
+			font-weight: 400;
+			color: $gray-700;
+		}
 	}
+
 	.section-trackOrder__input-checkbox {
 	}
+
 	.section-trackOrder__block-right {
 	}
+
 	.section-trackOrder__column-infoProduct {
 	}
+
 	.section-trackOrder__title-infoProduct {
 	}
+
 	.section-trackOrder__text-infoProduct {
 	}
+
 	.section-trackOrder__text-gray-infoProduct {
 	}
 }
