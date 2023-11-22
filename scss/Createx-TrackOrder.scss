@@ -99,12 +99,14 @@
 	.section-trackOrder__block-right {
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-end;
 		gap: 32px;
 	}
 
 	.section-trackOrder__column-ellipse {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 
 	.section-trackOder__ellipse {
@@ -114,13 +116,33 @@
 		background-color: $green;
 		border: 4px solid $white;
 		border-radius: 50%;
+
+		&:nth-child(11) {
+			background-color: $gray-500;
+		}
+		&:nth-child(13) {
+			background-color: $gray-500;
+		}
+		&:nth-child(15) {
+			background-color: $gray-500;
+		}
 	}
 
 	.section-trackOder__line {
 		width: 1px;
-		height: 268px;
+		height: 50px;
 		background-color: $green;
 		opacity: 0.5;
+
+		&:nth-child(10) {
+			background-color: $gray-500;
+		}
+		&:nth-child(12) {
+			background-color: $gray-500;
+		}
+		&:nth-child(14) {
+			background-color: $gray-500;
+		}
 	}
 
 	.section-trackOrder__block-column {
@@ -128,6 +150,7 @@
 		flex-direction: column;
 		gap: 20px;
 		max-width: 705px;
+		max-height: 555px;
 		width: 100%;
 		height: 100%;
 	}

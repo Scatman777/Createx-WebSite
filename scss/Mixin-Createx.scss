@@ -2187,9 +2187,9 @@
 	}
 	  
 	/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
-	// .custom-checkbox:focus:not(:checked)+label::before {
-	// 	border-color: #17696A;
-	// }
+	.custom-checkbox:focus:not(:checked)+label::before {
+		border-color: #17696A;
+	}
 	  
 	/* стили для чекбокса, находящегося в состоянии checked */
 	.custom-checkbox:checked+label::before {
