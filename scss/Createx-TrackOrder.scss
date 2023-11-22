@@ -85,7 +85,7 @@
 		}
 	}
 
-	.section-trackOrder__input-checkbox {
+	.section-trackOrder__input-checkboxColumn {
 		display: flex;
 		gap: 12px;
 
@@ -94,6 +94,10 @@
 			font-weight: 400;
 			color: $gray-800;
 		}
+	}
+
+	.section-trackOrder__input-checkbox {
+		@include input-checkbox;
 	}
 
 	.section-trackOrder__block-right {
