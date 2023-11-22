@@ -2271,10 +2271,10 @@ svg {
   align-items: center;
   width: 170px;
   height: 44px;
-  padding: 11px 16px 12px 16px;
+  padding: 12px 16px;
   gap: 58px;
   border-radius: 4px;
-  border-bottom: 1px solid #D7DADD;
+  border: 1px solid #D7DADD;
 }
 .block-filter__select a {
   font-family: "Lato";
