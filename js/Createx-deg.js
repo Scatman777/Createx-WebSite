@@ -1,5 +1,5 @@
 ///////////////// POPAP__SING-IN /////////////////
-document.getElementById("open-password1").click("change", function() {
+document.getElementById("open-password1").addEventListener("change", function() {
 	document.getElementById("popap-icon1").classList.toggle("password__open");
 	if (document.getElementById("open-password1").checked) {
 		document.getElementById("popap-input1").setAttribute("type", "text");
@@ -36,7 +36,6 @@ document.getElementById("open-password3").addEventListener("change", function() 
 		document.getElementById("popap-input3").setAttribute("type", "password");
 	}
 });
-
 document.getElementById("open-password4").addEventListener("change", function() {
 	document.getElementById("popap-icon4").classList.toggle("password__open");
 
