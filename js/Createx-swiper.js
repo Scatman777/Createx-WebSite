@@ -16,7 +16,7 @@ const swiperProduct = new Swiper('.swiper', {
 	},
 });
 
-const swiperCloth = new Swiper('.swiper-cloth', {
+const swiperCloth = new Swiper('.swiper', {
 	watchOverflow: false,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
