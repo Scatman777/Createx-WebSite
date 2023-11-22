@@ -1431,13 +1431,18 @@ svg {
 }
 
 .footer__text {
-    @include text-16px;
-    font-weight: 400;
-    color: $white;
-    opacity: 0.6000000238418579;
-    span {
-        color: $white;
-        opacity: 1;
+	a {
+		@include text-16px;
+		font-weight: 400;
+		color: $white;
+		opacity: 0.6;
+	}
+
+    label {
+		@include text-16px;
+		font-weight: 400;
+		color: $white;
+		opacity: 0.9;
     }
 }
 

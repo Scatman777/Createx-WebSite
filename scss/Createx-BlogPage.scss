@@ -439,6 +439,12 @@
 	.section-comments__user-comment {
 		@include text-16px;
 		font-weight: 400;
+
+		span {
+			@include text-16px;
+			font-weight: 700;
+			color: $green;
+		}
 	}
 
 	.section-comments__reply {
