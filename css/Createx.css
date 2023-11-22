@@ -9887,6 +9887,13 @@ body.touch .arrow {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  margin: 32px 0px 180px 0px;
+}
+
+.section-trackOrder__block-left {
+  max-width: 390px;
+  width: 100%;
+  height: 100%;
 }
 
 .section-trackOrder__title {
@@ -9913,6 +9920,7 @@ body.touch .arrow {
   color: #424551;
   opacity: 0.9;
   color: #787A80;
+  margin-bottom: 32px;
 }
 
 .section-trackOrder__entry-field {
@@ -10014,6 +10022,12 @@ body.touch .arrow {
   opacity: 0.9;
   font-weight: 400;
   color: #424551;
+}
+
+.section-trackOrder__block-right {
+  max-width: 705px;
+  width: 100%;
+  height: 100%;
 }
 
 /* для элемента input c type="checkbox" */
