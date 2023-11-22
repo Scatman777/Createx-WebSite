@@ -5296,13 +5296,12 @@ svg {
 
 .block-comments__item-page {
   font-family: "Lato";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 150%;
-  color: #FFF;
-  opacity: 0.6000000238;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
   color: #424551;
-  opacity: 1;
+  opacity: 0.9;
+  color: #424551;
 }
 
 .section-setClothes__body {
