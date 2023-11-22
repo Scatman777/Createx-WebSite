@@ -176,8 +176,8 @@ function buttonFunction6() {
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
-///////////////// SECTION-PRODUCT /////////////////
-function OpenBlockProduct1() {
+///////////////// SECTION-CONTACT /////////////////
+function OpenBlockContact1() {
 
 	/* BLOKC-OUTLET-STORES */
 	const block_OutletStores = document.getElementById("blockOutletStores");
@@ -203,7 +203,7 @@ function OpenBlockProduct1() {
 		block_ContactUs.style.display = "block";
 	}
 }
-function OpenBlockProduct2() {
+function OpenBlockContact2() {
 
 	/* BLOKC-CONTACT-US */
 	const block_ContactUs = document.getElementById("blockContactUs");
@@ -229,7 +229,7 @@ function OpenBlockProduct2() {
 		block_OutletStores.style.display = "flex";
 	}
 }
-function OpenBlockProduct3() {
+function OpenBlockContact3() {
 
 	/* BLOKC-CONTACT-US */
 	const block_ContactUs = document.getElementById("blockContactUs");
