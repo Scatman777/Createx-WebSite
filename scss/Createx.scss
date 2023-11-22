@@ -2086,9 +2086,6 @@ svg {
 	fill: none;
 }
 
-@include slider;
-@include burger;
-@include menu-lang;
 @include sub-menu-woomen;
 @include login-popap;
 @include register-popap;
@@ -2103,6 +2100,9 @@ svg {
 @include CreatexBlogPage-Style;
 @include CreatexContact-Style;
 @include CreatexTrackOrder-Style;
+@include slider;
+@include burger;
+@include menu-lang;
 @include input-checkbox;
 @include input-radio;
 @include media-all;
