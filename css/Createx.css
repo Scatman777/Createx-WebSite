@@ -5393,6 +5393,20 @@ svg {
   position: relative;
 }
 
+.section-setClothes__discount {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 1px 8px;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  color: #FFF;
+}
+
 .section-setClothes__block-icon {
   display: flex;
   flex-direction: column;
@@ -5405,6 +5419,7 @@ svg {
 
 .section-setClothes__icon-star {
   display: flex;
+  gap: 2px;
 }
 
 .section-setClothes__icon-heart {
@@ -5431,6 +5446,52 @@ svg {
   flex-direction: column;
   gap: 8px;
   padding: 16px;
+}
+
+.section-setClothes__product-name {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #424551;
+  opacity: 0.9;
+}
+
+.section-setClothes__price {
+  font-family: "Lato";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 130%;
+  color: #1E212C;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section-setClothes__column-price {
+  display: flex;
+  gap: 12px;
+}
+
+.section-setClothes__price-red {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #FF4242;
+}
+
+.section-setClothes__price-gray {
+  font-family: "Lato";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #787A80;
+  opacity: 0.9;
+  text-decoration-line: line-through;
 }
 
 .section-setClothes__image img {

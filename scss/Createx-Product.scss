@@ -803,7 +803,16 @@
 	.section-setClothes__item {
 		position: relative;
 	}
-	
+
+	.section-setClothes__discount {
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		padding: 1px 8px;
+		@include text-16px;
+		color: $white;
+	}
+
 	.section-setClothes__block-icon {
 		display: flex;
 		flex-direction: column;
@@ -816,6 +825,7 @@
 
 	.section-setClothes__icon-star {
 		display: flex;
+		gap: 2px;
 	}
 
 	.section-setClothes__icon-heart {
@@ -847,9 +857,26 @@
 	}
 
 	.section-setClothes__product-name {
+		@include text-18px;
 	}
 
 	.section-setClothes__price {
+		@include h1;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.section-setClothes__column-price {
+		display: flex;
+		gap: 12px;
+	}
+
+	.section-setClothes__price-red {
+		@include red-price;
+	}
+
+	.section-setClothes__price-gray {
+		@include text-12px-gray;
 	}
 
 	.section-setClothes__image {
