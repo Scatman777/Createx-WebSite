@@ -1,34 +1,34 @@
 ///////////////// SECTION-PRODCT__SWIEPR /////////////////
-const swiperProduct = new Swiper('.swiper', {
+const swiperProduct = new Swiper('.section-product__swiper', {
 	watchOverflow: false,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 
 	pagination: {
-	  el: '.swiper-pagination',
+	  el: '.section-product__swiper-pagination',
 	  clickable: true,
 	},
 
 	navigation: {
-	  nextEl: '.swiper-button-next',
-	  prevEl: '.swiper-button-prev',
+	  nextEl: '.section-product__swiper-arrowNext',
+	  prevEl: '.section-product__swiper-arrowPrev',
 	},
 });
 
-const swiperCloth = new Swiper('.swiper', {
+const swiperCloth = new Swiper('.section-setClothes__swiper', {
 	watchOverflow: false,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 
 	pagination: {
-	  el: '.swiper-cloth-pagination',
+	  el: '.section-setClothes__swiper-pagination',
 	  clickable: true,
 	},
 
 	navigation: {
-	  nextEl: '.swiper-cloth__next',
-	  prevEl: '.swiper-cloth__prev',
+	  nextEl: '.section-setClothes__arrow-next',
+	  prevEl: '.section-setClothes__arrow-prev',
 	},
 });

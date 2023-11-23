@@ -5337,35 +5337,57 @@ svg {
   justify-content: space-between;
 }
 
-.section-setClothes__image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.section-setClothes__swiper {
+.section-setClothes__swiper .swiper {
   overflow: hidden;
 }
 
-.section-setClotes__swiper-wrapper {
+.section-setClothes__swiper .swiper-wrapper {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+  min-width: 0;
 }
 
-.section-setClothes__swiper-pagination {
+.section-setClothes__swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section-setClothes__swiper .swiper-button-prev, .swiper-button-next {
+  width: 24px;
+  height: 24px;
+}
+.section-setClothes__swiper .swiper-button-prev img, .swiper-button-next img {
+  width: 24px;
+  height: 24px;
+}
+
+.section-setClothes__swiper .swiper-pagination {
   display: flex;
   justify-content: center;
   gap: 12px;
+  height: 20px;
 }
-.section-setClothes__swiper-pagination .swiper-pagination-bullet {
+
+.swiper-pagination-bullet {
   width: 30px;
-  height: 2px;
+  height: 3px;
   background-color: #B3B7BC;
-  border-radius: 4px;
+  transition: all 0.3s;
+  cursor: pointer;
 }
-.section-setClothes__swiper-pagination .swiper-pagination-bullet-active {
+
+.swiper-pagination-bullet-active {
   background-color: #424551;
+  transition: all 0.3s;
+}
+
+.section-setClothes__image img {
+  width: 495px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .section-interest-clothes__body {
