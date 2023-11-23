@@ -510,17 +510,17 @@
 }
 
 @mixin swiper-product {
-	.swiper {
+	.section-product__swiper {
 		overflow: hidden;
 	}
 
-	.swiper .swiper-wrapper {
+	.section-product__swiper .swiper-wrapper {
 		display: flex;
 		justify-content: space-between;
 		min-width: 0;
 	}
 	
-	.swiper .swiper-slide {
+	.section-product__swiper .swiper-slide {
 		display: flex;
 		align-items: center;
 		max-width: 600px;
@@ -532,7 +532,7 @@
 		}
 	}
 
-	.swiper .section-product__swiper-navigation {
+	.section-product__swiper .section-product__swiper-navigation {
 		display: flex;
 		justify-content: space-between;
 		gap: 30px;
@@ -541,7 +541,7 @@
 		height: 20px;
 	}
 	
-	.swiper-button-prev, .swiper-button-next {
+	.section-product__swiper-arrowPrev, .section-product__swiper-arrowNext {
 		width: 48px;
 		height: 48px;
 		background-color: $white;
@@ -554,14 +554,14 @@
 		}
 	}
 
-	.swiper-pagination {
+	.section-product__swiper-pagination {
 		display: flex;
 		justify-content: space-between;
 		gap: 10px;
 		height: 104px;
 	}
 
-	.swiper-pagination-bullet {
+	.section-product__swiper .swiper-pagination-bullet {
 		max-width: 104px;
 		width: 100%;
 		height: 100%;
@@ -587,7 +587,7 @@
 		}
 	}
 	
-	.swiper-pagination-bullet-active {
+	.section-product__swiper .swiper-pagination-bullet-active {
 		opacity: 1;
 		transition: all 0.5s;
 		border: 1px solid #17696A;

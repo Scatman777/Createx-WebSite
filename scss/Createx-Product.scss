@@ -742,24 +742,18 @@
 		gap: 24px;
 	}
 
-	.section-setClothes__arrow-prev {
-	}
-
-	.section-setClothes__arrow-next {
-	}
-
 	.section-setClothes__blockDown {
 		display: flex;
 		justify-content: space-between;
 	}
 
-	.section-setClothes__swiper .swiper {
+	.section-setClothes__swiper {
 		overflow: hidden;
 	}
 
 	.section-setClothes__swiper .swiper-wrapper {
 		display: flex;
-		justify-content: space-between;
+		gap: 30px;
 		min-width: 0;
 	}
 	
@@ -770,7 +764,7 @@
 		height: 100%;
 	}
 	
-	.section-setClothes__swiper .swiper-button-prev, .swiper-button-next {
+	.section-setClothes__arrow-prev, .section-setClothes__arrow-next {
 		width: 24px;
 		height: 24px;
 	
@@ -780,7 +774,7 @@
 		}
 	}
 
-	.section-setClothes__swiper .swiper-pagination {
+	.section-setClothes__swiper .section-setClothes__swiper-pagination {
 		display: flex;
 		justify-content: center;
 		gap: 12px;
