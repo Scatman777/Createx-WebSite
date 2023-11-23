@@ -807,20 +807,23 @@
 	.section-setClothes__block-icon {
 		display: flex;
 		flex-direction: column;
+		align-items: flex-end;
+		gap: 242px;
 		position: absolute;
-		top: 0;
-		right: 0;
+		top: 16px;
+		right: 16px;
 	}
 
 	.section-setClothes__icon-star {
 		display: flex;
-		justify-items: flex-end;
 	}
 
 	.section-setClothes__icon-heart {
 		padding: 8px;
 		background-color: $white;
 		border-radius: 50%;
+		width: 32px;
+		height: 32px;
 
 		img {
 			width: 16px;
