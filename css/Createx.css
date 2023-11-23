@@ -5370,7 +5370,7 @@ svg {
   height: 20px;
 }
 
-.swiper-pagination-bullet {
+.section-setClothes__swiper .swiper-pagination-bullet {
   width: 30px;
   height: 3px;
   background-color: #B3B7BC;
@@ -5378,7 +5378,7 @@ svg {
   cursor: pointer;
 }
 
-.swiper-pagination-bullet-active {
+.section-setClothes__swiper .swiper-pagination-bullet-active {
   background-color: #424551;
   transition: all 0.3s;
 }
