@@ -759,7 +759,7 @@
 
 	.section-setClothes__swiper .swiper-wrapper {
 		display: flex;
-		gap: 30px;
+		gap: 20px;
 		min-width: 0;
 	}
 	
@@ -774,6 +774,7 @@
 	.section-setClothes__arrow-prev, .section-setClothes__arrow-next {
 		width: 24px;
 		height: 24px;
+		cursor: pointer;
 	
 		img {
 			width: 24px;
@@ -808,7 +809,7 @@
 		position: absolute;
 		top: 16px;
 		left: 16px;
-		padding: 1px 8px;
+		padding: 0px 8px;
 		@include text-16px;
 		color: $white;
 	}
@@ -834,6 +835,7 @@
 		border-radius: 50%;
 		width: 32px;
 		height: 32px;
+		cursor: pointer;
 
 		img {
 			width: 16px;

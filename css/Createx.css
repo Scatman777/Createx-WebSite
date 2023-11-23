@@ -5349,7 +5349,7 @@ svg {
 
 .section-setClothes__swiper .swiper-wrapper {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   min-width: 0;
 }
 
@@ -5364,6 +5364,7 @@ svg {
 .section-setClothes__arrow-prev, .section-setClothes__arrow-next {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 .section-setClothes__arrow-prev img, .section-setClothes__arrow-next img {
   width: 24px;
@@ -5397,7 +5398,7 @@ svg {
   position: absolute;
   top: 16px;
   left: 16px;
-  padding: 1px 8px;
+  padding: 0px 8px;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -5428,6 +5429,7 @@ svg {
   border-radius: 50%;
   width: 32px;
   height: 32px;
+  cursor: pointer;
 }
 .section-setClothes__icon-heart img {
   width: 16px;
