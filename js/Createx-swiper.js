@@ -18,7 +18,7 @@ const swiperProduct = new Swiper('.section-product__swiper', {
 
 const swiperCloth = new Swiper('.section-setClothes__swiper', {
 	watchOverflow: false,
-	slidesPerView: 1,
+	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 

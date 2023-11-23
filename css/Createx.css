@@ -5356,6 +5356,7 @@ svg {
 .section-setClothes__swiper .swiper-slide {
   display: flex;
   align-items: center;
+  max-width: 285px;
   width: 100%;
   height: 100%;
 }
@@ -5386,6 +5387,48 @@ svg {
 .section-setClothes__swiper .swiper-pagination-bullet-active {
   background-color: #424551;
   transition: all 0.3s;
+}
+
+.section-setClothes__item {
+  position: relative;
+  padding: 16px;
+}
+
+.section-setClothes__block-icon {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-setClothes__icon-star {
+  display: flex;
+  justify-items: flex-end;
+}
+
+.section-setClothes__icon-heart {
+  padding: 8px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+.section-setClothes__icon-heart img {
+  width: 16px;
+  height: 16px;
+}
+
+.section-setClothes__img img {
+  width: 285px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-setClothes__info-product {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
 }
 
 .section-setClothes__image img {
