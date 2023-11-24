@@ -2582,7 +2582,7 @@ svg {
   position: absolute;
   width: 100%;
   height: 3px;
-  top: -3px;
+  top: -22px;
   background: none;
   pointer-events: none;
   -webkit-appearance: none;
@@ -2590,8 +2590,8 @@ svg {
 }
 
 .range-input input::-webkit-slider-thumb {
-  width: 24px;
-  height: 24px;
+  width: 15px;
+  height: 15px;
   background-color: #17696A;
   border: 2px solid #FFF;
   border-radius: 50%;
@@ -2600,8 +2600,8 @@ svg {
 }
 
 .range-input input::-moz-range-thumb {
-  width: 24px;
-  height: 24px;
+  width: 15px;
+  height: 15px;
   background-color: #FFF;
   border-radius: 50%;
   border: 2px solid #FFF;
@@ -2614,7 +2614,7 @@ svg {
 }
 
 .range-price__column {
-  width: 100%;
+  width: 110px;
   height: 36px;
   padding: 9px 12px;
   border: 1px solid #D7DADD;
@@ -2632,7 +2632,7 @@ svg {
   font-size: 12px;
   font-weight: 400;
 }
-.range-price__column:first-child::after {
+.range-price__column::after:first-child {
   content: "-";
   padding: 0px 12px;
   font-family: "Lato";
