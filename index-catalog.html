@@ -854,30 +854,20 @@
 												</div>
 											</div>
 											<div id="list6" class="block-sorting__input-range">
-												<div class="slider">
-													<div class="progress"></div>
-												  </div>
-	
-												<div class="range-input1">
-													<div class="number-input1 min-input" value="480"></div>
-													<input type="range" min="0" max="10000" value="480" class="min-range"/>
-												</div>
-												<div class="range-input2">
-													<div class="number-input2 max-input" value="800"></div>
-													<input type="range" min="0" max="10000" value="800" class="max-range"/>
-												</div>
-	
-												<div class="price-input">
-													<div class="field">
-														<input type="number" value="480" class="min-input" />
+												<div class="range">
+													<div class="range-slider">
+													  <span class="range-selected"></span>
 													</div>
-	
-													<div class="seperator">-</div>
-	
-													<div class="field">
-														<input type="number" value="800" class="max-input" />
+													<div class="range-input">
+													  <input type="range" class="min" min="0" max="1000" value="300" step="10">
+													  <input type="range" class="max" min="0" max="1000" value="700" step="10">
 													</div>
-	
+													<div class="range-price">      
+													  <label for="min">Min</label>
+													  <input type="number" name="min" value="300">      
+													  <label for="max">Max</label>
+													  <input type="number" name="max" value="700">      
+													</div>
 												</div>
 											</div>
 										</div>
