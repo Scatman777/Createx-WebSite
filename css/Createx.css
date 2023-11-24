@@ -2559,13 +2559,21 @@ svg {
   border-radius: 2px;
 }
 
+.range-circle {
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+  background-color: #17696A;
+  border-radius: 50%;
+}
+
 .range-selected {
   height: 100%;
   left: 30%;
   right: 30%;
   position: absolute;
   border-radius: 5px;
-  background-color: #1b53c0;
+  background-color: #17696A;
 }
 
 .range-input {
