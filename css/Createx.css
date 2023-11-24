@@ -2554,6 +2554,8 @@ svg {
 
 .block-sorting__input-range {
   display: none;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .range-slider {
@@ -2613,6 +2615,7 @@ svg {
 
 .range-price__column {
   width: 100%;
+  height: 36px;
   padding: 9px 12px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
@@ -2631,6 +2634,7 @@ svg {
 }
 .range-price__column:first-child::after {
   content: "-";
+  padding: 0px 12px;
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;

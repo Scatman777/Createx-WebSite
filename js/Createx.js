@@ -211,7 +211,7 @@ function buttonFunction5() {
 	document.getElementById("plus5").classList.toggle("minus-image");
 }
 function buttonFunction6() {
-    document.getElementById("list6").classList.toggle("show-block");
+    document.getElementById("list6").classList.toggle("show-flex");
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
