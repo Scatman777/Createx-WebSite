@@ -2584,8 +2584,8 @@ svg {
 }
 
 .range-input input::-webkit-slider-thumb {
-  width: 15px;
-  height: 15px;
+  width: 24px;
+  height: 24px;
   background-color: #17696A;
   border: 2px solid #FFF;
   border-radius: 50%;
@@ -2594,8 +2594,8 @@ svg {
 }
 
 .range-input input::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
+  width: 24px;
+  height: 24px;
   background-color: #FFF;
   border-radius: 50%;
   border: 2px solid #FFF;
