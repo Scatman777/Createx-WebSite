@@ -4337,6 +4337,7 @@ svg {
   background-color: #FFF;
   border-radius: 50%;
   padding: 12px;
+  cursor: pointer;
 }
 .section-product__swiper-arrowPrev img, .section-product__swiper-arrowNext img {
   width: 24px;
