@@ -1917,8 +1917,8 @@ svg {
 }
 
 .range-input input::-webkit-slider-thumb {
-	width: 15px;
-	height: 15px;
+	width: 18px;
+	height: 18px;
 	background-color: $green;
 	border: 2px solid $white;
 	border-radius: 50%;
@@ -1927,8 +1927,8 @@ svg {
 }
 
 .range-input input::-moz-range-thumb {
-	width: 15px;
-	height: 15px;
+	width: 18px;
+	height: 18px;
 	background-color: $white;
 	border-radius: 50%;
 	border: 2px solid $white;
@@ -1938,9 +1938,11 @@ svg {
 
 .range-price {
 	display: flex;
+	justify-content: space-between;
 }
 
 .range-price__column {
+	position: relative;
 	width: 110px;
 	height: 36px;
 	padding: 9px 12px;
@@ -1950,14 +1952,6 @@ svg {
 	input {
 		width: 100%;
 		height: 100%;
-		@include text-16px;
-		font-size: 12px;
-		font-weight: 400;
-	}
-
-	&::after:first-child {
-		content: '-';
-		padding: 0px 12px;
 		@include text-16px;
 		font-size: 12px;
 		font-weight: 400;
