@@ -19,7 +19,7 @@ for (let elm of elements) {
 }
 
 /////////////// INPUT-PRICE ///////////////
-let rangeMin = 1000;
+let rangeMin = 100;
 const range = document.querySelector(".range-selected");
 const rangeInput = document.querySelectorAll(".range-input input");
 const rangePrice = document.querySelectorAll(".range-price input");
