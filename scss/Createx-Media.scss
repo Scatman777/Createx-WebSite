@@ -559,7 +559,7 @@
 		}
 	}
 
-	//////////// FOOTER ////////////
+//////////// FOOTER ////////////
 	@media (max-width: 940px) {
 		.footer__block-up {
 			justify-content: space-around;
@@ -570,6 +570,23 @@
 	@media (max-width: 460px) {
 		.footer__column {
 			text-align: center;
+		}
+	}
+
+//////////// MEDIA__SECTION-CATALOG ////////////
+	@media (max-width: 1270px) {
+		.block-product__block-column {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+	}
+
+	@media (max-width: 900px) {
+		.section-catalog__block-filter {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
 		}
 	}
 }

@@ -1514,8 +1514,10 @@ svg {
 
 .section-catalog__block-filter {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	gap: 30px;
 }
 
 .block-filter {

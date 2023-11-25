@@ -2198,8 +2198,10 @@ svg {
 
 .section-catalog__block-filter {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 
 .block-filter__navigation {
@@ -10842,5 +10844,19 @@ body.touch .arrow {
 @media (max-width: 460px) {
   .footer__column {
     text-align: center;
+  }
+}
+@media (max-width: 1270px) {
+  .block-product__block-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 900px) {
+  .section-catalog__block-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }
