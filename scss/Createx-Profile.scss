@@ -56,8 +56,10 @@
 	
 	.bread-crumb__body {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: center;
+		gap: 25px;
 	}
 	
 	.bread-crumb__block {

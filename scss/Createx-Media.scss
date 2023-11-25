@@ -584,9 +584,24 @@
 
 	@media (max-width: 900px) {
 		.section-catalog__block-filter {
-			display: flex;
+			flex-direction: column;
+			align-items: normal;
+		}
+
+		.block-filter__navigation {
 			flex-wrap: wrap;
 			justify-content: space-around;
+			gap: 20px;
+		}
+	}
+
+	@media (max-width: 580px) {
+		.block-filter__navigation {
+			gap: 30px;
+		}
+
+		.block-filter__more-navigation {
+			justify-content: center;
 		}
 	}
 }
