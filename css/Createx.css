@@ -3274,6 +3274,10 @@ svg {
   padding: 30px 10px;
 }
 
+.filter-popap__content {
+  background-color: #FFF;
+}
+
 .filter-popap__close {
   position: absolute;
   top: 15px;
