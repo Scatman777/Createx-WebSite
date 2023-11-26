@@ -65,7 +65,7 @@ sectionButtons.addEventListener("click", function (e) {
 const blockSorting = document.querySelector('.function-blockSorting');
 blockSorting.addEventListener("click", function (e) {
 	let listFilter = e.target;
-	if (listFilter.closest('.function-borderItem')) {
+	if (listFilter.closest('.function-blockSortingPlus')) {
 		listFilter.closest('.function-borderItem').classList.toggle('show-block');
 	}
 });
