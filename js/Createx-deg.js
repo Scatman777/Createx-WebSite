@@ -60,3 +60,13 @@ sectionButtons.addEventListener("click", function (e) {
 		backgroundGreen.closest('.function-backgroundItem').classList.toggle('background-green');
 	}
 });
+
+///////////////// ALL-SECTION__BORDER-GREEN /////////////////
+const blockSorting = document.querySelector('.function-blockSorting');
+blockSorting.addEventListener("click", function (e) {
+	let listFilter = e.target;
+
+	if (listFilter.closest('.function-borderItem')) {
+		listFilter.closest('.function-borderItem').classList.toggle('show-block');
+	}
+});

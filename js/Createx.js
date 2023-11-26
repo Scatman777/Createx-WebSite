@@ -214,6 +214,11 @@ function buttonFunction6() {
 	document.getElementById("plus6").classList.toggle("minus-image");
 }
 
+// function buttonFunctionfilter1() {
+//     document.getElementById("listFilter1").classList.toggle("show-flex");
+// 	document.getElementById("plus1").classList.toggle("minus-image");
+// }
+
 ///////////////// SECTION-CONTACT /////////////////
 function OpenBlockContact1() {
 
