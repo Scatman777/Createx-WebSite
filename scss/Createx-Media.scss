@@ -283,7 +283,6 @@
     }
 
 //////////// MEDIA__SECTION-MOBILE ////////////
-
     @media (max-width: 1070px) {
         .section-mobile__block-mobile {
             gap: 4rem;
@@ -619,10 +618,10 @@
 	}
 
 //////////// MEDIA__BURGER ////////////
-
 	@media (max-width: 680px) {
 		.sub-menu-lang__list {
-			min-width: 130px;
+			min-width: 115px;
+			left: 8px;
 		}
 
 		.sub-menu-lang__list > li {

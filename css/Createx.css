@@ -10888,7 +10888,8 @@ body.touch .arrow {
 }
 @media (max-width: 680px) {
   .sub-menu-lang__list {
-    min-width: 130px;
+    min-width: 115px;
+    left: 8px;
   }
   .sub-menu-lang__list > li {
     justify-content: flex-start;
