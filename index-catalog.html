@@ -600,14 +600,14 @@
 							<div class="section-catalog__content">
 								<div id="BlockSortingHide" class="block-sorting__block">
 									<div class="block-sorting__column">
-										<div class="block-sorting__item function-blockSorting">
+										<div class="block-sorting__item">
 											<div class="block-sorting__column-title">
-												<div class="block-sorting__text">Clothes</div>
-												<div id="plus1" class="block-sorting__plus">
+												<div class="block-sorting__text function-blockSortingButton">Clothes</div>
+												<div id="plus1" class="block-sorting__plus" onclick="buttonFunction1()">
 													<img src="/img/Plus.svg" alt="cover">
 												</div>
 											</div>
-											<div id="list1" class="block-sorting__list function-blockSortingPlus">
+											<div id="list1" class="block-sorting__list">
 												<div class="block-sorting__input-search">
 													<input type="text" placeholder="Search the clothes type" id="myInput" tabindex="1">
 													<img src="/img/search.svg" alt="cover">
@@ -1440,7 +1440,7 @@
 						<div class="block-sorting__item">
 							<div class="block-sorting__column-title">
 								<div class="block-sorting__text">Clothes</div>
-								<div id="plus1" class="block-sorting__plus" onclick="buttonFunctionfilter1()">
+								<div id="plusFilter1" class="block-sorting__plus" onclick="buttonFunctionFilter1()">
 									<img src="/img/Plus.svg" alt="cover">
 								</div>
 							</div>
@@ -1482,11 +1482,11 @@
 						<div class="block-sorting__item">
 							<div class="block-sorting__column-title">
 								<div class="block-sorting__text">Size</div>
-								<div id="plus2" class="block-sorting__plus" onclick="buttonFunction2()">
+								<div id="plusFilter2" class="block-sorting__plus" onclick="buttonFunctionFilter2()">
 									<img src="/img/Plus.svg" alt="cover">
 								</div>
 							</div>
-							<div id="list2" class="block-sorting__list">
+							<div id="listFilter2" class="block-sorting__list">
 								<div class="block-sorting__input-column-sorting input-column-sorting">
 									<div class="input-column-sorting__input-checkbox">
 										<input class="custom-checkbox" type="checkbox" name="XS" tabindex="8">
@@ -1520,11 +1520,11 @@
 						<div class="block-sorting__item">
 							<div class="block-sorting__column-title">
 								<div class="block-sorting__text">Color</div>
-								<div id="plus3" class="block-sorting__plus" onclick="buttonFunction3()">
+								<div id="plusFilter3" class="block-sorting__plus" onclick="buttonFunctionFilter3()">
 									<img src="/img/Plus.svg" alt="cover">
 								</div>
 							</div>
-							<div id="list3" class="block-sorting__block-color">
+							<div id="listFilter3" class="block-sorting__block-color">
 								<div class="block-sorting__color" onclick="buttonColor1()">
 									<button id="border1">
 										<a></a>
@@ -1604,11 +1604,11 @@
 						<div class="block-sorting__item">
 							<div class="block-sorting__column-title">
 								<div class="block-sorting__text">Material</div>
-								<div id="plus4" class="block-sorting__plus" onclick="buttonFunction4()">
+								<div id="plusFilter4" class="block-sorting__plus" onclick="buttonFunctionFilter4()">
 									<img src="/img/Plus.svg" alt="cover">
 								</div>
 							</div>
-							<div id="list4" class="block-sorting__list">
+							<div id="listFilter4" class="block-sorting__list">
 								<div class="block-sorting__input-search">
 									<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
 									<img src="/img/search.svg" alt="cover">
@@ -1646,11 +1646,11 @@
 						<div class="block-sorting__item">
 							<div class="block-sorting__column-title">
 								<div class="block-sorting__text">Brand</div>
-								<div id="plus5" class="block-sorting__plus" onclick="buttonFunction5()">
+								<div id="plusFilter5" class="block-sorting__plus" onclick="buttonFunctionFilter5()">
 									<img src="/img/Plus.svg" alt="cover">
 								</div>
 							</div>
-							<div id="list5" class="block-sorting__list">
+							<div id="listFilter5" class="block-sorting__list">
 								<div class="block-sorting__input-search">
 									<input type="text" placeholder="Search the clothes type" name="search" tabindex="1">
 									<img src="/img/search.svg" alt="cover">
@@ -1688,11 +1688,11 @@
 						<div class="block-sorting__item">
 							<div class="block-sorting__column-title">
 								<div class="block-sorting__text">Price</div>
-								<div id="plus6" class="block-sorting__plus" onclick="buttonFunction6()">
+								<div id="plusFilter6" class="block-sorting__plus" onclick="buttonFunctionFilter6()">
 									<img src="/img/Plus.svg" alt="cover">
 								</div>
 							</div>
-							<div id="list6" class="block-sorting__input-range">
+							<div id="listFilter6" class="block-sorting__input-range">
 								<div class="slider">
 									<div class="progress"></div>
 								  </div>

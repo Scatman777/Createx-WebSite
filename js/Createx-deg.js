@@ -1,9 +1,15 @@
-///////////////// SECTION__CATALOG /////////////////
-const blockSorting = document.querySelector('.function-blockSorting');
-blockSorting.addEventListener("click", function (e) {
-	let listFilter = e.target;
-	if (listFilter.closest('.function-blockSortingPlus')) {
-		listFilter.closest('.function-blockSortingPlus').classList.toggle('border-green');
+///////////////// ALL-SECTION__BORDER-GREEN /////////////////
+const sectionButtons = document.querySelector('.function-borderColumn');
+sectionButtons.addEventListener("click", function (e) {
+	let borderGreen = e.target;
+	if (borderGreen.closest('.function-borderItem')) {
+		borderGreen.closest('.function-borderItem').classList.toggle('border-green');
+	}
+});
+sectionButtons.addEventListener("click", function (e) {
+	let backgroundGreen = e.target;
+	if (backgroundGreen.closest('.function-backgroundItem')) {
+		backgroundGreen.closest('.function-backgroundItem').classList.toggle('background-green');
 	}
 });
 
@@ -52,20 +58,5 @@ document.getElementById("open-password4").addEventListener("change", function() 
 		document.getElementById("popap-input4").setAttribute("type", "text");
 	} else {
 		document.getElementById("popap-input4").setAttribute("type", "password");
-	}
-});
-
-///////////////// ALL-SECTION__BORDER-GREEN /////////////////
-const sectionButtons = document.querySelector('.function-borderColumn');
-sectionButtons.addEventListener("click", function (e) {
-	let borderGreen = e.target;
-	if (borderGreen.closest('.function-borderItem')) {
-		borderGreen.closest('.function-borderItem').classList.toggle('border-green');
-	}
-});
-sectionButtons.addEventListener("click", function (e) {
-	let backgroundGreen = e.target;
-	if (backgroundGreen.closest('.function-backgroundItem')) {
-		backgroundGreen.closest('.function-backgroundItem').classList.toggle('background-green');
 	}
 });
