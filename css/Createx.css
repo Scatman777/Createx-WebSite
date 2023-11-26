@@ -3253,6 +3253,11 @@ svg {
   overflow-x: hidden;
 }
 
+.filter-popap:target {
+  opacity: 1;
+  visibility: visible;
+}
+
 .filter-popap__area {
   position: absolute;
   width: 100%;
@@ -3271,10 +3276,7 @@ svg {
 
 .filter-popap__block {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
+  flex-direction: column;
 }
 
 .sizeChart-popap {

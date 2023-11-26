@@ -1303,6 +1303,11 @@
 		overflow-x: hidden;
 	}
 
+	.filter-popap:target {
+        opacity: 1;
+        visibility: visible;
+    }
+
 	.filter-popap__area {
 		position: absolute;
         width: 100%;
