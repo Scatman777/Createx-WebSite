@@ -224,7 +224,7 @@ function buttonFunctionFilter2() {
 	document.getElementById("plusFilter2").classList.toggle("minus-image");
 }
 function buttonFunctionFilter3() {
-    document.getElementById("listFilter3").classList.toggle("show-flex");
+    document.getElementById("listFilter3").classList.toggle("show-grid");
 	document.getElementById("plusFilter3").classList.toggle("minus-image");
 }
 function buttonFunctionFilter4() {
