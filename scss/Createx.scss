@@ -1537,7 +1537,7 @@ svg {
 	width: 255px;
 	height: 44px;
 
-	a:nth-child(2) {
+	&:nth-child(2) {
 		display: none;
 	}
 }
@@ -2042,6 +2042,7 @@ svg {
 @include sub-menu-woomen;
 @include login-popap;
 @include register-popap;
+@include filter-popap;
 @include sizeChart-popap;
 @include Popap-Review;
 @include Popap-Purchases;

@@ -71,7 +71,6 @@ function burgerLangList() {
 ///////////////// SECTION-CATALOG /////////////////
 function HideFilters() {
 	const ButtonFilter = document.getElementById("BlockSortingHide");
-
 	if (ButtonFilter.style.display === "none") {
 		ButtonFilter.style.display = "flex";
 	} else {
@@ -82,17 +81,17 @@ function HideFilters() {
 	document.getElementById("ButtonStyleImg").classList.toggle("button-icon");
 
 	const ButtonStyle1 = document.getElementById("ButtonStyle1");
-	if (ButtonStyle1.style.display === "none") {
-		ButtonStyle1.style.display = "block";
+	if (ButtonStyle1.innerHTML === "Hide filters") {
+		ButtonStyle1.innerHTML = "Show filters";
 	} else {
-		ButtonStyle1.style.display = "none";
+		ButtonStyle1.innerHTML = "Hide filters";
 	}
 
 	const ButtonStyle2 = document.getElementById("ButtonStyle2");
-	if (ButtonStyle2.style.display === "block") {
-		ButtonStyle2.style.display = "none";
+	if (ButtonStyle2.innerHTML === "Hide filters") {
+		ButtonStyle2.innerHTML = "Show filters";
 	} else {
-		ButtonStyle2.style.display = "block";
+		ButtonStyle2.innerHTML = "Hide filters";
 	}
 
 	const ButtonStyleDown = document.getElementById("ButtonHideDown");

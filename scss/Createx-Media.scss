@@ -594,6 +594,20 @@
 		}
 	}
 
+	@media (max-width: 930px) {
+
+		.block-filter__button:nth-child(1) {
+			display: none;
+		}
+		.block-filter__button:nth-child(2) {
+			display: block;
+		}
+
+		.block-sorting__block {
+			display: none;
+		}
+	}
+
 	@media (max-width: 900px) {
 		.section-catalog__block-filter {
 			flex-direction: column;

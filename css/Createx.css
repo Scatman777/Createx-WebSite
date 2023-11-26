@@ -2238,7 +2238,7 @@ svg {
 .block-filter__button:hover {
   background-color: #18888a;
 }
-.block-filter__button a:nth-child(2) {
+.block-filter__button:nth-child(2) {
   display: none;
 }
 
@@ -3237,6 +3237,44 @@ svg {
   flex-direction: column;
   gap: 16px;
   border-top: 1px solid #E5E8ED;
+}
+
+.filter-popap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.filter-popap__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.filter-popap__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  padding: 30px 10px;
+}
+
+.filter-popap__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
 }
 
 .sizeChart-popap {
@@ -10865,6 +10903,17 @@ body.touch .arrow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+}
+@media (max-width: 930px) {
+  .block-filter__button:nth-child(1) {
+    display: none;
+  }
+  .block-filter__button:nth-child(2) {
+    display: block;
+  }
+  .block-sorting__block {
+    display: none;
   }
 }
 @media (max-width: 900px) {

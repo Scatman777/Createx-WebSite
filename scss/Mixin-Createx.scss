@@ -1318,6 +1318,11 @@
 		min-height: 100%;
         padding: 30px 10px;
 	}
+
+	.filter-popap__block {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 @mixin sizeChart-popap {
