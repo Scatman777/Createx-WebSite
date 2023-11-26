@@ -189,30 +189,30 @@ function buttonProfile__plus() {
 }
 
 ///////////////// SECTION-CATALOG__SHOW-MENU /////////////////
-function buttonFunction1() {
-    document.getElementById("list1").classList.toggle("show-flex");
-	document.getElementById("plus1").classList.toggle("minus-image");
-}
-function buttonFunction2() {
-    document.getElementById("list2").classList.toggle("show-flex");
-	document.getElementById("plus2").classList.toggle("minus-image");
-}
-function buttonFunction3() {
-    document.getElementById("list3").classList.toggle("show-grid");
-	document.getElementById("plus3").classList.toggle("minus-image");
-}
-function buttonFunction4() {
-    document.getElementById("list4").classList.toggle("show-flex");
-	document.getElementById("plus4").classList.toggle("minus-image");
-}
-function buttonFunction5() {
-    document.getElementById("list5").classList.toggle("show-flex");
-	document.getElementById("plus5").classList.toggle("minus-image");
-}
-function buttonFunction6() {
-    document.getElementById("list6").classList.toggle("show-flex");
-	document.getElementById("plus6").classList.toggle("minus-image");
-}
+// function buttonFunction1() {
+//     document.getElementById("list1").classList.toggle("show-flex");
+// 	document.getElementById("plus1").classList.toggle("minus-image");
+// }
+// function buttonFunction2() {
+//     document.getElementById("list2").classList.toggle("show-flex");
+// 	document.getElementById("plus2").classList.toggle("minus-image");
+// }
+// function buttonFunction3() {
+//     document.getElementById("list3").classList.toggle("show-grid");
+// 	document.getElementById("plus3").classList.toggle("minus-image");
+// }
+// function buttonFunction4() {
+//     document.getElementById("list4").classList.toggle("show-flex");
+// 	document.getElementById("plus4").classList.toggle("minus-image");
+// }
+// function buttonFunction5() {
+//     document.getElementById("list5").classList.toggle("show-flex");
+// 	document.getElementById("plus5").classList.toggle("minus-image");
+// }
+// function buttonFunction6() {
+//     document.getElementById("list6").classList.toggle("show-flex");
+// 	document.getElementById("plus6").classList.toggle("minus-image");
+// }
 
 // function buttonFunctionfilter1() {
 //     document.getElementById("listFilter1").classList.toggle("show-flex");
