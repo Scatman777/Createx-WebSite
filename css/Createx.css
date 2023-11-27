@@ -10257,8 +10257,8 @@ svg {
   position: absolute;
   border-radius: 4px;
   left: 0;
-  top: 25px;
-  transform: translateY(-20%);
+  top: 35px;
+  transform: translateY(20%);
   transition: all 0.5s;
   opacity: 0;
   visibility: hidden;
@@ -10274,8 +10274,9 @@ svg {
 }
 
 .sub-menu-lang__link {
-  color: #4b4b4b;
   display: inline-block;
+  font-family: sans-serif;
+  color: #4b4b4b;
 }
 
 .arrow {
@@ -10953,8 +10954,6 @@ svg {
   }
   .sub-menu-lang__list {
     min-width: 115px;
-    transform: translateY(20%);
-    bottom: 42px;
     left: 8px;
   }
   .sub-menu-lang__list > li {
@@ -10963,6 +10962,35 @@ svg {
 }
 @media (max-width: 440px) {
   .burger {
-    height: 100%;
+    height: auto;
+  }
+  .burger__logo img {
+    width: 24px;
+    height: 24px;
+  }
+  .burger__login {
+    font-size: 18px;
+  }
+  .burger__register {
+    font-size: 18px;
+  }
+  .burger__list .burger__item a {
+    font-size: 16px;
+  }
+  .burger__list .burger__item:nth-child(1) {
+    display: block;
+  }
+  .burger__list .burger__item:nth-child(2) {
+    display: block;
+  }
+  .burger__list .burger__item:nth-child(3) {
+    display: block;
+  }
+  .burger__list .burger__item:nth-child(4) {
+    display: block;
+  }
+  .sub-menu-lang__list {
+    min-width: 132px;
+    top: -123px;
   }
 }

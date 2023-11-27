@@ -660,8 +660,6 @@
 
 		.sub-menu-lang__list {
 			min-width: 115px;
-			transform: translateY(20%);
-			bottom: 42px;
 			left: 8px;
 		}
 
@@ -672,7 +670,46 @@
 
 	@media (max-width: 440px) {
 		.burger {
-			height: 100%;
+			height: auto;
+		}
+
+		.burger__logo img {
+			width: 24px;
+			height: 24px;
+		}
+
+		.burger__login {
+			font-size: 18px;
+		}
+
+		.burger__register {
+			font-size: 18px;
+		}
+
+		.burger__list {
+			.burger__item {
+				a {
+					font-size: 16px;
+				}
+
+				&:nth-child(1) {
+					display: block;
+				}
+				&:nth-child(2) {
+					display: block;
+				}
+				&:nth-child(3) {
+					display: block;
+				}
+				&:nth-child(4) {
+					display: block;
+				}
+			}
+		}
+
+		.sub-menu-lang__list {
+			min-width: 132px;
+			top: -123px;
 		}
 	}
 }

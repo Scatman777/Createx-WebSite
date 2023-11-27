@@ -2093,8 +2093,8 @@
         position: absolute;
 		border-radius: 4px;
         left: 0;
-        top: 25px;
-		transform: translateY(-20%);
+        top: 35px;
+		transform: translateY(20%);
 		transition: all 0.5s;
 		opacity: 0;
 		visibility: hidden;
@@ -2110,8 +2110,9 @@
     }
 
     .sub-menu-lang__link {
+		display: inline-block;
+		font-family: sans-serif;
         color: #4b4b4b;
-        display: inline-block;
     }
 
     .arrow {
