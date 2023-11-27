@@ -10464,6 +10464,9 @@ svg {
   }
 }
 @media (max-width: 440px) {
+  .header__body-up {
+    height: 50px;
+  }
   .body-up__list {
     display: none;
   }
@@ -10992,5 +10995,8 @@ svg {
   .sub-menu-lang__list {
     min-width: 132px;
     top: -123px;
+  }
+  .sub-menu-lang__link {
+    font-size: 16px;
   }
 }
