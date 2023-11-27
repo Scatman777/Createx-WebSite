@@ -642,21 +642,21 @@
 	}
 
 //////////// MEDIA__BURGER ////////////
-    @media screen and (max-width: 930px) {
-        #menuToggle {
-            display: block;
-        }
-    }
+	@media (max-width: 930px) {
+		#menuToggle {
+			display: block;
+		}
+	}
 
-    @media (max-width: 680px) {
-        .burger {
-            height: 350px;
-            border-radius: 0px 0px 0px 35px;
-        }
-        
-        .burger__block-down {
-            display: flex;
-        }
+	@media (max-width: 680px) {
+		.burger {
+			height: 350px;
+			border-radius: 0px 0px 0px 35px;
+		}
+		
+		.burger__block-down {
+			display: flex;
+		}
 
 		.sub-menu-lang__list {
 			min-width: 115px;

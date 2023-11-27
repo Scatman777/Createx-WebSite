@@ -599,48 +599,40 @@
 //////////////////// BURGER ////////////////////
 @mixin burger {
     #menuToggle {
-    display: none;
-    position: absolute;
-    top: 18px;
-    right: 15px;
-    
-    z-index: 1;
-    
-    -webkit-user-select: none;
-    user-select: none;
+		display: none;
+		position: absolute;
+		top: 18px;
+		right: 15px;
+		z-index: 1;
+		-webkit-user-select: none;
+		user-select: none;
     }
 
     #menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    
-    cursor: pointer;
-    
-    opacity: 0;
-    z-index: 2;
-    
-    -webkit-touch-callout: none;
+		display: block;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+		cursor: pointer;
+		opacity: 0;
+		z-index: 2;
+		-webkit-touch-callout: none;
     }
 
     #menuToggle span {
-    display: block;
-    width: 25px;
-    height: 2px;
-    margin-bottom: 5px;
-    position: relative;
-    background: gainsboro;
-    border-radius: 3px;
-    
-    z-index: 1;
-    
-    transform-origin: 4px 0px;
-    
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-    opacity 0.55s ease;
+		display: block;
+		width: 25px;
+		height: 2px;
+		margin-bottom: 5px;
+		position: relative;
+		background: gainsboro;
+		border-radius: 3px;
+		z-index: 1;
+		transform-origin: 4px 0px;
+		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+		opacity 0.55s ease;
     }
 
     #menuToggle span:first-child {
@@ -809,15 +801,6 @@
         color: $white;
     }
 
-    .sub-burger-lang__list {
-        display: none;
-        min-width: 130px;
-        position: absolute;
-        left: 0;
-        top: 36px;
-        padding: 15px;
-    }
-
     .burger-lang__list>li{
         display: flex;
         gap: 12px;
@@ -852,32 +835,32 @@
         border-bottom: 10px solid transparent;
     }
 
-    body.touch .burger-lang__arrow {
-        top: 11px;
-    }
+    // body.touch .burger-lang__arrow {
+    //     top: 11px;
+    // }
 
-    body.mouse .burger-lang__list>li:hover .sub-burger-lang__list {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        background: $gray-800;
-        border-radius: 4px;
-        box-shadow: 8px 4px 5px 5px #06060691;
-    }
+    // body.mouse .burger-lang__list>li:hover .sub-burger-lang__list {
+    //     display: flex;
+    //     flex-direction: column;
+    //     gap: 15px;
+    //     background: $gray-800;
+    //     border-radius: 4px;
+    //     box-shadow: 8px 4px 5px 5px #06060691;
+    // }
 
-    body.touch .sub-burger-lang__list.open{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-        background: $gray-800;
-        border-radius: 4px;
-        box-shadow: 8px 4px 5px 5px #06060691;
-    }
+    // body.touch .sub-burger-lang__list.open{
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: flex-start;
+    //     gap: 15px;
+    //     background: $gray-800;
+    //     border-radius: 4px;
+    //     box-shadow: 8px 4px 5px 5px #06060691;
+    // }
 
-    body.touch .arrow {
-        display: block;
-    }
+    // body.touch .arrow {
+    //     display: block;
+    // }
 }
 
 @mixin sub-menu-woomen {
@@ -2106,6 +2089,7 @@
 
     .sub-menu-lang__list {
         min-width: 100px;
+		height: 111px;
         position: absolute;
 		border-radius: 4px;
         left: 0;

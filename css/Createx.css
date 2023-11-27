@@ -10190,15 +10190,6 @@ svg {
   color: #FFF;
 }
 
-.sub-burger-lang__list {
-  display: none;
-  min-width: 130px;
-  position: absolute;
-  left: 0;
-  top: 36px;
-  padding: 15px;
-}
-
 .burger-lang__list > li {
   display: flex;
   gap: 12px;
@@ -10238,33 +10229,6 @@ svg {
   border-bottom: 10px solid transparent;
 }
 
-body.touch .burger-lang__arrow {
-  top: 11px;
-}
-
-body.mouse .burger-lang__list > li:hover .sub-burger-lang__list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  background: #424551;
-  border-radius: 4px;
-  box-shadow: 8px 4px 5px 5px rgba(6, 6, 6, 0.568627451);
-}
-
-body.touch .sub-burger-lang__list.open {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15px;
-  background: #424551;
-  border-radius: 4px;
-  box-shadow: 8px 4px 5px 5px rgba(6, 6, 6, 0.568627451);
-}
-
-body.touch .arrow {
-  display: block;
-}
-
 .body-up__menu-lang {
   width: 100px;
 }
@@ -10289,6 +10253,7 @@ body.touch .arrow {
 
 .sub-menu-lang__list {
   min-width: 100px;
+  height: 111px;
   position: absolute;
   border-radius: 4px;
   left: 0;
@@ -10973,7 +10938,7 @@ body.touch .arrow {
     display: none;
   }
 }
-@media screen and (max-width: 930px) {
+@media (max-width: 930px) {
   #menuToggle {
     display: block;
   }
