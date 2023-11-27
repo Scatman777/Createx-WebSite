@@ -736,11 +736,24 @@
     .burger__item {
         border-bottom: 1px solid #18888a;
         padding: 0px 20px 10px 0px;
-    }
 
-    .burger__item a {
-        @include h4;
-        color: #ffffffc2;
+		a {
+			@include h4;
+			color: #ffffffc2;
+		}
+
+		&:nth-child(1) {
+			display: none;
+		}
+		&:nth-child(2) {
+			display: none;
+		}
+		&:nth-child(3) {
+			display: none;
+		}
+		&:nth-child(4) {
+			display: none;
+		}
     }
 
 /* BURGER__BLOCK-DOWN */
@@ -862,24 +875,6 @@
 
     body.touch .arrow {
         display: block;
-    }
-
-/* BURGER-MEDIA */
-    @media screen and (max-width: 930px) {
-        #menuToggle {
-            display: block;
-        }
-    }
-
-    @media (max-width: 680px) {
-        .burger {
-            height: 350px;
-            border-radius: 0px 0px 0px 35px;
-        }
-        
-        .burger__block-down {
-            display: flex;
-        }
     }
 }
 

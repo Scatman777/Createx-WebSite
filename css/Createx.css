@@ -10254,21 +10254,6 @@ body.touch .arrow {
   display: block;
 }
 
-/* BURGER-MEDIA */
-@media screen and (max-width: 930px) {
-  #menuToggle {
-    display: block;
-  }
-}
-@media (max-width: 680px) {
-  .burger {
-    height: 350px;
-    border-radius: 0px 0px 0px 35px;
-  }
-  .burger__block-down {
-    display: flex;
-  }
-}
 .body-up__menu-lang {
   width: 100px;
 }
@@ -10498,6 +10483,11 @@ body.touch .arrow {
     font-size: 16px;
   }
   .body-up__menu-lang {
+    display: none;
+  }
+}
+@media (max-width: 440px) {
+  .body-up__list {
     display: none;
   }
 }
@@ -10972,7 +10962,19 @@ body.touch .arrow {
     display: none;
   }
 }
+@media screen and (max-width: 930px) {
+  #menuToggle {
+    display: block;
+  }
+}
 @media (max-width: 680px) {
+  .burger {
+    height: 350px;
+    border-radius: 0px 0px 0px 35px;
+  }
+  .burger__block-down {
+    display: flex;
+  }
   .sub-menu-lang__list {
     min-width: 115px;
     left: 8px;
