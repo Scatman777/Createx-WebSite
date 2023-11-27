@@ -660,11 +660,19 @@
 
 		.sub-menu-lang__list {
 			min-width: 115px;
+			transform: translateY(20%);
+			bottom: 42px;
 			left: 8px;
 		}
 
 		.sub-menu-lang__list > li {
 			justify-content: flex-start;
+		}
+	}
+
+	@media (max-width: 440px) {
+		.burger {
+			height: 100%;
 		}
 	}
 }

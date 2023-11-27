@@ -10108,12 +10108,23 @@ svg {
   flex-direction: column;
   gap: 1rem;
 }
+.burger__list .burger__item:nth-child(1) {
+  display: none;
+}
+.burger__list .burger__item:nth-child(2) {
+  display: none;
+}
+.burger__list .burger__item:nth-child(3) {
+  display: none;
+}
+.burger__list .burger__item:nth-child(4) {
+  display: none;
+}
 
 .burger__item {
   border-bottom: 1px solid #18888a;
   padding: 0px 20px 10px 0px;
 }
-
 .burger__item a {
   font-family: "Lato";
   font-size: 16px;
@@ -10977,9 +10988,16 @@ body.touch .arrow {
   }
   .sub-menu-lang__list {
     min-width: 115px;
+    transform: translateY(20%);
+    bottom: 42px;
     left: 8px;
   }
   .sub-menu-lang__list > li {
     justify-content: flex-start;
+  }
+}
+@media (max-width: 440px) {
+  .burger {
+    height: 100%;
   }
 }
