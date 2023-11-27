@@ -3271,7 +3271,7 @@ svg {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  padding: 30px 10px;
+  padding: 60px 10px;
 }
 
 .filter-popap__content {
@@ -10967,6 +10967,9 @@ body.touch .arrow {
   }
   .block-filter__more-navigation {
     justify-content: center;
+  }
+  .block-filter__filter-column {
+    display: none;
   }
 }
 @media (max-width: 680px) {
