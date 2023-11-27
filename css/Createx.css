@@ -10491,6 +10491,10 @@ svg {
   .header-middle__body-middle {
     flex-direction: column;
     gap: 2rem;
+    width: 140px;
+  }
+  .body-middle__logo {
+    display: none;
   }
   .body-middle__icon-menu {
     display: none;
