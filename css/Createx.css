@@ -10491,7 +10491,7 @@ svg {
   .header-middle__body-middle {
     flex-direction: column;
     gap: 2rem;
-    width: 140px;
+    height: 140px;
   }
   .body-middle__logo {
     display: none;
@@ -10551,6 +10551,20 @@ svg {
   }
   .body-cloth__column {
     transform: translate(0px, 0px);
+  }
+}
+@media (max-width: 768px) {
+  .section-new-cloth__body-category {
+    margin-bottom: 6.25rem;
+  }
+  .body-category__column-img img {
+    width: 250px;
+  }
+  .body-cloth__title {
+    font-size: 32px;
+  }
+  .body-cloth__text {
+    font-size: 16px;
   }
 }
 @media (max-width: 500px) {
@@ -10891,7 +10905,7 @@ svg {
     font-size: 4vw;
   }
   .section-subscribe__checkbox {
-    width: 100%;
+    width: auto;
     height: 50px;
   }
 }
