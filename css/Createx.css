@@ -10579,9 +10579,6 @@ svg {
   .section-new-cloth__body-category {
     margin-bottom: 6.25rem;
   }
-  .body-cloth__column {
-    max-width: 200px;
-  }
   .body-category__column-img img {
     width: 250px;
   }
@@ -10599,6 +10596,13 @@ svg {
     right: 15px;
     top: 10px;
     transform: translate(0px);
+  }
+  .body-category__title {
+    font-size: 32px;
+  }
+  .body-category__img img {
+    width: 130px;
+    height: 100%;
   }
 }
 @media (max-width: 470px) {
@@ -10618,13 +10622,6 @@ svg {
     left: 0;
     padding: 0px 5px;
     transform: translate(0px);
-  }
-  .body-category__title {
-    font-size: 32px;
-  }
-  .body-category__img img {
-    width: 130px;
-    height: 100%;
   }
 }
 @media (max-width: 1253px) {
