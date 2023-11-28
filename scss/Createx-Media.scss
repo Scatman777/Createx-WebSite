@@ -161,6 +161,10 @@
 			margin-bottom: 6.25rem;
 		}
 
+		.body-cloth__column {
+			max-width: 200px;
+		}
+
 		.body-category__column-img img {
 			width: 250px;
 		}
@@ -171,6 +175,17 @@
 
 		.body-cloth__text {
 			font-size: 16px;
+		}
+
+		.body-cloth__img img {
+			width: 200px;
+		}
+
+		.body-cloth__block-icon {
+			gap: 11.5rem;
+			right: 15px;
+			top: 10px;
+			transform: translate(0px);
 		}
 	}
 
