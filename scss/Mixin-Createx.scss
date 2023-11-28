@@ -116,6 +116,8 @@
 }
 
 @mixin main__button {
+	display: flex;
+    align-items: center;
     transition: all 0.5s;
     &:nth-child(1) {
         padding: 0px 40px;
