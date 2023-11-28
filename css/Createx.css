@@ -10463,7 +10463,7 @@ svg {
     display: none;
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 470px) {
   .header__body-up {
     height: 50px;
   }
@@ -10541,7 +10541,7 @@ svg {
     visibility: hidden;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .body-main__button-column {
     flex-direction: column;
   }
@@ -10590,7 +10590,7 @@ svg {
     height: 100%;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .body-cloth__column {
     max-width: 100%;
   }
@@ -10613,7 +10613,7 @@ svg {
     text-align: center;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .section-trend__block {
     flex-direction: column;
     gap: 2rem;
@@ -10650,7 +10650,7 @@ svg {
     opacity: 1;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .section-discount__block {
     flex-direction: column;
     gap: 2rem;
@@ -10736,7 +10736,7 @@ svg {
        object-fit: contain;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .section-mobile__title {
     font-size: 5vw;
   }
@@ -10782,7 +10782,7 @@ svg {
     max-width: 100%;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 470px) {
   .block-blog__column-up {
     justify-content: center;
     gap: 3rem;
@@ -10836,7 +10836,7 @@ svg {
     padding-right: 0px;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .block-messenger__text {
     font-size: 4vw;
   }
@@ -10854,7 +10854,7 @@ svg {
     padding-right: 0px;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .block-blog__title-up {
     font-size: 10vw;
   }
@@ -10914,7 +10914,7 @@ svg {
     justify-content: center;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .section-subscribe__title {
     font-size: 9vw;
   }
@@ -10932,7 +10932,7 @@ svg {
     gap: 50px;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 470px) {
   .footer__column {
     text-align: center;
   }
@@ -10998,7 +10998,7 @@ svg {
     justify-content: flex-start;
   }
 }
-@media (max-width: 440px) {
+@media (max-width: 470px) {
   .burger {
     height: auto;
   }
