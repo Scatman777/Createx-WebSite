@@ -10559,6 +10559,9 @@ svg {
   .body-main__button-column {
     flex-direction: column;
   }
+  .body-main__button {
+    justify-content: center;
+  }
   .sliders .slick-arrow {
     top: 65.5%;
   }
@@ -10615,6 +10618,13 @@ svg {
     left: 0;
     padding: 0px 5px;
     transform: translate(0px);
+  }
+  .body-category__title {
+    font-size: 32px;
+  }
+  .body-category__img img {
+    width: 130px;
+    height: 100%;
   }
 }
 @media (max-width: 1253px) {
