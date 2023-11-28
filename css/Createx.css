@@ -588,6 +588,10 @@ body {
   width: 100%;
 }
 
+.body-cloth__img-column {
+  position: relative;
+}
+
 .body-cloth__img {
   padding-bottom: 16px;
 }
@@ -597,12 +601,13 @@ body {
 }
 
 .body-cloth__block-icon {
-  position: absolute;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-end;
-  gap: 17.5rem;
-  transform: translate(189px, 12px);
+  position: absolute;
+  height: 100%;
+  padding: 16px 0px;
 }
 
 .body-cloth__icon-star img {
