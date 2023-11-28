@@ -651,9 +651,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .section-trend__title {
     @include h2;
 }
+
 .section-trend__cheveron-column {
     display: flex;
     align-items: center;
@@ -682,24 +684,33 @@ svg {
     margin: 3.75rem 0px 5rem 0px;
 }
 
-.section-trend__item {
-    max-width: 390px;
+.section-trend__column {
+	max-width: 390px;
     width: 100%;
     height: 100%;
 }
 
-.section-trend__img-column {
+.section-trend__item-img {
     position: relative;
+}
+
+.section-trend__item-info {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 0px 16px;
 }
 
 .section-trend__icon-column {
     display: flex;
     flex-direction: column;
-    gap: 350px;
-    align-items: flex-end;
+	justify-content: space-between;
+	align-items: flex-end;
     position: absolute;
-    right: 25px;
-    top: 25px;
+	top: 0;
+    right: 16px;
+	height: 100%;
+	padding: 16px 0px;
 }
 
 .section-trend__icon-star, .section-trend__icon-heart {
@@ -726,7 +737,6 @@ svg {
 
 .section-trend__product-name {
     @include text-18px;
-    margin: 0px 0px 0.5rem 0px;
 }
 
 .section-trend__price {

@@ -1013,24 +1013,33 @@ svg {
   margin: 3.75rem 0px 5rem 0px;
 }
 
-.section-trend__item {
+.section-trend__column {
   max-width: 390px;
   width: 100%;
   height: 100%;
 }
 
-.section-trend__img-column {
+.section-trend__item-img {
   position: relative;
+}
+
+.section-trend__item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 16px;
 }
 
 .section-trend__icon-column {
   display: flex;
   flex-direction: column;
-  gap: 350px;
+  justify-content: space-between;
   align-items: flex-end;
   position: absolute;
-  right: 25px;
-  top: 25px;
+  top: 0;
+  right: 16px;
+  height: 100%;
+  padding: 16px 0px;
 }
 
 .section-trend__icon-star img, .section-trend__icon-heart img {
@@ -1067,7 +1076,6 @@ svg {
   line-height: 150%;
   color: #424551;
   opacity: 0.9;
-  margin: 0px 0px 0.5rem 0px;
 }
 
 .section-trend__price {
