@@ -58,6 +58,12 @@
         }
     }
 
+	@media (max-width: 1070px) {
+		.body-middle__input {
+			width: 320px;
+		}
+	}
+
     @media (max-width: 1000px) {
         .body-middle__block-menu {
             gap: 1.75rem;
