@@ -807,7 +807,7 @@ svg {
     margin: 3.75rem 0px 0px 0px;
 }
 
-.section-discount__item {
+.section-discount__column {
 	position: relative;
 	max-width: 390px;
     width: 100%;
@@ -830,8 +830,10 @@ svg {
     }
 }
 
-.section-discount__info-column {
-	padding: 0px 16px 16px 16px;
+.section-discount__item-img {
+}
+
+.section-discount__item-info {
 }
 
 .section-discount__arrow-column {
