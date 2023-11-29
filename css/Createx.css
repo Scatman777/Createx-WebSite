@@ -1277,12 +1277,14 @@ svg {
 .section-discount__arrow-column {
   display: flex;
   justify-content: space-between;
-  gap: 310px;
   position: absolute;
-  transform: translateY(-245px);
+  width: 100%;
   opacity: 0;
 }
 
+.section-discount__arrow {
+  background: none;
+}
 .section-discount__arrow img {
   width: 24px;
   height: 24px;
