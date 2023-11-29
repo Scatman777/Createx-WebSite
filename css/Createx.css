@@ -10627,9 +10627,23 @@ svg {
     height: 100%;
   }
 }
-@media (max-width: 1253px) {
-  .section-trend__item {
-    text-align: center;
+@media (max-width: 1024px) {
+  .section-trend__column {
+    max-width: 320px;
+  }
+  .section-trend__img img {
+    width: 320px;
+  }
+}
+@media (max-width: 768px) {
+  .section-trend__title {
+    font-size: 32px;
+  }
+  .section-trend__column {
+    max-width: 260px;
+  }
+  .section-trend__img img {
+    width: 260px;
   }
 }
 @media (max-width: 470px) {
@@ -10637,6 +10651,9 @@ svg {
     flex-direction: column;
     gap: 2rem;
     text-align: center;
+  }
+  .section-trend__column {
+    max-width: 250px;
   }
   .section-trend__cheveron-column {
     justify-content: space-around;
