@@ -178,9 +178,32 @@
         }
     }
 
+	@media (max-width: 1024px) {
+		.body-category__column-img img {
+			width: 320px;
+		}
+
+		.body-cloth__column {
+			max-width: 260px;
+		}
+
+		.body-cloth__img img {
+			width: 260px;
+		}
+
+		.body-category__img img {
+			width: 160px;
+			height: 100%;
+		}
+	}
+
 	@media (max-width: 768px) {
 		.section-new-cloth__body-category {
 			margin-bottom: 6.25rem;
+		}
+
+		.body-category__column-img img {
+			width: 250px;
 		}
 
 		.body-cloth__column {
@@ -232,19 +255,8 @@
         }
 
 		.section-trend__img img {
-			width: 100%;
+			width: 250px;
 			height: 100%;
-		}
-
-		.section-trend__icon-column {
-			position: relative;
-			flex-direction: row;
-			justify-content: space-between;
-			align-items: center;
-			gap: 0px;
-			top: -50px;
-			right: 0;
-			padding: 0px 20px;
 		}
     }
 
