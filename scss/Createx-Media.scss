@@ -343,6 +343,9 @@
     }
 
     @media (max-width: 470px) {
+		.section-discount__body {
+			margin: 6.25rem 0px;
+		}
 
 		.section-discount__block {
             flex-direction: column;
