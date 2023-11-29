@@ -1219,9 +1219,6 @@ svg {
   position: relative;
 }
 
-.section-discount__img {
-  margin-bottom: 1rem;
-}
 .section-discount__img img {
   width: 100%;
   height: 100%;
@@ -1293,7 +1290,7 @@ svg {
 }
 
 .section-discount__item-info {
-  padding: 0px 16px;
+  padding: 16px;
 }
 
 .section-discount__product-name {
