@@ -1255,11 +1255,13 @@ svg {
 .section-discount__icon-column {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-end;
-  gap: 350px;
   position: absolute;
-  top: 16px;
+  top: 0px;
   right: 16px;
+  height: 100%;
+  padding: 16px 0px;
 }
 
 .section-discount__icon-star img, .section-discount__icon-heart img {
