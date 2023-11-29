@@ -1278,7 +1278,9 @@ svg {
   display: flex;
   justify-content: space-between;
   position: absolute;
+  bottom: 50%;
   width: 100%;
+  padding: 0px 16px;
   opacity: 0;
 }
 
