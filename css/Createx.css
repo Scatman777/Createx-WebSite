@@ -10843,18 +10843,6 @@ svg {
     content: url("");
   }
 }
-@media (max-width: 768px) {
-  .section-info__icon img {
-    width: 40px;
-    height: 40px;
-  }
-  .section-info__title {
-    font-size: 18px;
-  }
-  .section-info__text {
-    font-size: 14px;
-  }
-}
 @media (max-width: 779px) {
   .section-info__body {
     margin: 5.5rem 0px;
@@ -10879,6 +10867,16 @@ svg {
 @media (max-width: 529px) {
   .section-info__column {
     max-width: 100%;
+  }
+  .section-info__icon img {
+    width: 40px;
+    height: 40px;
+  }
+  .section-info__title {
+    font-size: 16px;
+  }
+  .section-info__text {
+    font-size: 14px;
   }
 }
 @media (max-width: 470px) {
@@ -10933,6 +10931,14 @@ svg {
   .block-messenger__column {
     align-items: center;
     padding-right: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .block-messenger__text {
+    font-size: 14px;
+  }
+  .block-messenger__title {
+    font-size: 32px;
   }
 }
 @media (max-width: 470px) {
