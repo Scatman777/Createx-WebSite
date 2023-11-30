@@ -10963,6 +10963,9 @@ svg {
   .block-blog__button-up {
     height: 44px;
   }
+  .section-info__img img {
+    width: 200px;
+  }
 }
 @media (max-width: 1250px) {
   .block-blog__block-column {
