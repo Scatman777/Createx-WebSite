@@ -1480,6 +1480,7 @@ svg {
     background: #393c46;
     border-radius: 5px;
     padding: 8px;
+	
     img {
         width: 16px;
         height: 16px;
@@ -1490,9 +1491,11 @@ svg {
 .footer__download {
     display: flex;
     justify-content: space-between;
+	gap: 20px;
+	
     img {
         width: 160px;
-        height: 42px;
+        height: 100%;
     }
 }
 
