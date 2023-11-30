@@ -447,6 +447,17 @@
         }
     }
 
+	@media (max-width: 768px) {
+		.section-mobile__title {
+			font-size: 24px;
+		}
+
+		.section-mobile__button img {
+			width: 150px;
+			height: 100%;
+		}
+	}
+
     @media (max-width: 520px) {
         .section-mobile__column-button {
             justify-content: center;
