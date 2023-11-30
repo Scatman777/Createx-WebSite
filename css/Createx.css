@@ -10804,6 +10804,10 @@ svg {
     width: 150px;
     height: 100%;
   }
+  .section-mobile__img img {
+    width: 390px;
+    height: 100%;
+  }
 }
 @media (max-width: 520px) {
   .section-mobile__column-button {
@@ -10839,12 +10843,24 @@ svg {
     content: url("");
   }
 }
+@media (max-width: 768px) {
+  .section-info__icon img {
+    width: 40px;
+    height: 40px;
+  }
+  .section-info__title {
+    font-size: 18px;
+  }
+  .section-info__text {
+    font-size: 14px;
+  }
+}
 @media (max-width: 779px) {
   .section-info__body {
     margin: 5.5rem 0px;
   }
   .section-info__block {
-    margin-bottom: 7.5rem;
+    margin-bottom: 6.25rem;
   }
   .section-info__block-column {
     justify-content: space-around;
