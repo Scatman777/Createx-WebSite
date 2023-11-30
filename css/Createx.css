@@ -682,7 +682,6 @@ body {
   grid-row-gap: 16px;
   gap: 16px;
   margin: 0px 0px 11.25rem 0px;
-  transform: translateX(-305px);
 }
 
 .section-banner__column:nth-child(1) {
@@ -704,9 +703,8 @@ body {
   padding: 3.75rem;
 }
 .section-banner__column:nth-child(4) {
-  background: url("/img/banner4.svg") center no-repeat;
-  background-size: cover;
-  background: #E5E8ED;
+  background: #E5E8ED url("/img/banner4.svg") right 100% no-repeat;
+  background-size: 63%;
   grid-area: 3/4/5/6;
   padding: 3.75rem;
 }
@@ -10868,15 +10866,17 @@ svg {
   }
 }
 @media (max-width: 779px) {
-  .section-info__body {
-    margin: 5.5rem 0px;
-  }
-  .section-info__block {
-    margin-bottom: 6.25rem;
-  }
   .section-info__block-column {
     justify-content: space-around;
     gap: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .section-info__body {
+    margin: 6.25rem 0px;
+  }
+  .section-info__block {
+    margin-bottom: 5.25rem;
   }
 }
 @media (max-width: 635px) {

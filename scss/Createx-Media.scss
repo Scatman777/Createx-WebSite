@@ -531,19 +531,21 @@
     }
 
     @media (max-width: 779px) {
-        .section-info__body {
-            margin: 5.5rem 0px;
-        }
-
-        .section-info__block {
-            margin-bottom: 6.25rem;
-        }
-
         .section-info__block-column {
             justify-content: space-around;
             gap: 1.5rem;
         }
     }
+
+	@media (max-width: 768px) {
+		.section-info__body {
+            margin: 6.25rem 0px;
+        }
+
+        .section-info__block {
+            margin-bottom: 5.25rem;
+        }
+	}
 
     @media (max-width: 635px) {
         .block-blog__title-up {

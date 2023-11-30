@@ -491,7 +491,7 @@ body {
     grid-row-gap: 16px;
     gap: 16px;
     margin: 0px 0px 11.25rem 0px;
-    transform: translateX(-305px);
+    // transform: translateX(-305px);
 }
 
 .section-banner__item {
@@ -517,9 +517,8 @@ body {
         padding: 3.75rem;
     }
     &:nth-child(4) {
-        background: url("/img/banner4.svg") center no-repeat;
-        background-size: cover;
-        background: $gray-300;
+        background: $gray-300 url("/img/banner4.svg") right 100% no-repeat;
+        background-size: 63%;
         grid-area: 3 / 4 / 5 / 6;
         padding: 3.75rem;
     }
