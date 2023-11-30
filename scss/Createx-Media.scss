@@ -282,6 +282,11 @@
 			gap: 3em;	
 		}
 
+		.section-trend__item-info {
+			align-items: center;
+			text-align: center;
+		}
+
 		.section-trend__product-name {
 			font-size: 16px;
 		}
@@ -371,6 +376,11 @@
 			max-width: 250px;
 		}
 
+		.section-discount__item-info {
+			align-items: center;
+			text-align: center;
+		}
+
 		.section-discount__img img {
 			width: 250px;
 			height: 100%;
@@ -378,6 +388,10 @@
 
 		.section-discount__cheveron-column {
             justify-content: space-around;
+		}
+
+		.section-discount__price-column {
+			justify-content: center;
 		}
 
 		.section-discount__price {
@@ -771,6 +785,14 @@
 	@media (max-width: 470px) {
 		.footer__column {
 			text-align: center;
+		}
+
+		.footer__title {
+			font-size: 14px;
+		}
+
+		.footer__text {
+			font-size: 14px;
 		}
 	}
 
