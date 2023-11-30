@@ -9918,6 +9918,19 @@ svg {
   background-position: right;
   position: relative;
   z-index: 2;
+  height: 800px;
+}
+.single-slider:nth-child(1) {
+  background-image: url("/img/image.svg");
+}
+.single-slider:nth-child(2) {
+  background-image: url("/img/1.jpg");
+}
+.single-slider:nth-child(3) {
+  background-image: url("/img/2.jpg");
+}
+.single-slider:nth-child(4) {
+  background-image: url("/img/2.jpg");
 }
 
 .single-slider:before {

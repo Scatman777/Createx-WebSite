@@ -431,7 +431,25 @@
         background-position: right;
         position: relative;
         z-index: 2;
+		height: 800px;
+
+		&:nth-child(1) {
+			background-image: url('/img/image.svg'); 
+		}
+		&:nth-child(2) {
+			background-image: url('/img/1.jpg'); 
+		}
+		&:nth-child(3) {
+			background-image: url('/img/2.jpg'); 
+		}
+		&:nth-child(4) {
+			background-image: url('/img/2.jpg'); 
+		}
     }
+
+	// @media (max-width: 1024px) {
+	// 	width: 600px;
+	// }
 	
     .single-slider:before {
         position: absolute;
