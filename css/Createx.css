@@ -1823,7 +1823,7 @@ svg {
   flex-wrap: wrap;
   align-items: center;
   gap: 24px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem 0px 1rem 0px;
 }
 
 .column-data__text {
@@ -10288,11 +10288,11 @@ svg {
 
 .sub-menu-lang__list > li {
   display: flex;
+  justify-content: flex-start;
   gap: 12px;
   background-color: rgba(225, 225, 225, 0.7019607843);
   padding: 10px;
   border-bottom: 2px solid #17696A;
-  justify-content: center;
 }
 
 .sub-menu-lang__link {

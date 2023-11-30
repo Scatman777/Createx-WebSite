@@ -2104,11 +2104,11 @@
 
     .sub-menu-lang__list>li{
 		display: flex;
+		justify-content: flex-start;
 		gap: 12px;
 		background-color: #e1e1e1b3;
 		padding: 10px;
 		border-bottom: 2px solid $green;
-		justify-content: center;
     }
 
     .sub-menu-lang__link {
