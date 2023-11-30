@@ -790,6 +790,16 @@
 		.footer__download img {
 			width: 130px;
 		}
+
+		.footer__block-down {
+			justify-content: space-around;
+		}
+	}
+
+	@media (max-width: 397px) {
+		.footer__border-bottom {
+			bottom: 115px;
+		}
 	}
 
 //////////// MEDIA__SECTION-CATALOG ////////////
