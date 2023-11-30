@@ -483,15 +483,23 @@ body {
 
 ////// SECTION-BANNER ////////////////
 
+.section-banner__countainer {
+	display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0px 15px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
 .section-banner__body {
     display: grid;
     grid-template-columns: repeat(5, 355px);
-    grid-template-rows: repeat(5, 242px);
+    grid-template-rows: repeat(4, 242px);
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     gap: 16px;
-    margin: 0px 0px 11.25rem 0px;
-    // transform: translateX(-305px);
+    margin-bottom: 11.25rem;
 }
 
 .section-banner__item {

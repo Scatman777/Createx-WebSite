@@ -245,6 +245,13 @@
 			height: 100%;
 		}
 	}
+
+//////////// MEDIA__SECTION-BANNER ////////////
+	@media (max-width: 768px) {
+		.section-banner__body {
+			margin-bottom: 6.25rem;
+		}
+	}
 	
 //////////// MEDIA__SECTION-TREND ////////////
 	@media (max-width: 1024px) {
