@@ -10940,13 +10940,12 @@ svg {
   .block-messenger__title {
     font-size: 32px;
   }
-}
-@media (max-width: 470px) {
-  .block-messenger__text {
-    font-size: 4vw;
+  .block-messenger__button {
+    height: 44px;
   }
-  .block-messenger__title {
-    font-size: 10vw;
+  .section-info__img img {
+    width: 220px;
+    height: 100%;
   }
 }
 /* BLOG-INFO */

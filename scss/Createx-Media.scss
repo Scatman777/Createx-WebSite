@@ -633,16 +633,18 @@
 		.block-messenger__title {
 			font-size: 32px;
 		}
+
+		.block-messenger__button {
+			height: 44px;
+		}
+
+		.section-info__img img {
+			width: 220px;
+			height: 100%;
+		}
 	}
 
 	@media (max-width: 470px) {
-		.block-messenger__text {
-			font-size: 4vw;
-		}
-
-		.block-messenger__title {
-			font-size: 10vw;
-		}
 	}
 
 /* BLOG-INFO */
