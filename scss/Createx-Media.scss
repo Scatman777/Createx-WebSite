@@ -129,6 +129,10 @@
     }
 
     @media (max-width: 1024px) {
+		.section-main {
+			height: 600px;
+		}
+
         .body-main__title {
             font-size: 55px;
         }
