@@ -98,6 +98,16 @@
         }
     }
 
+	@media (max-width: 470px) {
+		.body-middle__input {
+			width: 80vw;
+		}
+		
+		.body-middle__input input {
+			width: 100%;
+		}
+	}
+
 //////////// MEDIA__HEADER-DOWN ////////////
     @media (max-width: 610px) {
         .body-down__discount {
@@ -220,6 +230,10 @@
 
 		.body-cloth__img img {
 			width: 230px;
+		}
+
+		.section-banner__body-category {
+			margin-bottom: 6.25rem;
 		}
 
 		.body-category__title {
