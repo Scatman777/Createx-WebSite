@@ -1815,7 +1815,6 @@ svg {
   font-size: 20px;
   line-height: 150%;
   color: #1E212C;
-  margin-bottom: 0.75rem;
 }
 
 .block-blog__column-data {
@@ -1823,7 +1822,7 @@ svg {
   flex-wrap: wrap;
   align-items: center;
   gap: 24px;
-  margin-bottom: 0.75rem 0px 1rem 0px;
+  margin: 0.75rem 0px 1rem 0px;
 }
 
 .column-data__text {
@@ -10532,7 +10531,7 @@ svg {
 }
 @media (max-width: 610px) {
   .body-down__discount {
-    font-size: 1.125rem;
+    font-size: 12px;
   }
 }
 @media (max-width: 1405px) {

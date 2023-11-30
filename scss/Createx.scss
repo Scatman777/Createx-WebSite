@@ -1240,7 +1240,6 @@ svg {
 .block-blog__title {
     @include h4;
     color: $gray-900;
-    margin-bottom: 0.75rem;
 }
 
 .block-blog__column-data {
@@ -1248,7 +1247,7 @@ svg {
     flex-wrap: wrap;
     align-items: center;
     gap: 24px;
-    margin-bottom: 0.75rem 0px 1rem 0px;
+    margin: 0.75rem 0px 1rem 0px;
 }
 
 .column-data__text {
