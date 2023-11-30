@@ -188,6 +188,12 @@
         }
     }
 
+	@media (max-width: 1270px) {
+		.body-cloth__column {
+			height: auto;
+		}
+	}
+
 	@media (max-width: 1024px) {
 		.body-category__column-img img {
 			width: 320px;
@@ -218,7 +224,6 @@
 
 		.body-cloth__column {
 			max-width: 230px;
-			height: auto;
 		}
 
 		.body-cloth__title {
@@ -817,7 +822,7 @@
 		.block-product__block-column {
 			display: flex;
 			flex-wrap: wrap;
-			justify-content: space-around;
+			justify-content: space-evenly;
 		}
 	}
 

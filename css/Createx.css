@@ -10617,6 +10617,11 @@ svg {
     justify-content: space-around;
   }
 }
+@media (max-width: 1270px) {
+  .body-cloth__column {
+    height: auto;
+  }
+}
 @media (max-width: 1024px) {
   .body-category__column-img img {
     width: 320px;
@@ -10641,7 +10646,6 @@ svg {
   }
   .body-cloth__column {
     max-width: 230px;
-    height: auto;
   }
   .body-cloth__title {
     font-size: 32px;
@@ -11107,7 +11111,7 @@ svg {
   .block-product__block-column {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }
 @media (max-width: 930px) {
