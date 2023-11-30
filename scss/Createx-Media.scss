@@ -129,16 +129,44 @@
     }
 
     @media (max-width: 1024px) {
+		.single-slider {
+			height: 600px;
+		}
+
+		.sliders .slick-dots {
+            transform: translate(30px, -130px);
+        }
+
+		.sliders .slick-dots li {
+			width: 130px;
+        }
+
 		.section-main {
 			height: 600px;
+		}
+
+		.section-main__body-main {
+			margin: 6.5rem 0px 0px 0px;
 		}
 
         .body-main__title {
             font-size: 55px;
         }
+
+		.body-main__button-column {
+			margin: 0px;
+		}
     }
 
     @media (max-width: 768px) {
+		.single-slider {
+			height: 450px;
+		}
+
+		.section-main {
+			height: 450px;
+		}
+
 		.body-main__title {
 			font-size: 46px;
 		}

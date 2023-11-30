@@ -439,26 +439,7 @@
 			object-fit: cover;
 			object-position: center;
 		}
-
-		// &:nth-child(1) {
-		// 	background-image: url('/img/image.svg'); 
-		// }
-		// &:nth-child(2) {
-		// 	background-image: url('/img/1.jpg'); 
-		// }
-		// &:nth-child(3) {
-		// 	background-image: url('/img/2.jpg'); 
-		// }
-		// &:nth-child(4) {
-		// 	background-image: url('/img/2.jpg'); 
-		// }
     }
-
-	@media (max-width: 1024px) {
-		.single-slider {
-			height: 600px;
-		}
-	}
 	
     .single-slider:before {
         position: absolute;
