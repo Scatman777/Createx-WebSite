@@ -911,7 +911,23 @@
 		.section-contact__body {
 			flex-direction: column;
 			align-items: center;
+			gap: 35px;
 		}
+
+		.section-contact__navigation {
+			flex-direction: row;
+			justify-content: center;
+			gap: 40px;
+			max-width: 100%;
+		}
+
+		.section-contact__button-navigation {
+			font-size: 24px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		
 	}
 
 //////////// MEDIA__BURGER ////////////
