@@ -10602,6 +10602,9 @@ svg {
   .body-main__button-column {
     margin: 0px;
   }
+  .section-new-cloth__body-category {
+    transform: translateY(-40px);
+  }
 }
 @media (max-width: 768px) {
   .single-slider {
@@ -10621,6 +10624,9 @@ svg {
     display: none;
     opacity: 0;
     visibility: hidden;
+  }
+  .section-new-cloth__body-category {
+    transform: translateY(-20px);
   }
 }
 @media (max-width: 680px) {
@@ -11179,6 +11185,12 @@ svg {
   }
   .block-filter__filter-column {
     display: none;
+  }
+}
+@media (max-width: 1070px) {
+  .section-contact__body {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 930px) {

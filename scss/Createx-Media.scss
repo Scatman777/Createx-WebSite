@@ -156,6 +156,10 @@
 		.body-main__button-column {
 			margin: 0px;
 		}
+
+		.section-new-cloth__body-category {
+			transform: translateY(-40px);
+		}
     }
 
     @media (max-width: 768px) {
@@ -181,6 +185,10 @@
             opacity: 0;
             visibility: hidden;
         }
+
+		.section-new-cloth__body-category {
+			transform: translateY(-20px);
+		}
     }
 
 	@media (max-width: 680px) {
@@ -895,6 +903,14 @@
 
 		.block-filter__filter-column {
 			display: none;
+		}
+	}
+
+//////////// MEDIA__SECTION-CONTACT ////////////
+	@media (max-width: 1070px) {
+		.section-contact__body {
+			flex-direction: column;
+			align-items: center;
 		}
 	}
 
