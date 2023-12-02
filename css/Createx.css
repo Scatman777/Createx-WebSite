@@ -11210,6 +11210,7 @@ svg {
   }
 }
 @media (max-width: 1070px) {
+  /* BLOCK-CONTACT-US */
   .section-contact__body {
     flex-direction: column;
     align-items: center;
@@ -11224,8 +11225,29 @@ svg {
   .section-contact__button-navigation {
     font-size: 24px;
   }
+  /* BLOCK-OUTTLET-STORES */
+  /* BLOCK-QUESTIONS */
+}
+@media (max-width: 1024px) {
+  /* BLOCK-OUTTLET-STORES */
+  .block-outletStores__card {
+    width: 360px;
+  }
+  .block-outletStores__img img {
+    width: 360px;
+    height: 100%;
+  }
+  .block-outletStores__title {
+    font-size: 20px;
+  }
+  .block-outletStores__info-shop a {
+    font-size: 14px;
+  }
 }
 @media (max-width: 768px) {
+  .section-contact__button-navigation {
+    font-size: 20px;
+  }
   .section-contact__block-contactUs {
     max-width: 100%;
   }
@@ -11244,6 +11266,14 @@ svg {
   }
   .block-contactUs__button {
     height: 44px;
+  }
+}
+@media (max-width: 560px) {
+  .section-contact__button-navigation {
+    font-size: 18px;
+  }
+  .block-cotactUs__title {
+    font-size: 16px;
   }
 }
 @media (max-width: 930px) {
