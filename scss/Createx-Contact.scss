@@ -73,7 +73,9 @@
 	}
 
 	.block-contactUs__form {
-
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
 	}
 
 	.block-contactUs__form-input {
@@ -111,7 +113,7 @@
 		}
 	}
 
-	.block-contactUs__forum-textarea {
+	.block-contactUs__form-textarea {
 		display: flex;
 		flex-direction: column;
 		gap: 8px;
@@ -127,7 +129,7 @@
 		padding: 13px 16px;
 		border: 1px solid $gray-400;
 		border-radius: 4px;
-		width: 810px;
+		width: 100%;
 
 		textarea {
 			width: 100%;

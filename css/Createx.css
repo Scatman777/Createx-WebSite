@@ -9256,7 +9256,13 @@ svg {
   margin-bottom: 48px;
 }
 
-.block-contactUs__block-input {
+.block-contactUs__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.block-contactUs__form-input {
   display: grid;
   grid-template-areas: "a a";
   -moz-column-gap: 30px;
@@ -9300,11 +9306,27 @@ svg {
   color: #9A9CA5;
 }
 
+.block-contactUs__form-textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.block-contactUs__form-textarea label {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  font-weight: 400;
+  color: #424551;
+}
+
 .block-contactUs__textarea {
   padding: 13px 16px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
-  width: 810px;
+  width: 100%;
 }
 .block-contactUs__textarea textarea {
   width: 100%;
