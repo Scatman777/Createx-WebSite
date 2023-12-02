@@ -11225,6 +11225,27 @@ svg {
     font-size: 24px;
   }
 }
+@media (max-width: 768px) {
+  .section-contact__block-contactUs {
+    max-width: 100%;
+  }
+  .block-cotactUs__title {
+    font-size: 18px;
+  }
+  .block-contactUs__column-input label {
+    font-size: 14px;
+  }
+  .block-contactUs__input input {
+    font-size: 14px;
+  }
+  .block-contactUs__textarea textarea {
+    height: 110px;
+    font-size: 14px;
+  }
+  .block-contactUs__button {
+    height: 44px;
+  }
+}
 @media (max-width: 930px) {
   #menuToggle {
     display: block;
