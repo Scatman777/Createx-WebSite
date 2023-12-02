@@ -11268,12 +11268,18 @@ svg {
     height: 44px;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 680px) {
   .section-contact__button-navigation {
     font-size: 18px;
   }
   .block-cotactUs__title {
     font-size: 16px;
+  }
+  .block-contactUs__form-input {
+    grid-template-areas: "a";
+  }
+  .block-contactUs__input {
+    width: 390px;
   }
 }
 @media (max-width: 930px) {
