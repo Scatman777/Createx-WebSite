@@ -906,6 +906,26 @@
 		}
 	}
 
+//////////// MEDIA__SECTION-BLOG ////////////
+	@media (max-width: 1024px) {
+		.section-blog__body {
+			gap: 40px;
+		}
+
+		.section-blog__title {
+			font-size: 32px;
+		}
+
+		.section-blog__title-blog {
+			font-size: 18px;
+		}
+		
+		.sectioon-blog__text-blog {
+			font-size: 15px;
+			line-height: 190%;
+		}
+	}
+
 //////////// MEDIA__SECTION-CONTACT ////////////
 
 	@media (max-width: 1070px) {

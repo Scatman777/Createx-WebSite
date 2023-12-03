@@ -11210,6 +11210,21 @@ svg {
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  .section-blog__body {
+    gap: 40px;
+  }
+  .section-blog__title {
+    font-size: 32px;
+  }
+  .section-blog__title-blog {
+    font-size: 18px;
+  }
+  .sectioon-blog__text-blog {
+    font-size: 15px;
+    line-height: 190%;
+  }
+}
 @media (max-width: 1070px) {
   /* BLOCK-CONTACT-US */
   .section-contact__body {
