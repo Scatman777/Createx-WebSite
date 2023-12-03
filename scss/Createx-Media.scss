@@ -909,11 +909,11 @@
 //////////// MEDIA__SECTION-CONTACT ////////////
 
 	@media (max-width: 1070px) {
-	/* BLOCK-CONTACT-US */
+		/* BLOCK-CONTACT-US */
 		.section-contact__body {
 			flex-direction: column;
 			align-items: center;
-			gap: 35px;
+			gap: 50px;
 		}
 
 		.section-contact__navigation {
@@ -926,14 +926,10 @@
 		.section-contact__button-navigation {
 			font-size: 24px;
 		}
-
-	/* BLOCK-OUTTLET-STORES */
-
-	/* BLOCK-QUESTIONS */
 	}
 
 	@media (max-width: 1024px) {
-	/* BLOCK-OUTTLET-STORES */
+		/* BLOCK-OUTTLET-STORES */
 		.section-contact__block-outletStores {
 			justify-content: space-around;
 		}
@@ -971,6 +967,7 @@
 	}
 
 	@media (max-width: 768px) {
+		/* BLOCK-CONTACT-US */
 		.section-contact__button-navigation {
 			font-size: 20px;
 		}
@@ -999,6 +996,11 @@
 		.block-contactUs__button {
 			height: 44px;
 		}
+
+		/* BLOCK-QUESTIONS */
+		.block-questions__title {
+			font-size: 18px;
+		}
 	}
 
 	@media (max-width: 680px) {
@@ -1021,7 +1023,7 @@
 
 	@media (max-width: 425px) {
 		.section-contact__navigation {
-			font-size: 28px;
+			gap: 28px;
 		}
 
 		/* BLOCK-OUTTLET-STORES */
