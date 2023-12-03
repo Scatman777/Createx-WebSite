@@ -942,11 +942,6 @@
 			max-width: 360px;
 		}
 
-		.block-outletStores__img img {
-			width: 360px;
-			height: 100%;
-		}
-
 		.block-outletStores__title {
 			font-size: 20px;
 		}
@@ -959,10 +954,6 @@
 	@media (max-width: 780px) {
 		/* BLOCK-OUTTLET-STORES */
 		.block-outletStores__card {
-			max-width: 330px;
-		}
-
-		.block-outletStores__img img {
 			max-width: 330px;
 		}
 
@@ -1028,9 +1019,22 @@
 		}
 	}
 
-	@media (max-width: 470px) {
+	@media (max-width: 425px) {
+		.section-contact__navigation {
+			font-size: 28px;
+		}
+
+		/* BLOCK-OUTTLET-STORES */
 		.block-contactUs__input {
 			width: 100%;
+		}
+
+		.block-outletStores__card {
+			max-width: 100%;
+		}
+
+		.block-outletStores__img img {
+			height: 54vw;
 		}
 	}
 

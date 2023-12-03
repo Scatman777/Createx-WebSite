@@ -9394,8 +9394,8 @@ svg {
 }
 
 .block-outletStores__img img {
-  width: 390px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -11297,8 +11297,18 @@ svg {
   }
 }
 @media (max-width: 425px) {
+  .section-contact__navigation {
+    font-size: 28px;
+  }
+  /* BLOCK-OUTTLET-STORES */
   .block-contactUs__input {
     width: 100%;
+  }
+  .block-outletStores__card {
+    max-width: 100%;
+  }
+  .block-outletStores__img img {
+    height: 54vw;
   }
 }
 @media (max-width: 930px) {
