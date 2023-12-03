@@ -955,8 +955,24 @@
 	@media (max-width: 780px) {
 
 		/* BLOCK-OUTTLET-STORES */
+		.block-outletStores__card {
+			max-width: 330px;
+		}
+
+		.block-outletStores__img img {
+			max-width: 330px;
+		}
+
 		.block-outletStores__item {
 			padding: 20px;
+		}
+
+		.block-outletStores__title {
+			font-size: 18px;
+		}
+
+		.block-outletStores__info-shop span {
+			font-size: 15px;
 		}
 	}
 
