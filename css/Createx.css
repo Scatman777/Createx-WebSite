@@ -11301,11 +11301,13 @@ svg {
   }
 }
 @media (max-width: 560px) {
+  /* BLOCK-QUESTIONS */
   .block-questions__title {
     font-size: 16px;
   }
   .block-questions__text {
     font-size: 15px;
+    line-height: 200%;
   }
 }
 @media (max-width: 425px) {
