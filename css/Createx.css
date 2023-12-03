@@ -11231,7 +11231,7 @@ svg {
 @media (max-width: 1024px) {
   /* BLOCK-OUTTLET-STORES */
   .block-outletStores__card {
-    width: 360px;
+    max-width: 360px;
   }
   .block-outletStores__img img {
     width: 360px;
@@ -11242,6 +11242,12 @@ svg {
   }
   .block-outletStores__info-shop a {
     font-size: 14px;
+  }
+}
+@media (max-width: 780px) {
+  /* BLOCK-OUTTLET-STORES */
+  .block-outletStores__item {
+    padding: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -11280,6 +11286,11 @@ svg {
   }
   .block-contactUs__input {
     width: 390px;
+  }
+}
+@media (max-width: 425px) {
+  .block-contactUs__input {
+    width: 100%;
   }
 }
 @media (max-width: 930px) {
