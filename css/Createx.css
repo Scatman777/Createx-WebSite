@@ -9474,6 +9474,7 @@ svg {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 
 .block-questions__title {
@@ -11297,6 +11298,14 @@ svg {
   }
   .block-contactUs__input {
     width: 390px;
+  }
+}
+@media (max-width: 560px) {
+  .block-questions__title {
+    font-size: 16px;
+  }
+  .block-questions__text {
+    font-size: 15px;
   }
 }
 @media (max-width: 425px) {
