@@ -955,6 +955,10 @@
 	@media (max-width: 780px) {
 
 		/* BLOCK-OUTTLET-STORES */
+		.section-contact__block-outletStores {
+			justify-content: space-around;
+		}
+
 		.block-outletStores__card {
 			max-width: 330px;
 		}
