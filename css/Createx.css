@@ -8269,6 +8269,11 @@ svg {
   border-bottom: 1px solid #E5E8ED;
 }
 
+.blog-categories__column-title {
+  display: flex;
+  justify-content: space-between;
+}
+
 .blog-categories__title {
   font-family: "Lato";
   font-size: 72px;
@@ -8315,6 +8320,11 @@ svg {
   gap: 24px;
   padding-bottom: 32px;
   border-bottom: 1px solid #E5E8ED;
+}
+
+.featured-posts__column-title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .featured-posts__title {
@@ -8373,6 +8383,11 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+.tags__column-title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .tags__title {
@@ -11241,6 +11256,9 @@ svg {
   .section-blog__body {
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .blog-categories__plus {
+    display: block;
   }
   .blog-categories__plus img {
     width: 24px;
