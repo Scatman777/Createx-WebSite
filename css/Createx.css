@@ -8333,6 +8333,7 @@ svg {
 .featured-posts__column-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .featured-posts__title {
@@ -8349,8 +8350,8 @@ svg {
   display: none;
 }
 .featured-posts__plus img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
 .featured-posts__block-column {

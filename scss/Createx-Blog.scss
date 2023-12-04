@@ -188,6 +188,7 @@
 	.featured-posts__column-title {
 		display: flex;
 		justify-content: space-between;
+		align-items: center
 	}
 
 	.featured-posts__title {
@@ -200,8 +201,8 @@
 		display: none;
 
 		img {
-			width: 24px;
-			height: 24px;
+			width: 18px;
+			height: 18px;
 		}
 	}
 

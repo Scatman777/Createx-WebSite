@@ -188,6 +188,20 @@ function buttonProfile__plus() {
 	document.getElementById("section-myOrders__plus").classList.toggle("minus-image");
 }
 
+/////////////// FUNCTION__SECTIOB-BLOG /////////////////
+function buttonFunctionBlog1() {
+    document.getElementById("listBlog1").classList.toggle("show-flex");
+	document.getElementById("plusBlog1").classList.toggle("minus-image");
+}
+function buttonFunctionBlog2() {
+    document.getElementById("listBlog2").classList.toggle("show-flex");
+	document.getElementById("plusBlog2").classList.toggle("minus-image");
+}
+function buttonFunctionBlog3() {
+    document.getElementById("listBlog3").classList.toggle("show-flex");
+	document.getElementById("plusBlog3").classList.toggle("minus-image");
+}
+
 /////////////// SECTION-CATALOG__SHOW-MENU /////////////////
 function buttonFunction1() {
     document.getElementById("list1").classList.toggle("show-flex");
