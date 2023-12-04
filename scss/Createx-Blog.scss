@@ -148,6 +148,15 @@
 		font-weight: 700;
 	}
 
+	.blog-categories__plus {
+		display: none;
+
+		img {
+			width: 24px;
+			height: 24px;
+		}
+	}
+
 	.blog-categories__block-column {
 		display: flex;
 		flex-direction: column;
@@ -185,6 +194,15 @@
 		@include h1;
 		font-size: 24px;
 		font-weight: 700;
+	}
+
+	.featured-posts__plus {
+		display: none;
+
+		img {
+			width: 24px;
+			height: 24px;
+		}
 	}
 
 	.featured-posts__block-column {
@@ -241,6 +259,15 @@
 		@include h1;
 		font-size: 24px;
 		font-weight: 700;
+	}
+
+	.blog-categories__plus {
+		display: none;
+
+		img {
+			width: 24px;
+			height: 24px;
+		}
 	}
 
 	.tags__block-button {
