@@ -1,5 +1,4 @@
 @mixin CreatexBlogPage-Style {
-
 	.section-blogPage__countainer {
 		max-width: 810px;
 	}
@@ -282,6 +281,7 @@
 
 	.section-relatedPosts__button {
 		@include button-green;
+		height: 52px;
 	}
 
 	.section-relatedPosts__block__column {
