@@ -11237,6 +11237,16 @@ svg {
     font-size: 20px;
   }
 }
+@media (max-width: 830px) {
+  .section-blog__body {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .blog-categories__plus img {
+    width: 24px;
+    height: 24px;
+  }
+}
 @media (max-width: 768px) {
   .section-blog__title {
     font-size: 24px;
@@ -11247,6 +11257,9 @@ svg {
   .featured-posts__img img {
     width: 80px;
     height: 80px;
+  }
+  .featured-posts__text {
+    font-size: 15px;
   }
 }
 @media (max-width: 1070px) {
