@@ -9123,6 +9123,7 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 100%;
 }
 .submit-comment__item-input label {
   font-family: "Lato";
@@ -9138,7 +9139,6 @@ svg {
   border: 1px solid #D7DADD;
   border-radius: 4px;
   padding: 13px 16px;
-  width: 390px;
   height: 52px;
 }
 .submit-comment__input input {
@@ -11368,6 +11368,14 @@ svg {
   }
   .submit-comment__title {
     font-size: 32px;
+  }
+}
+@media (max-width: 680px) {
+  .submit-comment__column-input {
+    flex-direction: column;
+  }
+  .submit-comment__item-input {
+    width: 390px;
   }
 }
 @media (max-width: 1070px) {

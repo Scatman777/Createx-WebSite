@@ -1051,6 +1051,16 @@
 		}
 	}
 
+	@media (max-width: 680px) {
+		.submit-comment__column-input {
+			flex-direction: column;
+		}
+
+		.submit-comment__item-input {
+			width: 390px;
+		}
+	}
+
 //////////// MEDIA__SECTION-CONTACT ////////////
 
 	@media (max-width: 1070px) {
