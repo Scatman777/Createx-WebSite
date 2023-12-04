@@ -952,12 +952,24 @@
 			display: block;
 		}
 
+		.blog-categories__block-column {
+			display: none;
+		}
+
 		.featured-posts__plus {
 			display: block;
 		}
 
+		.featured-posts__block-column {
+			display: none;
+		}
+
 		.tags__plus {
 			display: block;
+		}
+
+		.tags__block-button {
+			display: none;
 		}
 	}
 

@@ -8293,7 +8293,7 @@ svg {
 }
 
 .blog-categories__block-column {
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 8px;
 }
@@ -8355,7 +8355,7 @@ svg {
 }
 
 .featured-posts__block-column {
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 24px;
 }
@@ -8426,7 +8426,7 @@ svg {
 }
 
 .tags__block-button {
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
@@ -11285,11 +11285,20 @@ svg {
   .blog-categories__plus {
     display: block;
   }
+  .blog-categories__block-column {
+    display: none;
+  }
   .featured-posts__plus {
     display: block;
   }
+  .featured-posts__block-column {
+    display: none;
+  }
   .tags__plus {
     display: block;
+  }
+  .tags__block-button {
+    display: none;
   }
 }
 @media (max-width: 768px) {
