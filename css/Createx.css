@@ -11244,6 +11244,10 @@ svg {
   .sectioon-blog__text-blog {
     line-height: 190%;
   }
+  .featured-posts__img img {
+    width: 80px;
+    height: 80px;
+  }
 }
 @media (max-width: 1070px) {
   /* BLOCK-CONTACT-US */
