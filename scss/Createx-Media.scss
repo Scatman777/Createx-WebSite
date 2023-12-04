@@ -1051,6 +1051,13 @@
 		}
 	}
 
+	@media (max-width: 768px) {
+		.submit-comment__button {
+			height: 44px;
+			padding: 0px 32px;
+		}
+	}
+
 	@media (max-width: 680px) {
 		.submit-comment__column-input {
 			flex-direction: column;

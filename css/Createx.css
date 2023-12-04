@@ -9199,6 +9199,7 @@ svg {
   padding: 0px 32px;
   border-radius: 4px;
   background-color: #17696A;
+  height: 52px;
   padding: 0px 40px;
 }
 .submit-comment__button a {
@@ -11368,6 +11369,12 @@ svg {
   }
   .submit-comment__title {
     font-size: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .submit-comment__button {
+    height: 44px;
+    padding: 0px 32px;
   }
 }
 @media (max-width: 680px) {

@@ -540,6 +540,7 @@
 
 	.submit-comment__button {
 		@include button-green-backround;
+		height: 52px;
 		padding: 0px 40px;
 	}
 }
