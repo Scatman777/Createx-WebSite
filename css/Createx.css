@@ -11336,6 +11336,20 @@ svg {
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  .section-blogPage__title {
+    font-size: 32px;
+  }
+  .section-blogPage__title-content {
+    font-size: 18px;
+  }
+  .section-blogPage__text {
+    font-size: 15px;
+  }
+  .section-blogPage__quote {
+    font-size: 18px;
+  }
+}
 @media (max-width: 1070px) {
   /* BLOCK-CONTACT-US */
   .section-contact__body {
