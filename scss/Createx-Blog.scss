@@ -163,6 +163,11 @@
 		gap: 8px;
 	}
 
+	.show-flex {
+		display: flex;
+		animation: list-animation 0.5s ease;
+	}
+
 	.blog-categories__column {
 		display: flex;
 		justify-content: space-between;
@@ -188,7 +193,7 @@
 	.featured-posts__column-title {
 		display: flex;
 		justify-content: space-between;
-		align-items: center
+		align-items: center;
 	}
 
 	.featured-posts__title {

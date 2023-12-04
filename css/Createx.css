@@ -8298,6 +8298,11 @@ svg {
   gap: 8px;
 }
 
+.show-flex {
+  display: flex;
+  animation: list-animation 0.5s ease;
+}
+
 .blog-categories__column {
   display: flex;
   justify-content: space-between;
