@@ -8288,12 +8288,12 @@ svg {
   display: none;
 }
 .blog-categories__plus img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
 .blog-categories__block-column {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 8px;
 }
@@ -8355,7 +8355,7 @@ svg {
 }
 
 .featured-posts__block-column {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 24px;
 }
@@ -8421,12 +8421,12 @@ svg {
   display: none;
 }
 .blog-categories__plus img {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
 .tags__block-button {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   gap: 12px;
 }
