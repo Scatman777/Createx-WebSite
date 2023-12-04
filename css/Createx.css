@@ -8827,6 +8827,7 @@ svg {
   border: 1px solid #17696A;
   border-radius: 4px;
   background: none;
+  height: 44px;
 }
 .section-relatedPosts__button a {
   font-family: "Lato";
@@ -8862,7 +8863,8 @@ svg {
 
 .section-relatedPosts__block__column {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 

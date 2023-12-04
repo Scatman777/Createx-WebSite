@@ -281,12 +281,13 @@
 
 	.section-relatedPosts__button {
 		@include button-green;
-		height: 52px;
+		height: 44px;
 	}
 
 	.section-relatedPosts__block__column {
 		display: flex;
-		justify-content: space-between;
+		flex-wrap: wrap;
+		justify-content: center;
 		gap: 30px;
 	}
 
