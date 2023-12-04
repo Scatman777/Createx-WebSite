@@ -8106,7 +8106,7 @@ svg {
 .section-blog__body {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 40px;
   margin: 32px 0px 180px 0px;
 }
 
@@ -11212,7 +11212,7 @@ svg {
 }
 @media (max-width: 1024px) {
   .section-blog__body {
-    gap: 40px;
+    margin: 32px 0px 120px 0px;
   }
   .section-blog__title {
     font-size: 32px;
@@ -11222,6 +11222,26 @@ svg {
   }
   .sectioon-blog__text-blog {
     font-size: 15px;
+    line-height: 170%;
+  }
+  .blog-categories__title {
+    font-size: 20px;
+  }
+  .blog-categories__text {
+    font-size: 15px;
+  }
+  .featured-posts__title {
+    font-size: 20px;
+  }
+  .tags__title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .section-blog__title {
+    font-size: 24px;
+  }
+  .sectioon-blog__text-blog {
     line-height: 190%;
   }
 }
