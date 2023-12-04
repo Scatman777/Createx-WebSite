@@ -992,6 +992,22 @@
 		}
 	}
 
+	@media (max-width: 470px) {
+		.section-blog__img img {
+			height: 55vw;
+		}
+
+		.section-blog__item-date {
+			justify-content: space-between;
+			gap: 14px;
+			margin-bottom: 15px;
+		}
+
+		.section-blog__text-itemDate::after {
+			display: none;
+		}
+	}
+
 //////////// MEDIA__SECTION-CONTACT ////////////
 
 	@media (max-width: 1070px) {

@@ -8272,6 +8272,7 @@ svg {
 .blog-categories__column-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .blog-categories__title {
@@ -8410,6 +8411,7 @@ svg {
 .tags__column-title {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .tags__title {
@@ -11319,6 +11321,19 @@ svg {
   }
   .featured-posts__text {
     font-size: 15px;
+  }
+}
+@media (max-width: 470px) {
+  .section-blog__img img {
+    height: 55vw;
+  }
+  .section-blog__item-date {
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 15px;
+  }
+  .section-blog__text-itemDate::after {
+    display: none;
   }
 }
 @media (max-width: 1070px) {
