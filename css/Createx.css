@@ -11363,6 +11363,12 @@ svg {
   .section-relatedPosts__title {
     font-size: 32px;
   }
+  .section-comments__title {
+    font-size: 32px;
+  }
+  .submit-comment__title {
+    font-size: 32px;
+  }
 }
 @media (max-width: 1070px) {
   /* BLOCK-CONTACT-US */
