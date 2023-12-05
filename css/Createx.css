@@ -11376,6 +11376,21 @@ svg {
   }
 }
 @media (max-width: 768px) {
+  .section-blogPage__title {
+    font-size: 24px;
+  }
+  .section-relatedPosts__title {
+    font-size: 24px;
+  }
+  .section-relatedPosts__title-column {
+    font-size: 18px;
+  }
+  .section-relatedPosts__text {
+    font-size: 15px;
+  }
+  .section-comments__title {
+    font-size: 24px;
+  }
   .submit-comment__button {
     height: 44px;
     padding: 0px 32px;
@@ -11387,6 +11402,11 @@ svg {
   }
   .submit-comment__item-input {
     width: 390px;
+  }
+}
+@media (max-width: 650px) {
+  .section-comments__column {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 1070px) {
