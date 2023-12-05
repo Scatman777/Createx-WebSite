@@ -11403,6 +11403,9 @@ svg {
   }
 }
 @media (max-width: 680px) {
+  .section-relatedPosts__img img {
+    width: 100%;
+  }
   .submit-comment__column-input {
     flex-direction: column;
   }
