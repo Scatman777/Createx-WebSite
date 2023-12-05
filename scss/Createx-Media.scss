@@ -1109,6 +1109,10 @@
 			height: 55vw;
 		}
 
+		.section-relatedPosts__item {
+			padding: 15px;
+		}
+
 		.section-relatedPosts__title-column {
 			font-size: 16px;
 		}
@@ -1123,6 +1127,21 @@
 
 		.submit-comment__item-input {
 			width: 100%;
+		}
+	}
+
+	@media (max-width: 425px) {
+		.section-relatedPosts__info-post {
+			flex-direction: column;
+			gap: 10px;
+		}
+
+		.section-relatedPosts__info-text:nth-child(1)::after {
+			display: none;
+		}
+
+		.section-relatedPosts__info-time::after {
+			display: none;
 		}
 	}
 
