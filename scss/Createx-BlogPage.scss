@@ -20,8 +20,10 @@
 
 	.section-blogPage__column-info {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: flex-start;
+		gap: 20px;
 	}
 
 	.section-blogPage__item-infoFast {
@@ -154,7 +156,9 @@
 
 	.section-blogPage__block-info {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
+		gap: 20px;
 	}
 
 	.section-blogPage__column-tags {
