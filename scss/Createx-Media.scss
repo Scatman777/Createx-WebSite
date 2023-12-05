@@ -1104,6 +1104,10 @@
 			height: 55vw;
 		}
 
+		.section-relatedPosts__title-column {
+			font-size: 16px;
+		}
+
 		.section-relatedPosts__text {
 			line-height: 190%;
 		}
@@ -1114,6 +1118,12 @@
 
 		.submit-comment__item-input {
 			width: 100%;
+		}
+	}
+
+	@media (max-width: 368px) {
+		.section-relatedPosts__block-title {
+			justify-content: center;
 		}
 	}
 
