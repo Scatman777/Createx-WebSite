@@ -11453,6 +11453,10 @@ svg {
   .section-relatedPosts__title-column {
     font-size: 16px;
   }
+  .section-blogPage__quote {
+    font-size: 16px;
+    line-height: 180%;
+  }
   .section-relatedPosts__text {
     line-height: 190%;
   }
