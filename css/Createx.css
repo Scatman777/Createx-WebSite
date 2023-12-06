@@ -1908,13 +1908,13 @@ svg {
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  padding: 65px 0px;
 }
 
 .section-subscribe__block {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 6.25rem 0px;
 }
 
 .section-subscribe__column {
@@ -11145,26 +11145,35 @@ svg {
   }
 }
 @media (max-width: 1024px) {
+  .section-subscribe__body {
+    padding: 45px 0px;
+  }
   .section-subscribe__title {
     font-size: 32px;
   }
   .section-subscribe__text {
-    font-size: 32px;
+    font-size: 18px;
   }
 }
 @media (max-width: 885px) {
   .section-subscribe__body {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    gap: 0px;
+    gap: 40px;
+  }
+  .section-subscribe__block-logo img {
+    width: 350px;
   }
 }
 @media (max-width: 768px) {
+  .section-subscribe__body {
+    padding: 35px 0px;
+  }
   .section-subscribe__title {
     font-size: 24px;
   }
   .section-subscribe__text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media (max-width: 540px) {
