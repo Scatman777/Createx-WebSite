@@ -837,10 +837,20 @@
     }
 
 	@media (max-width: 470px) {
+		.section-blogPage__title {
+			font-size: 20px;
+		}
+
 		.section-subscribe__checkbox {
 			width: auto;
 			height: 50px;
 		}
+	}
+
+	@media (max-width: 425px) {
+		.section-subscribe__block-logo img {
+			width: 90vw;
+		}	
 	}
 
 //////////// FOOTER ////////////
