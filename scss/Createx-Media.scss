@@ -980,6 +980,11 @@
 			display: none;
 		}
 
+		.show-flex {
+			display: flex;
+			animation: list-animation 0.5s ease;
+		}
+
 		.featured-posts__plus {
 			display: block;
 		}
