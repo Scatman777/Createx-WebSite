@@ -1081,9 +1081,13 @@
 		}
 
 		.section-blogPage__item-page {
-			flex-direction: column;
+			&:nth-child(1) {
+				flex-direction: column;
+			}
 
 			&:nth-child(2) {
+				flex-direction: column;
+
 				.item-page__info {
 					align-items: flex-end;
 					text-align: end;

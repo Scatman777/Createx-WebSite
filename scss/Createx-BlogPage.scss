@@ -238,9 +238,8 @@
 		width: 100%;
 		height: 100%;
 
-		img {
-			width: 100px;
-			height: 100px;
+		&:nth-child(1) {
+			flex-direction: row;
 		}
 
 		&:nth-child(2) {
@@ -250,6 +249,13 @@
 				align-items: flex-end;
 				text-align: end;
 			}
+		}
+	}
+
+	.item-page__img {
+		img {
+			width: 100px;
+			height: 100px;
 		}
 	}
 
