@@ -1032,7 +1032,7 @@
 		}
 	}
 
-//////////// MEDIA__SECTION-BLOG=PAGE ////////////
+//////////// MEDIA__SECTION-BLOG-PAGE ////////////
 	@media (max-width: 1024px) {
 		.section-blogPage__title {
 			font-size: 32px;
@@ -1078,6 +1078,17 @@
 	@media (max-width: 768px) {
 		.section-blogPage__title {
 			font-size: 24px;
+		}
+
+		.section-blogPage__item-page {
+			flex-direction: column;
+
+			&:nth-child(2) {
+				.item-page__info {
+					align-items: flex-end;
+					text-align: end;
+				}
+			}
 		}
 
 		.section-relatedPosts__title {
