@@ -11339,10 +11339,6 @@ svg {
   .blog-categories__block-column {
     display: none;
   }
-  .show-flex {
-    display: flex;
-    animation: list-animation 0.5s ease;
-  }
   .featured-posts__plus {
     display: block;
   }
@@ -11354,6 +11350,10 @@ svg {
   }
   .tags__block-button {
     display: none;
+  }
+  .show-flex {
+    display: flex;
+    animation: list-animation 0.5s ease;
   }
 }
 @media (max-width: 768px) {
@@ -11382,6 +11382,12 @@ svg {
   }
   .section-blog__text-itemDate::after {
     display: none;
+  }
+  .section-blog__block-right {
+    max-width: 100%;
+  }
+  .featured-posts__text {
+    font-size: 14px;
   }
 }
 @media (max-width: 1024px) {

@@ -980,11 +980,6 @@
 			display: none;
 		}
 
-		.show-flex {
-			display: flex;
-			animation: list-animation 0.5s ease;
-		}
-
 		.featured-posts__plus {
 			display: block;
 		}
@@ -999,6 +994,11 @@
 
 		.tags__block-button {
 			display: none;
+		}
+
+		.show-flex {
+			display: flex;
+			animation: list-animation 0.5s ease;
 		}
 	}
 
@@ -1034,6 +1034,14 @@
 
 		.section-blog__text-itemDate::after {
 			display: none;
+		}
+
+		.section-blog__block-right {
+			max-width: 100%;
+		}
+
+		.featured-posts__text {
+			font-size: 14px;
 		}
 	}
 
