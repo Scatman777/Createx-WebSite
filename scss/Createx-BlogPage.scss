@@ -253,6 +253,10 @@
 	}
 
 	.item-page__img {
+		&:nth-child(2) {
+			text-align: end;
+		}
+
 		img {
 			width: 100px;
 			height: 100px;
