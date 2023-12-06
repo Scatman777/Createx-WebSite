@@ -148,6 +148,11 @@
 		align-items: center;
 		gap: 16px;
 
+		img {
+			width: 16px;
+			height: 16px;
+		}
+
 		p {
 			@include text-16px;
 			font-weight: 400;

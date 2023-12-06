@@ -8654,6 +8654,10 @@ svg {
   align-items: center;
   gap: 16px;
 }
+.section-blogPage__item img {
+  width: 16px;
+  height: 16px;
+}
 .section-blogPage__item p {
   font-family: "Lato";
   font-size: 16px;
