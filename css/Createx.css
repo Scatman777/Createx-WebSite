@@ -6820,6 +6820,7 @@ svg {
 
 .bread-crumb__block {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
