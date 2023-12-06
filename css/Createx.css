@@ -10726,6 +10726,10 @@ svg {
     height: 44px;
     padding: 0px 32px;
   }
+  .sliders .slick-arrow {
+    opacity: 0;
+    visibility: hidden;
+  }
   .sliders .slick-dots {
     display: none;
     opacity: 0;
@@ -10747,14 +10751,13 @@ svg {
   .body-main__title {
     font-size: 32px;
   }
+}
+@media (max-width: 425px) {
   .body-main__button-column {
     flex-direction: column;
   }
   .body-main__button {
     justify-content: center;
-  }
-  .sliders .slick-arrow {
-    top: 65.5%;
   }
 }
 @media (max-width: 1850px) {
@@ -11407,6 +11410,7 @@ svg {
 @media (max-width: 375px) {
   .section-blog__item-date {
     flex-direction: column;
+    gap: 8px;
   }
 }
 @media (max-width: 1024px) {
