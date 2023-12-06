@@ -8758,6 +8758,7 @@ svg {
 .section-blogPage__column-page {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .section-blogPage__item-page {
@@ -11483,6 +11484,16 @@ svg {
   .section-relatedPosts__img img {
     width: 100%;
     height: 55vw;
+  }
+  .section-page__column-arrow a {
+    font-size: 16px;
+  }
+  .item-page__img img {
+    width: 90px;
+    height: 100%;
+  }
+  .item-page__text {
+    font-size: 15px;
   }
   .section-relatedPosts__item {
     padding: 15px;
