@@ -11144,6 +11144,14 @@ svg {
     gap: 3rem;
   }
 }
+@media (max-width: 1024px) {
+  .section-subscribe__title {
+    font-size: 32px;
+  }
+  .section-subscribe__text {
+    font-size: 32px;
+  }
+}
 @media (max-width: 885px) {
   .section-subscribe__body {
     flex-wrap: wrap;
@@ -11151,12 +11159,12 @@ svg {
     gap: 0px;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 768px) {
   .section-subscribe__title {
-    font-size: 32px;
+    font-size: 24px;
   }
   .section-subscribe__text {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (max-width: 540px) {
@@ -11194,12 +11202,6 @@ svg {
   }
 }
 @media (max-width: 470px) {
-  .section-subscribe__title {
-    font-size: 9vw;
-  }
-  .section-subscribe__text {
-    font-size: 4vw;
-  }
   .section-subscribe__checkbox {
     width: auto;
     height: 50px;
