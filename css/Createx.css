@@ -8385,6 +8385,7 @@ svg {
 
 .featured-posts__time {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 
@@ -11385,6 +11386,9 @@ svg {
   }
   .section-blog__block-right {
     max-width: 100%;
+  }
+  .blog-categories__title {
+    font-size: 18px;
   }
   .featured-posts__text {
     font-size: 14px;
