@@ -1049,6 +1049,12 @@
 		}
 	}
 
+	@media (max-width: 375px) {
+		.section-blog__item-date {
+			flex-direction: column;
+		}
+	}
+
 //////////// MEDIA__SECTION-BLOG-PAGE ////////////
 	@media (max-width: 1024px) {
 		.section-blogPage__title {

@@ -8388,6 +8388,16 @@ svg {
   align-items: center;
   gap: 8px;
 }
+.featured-posts__time time {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FFF;
+  opacity: 0.6000000238;
+  color: #787A80;
+  opacity: 0.9;
+}
 
 .featured-posts__text {
   font-family: "Lato";
@@ -11392,6 +11402,11 @@ svg {
   }
   .featured-posts__text {
     font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .section-blog__item-date {
+    flex-direction: column;
   }
 }
 @media (max-width: 1024px) {
