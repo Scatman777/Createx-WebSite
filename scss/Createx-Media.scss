@@ -1088,6 +1088,10 @@
 			&:nth-child(2) {
 				flex-direction: column;
 
+				.item-page__img {
+					text-align: end;
+				}
+
 				.item-page__info {
 					align-items: flex-end;
 					text-align: end;

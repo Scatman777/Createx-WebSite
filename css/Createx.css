@@ -8782,12 +8782,6 @@ svg {
   width: 100px;
   height: 100px;
 }
-.item-page__img:nth-child(1) {
-  text-align: start;
-}
-.item-page__img:nth-child(2) {
-  text-align: end;
-}
 
 .item-page__info {
   display: flex;
@@ -11431,6 +11425,9 @@ svg {
   }
   .section-blogPage__item-page:nth-child(2) {
     flex-direction: column;
+  }
+  .section-blogPage__item-page:nth-child(2) .item-page__img {
+    text-align: end;
   }
   .section-blogPage__item-page:nth-child(2) .item-page__info {
     align-items: flex-end;
