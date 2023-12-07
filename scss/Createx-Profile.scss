@@ -174,8 +174,12 @@
 		border-radius: 4px;
 
 		input {
-			@include text-16px;
-			font-weight: 400;
+			font: {
+				family: "Lato";
+				size: 16px;
+				weight: 400;
+			};
+			line-height: 160%;
 			color: $gray-600;
 		}
 

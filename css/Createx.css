@@ -6946,11 +6946,8 @@ svg {
 .content-profile__input input {
   font-family: "Lato";
   font-size: 16px;
-  font-weight: 700;
-  line-height: 160%;
-  color: #424551;
-  opacity: 0.9;
   font-weight: 400;
+  line-height: 160%;
   color: #9A9CA5;
 }
 .content-profile__input a {
@@ -11689,6 +11686,16 @@ svg {
   }
   .block-outletStores__img img {
     height: 54vw;
+  }
+}
+@media (max-width: 1144px) {
+  .content-profile__input {
+    width: 330px;
+  }
+}
+@media (max-width: 1024px) {
+  .content-profile__input {
+    width: 300px;
   }
 }
 @media (max-width: 930px) {

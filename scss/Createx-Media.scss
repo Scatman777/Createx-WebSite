@@ -1265,7 +1265,6 @@
 	}
 
 //////////// MEDIA__SECTION-CONTACT ////////////
-
 	@media (max-width: 1070px) {
 		/* BLOCK-CONTACT-US */
 		.section-contact__body {
@@ -1407,6 +1406,19 @@
 
 		.block-outletStores__img img {
 			height: 54vw;
+		}
+	}
+
+//////////// MEDIA__SECTION-PROFILE ////////////
+	@media (max-width: 1144px) {
+		.content-profile__input {
+			width: 330px;
+		}
+	}
+
+	@media (max-width: 1024px) {
+		.content-profile__input {
+			width: 300px;
 		}
 	}
 
