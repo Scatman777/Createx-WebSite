@@ -7064,6 +7064,7 @@ svg {
 
 .section-myOrders__column-sort {
   display: flex;
+  align-items: center;
   gap: 12px;
 }
 .section-myOrders__column-sort label {
@@ -10752,7 +10753,7 @@ svg {
     font-size: 32px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 434px) {
   .body-main__button-column {
     flex-direction: column;
   }
