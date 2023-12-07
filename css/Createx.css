@@ -6719,6 +6719,7 @@ svg {
 .section-profile__body {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
   margin: 40px 0px 180px 0px;
 }
 
