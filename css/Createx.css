@@ -6922,7 +6922,7 @@ svg {
 
 .content-profile__block-input {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 390px 390px);
+  grid-template-areas: "a a";
   -moz-column-gap: 30px;
        column-gap: 30px;
   row-gap: 24px;
@@ -6932,6 +6932,7 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  width: 390px;
 }
 
 .content-profile__input {
@@ -6940,6 +6941,8 @@ svg {
   padding: 13px 16px;
   border: 1px solid #D7DADD;
   border-radius: 4px;
+}
+.content-profile__input input {
   font-family: "Lato";
   font-size: 16px;
   font-weight: 700;
@@ -6948,6 +6951,7 @@ svg {
   opacity: 0.9;
   font-weight: 400;
   color: #9A9CA5;
+  opacity: 0;
 }
 .content-profile__input a {
   font-family: "Lato";
