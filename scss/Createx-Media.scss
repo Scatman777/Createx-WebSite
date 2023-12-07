@@ -1422,6 +1422,17 @@
 		}
 	}
 
+	@media (max-width: 980px) {
+		.section-profile__body {
+			flex-direction: column;
+			gap: 50px;
+		}
+
+		.section-profile__account-menu {
+			max-width: 100%;
+		}
+	}
+
 //////////// MEDIA__BURGER ////////////
 	@media (max-width: 930px) {
 		#menuToggle {
