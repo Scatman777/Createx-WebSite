@@ -6932,11 +6932,12 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 390px;
+  width: 100%;
 }
 
 .content-profile__input {
   position: relative;
+  width: 390px;
   height: 52px;
   padding: 13px 16px;
   border: 1px solid #D7DADD;
@@ -6951,7 +6952,6 @@ svg {
   opacity: 0.9;
   font-weight: 400;
   color: #9A9CA5;
-  opacity: 0;
 }
 .content-profile__input a {
   font-family: "Lato";
