@@ -7260,6 +7260,13 @@ svg {
   height: 80px;
 }
 
+.block-columnProduct__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 .block-columnProduct__item-title {
   display: flex;
   flex-direction: column;
