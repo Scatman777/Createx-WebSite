@@ -7248,9 +7248,15 @@ svg {
   border-bottom: 1px solid #E5E8ED;
 }
 
+.block-columnProduct__item-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .block-columnProduct__img img {
-  width: 100%;
-  height: 100%;
+  width: 80px;
+  height: 80px;
 }
 
 .block-columnProduct__item-title {
@@ -11746,6 +11752,14 @@ svg {
   }
   .section-myOrders__price {
     width: 60px;
+  }
+}
+@media (max-width: 630px) {
+  .block-columnProduct__item-title {
+    width: 150px;
+  }
+  .block-columnProduct__order-tracking button {
+    height: 44px;
   }
 }
 @media (max-width: 600px) {

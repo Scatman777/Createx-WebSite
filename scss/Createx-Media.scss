@@ -1474,6 +1474,16 @@
 		}
 	}
 
+	@media (max-width: 630px) {
+		.block-columnProduct__item-title {
+			width: 150px;
+		}
+
+		.block-columnProduct__order-tracking button {
+			height: 44px;
+		}
+	}
+
 	@media (max-width: 600px) {
 		.section-myOrders__block-down {
 			flex-direction: row;
