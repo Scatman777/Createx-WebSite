@@ -11711,7 +11711,7 @@ svg {
     width: 100%;
   }
   .section-myOrders {
-    width: 100%;
+    max-width: 100%;
   }
 }
 @media (max-width: 768px) {
