@@ -11710,6 +11710,9 @@ svg {
   .section-profile__content-rofile {
     width: 100%;
   }
+  .section-myOrders {
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .content-profile__title {
