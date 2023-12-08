@@ -1442,11 +1442,30 @@
 		}
 
 		.account-menu__block-text {
-			padding: 16px 16px 0px 16px;
+			padding: 12px 16px 0px 16px;
 		}
 
 		.account-menu__button {
 			padding: 12px 16px;
+		}
+
+		.content-profile__input input {
+			font-size: 14px;
+		}
+
+		.content-profile__select a {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 470px) {
+		.content-profile__block-input {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.content-profile__input {
+			height: 46px;
 		}
 	}
 

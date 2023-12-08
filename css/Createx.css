@@ -6949,7 +6949,7 @@ svg {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
-  color: #9A9CA5;
+  color: #424551;
 }
 .content-profile__input a {
   font-family: "Lato";
@@ -11716,10 +11716,25 @@ svg {
     font-size: 15px;
   }
   .account-menu__block-text {
-    padding: 16px 16px 0px 16px;
+    padding: 12px 16px 0px 16px;
   }
   .account-menu__button {
     padding: 12px 16px;
+  }
+  .content-profile__input input {
+    font-size: 14px;
+  }
+  .content-profile__select a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 470px) {
+  .content-profile__block-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-profile__input {
+    height: 46px;
   }
 }
 @media (max-width: 930px) {
