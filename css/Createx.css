@@ -7116,6 +7116,7 @@ svg {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .section-myOrders__column:nth-child(1) .section-myOrders__progress {
   background-color: #5A87FC;
@@ -11726,6 +11727,15 @@ svg {
   }
   .content-profile__select a {
     font-size: 14px;
+  }
+  .section-myOrders__title {
+    font-size: 24px;
+  }
+  .section-myOrders__serial-number {
+    width: 130px;
+  }
+  .section-myOrders__price {
+    width: 60px;
   }
 }
 @media (max-width: 470px) {
