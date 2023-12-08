@@ -7262,7 +7262,6 @@ svg {
 
 .block-columnProduct__info {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
 }
@@ -11776,6 +11775,9 @@ svg {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .block-columnProduct__block-column {
+    padding: 16px 20px;
+  }
   .section-myOrders__column:not(:nth-child(2)) {
     flex-direction: column;
     align-items: flex-start;
@@ -11785,6 +11787,11 @@ svg {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+  }
+}
+@media (max-width: 530px) {
+  .block-columnProduct__info {
+    flex-direction: column;
   }
 }
 @media (max-width: 470px) {
