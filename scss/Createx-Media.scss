@@ -1491,6 +1491,11 @@
 	}
 
 	@media (max-width: 470px) {
+		.section-myOrders__block-down {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
 		.content-profile__block-input {
 			display: flex;
 			flex-direction: column;
@@ -1498,6 +1503,19 @@
 
 		.content-profile__input {
 			height: 46px;
+		}
+	}
+
+	@media (max-width: 440px) {
+		.section-myOrders__block-up {
+			flex-direction: column;
+			gap: 25px;
+   			margin-bottom: 30px;
+		}
+
+		.section-myOrders__column-sort {
+			flex-direction: column;
+			gap: 5px;
 		}
 	}
 
