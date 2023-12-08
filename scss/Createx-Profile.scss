@@ -442,6 +442,13 @@
 		border-bottom: 1px solid $gray-300;
 	}
 
+	.block-columnProduct__img {
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
 	.block-columnProduct__item-title {
 		display: flex;
 		flex-direction: column;
