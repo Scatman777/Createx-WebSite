@@ -1410,14 +1410,10 @@
 	}
 
 //////////// MEDIA__SECTION-PROFILE ////////////
-	@media (max-width: 1144px) {
+	@media (max-width: 940px) {
 		.content-profile__input {
-			width: 330px;
+			height: 48px;
 		}
-	}
-
-	@media (max-width: 1024px) {
-		
 	}
 
 	@media (max-width: 890px) {
@@ -1429,6 +1425,10 @@
 
 		.section-profile__account-menu {
 			max-width: 100%;
+		}
+
+		.section-profile__content-rofile {
+			width: 100%;
 		}
 	}
 
