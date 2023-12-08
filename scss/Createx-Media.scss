@@ -1422,10 +1422,11 @@
 		}
 	}
 
-	@media (max-width: 980px) {
+	@media (max-width: 890px) {
 		.section-profile__body {
 			flex-direction: column;
 			gap: 50px;
+			margin: 32px 0px 130px 0px;
 		}
 
 		.section-profile__account-menu {
