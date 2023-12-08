@@ -11738,6 +11738,23 @@ svg {
     width: 60px;
   }
 }
+@media (max-width: 600px) {
+  .section-myOrders__block-down {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section-myOrders__column:not(:nth-child(2)) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .section-myOrders__item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
 @media (max-width: 470px) {
   .content-profile__block-input {
     display: flex;
