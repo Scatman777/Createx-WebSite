@@ -6887,6 +6887,7 @@ svg {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  width: 810px;
 }
 
 .content-profile__block-text {
@@ -6937,7 +6938,7 @@ svg {
 
 .content-profile__input {
   position: relative;
-  width: 390px;
+  width: 100%;
   height: 52px;
   padding: 13px 16px;
   border: 1px solid #D7DADD;
@@ -6980,6 +6981,7 @@ svg {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
   height: 52px;
   padding: 13px 16px;
   border: 1px solid #D7DADD;
@@ -11693,12 +11695,7 @@ svg {
     width: 330px;
   }
 }
-@media (max-width: 1024px) {
-  .content-profile__input {
-    width: 300px;
-  }
-}
-@media (max-width: 980px) {
+@media (max-width: 890px) {
   .section-profile__body {
     flex-direction: column;
     gap: 50px;
