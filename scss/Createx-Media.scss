@@ -1742,10 +1742,31 @@
 		.login-popap__content {
 			padding: 24px;
 		}
+
+		.login-popap__title {
+			font-size: 24px;
+		}
 	}
 
 	@media (max-width: 425px) {
 		.login-popap__content {
+			padding: 20px;
+		}
+	}
+
+//////////// MEDIA__REGISTER-POPAP ////////////
+	@media (max-width: 768px) {
+		.register-popap__content {
+			padding: 24px;
+		}
+
+		.register-popap__title {
+			font-size: 24px;
+		}
+	}
+
+	@media (max-width: 425px) {
+		.register-popap__content {
 			padding: 20px;
 		}
 	}

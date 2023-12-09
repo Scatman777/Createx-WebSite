@@ -2990,6 +2990,7 @@ svg {
   position: absolute;
   top: 24px;
   right: 24px;
+  z-index: 51;
 }
 .login-popap__close img {
   width: 24px;
@@ -3258,6 +3259,7 @@ svg {
   position: absolute;
   top: 24px;
   right: 24px;
+  z-index: 51;
 }
 .register-popap__close img {
   width: 24px;
@@ -12003,9 +12005,25 @@ svg {
   .login-popap__content {
     padding: 24px;
   }
+  .login-popap__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 425px) {
   .login-popap__content {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .register-popap__content {
+    padding: 24px;
+  }
+  .register-popap__title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .register-popap__content {
     padding: 20px;
   }
 }
