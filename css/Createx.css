@@ -897,6 +897,31 @@ body {
   opacity: 1;
 }
 
+.block-inputBanner__button-green {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s;
+  padding: 0px 32px;
+  border-radius: 4px;
+  background-color: #17696A;
+  border-radius: 0px 4px 4px 0px;
+}
+.block-inputBanner__button-green a {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 160%;
+  color: #424551;
+  opacity: 0.9;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #FFF;
+}
+.block-inputBanner__button-green:hover {
+  background-color: #18888a;
+}
+
 .block-inputBanner__text {
   font-family: "Lato";
   font-size: 14px;

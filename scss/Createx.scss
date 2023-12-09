@@ -603,6 +603,11 @@ body {
     opacity: 1;
 }
 
+.block-inputBanner__button-green {
+	@include button-green-backround;
+	border-radius: 0px 4px 4px 0px;
+}
+
 .block-inputBanner__text {
     @include text-14px;
     color: $gray-800;
