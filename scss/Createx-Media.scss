@@ -404,6 +404,20 @@
 			margin-bottom: 6.25rem;
 		}
 	}
+
+	@media (max-width: 400px) {
+		.block-inputBanner__column {
+			flex-direction: column;
+		}
+
+		.block-inputBanner__input {
+			border-radius: 4px 4px 0px 0px;
+		}
+
+		.block-inputBanner__button-green {
+			border-radius: 0px 0px 4px 4px;
+		}
+	}
 	
 //////////// MEDIA__SECTION-TREND ////////////
 	@media (max-width: 1024px) {
