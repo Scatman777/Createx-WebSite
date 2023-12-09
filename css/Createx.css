@@ -10773,6 +10773,9 @@ svg {
   }
 }
 @media (max-width: 470px) {
+  .section-main__body-main {
+    align-items: flex-start;
+  }
   .body-main__title {
     font-size: 32px;
   }
@@ -10787,7 +10790,7 @@ svg {
 }
 @media (max-width: 425px) {
   .section-main {
-    height: 400px;
+    height: 425px;
   }
   .body-main__title {
     font-size: 26px;
@@ -10796,12 +10799,23 @@ svg {
     -o-object-position: 85%;
        object-position: 85%;
   }
-  .body-main__button {
+  .body-main__button:nth-child(1) {
     background-color: #17696A;
   }
-  .body-main__button a {
+  .body-main__button:nth-child(1) a {
     color: #FFF;
     line-height: 150%;
+  }
+  .body-main__button:nth-child(2) a {
+    color: #FFF;
+    line-height: 150%;
+  }
+  .single-slider {
+    height: 425px;
+  }
+  .section-new-cloth__body-category {
+    margin-top: 3rem;
+    transform: translate(0px);
   }
 }
 @media (max-width: 1850px) {
