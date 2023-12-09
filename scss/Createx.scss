@@ -588,19 +588,25 @@ body {
 .block-inputBanner {
 }
 
-.block-inputBanner__column {
-    display: flex;
-    margin: 0px 0px 1.25rem 0px;
-    input {
-        width: 230px;
-        padding: 12px 16px;
-    }
-}
-
 .block-inputBanner__email {
     @include text-14px;
     color: $gray-800;
     opacity: 1;
+}
+
+.block-inputBanner__column {
+    display: flex;
+    margin: 0px 0px 1.25rem 0px;
+}
+
+.block-inputBanner__input {
+	padding: 12px 16px;
+	height: 44px;
+
+	input {
+        width: 100%;
+		height: 100%;
+    }
 }
 
 .block-inputBanner__button-green {

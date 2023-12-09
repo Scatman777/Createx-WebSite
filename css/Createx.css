@@ -877,15 +877,6 @@ body {
   opacity: 1;
 }
 
-.block-inputBanner__column {
-  display: flex;
-  margin: 0px 0px 1.25rem 0px;
-}
-.block-inputBanner__column input {
-  width: 230px;
-  padding: 12px 16px;
-}
-
 .block-inputBanner__email {
   font-family: "Lato";
   font-size: 14px;
@@ -895,6 +886,20 @@ body {
   opacity: 0.6000000238;
   color: #424551;
   opacity: 1;
+}
+
+.block-inputBanner__column {
+  display: flex;
+  margin: 0px 0px 1.25rem 0px;
+}
+
+.block-inputBanner__input {
+  padding: 12px 16px;
+  height: 44px;
+}
+.block-inputBanner__input input {
+  width: 100%;
+  height: 100%;
 }
 
 .block-inputBanner__button-green {
