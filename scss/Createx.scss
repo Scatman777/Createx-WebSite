@@ -568,7 +568,7 @@ body {
     margin-bottom: 0.75rem; 
 }
 
-.blokc-time__time-block {
+.block-time__time-block {
     display: flex;
     gap: 1.5rem;
 }
@@ -585,11 +585,10 @@ body {
     opacity: 1;
 }
 
-.block-input {
-    width: 400px;
+.block-inputBanner {
 }
 
-.block-input__column {
+.block-inputBanner__column {
     display: flex;
     margin: 0px 0px 1.25rem 0px;
     input {
@@ -598,13 +597,13 @@ body {
     }
 }
 
-.block-input__email {
+.block-inputBanner__email {
     @include text-14px;
     color: $gray-800;
     opacity: 1;
 }
 
-.block-input__text {
+.block-inputBanner__text {
     @include text-14px;
     color: $gray-800;
     opacity: 1;

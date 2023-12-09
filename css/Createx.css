@@ -847,7 +847,7 @@ body {
   margin-bottom: 0.75rem;
 }
 
-.blokc-time__time-block {
+.block-time__time-block {
   display: flex;
   gap: 1.5rem;
 }
@@ -877,20 +877,16 @@ body {
   opacity: 1;
 }
 
-.block-input {
-  width: 400px;
-}
-
-.block-input__column {
+.block-inputBanner__column {
   display: flex;
   margin: 0px 0px 1.25rem 0px;
 }
-.block-input__column input {
+.block-inputBanner__column input {
   width: 230px;
   padding: 12px 16px;
 }
 
-.block-input__email {
+.block-inputBanner__email {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
@@ -901,7 +897,7 @@ body {
   opacity: 1;
 }
 
-.block-input__text {
+.block-inputBanner__text {
   font-family: "Lato";
   font-size: 14px;
   font-weight: 400;
