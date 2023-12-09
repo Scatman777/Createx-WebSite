@@ -1101,11 +1101,13 @@
 
     .block-input__column-profile {
         display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
         align-items: center;
+		gap: 15px;
     }
 
     .column-profile__input {
-        flex: 1 1 auto;
         display: flex;
         align-items: center;
         gap: 12px;

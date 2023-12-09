@@ -3085,11 +3085,13 @@ svg {
 
 .block-input__column-profile {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
+  gap: 15px;
 }
 
 .column-profile__input {
-  flex: 1 1 auto;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -11995,5 +11997,15 @@ svg {
   }
   .sub-menu-lang__link {
     font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .login-popap__content {
+    padding: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .login-popap__content {
+    padding: 20px;
   }
 }
