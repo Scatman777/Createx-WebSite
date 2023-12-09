@@ -83,7 +83,7 @@
 	}
 	
 	.bread-crumb__text::before {
-		content: url("/img/Right-chevron.svg");
+		content: url("./img/Right-chevron.svg");
 		position: relative;
 		top: 3px;
 		padding: 0px 8px;
@@ -195,11 +195,11 @@
 			right: 16px;
 			width: 24px;
 			height: 24px;
-			background: url("/img/input-hide.svg") center no-repeat;
+			background: url("./img/input-hide.svg") center no-repeat;
 		}
 
 		.password__open {
-			background: url("/img/Eyes.svg") center no-repeat;
+			background: url("./img/Eyes.svg") center no-repeat;
 		}
 	}
 

@@ -234,7 +234,7 @@ body {
 
 .body-middle__icon {
     &:not(:last-child)::after {
-        content: url("/img/divider-bar.svg");
+        content: url("./img/divider-bar.svg");
         padding: 0px 20px;
     }
     img {
@@ -270,11 +270,11 @@ body {
         text-decoration-line: underline;
     }
     &::before {
-        content: url("/img/Left-chevron.svg");
+        content: url("./img/Left-chevron.svg");
         padding-right: 12px;
     }
     &::after {
-        content: url("/img/right-chevron.svg");
+        content: url("./img/right-chevron.svg");
         padding-left: 12px;
     }
 }
@@ -1120,7 +1120,7 @@ svg {
     padding: 0px 15px;
     margin-bottom: 30px;
     &:not(:last-child)::before {
-        content: url("/img/divider.svg");
+        content: url("./img/divider.svg");
         position: absolute;
         transform: translateX(170px);
     }
@@ -1586,7 +1586,7 @@ svg {
 
 .block-filter__button {
 	@include button-green-backround;
-	background: url("/img/filter-1.svg") 26% center no-repeat $green;
+	background: url("./img/filter-1.svg") 26% center no-repeat $green;
 	justify-content: center;
 	width: 255px;
 	height: 44px;
@@ -1597,7 +1597,7 @@ svg {
 }
 
 .button-icon {
-	background-image: url("/img/filter-2.svg");
+	background-image: url("./img/filter-2.svg");
 }
 
 .block-filter__filter-column {
@@ -1746,7 +1746,7 @@ svg {
 }
 
 .minus-image {
-	background: url("/img/Minus.svg") center no-repeat;
+	background: url("./img/Minus.svg") center no-repeat;
 
 	img {
 		transform: rotate(45deg);

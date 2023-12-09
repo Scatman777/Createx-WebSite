@@ -582,19 +582,19 @@
 		cursor: pointer;
 
 		&:nth-child(1) {
-			background: url("/img/image-product1.svg") center / cover no-repeat;
+			background: url("./img/image-product1.svg") center / cover no-repeat;
 		}
 		&:nth-child(2) {
-			background: url("/img/image-product2.svg") center / cover no-repeat;
+			background: url("./img/image-product2.svg") center / cover no-repeat;
 		}
 		&:nth-child(3) {
-			background: url("/img/image-product3.svg") center / cover no-repeat;
+			background: url("./img/image-product3.svg") center / cover no-repeat;
 		}
 		&:nth-child(4) {
-			background: url("/img/image-product4.svg") center / cover no-repeat;
+			background: url("./img/image-product4.svg") center / cover no-repeat;
 		}
 		&:nth-child(5) {
-			background: url("/img/image-product2.svg") center / cover no-repeat, url("/img/Play.svg") center no-repeat $gray-900;
+			background: url("./img/image-product2.svg") center / cover no-repeat, url("./img/Play.svg") center no-repeat $gray-900;
 		}
 	}
 	
@@ -777,7 +777,7 @@
     
     .burger__icon {
         &:not(:last-child)::after {
-            content: url("/img/divider-bar.svg");
+            content: url("./img/divider-bar.svg");
             padding: 0px 20px;
         }
         img {
@@ -844,33 +844,6 @@
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
     }
-
-    // body.touch .burger-lang__arrow {
-    //     top: 11px;
-    // }
-
-    // body.mouse .burger-lang__list>li:hover .sub-burger-lang__list {
-    //     display: flex;
-    //     flex-direction: column;
-    //     gap: 15px;
-    //     background: $gray-800;
-    //     border-radius: 4px;
-    //     box-shadow: 8px 4px 5px 5px #06060691;
-    // }
-
-    // body.touch .sub-burger-lang__list.open{
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: flex-start;
-    //     gap: 15px;
-    //     background: $gray-800;
-    //     border-radius: 4px;
-    //     box-shadow: 8px 4px 5px 5px #06060691;
-    // }
-
-    // body.touch .arrow {
-    //     display: block;
-    // }
 }
 
 @mixin sub-menu-woomen {
@@ -899,7 +872,7 @@
 
     .sub-menu {
         &::after {
-            content: url("/img/divider-sub-bur.svg");
+            content: url("./img/divider-sub-bur.svg");
             padding: 0px 67px;
         }
     }
@@ -1092,11 +1065,11 @@
 			right: 16px;
 			width: 24px;
 			height: 24px;
-			background: url("/img/input-hide.svg") center no-repeat;
+			background: url("./img/input-hide.svg") center no-repeat;
 		}
 
 		.password__open {
-			background: url("/img/Eyes.svg") center no-repeat;
+			background: url("./img/Eyes.svg") center no-repeat;
 		}
     }
 
@@ -1187,7 +1160,7 @@
 }
 
 .password__open {
-	background: url("/img/Eyes.svg") 0 0 no-repeat;
+	background: url("./img/Eyes.svg") 0 0 no-repeat;
 }
 
 @mixin register-popap {
@@ -1280,7 +1253,7 @@
 }
 
 .password__open {
-	background: url("/img/Eyes.svg") 0 0 no-repeat;
+	background: url("./img/Eyes.svg") 0 0 no-repeat;
 }
 
 @mixin filter-popap {
@@ -2075,7 +2048,7 @@
 }
 
 .password__open {
-	background: url("/img/Eyes.svg") 0 0 no-repeat;
+	background: url("./img/Eyes.svg") 0 0 no-repeat;
 }
 
 //////////////////// MENU-LANG ////////////////////
@@ -2236,7 +2209,7 @@
 	/* стили для чекбокса, находящегося в состоянии checked */
 	.custom-checkbox:checked+label::before {
 		background-color: #17696A;
-		background-image: url("/img/input-icon.png");
+		background-image: url("./img/input-icon.png");
 	}
 	  
 	/* стили для чекбокса, находящегося в состоянии disabled */
