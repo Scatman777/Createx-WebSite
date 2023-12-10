@@ -2094,6 +2094,7 @@ svg {
 }
 
 @include sub-menu-woomen;
+@include slider;
 @include login-popap;
 @include register-popap;
 @include filter-popap;
@@ -2108,7 +2109,6 @@ svg {
 @include CreatexBlogPage-Style;
 @include CreatexContact-Style;
 @include CreatexTrackOrder-Style;
-@include slider;
 @include burger;
 @include menu-lang;
 @include input-checkbox;
