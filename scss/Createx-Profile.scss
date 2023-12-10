@@ -774,6 +774,10 @@
 		background: none;
 	}
 
+	.section-wishlist__item-info {
+		padding: 0px 16px;
+	}
+
 	.section-wishlist__column-price {
 		display: flex;
 		align-items: center;
@@ -793,7 +797,7 @@
 		font-size: 18px;
 	}
 
-	.section-wishlist__column-edit {
+	.section-wishlist__edit {
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
