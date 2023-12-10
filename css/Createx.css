@@ -10113,7 +10113,7 @@ svg {
 
 .slick-arrow.slick-prev {
   left: 0;
-  background: url("/img/Left-cheveron-black.svg") center no-repeat white;
+  background: url("./img/Left-cheveron-black.svg") center no-repeat white;
   border-radius: 50%;
   padding: 24px;
   margin-left: 32px;
@@ -10121,7 +10121,7 @@ svg {
 
 .slick-arrow.slick-next {
   right: 0;
-  background: url("/img/Right-cheveron-black.svg") center no-repeat white;
+  background: url("./img/Right-cheveron-black.svg") center no-repeat white;
   border-radius: 50%;
   padding: 24px;
   margin-right: 32px;
@@ -10155,16 +10155,16 @@ svg {
   color: black;
 }
 .sliders .slick-dots li:nth-child(1) {
-  background: url("/img/01-number.svg") left no-repeat;
+  background: url("./img/01-number.svg") left no-repeat;
 }
 .sliders .slick-dots li:nth-child(2) {
-  background: url("/img/02-number.svg") left no-repeat;
+  background: url("./img/02-number.svg") left no-repeat;
 }
 .sliders .slick-dots li:nth-child(3) {
-  background: url("/img/03-number.svg") left no-repeat;
+  background: url("./img/03-number.svg") left no-repeat;
 }
 .sliders .slick-dots li:nth-child(4) {
-  background: url("/img/04-number.svg") left no-repeat;
+  background: url("./img/04-number.svg") left no-repeat;
 }
 
 .sliders .slick-dots li button {
