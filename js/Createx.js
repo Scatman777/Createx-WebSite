@@ -57,6 +57,40 @@ range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
 });
 });
 
+///////////////// SECTION-CATALOG /////////////////
+// const list = document.querySelector('.input-column-sorting'),
+// 	  items = document.querySelectorAll('.body-cloth__column')
+
+// function filter() {
+// 	list.addEventListener('click', event => {
+// 		const targetId = event.target.dataset.id
+// 		console.log(targetId)
+
+// 		switch(targetId) {
+// 			case 'all':
+// 				break
+// 			case 'Sweaters':
+// 				getItems(targetId)
+// 				break
+// 			case 'Jackets':
+// 				getItems(targetId)
+// 				break
+// 		}
+// 	})
+// }
+// filter()
+
+// function getItems(className) {
+// 	items.forEach(item => {
+// 		if (item.classList.contains(className)) {
+// 			item.style.display = 'block'
+// 		} else {
+// 			item.style.display = 'none'
+// 		}
+// 	})
+// }
+
+
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
     document.getElementById("MenuLang__Open").classList.toggle("lang-list__open");
