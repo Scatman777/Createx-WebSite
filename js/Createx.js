@@ -61,7 +61,7 @@ rangePrice.forEach((input) => {
 const filter = document.querySelector('.filter');
 
 filter.addEventListener('change', function() {
-  document.querySelectorAll('.cart-product').forEach(function(n) {
+  document.querySelectorAll('.body-cloth__column').forEach(function(n) {
     n.classList.toggle('hidden', this.length && !this.includes(n.dataset.category));
   }, Array.from(this.querySelectorAll(':checked'), n => n.dataset.filter));
 });
