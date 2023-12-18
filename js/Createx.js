@@ -58,6 +58,7 @@ rangePrice.forEach((input) => {
 });
 
 ///////////////// SECTION-CATALOG /////////////////
+/* INPUT-CHECKBOX__FILTERS */
 const filter = document.querySelector('.filter');
 
 filter.addEventListener('change', function() {
@@ -67,6 +68,27 @@ filter.addEventListener('change', function() {
 });
 
 filter.dispatchEvent(new Event('change'));
+
+/* INPUT-SERCH__FILTERS */
+$("body").on("keyup", "#filter-input", function() {
+	var searchText =
+		$("#filter-input")
+	.val()
+	.toLowerCase() || "___";
+	$("#blockColumn > #catalogColumn").each(function(i) {
+	  var elem = $(this);
+	  if (
+		elem
+		.html()
+		.toLowerCase()
+		.indexOf(searchText) === -1
+	  ) {
+		elem.addClass("hidden");
+	  } else {
+		elem.removeClass("hidden");
+	  }
+	});
+  });
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {

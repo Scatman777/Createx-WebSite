@@ -623,16 +623,16 @@
 											</div>
 											<div id="list1" class="block-sorting__list">
 												<div class="block-sorting__input-search">
-													<input type="text" placeholder="Search the clothes type" id="myInput" tabindex="1">
+													<input id='filter-input' type="text" placeholder="Search the clothes type" tabindex="1">
 													<img src="./css/img/search.svg" alt="cover">
 												</div>
-												<div class="block-sorting__input-column-sorting input-column-sorting">
-													<div class="checkbox filter">
-														<input value="Coats" class="custom-checkbox" type="checkbox" name="Coats" tabindex="2">
+												<div class="block-sorting__input-column-sorting input-column-sorting filter">
+													<div class="checkbox">
+														<input class="custom-checkbox" type="checkbox" value="Coats" data-filter="Coats" name="Coats" tabindex="2">
 														<label class="input-column-sorting__name">Coats <number>(16)</number></label>
 													</div>
 													<div class="checkbox">
-														<input value="Jackets" class="custom-checkbox" type="checkbox" name="Jackets" tabindex="3">
+														<input class="custom-checkbox" type="checkbox" value="Jackets" data-filter="Jackets" name="Jackets" tabindex="3">
 														<label class="input-column-sorting__name">Jackets <number>(12)</number></label>
 													</div>
 													<div class="checkbox">
@@ -640,7 +640,7 @@
 														<label class="input-column-sorting__name">Suits <number>(5)</number></label>
 													</div>
 													<div class="checkbox">
-														<input value="Dresses" class="custom-checkbox" type="checkbox" name="Dresses" tabindex="5">
+														<input class="custom-checkbox" type="checkbox" value="Dresses" data-filter="Dresses" name="Dresses" tabindex="5">
 														<label class="input-column-sorting__name">Dresses <number>(11)</number></label>
 													</div>
 													<div class="checkbox">
@@ -890,7 +890,7 @@
 									</div>
 								</div>
 								<div id="blockColumn" class="block-product__block-column">
-									<div class="body-cloth__column" data-category="Coats">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Coats">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -923,7 +923,7 @@
 											<span class="body-cloth__price">$49.95</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Jackets">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Jackets">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -951,7 +951,7 @@
 											<span class="body-cloth__price">$40.00</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Coats">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Coats">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -984,7 +984,7 @@
 											<span class="body-cloth__price">$18.15</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Jackets">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Jackets">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -1017,7 +1017,7 @@
 											<span class="body-cloth__price">$20.40</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Dresses">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Dresses">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -1045,7 +1045,7 @@
 											<span class="body-cloth__price">$183.45</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Jackets">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Jackets">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -1078,7 +1078,7 @@
 											<span class="body-cloth__price">$29.95</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Dresses">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Dresses">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -1111,7 +1111,7 @@
 											<span class="body-cloth__price">$120.60</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Coats">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Coats">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
@@ -1139,7 +1139,7 @@
 											<span class="body-cloth__price">$30.60</span>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Dresses">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Dresses">
 										<div class="body-cloth__item-img">
 											<div class="section-discount__discount">
 												<a href="#">-50%</a>
@@ -1178,7 +1178,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Jackets">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Jackets">
 										<div class="body-cloth__item-img">
 											<div class="section-discount__discount">
 												<a href="#">-50%</a>
@@ -1212,7 +1212,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Coats">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Coats">
 										<div class="body-cloth__item-img">
 											<div class="section-discount__discount">
 												<a href="#">-50%</a>
@@ -1251,7 +1251,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="body-cloth__column" data-category="Dresses">
+									<div id="catalogColumn" class="body-cloth__column" data-category="Dresses">
 										<div class="body-cloth__item-img">
 											<div class="body-cloth__block-icon">
 												<div class="body-cloth__icon-star">
