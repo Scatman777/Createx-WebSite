@@ -60,7 +60,6 @@ rangePrice.forEach((input) => {
 ///////////////// SECTION-CATALOG /////////////////
 /* INPUT-CHECKBOX__FILTERS */
 const filter = document.querySelector('.filter');
-
 filter.addEventListener('change', function() {
   document.querySelectorAll('.body-cloth__column').forEach(function(n) {
     n.classList.toggle('hidden', this.length && !this.includes(n.dataset.category));
@@ -70,25 +69,37 @@ filter.addEventListener('change', function() {
 filter.dispatchEvent(new Event('change'));
 
 /* INPUT-SERCH__FILTERS */
-$("body").on("keyup", "#filter-input", function() {
-	var searchText =
-		$("#filter-input")
-	.val()
-	.toLowerCase() || "___";
-	$("#blockColumn > #catalogColumn").each(function(i) {
-	  var elem = $(this);
-	  if (
-		elem
-		.html()
-		.toLowerCase()
-		.indexOf(searchText) === -1
-	  ) {
-		elem.addClass("hidden");
-	  } else {
-		elem.removeClass("hidden");
-	  }
-	});
-  });
+const search = document.querySelector('#filter-input');
+const allLinks = document.querySelectorAll('#blockColumn > #catalogColumn');
+search.onkeyup = function (event) {
+    const regex = new RegExp(event.target.value.toLowerCase());
+    allLinks.forEach(element => {
+        if (regex.test(element.textContent.toLowerCase())) {
+            element.style.display = '';
+        } else {
+            element.style.display = 'none';
+        }
+    })
+}
+// $("body").on("keyup", "#filter-input", function() {
+// 	var searchText =
+// 		$("#filter-input")
+// 	.val()
+// 	.toLowerCase() || "___";
+// 	$("#blockColumn > #catalogColumn").each(function(i) {
+// 	  var elem = $(this);
+// 	  if (
+// 		elem
+// 		.html()
+// 		.toLowerCase()
+// 		.indexOf(searchText) === -1
+// 	  ) {
+// 		elem.addClass("hidden");
+// 	  } else {
+// 		elem.removeClass("hidden");
+// 	  }
+// 	});
+//   });
 
 ///////////////// HEADER__MENU-LANG /////////////////
 function MenuLangList() {
